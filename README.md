@@ -29,10 +29,9 @@ This project will contains of
 - Some images and css.
 
 
-Note files
 Important Notes will contain in the repository root directory
 - README.md (This file) contain description of this project
-- OVERVIEW.md contain overall view of this project to make it easy find and see the progression.
+- OVERVIEW.md [a relative link](OVERVIEW.md) contain overall view of this project to make it easy find and see the progression.
 - STACK.md contain the list of to-do things on JavaScript.
 - LEARNING-TREE.md contain view for learning hierarchy.
 - LOGS.md contain anything I just did with the project.
