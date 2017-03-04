@@ -46,4 +46,8 @@ I just want to make a learning step for programming, refine it and share to you 
 - **[LOGS.md](LOGS.md)** contain anything I just did with the project.
 > Update every day after I finish a thing.
 
-Thanks for coming.
+##Last but not least
+This is my first solid learning on programming, and my real first GitHub repository also
+so I will make it the best I can at the time, Any comments or suggestions on anything here are gladly welcome.
+
+Thanks for coming. Enjoy learn JavaScript with me.
