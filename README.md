@@ -1,4 +1,4 @@
-This is my Learn JS project.
+#This is my Learn JS project.
 
 The purpose of this project is to track and share my learning about JavaScript including
 
@@ -23,27 +23,27 @@ Some will not be commit as it's a long term test or parallel testing.
 by the way this is not intended to be tutorials or something.
 I just want to make a learning step for programming, refine it and share to you all.
 
-This project will contains of 
+##This project will contains of 
 - Text noted as Markdown as .md file
 - Source JavaScript file named by purpose (Use my naming system which will update alogn with [Learning tree](LEARNING-TREE.md) )
 - Display of JavaScript test with HTML and other appropriate way.
 - Some images and css.
 
 
-Important Notes will contain in the repository root directory
+##Important Notes will contain in the repository root directory
 - **README.md** (This file) contain description of this project
-> * Update occasionally when I have something new and important about on the project
+> Update occasionally when I have something new and important about on the project
 
 - **[OVERVIEW.md](OVERVIEW.md)** contain overall view of this project to make it easy find and see the progression.
-> * Update everyday
+> Update everyday
 
 - **[STACK.md](STACK.md)** contain the list of to-do things on JavaScript.
-> * Update many times a day after I skim through any interesting JS learning materials or it just catch my eyes.
+> Update many times a day after I skim through any interesting JS learning materials or it just catch my eyes.
 
 - **[LEARNING-TREE.md](LEARNING-TREE.md)** contain view for learning hierarchy.
-> * Update everyday at the late of my session.
+> Update everyday at the late of my session.
 
 - **[LOGS.md](LOGS.md)** contain anything I just did with the project.
-> * Update every day after I finish a thing.
+> Update every day after I finish a thing.
 
 Thanks for coming.
