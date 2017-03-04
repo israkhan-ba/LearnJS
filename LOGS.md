@@ -5,7 +5,8 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_Ja
 - Added: Basic JavaScript Introduction
 - Updated: README.md
 - Updated: STACK.md
-- Updated: LEARNING-TREE.md
+##### Updated: LEARNING-TREE.md
+- A
 
 ### 2017-03-03
 - Start Learning JavaScript
