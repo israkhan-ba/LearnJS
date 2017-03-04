@@ -6,7 +6,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_Ja
 - Updated: README.md
 - Updated: STACK.md
 ##### Updated: LEARNING-TREE.md
-- A
+- Added 1. Basic JavaScript Introduction - Apply JavaScript to HTML
 
 ### 2017-03-03
 - Start Learning JavaScript
