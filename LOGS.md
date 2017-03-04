@@ -1,4 +1,4 @@
-### 2017-03-04
+## 2017-03-04
 
 #### Learn: [What is JavaScript? - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 ##### Update: Repo structure 
@@ -13,7 +13,7 @@
 ##### Update: LEARNING-TREE.md
 - __Added:__ 1. Basic JavaScript Introduction - Apply JavaScript to HTML
 
-### 2017-03-03
+## 2017-03-03
 #### Start Learning JavaScript
 ##### Update: Repo structure 
 - __Added:__ LEARNING-TREE.md
@@ -22,7 +22,7 @@
 ##### Update: README.md 
 - __Described:__ about new note files and add more description
 
-### 2017-03-02
+## 2017-03-02
 #### Setup the project repository on GitHub
 ##### Update: Repo structure 
 - __Added:__ README.md
