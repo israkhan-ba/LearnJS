@@ -31,15 +31,19 @@ This project will contains of
 
 
 Important Notes will contain in the repository root directory
-- README.md (This file) contain description of this project
-- * Update occasionally when I have something new and important about on the project
-- [OVERVIEW.md](OVERVIEW.md) contain overall view of this project to make it easy find and see the progression.
-- * Update everyday
-- [STACK.md](STACK.md) contain the list of to-do things on JavaScript.
-- * Update many times a day after I skim through any interesting JS learning materials or it just catch my eyes.
-- [LEARNING-TREE.md](LEARNING-TREE.md) contain view for learning hierarchy.
-- * Update everyday at the late of my session.
-- [LOGS.md](LOGS.md) contain anything I just did with the project.
-- * Update every day after I finish a thing.
+- **README.md** (This file) contain description of this project
+> * Update occasionally when I have something new and important about on the project
+
+- **[OVERVIEW.md](OVERVIEW.md)** contain overall view of this project to make it easy find and see the progression.
+> * Update everyday
+
+- **[STACK.md](STACK.md)** contain the list of to-do things on JavaScript.
+> * Update many times a day after I skim through any interesting JS learning materials or it just catch my eyes.
+
+- **[LEARNING-TREE.md](LEARNING-TREE.md)** contain view for learning hierarchy.
+> * Update everyday at the late of my session.
+
+- **[LOGS.md](LOGS.md)** contain anything I just did with the project.
+> * Update every day after I finish a thing.
 
 Thanks for coming.
