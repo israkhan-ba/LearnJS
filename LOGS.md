@@ -1,4 +1,5 @@
 #LOGS.md
+This file will be update after each and every steps of the project.
 
 ## 2017-03-04
 
