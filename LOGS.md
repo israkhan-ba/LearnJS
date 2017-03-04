@@ -1,5 +1,5 @@
 #LOGS.md
-This file will be update after each and every steps of the project.
+This file will be update after each and every steps of the project
 and will be listed descendantly (Sort last dates first, last actions last)
 
 ## 2017-03-04
