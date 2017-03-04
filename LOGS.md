@@ -1,12 +1,19 @@
 ### 2017-03-04
-- Learn: What is JavaScript? - Learn web development | MDN
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
-- Added: BASIC directory
-- Added: Basic JavaScript Introduction
-- Updated: README.md
-- Updated: STACK.md
 
-##### Updated: LEARNING-TREE.md
+##### **Learn:** [What is JavaScript? - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+
+##### **Update:** Repo structure 
+- Added BASIC/ directory
+- Added /BASIC/01. Basic JavaScript Introduction/
+- Added /BASIC/01. Basic JavaScript Introduction/BRIEF.md
+- Added /BASIC/01. Basic JavaScript Introduction/Apply JavaScript to HTML/
+- Added /BASIC/01. Basic JavaScript Introduction/Apply JavaScript to HTML/LEARN.md
+
+
+##### **Update:** README.md
+##### **Update:** STACK.md
+
+##### **Updated:** LEARNING-TREE.md
 - Added 1. Basic JavaScript Introduction - Apply JavaScript to HTML
 
 ### 2017-03-03
