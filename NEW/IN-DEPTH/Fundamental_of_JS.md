@@ -7731,4 +7731,4 @@ Finally, make sure to _test your code in browsers that do and don't support stri
 If you test only in browsers that don't support strict mode, you're very likely to have problems in browsers that do, and vice versa.
 
 
----------- ---------- ---------- ---------- -
+---------- ---------- ---------- ----------
