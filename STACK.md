@@ -3,7 +3,9 @@
 
 ## **Get through Basic**
 [JavaScript - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+
 [JavaScript | Codecademy](https://www.codecademy.com/learn/javascript)
+
 [JavaScript Basics for Beginners Course | Udacity](https://www.udacity.com/course/javascript-basics--ud804)
 
 
