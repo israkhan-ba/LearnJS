@@ -9,3 +9,8 @@ Some error messages will appear in the console log. It's not hard to fix (but so
 - Occurs when syntax is correct but the code was not work as it was intended to be.  
 So program can runs successfully but gives incorrect results. It's harder to fix than syntax errors
 and also harder to find 'cause there usually not showing error message in the console to direct to the source of the error.
+
+
+## Syntax errors
+
+### Common syntax error
