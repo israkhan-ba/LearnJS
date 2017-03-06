@@ -12,10 +12,9 @@ Overview of this project
 
 Current Summary of this project.
 + 
-- Day #3 Session #1
+-Day #2 Session #1
 --- Create new 2 file. LEARNING-TREE.md, LOGS.md
 --- Create a new branch named 'Daily Update'
 
-- Day #2 Session #1
+-Day #1 Session #1
 --- Create new 3 file. README.md, OVERVIEW.md, STACK.md.
-
