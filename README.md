@@ -1,4 +1,4 @@
-#This is my Learn JS project.
+# This is my Learn JS project.
 
 The purpose of this project is to track and share my learning about JavaScript including
 
@@ -23,14 +23,14 @@ Some will not be commit as it's a long term test or parallel testing.
 by the way this is not intended to be tutorials or something.
 I just want to make a learning step for programming, refine it and share to you all.
 
-##This project will contains of 
+## This project will contains of 
 - Text noted as Markdown as .md file
 - Source JavaScript file named by purpose (Use my naming system which will update alogn with [Learning tree](LEARNING-TREE.md) )
 - Display of JavaScript test with HTML and other appropriate way.
 - Some images and css.
 
 
-##Important Notes will contain in the repository root directory
+## Important Notes will contain in the repository root directory
 - **README.md** (This file) contain description of this project
 > Update occasionally when I have something new and important about on the project
 
@@ -48,11 +48,13 @@ I just want to make a learning step for programming, refine it and share to you 
 
 ## Repository Branches
 Now we have 3 branches
-- 1. The 'master' branch which being refined for anyone to follow learning JS along with me.
-- 2. The 'diary-update' branch, this branch will update dairy and refined as I could, if something seems not appropriate to commit the the 'master' branch, or need to fulfill to complete, it will stay here.
-- 3. The 'test' branch contain any new idea and learning, a lot of fragment, update many times a day, and something may remove before being merged to the 'dialy-update' branch.
+1. The 'master' branch which being refined for anyone to follow learning JS along with me.
 
-##Last but not least
+2. The 'diary-update' branch, this branch will update dairy and refined as I could, if something seems not appropriate to commit the the 'master' branch, or need to fulfill to complete, it will stay here.
+
+3. The 'test' branch contain any new idea and learning, a lot of fragment, update many times a day, and something may remove before being merged to the 'dialy-update' branch.
+
+## Last but not least
 This is my first solid learning on programming, and my real first GitHub repository also
 so I will make it the best I can at the time, Any comments or suggestions on anything here are gladly welcome.
 
