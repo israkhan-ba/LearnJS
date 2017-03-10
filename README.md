@@ -46,6 +46,12 @@ I just want to make a learning step for programming, refine it and share to you 
 - **[LOGS.md](LOGS.md)** contain anything I just did with the project.
 > Update every day after I finish a thing.
 
+## Repository Branch Management
+Now we have 3 branches
+- 1. The 'master' branch which being refined for anyone to follow learning JS along with me.
+- 2. The 'diary-update' branch, this branch will update dairy and refined as I could, if something seems not appropriate to commit the the 'master' branch, or need to fulfill to complete, it will stay here.
+- 3. The 'test' branch contain any new idea and learning, a lot of fragment, update many times a day, and something may remove before being merged to the 'dialy-update' branch.
+
 ##Last but not least
 This is my first solid learning on programming, and my real first GitHub repository also
 so I will make it the best I can at the time, Any comments or suggestions on anything here are gladly welcome.
