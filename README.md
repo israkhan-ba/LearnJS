@@ -46,7 +46,7 @@ I just want to make a learning step for programming, refine it and share to you 
 - **[LOGS.md](LOGS.md)** contain anything I just did with the project.
 > Update every day after I finish a thing.
 
-## Repository Branch Management
+## Repository Branches
 Now we have 3 branches
 - 1. The 'master' branch which being refined for anyone to follow learning JS along with me.
 - 2. The 'diary-update' branch, this branch will update dairy and refined as I could, if something seems not appropriate to commit the the 'master' branch, or need to fulfill to complete, it will stay here.
