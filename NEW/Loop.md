@@ -1,3 +1,6 @@
+# Loop
+The way to work repeatly with condition to define how many round the loop should work.
+
 for() {
 
 }
