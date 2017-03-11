@@ -1,6 +1,23 @@
 #LOGS.md
 This file will be update after each and every steps of the project  
 and will be listed descendantly (Sort last dates first, last actions last)
+## 2017-03-11
+##### Update: Repo structure
+- __Added:__ File /NEW/Object_Date.md
+
+## 2017-03-10
+##### Update: Repo structure
+- __Added:__ Directory /NEW/
+
+## 2017-03-06
+#### Learn
+
+##### Update: Repo structure 
+- __Added:__ Directory /BASIC/01. Basic JavaScript Introduction/02. Errors/
+- __Added:__ File /BASIC/01. Basic JavaScript Introduction/02. Errors/LEARN.md
+
+##### Update: LEARNING-TREE.md
+- __Added:__ Errors
 
 ## 2017-03-04
 
@@ -9,8 +26,8 @@ and will be listed descendantly (Sort last dates first, last actions last)
 - __Added:__ BASIC/ directory
 - __Added:__ /BASIC/01. Basic JavaScript Introduction/
 - __Added:__ /BASIC/01. Basic JavaScript Introduction/BRIEF.md
-- __Added:__ /BASIC/01. Basic JavaScript Introduction/Apply JavaScript to HTML/
-- __Added:__ /BASIC/01. Basic JavaScript Introduction/Apply JavaScript to HTML/LEARN.md
+- __Added:__ /BASIC/01. Basic JavaScript Introduction/01. Apply JavaScript to HTML/
+- __Added:__ /BASIC/01. Basic JavaScript Introduction/01. Apply JavaScript to HTML/LEARN.md
 
 ##### Update: README.md
 ##### Update: STACK.md
