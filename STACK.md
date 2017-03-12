@@ -15,3 +15,11 @@
 ## **Elements in depth**
 ### **Array**
 [Quick Tip: How to Sort an Array of Objects in JavaScript - SitePoint](https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/)
+
+### **Function**
+
+### **Condition**
+
+### **Variable**
+
+### **Datatype**
