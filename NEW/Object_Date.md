@@ -16,3 +16,27 @@ var variableName = new Date(Parameter);
 ``
 var currentDate = new Date();
 ```
+
+## Here are some basic Date object's methods
+
+### get group
+
+getDate()
+getDay()
+getMonth()
+getFullyYear()
+getHours()
+getMilliseconds()
+getMinutes()
+
+### to group
+Convert time and day to strong.
+
+toString()
+toJSON()
+
+### set group
+setDate()
+
+
+### formating group
