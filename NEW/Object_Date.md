@@ -43,3 +43,38 @@ setDate()
 
 ## Methods that were deprecated, outdated, Not recommended to used anymore.
 ### year()
+
+## Basic implementation of Date Object
+
+### Create a function to return name of days.
+
+```
+function dayName(daynum, lang) {  
+    if (!daynum){  
+        console.log("Missing day number in dayName() function");  
+    }  
+    else if (isNaN(daynum)) {  
+        console.log("Wrong day input in dayName() function, it should be   number and between 0-6");  
+    }  
+    else if (daynum > 6) {  
+        console.log("Wrong day number in dayName() function, the number   should be between 0-6");  
+    }  
+    else {  
+        var day = parseInt(daynum);  
+        switch(day){  
+            case 0: result = "Sunday"; break;  
+            case 1: result = "Monday"; break;  
+            case 2: result = "Tuesday"; break;  
+            case 3: result = "Wednesday"; break;  
+            case 4: result = "Thursday"; break;  
+            case 5: result = "Friday"; break;  
+            case 6: result = "Saturday"; break;  
+        }  
+        return result;  
+    }  
+
+}  
+
+\\ Test function \\ it should return Sunday in console  
+console.log(dayName(0))  
+```
