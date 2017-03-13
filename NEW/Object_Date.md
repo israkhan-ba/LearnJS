@@ -40,3 +40,6 @@ setDate()
 
 
 ### formating group
+
+## Methods that were deprecated, outdated, Not recommended to used anymore.
+### year()
