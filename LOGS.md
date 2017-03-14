@@ -1,6 +1,9 @@
 #LOGS.md
 This file will be update after each and every steps of the project  
 and will be listed descendantly (Sort last dates first, last actions last)
+## 2017-03-04
+- __Added:__ File /NEW/Events.md
+
 ## 2017-03-11
 ##### Update: Repo structure
 - __Added:__ File /NEW/Object_Date.md
