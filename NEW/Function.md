@@ -37,18 +37,25 @@ This will show "Hello" in console as an output.
 
 
 
-// Create a function that are assigned to a variable
-var variableName = function(PARAMETER){
+### Create a function as a variable
+This function will not hoisted as any value of variables will not being hoisted. And it will throw exception error if you call the function before declairation.
+
+```
+var variableFunction = function(PARAMETER){
     // do something
 }
+```
+Example
 
-    // Example
-    var testVarFunction = function(WriteSomething){
-        console.log(WriteSomething);
-    }
+```
+var testVarFunction = function(WriteSomething){
+    console.log(WriteSomething);
+}
+```
+Calling variable function test
 
-    // Calling variable function test
-    testVarFunction();
-    testVarFunction("This is a variable function");
+```    
+testVarFunction();
+testVarFunction("This is a variable function");
+```
     
-This function will not hoisted as any value of variables will not being hoisted. And it will throw exception error if you call the function before declairation.
