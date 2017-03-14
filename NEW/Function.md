@@ -31,8 +31,8 @@ function functionName(PARAMETER) {
         // This will show "Hello" in console as an output.
 
 
-// Create a function as a variable
-var variableFunction = function(PARAMETER){
+// Create a function that are assigned to a variable
+var variableName = function(PARAMETER){
     // do something
 }
 
@@ -44,3 +44,5 @@ var variableFunction = function(PARAMETER){
     // Calling variable function test
     testVarFunction();
     testVarFunction("This is a variable function");
+    
+This function will not hoisted as any value of variables will not being hoisted. And it will throw exception error if you call the function before declairation.
