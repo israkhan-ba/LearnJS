@@ -8,6 +8,10 @@
 
 [JavaScript Basics for Beginners Course | Udacity](https://www.udacity.com/course/javascript-basics--ud804)
 
+## ** Core Concept
+
+### Hoisting
+[Back to Basics: JavaScript Hoisting](https://www.sitepoint.com/back-to-basics-javascript-hoisting/)
 
 ## **Tips for JS Development**
 
@@ -23,3 +27,8 @@
 ### **Variable**
 
 ### **Datatype**
+
+
+
+
+
