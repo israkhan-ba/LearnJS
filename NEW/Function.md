@@ -10,29 +10,35 @@ Function is the way to repeat working with some condition to change result.
 Some function may require a parameter to work, some might not.
 
 
-//Creating a basic function
-
+### Creating a basic function
+```
 function functionName(PARAMETER) {
     // do something
 }
-
-    // Example.
+```
+Example.
+```
     function testFunction(WriteSomething){
         console.log(WriteSomething);
     }
+```
 
-
-    //Calling the basic function
+### Calling the basic function
     functionName(PARAMETER);
 
-    // Calling test
-    testFunction();
-    testFunction("Hello");
-        // This will show "Hello" in console as an output.
+### Calling test
+```
+testFunction();
+```
+```
+testFunction("Hello");
+```
+This will show "Hello" in console as an output.
 
 
-// Create a function as a variable
-var variableFunction = function(PARAMETER){
+
+// Create a function that are assigned to a variable
+var variableName = function(PARAMETER){
     // do something
 }
 
@@ -44,3 +50,5 @@ var variableFunction = function(PARAMETER){
     // Calling variable function test
     testVarFunction();
     testVarFunction("This is a variable function");
+    
+This function will not hoisted as any value of variables will not being hoisted. And it will throw exception error if you call the function before declairation.
