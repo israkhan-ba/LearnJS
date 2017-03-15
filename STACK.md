@@ -29,6 +29,7 @@
 ### **Datatype**
 
 
-
+## Error Handling
+* [A Guide to Proper Error Handling in JavaScript](https://www.sitepoint.com/proper-error-handling-javascript/?utm_content=bufferc7b29&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 
 
