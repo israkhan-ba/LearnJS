@@ -37,3 +37,18 @@ Some function may require a parameter to work, some might not.
 > *`function`* `functionName(`*`WriteSomething`*`){`  
 > &nbsp;&nbsp;&nbsp;`console.log(WriteSomething);`  
 >`}`
+
+#### Calling the basic function
+    `functionName(PARAMETER);`
+
+##### Calling example
+Example #1
+> ```
+> testFunction();
+> ```
+
+Example #2
+> ```
+> testFunction("Hello");
+> ```
+> // This will show "Hello" in console as an output.
