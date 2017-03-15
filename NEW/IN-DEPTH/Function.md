@@ -11,3 +11,5 @@ Codes can be complex, and without functions
 you need to rewrite codes repeatedly to perform a certain task.
 Then function will helps you leverage works out
 and make it easily to maintain.
+
+## How
