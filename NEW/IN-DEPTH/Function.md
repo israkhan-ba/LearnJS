@@ -58,3 +58,10 @@ Example #2
 > testFunction("Hello");
 > ```
 > // This will show "Hello" in console as an output.
+
+#### Create a function as a variable
+```
+var variableFunction = function(PARAMETER){
+    // do something
+}
+```
