@@ -38,8 +38,10 @@ Some function may require a parameter to work, some might not.
 > &nbsp;&nbsp;&nbsp;`console.log(WriteSomething);`  
 >`}`
 
-#### Calling the basic function
-    `functionName(PARAMETER);`
+
+#### Invoking (Calling) the basic function
+> `functionName(`*`Parameter`*`);`
+
 
 ##### Calling example
 Example #1
