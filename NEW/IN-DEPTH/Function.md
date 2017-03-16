@@ -79,3 +79,42 @@ Calling variable function test
 testVarFunction();
 testVarFunction("This is a variable function");
 ```
+
+#### Function expression
+
+> *`var`* `variableName1 =` `functionName(`*`Parameters`*`){`  
+> &nbsp;&nbsp;&nbsp;`statement 1;`  
+> &nbsp;&nbsp;&nbsp;`statement 2;`  
+> &nbsp;&nbsp;&nbsp;...  
+> &nbsp;&nbsp;&nbsp;`statement n;`  
+> &nbsp;&nbsp;&nbsp;*`return`* **`value`**;  
+>`}`  
+> *`var`* `variableName2 =` `variableName1(`*`Parameters`*`);`
+
+#### Anonymous Function
+- A function with no function name.
+- assign to variable or an object key  
+** Example: ** assign an anonymous function to a variable
+
+> `var varName =` **`function(parameters)`**`{`  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`// statement;`  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return something;`  
+> `}`
+> 
+
+
+#### Immediately Invoked Function Expressions (IIFE)  
+is a function expression that automatically invokes after completion of the definition
+(Self-executing anonymous function)
+> var varName = **(**function (parameters) {  
+>    // statement;
+>    return someValue;  
+> }**(arguments))**;
+
+Add more two parenthesis set one to close all the function and another just before closing the function.
+*See the boldcharacter*
+
+> var add = **(**function (a, b) {  
+>    var c = a + b;
+>    return c;  
+> }**(**50, 20**))**; &nbsp;&nbsp;&nbsp; // This will return 1000
