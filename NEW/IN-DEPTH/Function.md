@@ -23,9 +23,13 @@ ve some output returns.
 Some function may require a parameter to work, some might not.
 
 ## How to create and use a function
-
-### Creating a basic function
+### Function Declaration (Simple)  
 #### Function structure
+- function keyword  
+- function name  
+- function parameter  
+- return value  
+
 > *`function`* `functionName(`*`Parameters`*`){`  
 > &nbsp;&nbsp;&nbsp;`statement 1;`  
 > &nbsp;&nbsp;&nbsp;`statement 2;`  
@@ -38,8 +42,10 @@ Some function may require a parameter to work, some might not.
 > &nbsp;&nbsp;&nbsp;`console.log(WriteSomething);`  
 >`}`
 
-#### Calling the basic function
-    `functionName(PARAMETER);`
+
+#### Invoking (Calling) the basic function
+> `functionName(`*`Parameter`*`);`
+
 
 ##### Calling example
 Example #1
@@ -52,3 +58,10 @@ Example #2
 > testFunction("Hello");
 > ```
 > // This will show "Hello" in console as an output.
+
+#### Create a function as a variable
+```
+var variableFunction = function(PARAMETER){
+    // do something
+}
+```
