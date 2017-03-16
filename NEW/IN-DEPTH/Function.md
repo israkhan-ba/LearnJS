@@ -23,9 +23,13 @@ ve some output returns.
 Some function may require a parameter to work, some might not.
 
 ## How to create and use a function
-
-### Creating a basic function
+### Function Declaration (Simple)  
 #### Function structure
+- function keyword  
+- function name  
+- function parameter  
+- return value  
+
 > *`function`* `functionName(`*`Parameters`*`){`  
 > &nbsp;&nbsp;&nbsp;`statement 1;`  
 > &nbsp;&nbsp;&nbsp;`statement 2;`  
