@@ -79,3 +79,14 @@ Calling variable function test
 testVarFunction();
 testVarFunction("This is a variable function");
 ```
+
+#### Function expression
+
+> *`var`* `variableName1 =` `functionName(`*`Parameters`*`){`  
+> &nbsp;&nbsp;&nbsp;`statement 1;`  
+> &nbsp;&nbsp;&nbsp;`statement 2;`  
+> &nbsp;&nbsp;&nbsp;...  
+> &nbsp;&nbsp;&nbsp;`statement n;`  
+> &nbsp;&nbsp;&nbsp;*`return`* **`value`**;  
+>`}`  
+> *`var`* `variableName2 =` `variableName1(`*`Parameters`*`);`
