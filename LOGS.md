@@ -1,16 +1,33 @@
 #LOGS.md
 This file will be update after each and every steps of the project  
 and will be listed descendantly (Sort last dates first, last actions last)
-## 2017-03-04
-- __Added:__ File /NEW/Events.md
+## 2017-03-14
+
+
+##### Update: Repo structure
+- **Added:** Directory / NEW / **IN-DEPTH**
+- **Moved:** Files from '/ NEW ' to the / IN-DEPTH / Directory
+
+##### Update: 'Functions.md'
+Clear all old content and replace with the new one.
+- **Added** ## 'What is a function'
+- **Added** ## 'Why we use a function'
+- **Added** ### 4 main kind of function
+- **Added** ## How to create and use a function
+- **Added** ### Creating a basic function
+- **Added** #### Function structure
+- **Added** #### Calling the basic function
+
+## 2017-03-14
+- **Added:** File /NEW/Events.md
 
 ## 2017-03-11
 ##### Update: Repo structure
-- __Added:__ File /NEW/Object_Date.md
+- **Added:** File /NEW/Object_Date.md
 
 ## 2017-03-10
 ##### Update: Repo structure
-- __Added:__ Directory /NEW/
+- **Added:** Directory /NEW/
 
 ## 2017-03-06
 #### Learn
