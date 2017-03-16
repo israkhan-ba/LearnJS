@@ -112,7 +112,7 @@ is a function expression that automatically invokes after completion of the defi
 > }**(arguments))**;
 
 Add more two parenthesis set one to close all the function and another just before closing the function.
-*See the boldcharacter*
+*See the bold character*
 
 > var add = **(**function (a, b) {  
 >    var c = a + b;
