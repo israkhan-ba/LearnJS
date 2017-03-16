@@ -23,3 +23,13 @@ Both will create an object named *person* which has 3 properties
 and when we test it to console.log, they will return the same
 > console.log(person)
 > Object {firstName: "John" lastName: "Smith", age: 30}
+
+##### Access an object's property 
+To access a property of an object we have several ways to do.  
+1. We use **.** (Dot operator) and property name following after the object name to access it
+> `console.log(person`**`.`**`firstName);`  
+
+2. We use **["**...**"]** (Brackets) with double-quotes and property name within, following after the object name
+> `console.log(person`**`["firstName"]`**`)`
+
+> // this will display in console: John
