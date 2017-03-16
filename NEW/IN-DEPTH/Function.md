@@ -65,3 +65,17 @@ var variableFunction = function(PARAMETER){
     // do something
 }
 ```
+
+##### Example
+
+```
+var testVarFunction = function(WriteSomething){
+    console.log(WriteSomething);
+}
+```
+Calling variable function test
+
+```    
+testVarFunction();
+testVarFunction("This is a variable function");
+```
