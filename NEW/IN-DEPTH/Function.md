@@ -90,3 +90,14 @@ testVarFunction("This is a variable function");
 > &nbsp;&nbsp;&nbsp;*`return`* **`value`**;  
 >`}`  
 > *`var`* `variableName2 =` `variableName1(`*`Parameters`*`);`
+
+#### Anonymous Function
+- A function with no function name.
+- assign to variable or an object key  
+** Example: ** assign an anonymous function to a variable
+
+> `var varName =` **`function(parameters)`**`{`  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`// statement;`  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return something;`  
+> `}`
+> 
