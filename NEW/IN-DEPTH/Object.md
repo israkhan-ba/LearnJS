@@ -71,7 +71,9 @@ The JavaScript runtime environment maintains a stack of these contexts.
 At the top of execution context of this stack is the one that actively running.
 Every JavaScript runtime has a unique object called 'Global object'.
 
-#### `this` Keyword
-So 'this' keyword refers to the global object, usually the object in which the function operates.
-
 ### Global object
+An intrinsic object whose purpose is to collect global functions and constants into one object.
+
+The Global object is never used directly, and cannot be created using the new operator. It is created when the scripting engine is initialized, thus making its functions and constants available immediately.
+
+The term "global objects" (or standard built-in objects) here is not to be confused with the global object. Here, global objects refer to objects in the global scope (but only if ECMAScript 5 strict mode is not used; in that case it returns undefined). The global object itself can be accessed using the this operator in the global scope. In fact, the global scope consists of the properties of the global object, including inherited properties, if any.
