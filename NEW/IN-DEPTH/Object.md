@@ -61,3 +61,5 @@ Then we trying it with console.log
 > // This will return **John Smith** in console.log
 
 Don't forget that we need to use **() (Parenthesis)** after a method to call it, like we call a function.
+
+#### Execution context
