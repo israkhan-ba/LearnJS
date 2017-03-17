@@ -61,3 +61,15 @@ Then we trying it with console.log
 > // This will return **John Smith** in console.log
 
 Don't forget that we need to use **() (Parenthesis)** after a method to call it, like we call a function.
+
+#### Execution context
+In JavaScript runtime environment
+every line of JavaScript code is run in an execution context,
+it's an environment where the JavaScript code executes in. 
+The JavaScript runtime environment maintains a stack of these contexts.
+
+At the top of execution context of this stack is the one that actively running.
+Every JavaScript runtime has a unique object called 'Global object'.
+
+#### `this` Keyword
+So 'this' keyword refers to the global object, usually the object in which the function operates.
