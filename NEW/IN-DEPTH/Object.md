@@ -33,3 +33,5 @@ To access a property of an object we have several ways to do.
 > `console.log(person`**`["firstName"]`**`)`
 
 > // this will display in console: John
+
+#### Object Methods
