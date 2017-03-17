@@ -35,3 +35,9 @@ To access a property of an object we have several ways to do.
 > // this will display in console: John
 
 #### Object Methods
+Methods are actions that did something with the object, each method is a function which is a part of an object. It represent tasks that is associated with the object.
+
+We may assume roughly that every in the JavaScript is an object.
+
+To add an object a method, it's simple like adding a property without double-quotes  
+and assign an anonymous function as it's value
