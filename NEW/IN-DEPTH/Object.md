@@ -72,3 +72,4 @@ At the top of execution context of this stack is the one that actively running.
 Every JavaScript runtime has a unique object called 'Global object'.
 
 #### `this` Keyword
+So 'this' keyword refers to the global object, usually the object in which the function operates.
