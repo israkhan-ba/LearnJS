@@ -80,4 +80,4 @@ The term "global objects" **aka "standard built-in objects"** here is not to be 
 The global object itself can be accessed using the this operator in the global scope. In fact, the global scope **consists of** the properties of the global object, including inherited properties, if any.
 
 ##### Access to Global Object using `this` Keyword
-So 'this' keyword refers to the global object, usually the object in which the function operates.
+So **`this`** keyword refers to the global object, usually the object in which the function operates.
