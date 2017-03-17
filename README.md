@@ -63,7 +63,7 @@ Now in this repository we have 3 main branches
 
 1. The **'master'** branch which being refined for anyone to follow learning JS along with me. This branch will not update everyday, it's regulary once or a few times a week, as I need it to be best refined. So if you want to read the latest update version please select the **'daily-update'** branch.
 
-2. The **'dairy-update'** branch, this branch will update dairy and refined as I could, if something seems not appropriate to commit the the 'master' branch, or need to fulfill to complete, it will stay here.
+2. The **'daily-update'** branch, this branch will update dairy and refined as I could, if something seems not appropriate to commit the the 'master' branch, or need to fulfill to complete, it will stay here.
 
 3. The **'test'** branch contain any new idea and learning, a lot of fragment, update many times a day, and something may remove before being merged to the **'dialy-update'** branch.
 
