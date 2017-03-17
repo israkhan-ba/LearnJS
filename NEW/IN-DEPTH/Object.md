@@ -63,3 +63,10 @@ Then we trying it with console.log
 Don't forget that we need to use **() (Parenthesis)** after a method to call it, like we call a function.
 
 #### Execution context
+In JavaScript runtime environment
+every line of JavaScript code is run in an execution context,
+it's an environment where the JavaScript code executes in. 
+The JavaScript runtime environment maintains a stack of these contexts.
+
+At the top of execution context of this stack is the one that actively running.
+Every JavaScript runtime has a unique object called 'Global object'.
