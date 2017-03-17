@@ -73,3 +73,5 @@ Every JavaScript runtime has a unique object called 'Global object'.
 
 #### `this` Keyword
 So 'this' keyword refers to the global object, usually the object in which the function operates.
+
+### Global object
