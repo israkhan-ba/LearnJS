@@ -70,3 +70,5 @@ The JavaScript runtime environment maintains a stack of these contexts.
 
 At the top of execution context of this stack is the one that actively running.
 Every JavaScript runtime has a unique object called 'Global object'.
+
+#### `this` Keyword
