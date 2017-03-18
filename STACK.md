@@ -31,3 +31,8 @@
 
 ## Error Handling
 * [A Guide to Proper Error Handling in JavaScript](https://www.sitepoint.com/proper-error-handling-javascript/?utm_content=bufferc7b29&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
+
+### Array
+#### Using Array methods
+- Using Array.slice() with - (minus) parameters
+> [Array.prototype.slice() - JavaScript | MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
