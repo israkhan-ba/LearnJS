@@ -22,3 +22,16 @@ Using **[**...**]** (Brackets) after variable that an array is associate
 #### Array properties and methods
 First, for example, we set an array and assign values to it.
 > `myArray = ["Value1", true, 3, "4", "Five"]`
+
+- .length - Return how many value stored in the array.
+> `console.log(myArray.length);`  
+> // Will show **5** in console  
+>
+> Using .length to return specific value by array index  
+> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+> `console.log(myArray[myArray.length - 1]);`  
+> // Will show **Five** in console which is the last value of the array.
+>
+> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+> `console.log(myArray[myArray.length - 2]);`  
+> // Will show **4** in console which is the second from the last value of the array.
