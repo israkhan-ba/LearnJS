@@ -7,3 +7,9 @@ It is an object which have methods and properties of it's own.
 Array should be used to represents a list of a set of values that are related to each other.
 
 ## How to use Array
+
+1. Using Array Literal
+> `var array =`** `[value1, value2, value3, ..., valueN]`**`;`
+
+2. Using Array Constructor (Not recommended)
+> `var array =`** `new Array(value1, value2, value3, ..., valueN]`**`;`
