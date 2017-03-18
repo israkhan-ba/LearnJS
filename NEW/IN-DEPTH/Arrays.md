@@ -35,3 +35,7 @@ First, for example, we set an array and assign values to it.
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 > `console.log(myArray[myArray.length - 2]);`  
 > // Will show **4** in console which is the second from the last value of the array.
+
+- .toString(); - Convert and return an array's value as a string.
+> `myArray.toString();`  
+> // Will return **Value1,true,3,4,Five**
