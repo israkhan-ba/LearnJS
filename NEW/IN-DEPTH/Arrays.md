@@ -18,3 +18,5 @@ Array should be used to represents a list of a set of values that are related to
 #### Accessing value in Array
 Using **[**...**]** (Brackets) after variable that an array is associate
 > `array`**`[0]`** will return the value of the array at index 0
+
+#### Array properties and methods
