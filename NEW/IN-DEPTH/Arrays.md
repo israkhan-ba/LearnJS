@@ -20,3 +20,5 @@ Using **[**...**]** (Brackets) after variable that an array is associate
 > `array`**`[0]`** will return the value of the array at index 0
 
 #### Array properties and methods
+First, for example, we set an array and assign values to it.
+> `myArray = ["Value1", true, 3, "4", "Five"]`
