@@ -39,3 +39,11 @@ First, for example, we set an array and assign values to it.
 - .toString(); - Convert and return an array's value as a string.
 > `myArray.toString();`  
 > // Will return **Value1,true,3,4,Five**
+
+- .push(); - Add new item to an array at the last
+> `myArray.push("SIX");`  
+> // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
+>
+> `myArray.push("SIX", "Sieben");`  
+> // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
+> // so you can push (add) any item to your array using *`push()`* method
