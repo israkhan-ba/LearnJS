@@ -42,6 +42,11 @@ First, for example, we set an array and assign values to it.
 > `myArray.toString();`  
 > // Will return **Value1,true,3,4,Five**
 
+
+- .join() // Method to convert all values of an array by order as a long string, similar to toString() except join() can change data seperator by argument (Argument must be STRING)
+// arrayName.join(" + "); Make "+" as string seperator instead of comma
+
+#### Uncategorized
 - .push(); - Add new item to an array at the last
 > `myArray.push("SIX");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
