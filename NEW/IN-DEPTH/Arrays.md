@@ -37,7 +37,8 @@ First, for example, we set an array and assign values to it.
 > `console.log(myArray[myArray.length - 2]);`  
 > // Will show **4** in console which is the second from the last value of the array.
 
-- .toString(); - Convert and return an array's value as a string.
+#### Return data from an array
+- .toString(); - Convert and return items of an array, by order, as a long string join each data with commas.
 > `myArray.toString();`  
 > // Will return **Value1,true,3,4,Five**
 
