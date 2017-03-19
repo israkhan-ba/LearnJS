@@ -59,3 +59,6 @@ First, for example, we set an array and assign values to it.
 - .pop(); - Delete last item from an array
 
 - .shift(); - Delete first item from an array
+
+- .unshift(); - Add new item to an array at the beginning,   
+Can add multiple item at the same time like `.push()`
