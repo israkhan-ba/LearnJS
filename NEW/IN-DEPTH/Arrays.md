@@ -47,3 +47,5 @@ First, for example, we set an array and assign values to it.
 > `myArray.push("SIX", "Sieben");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
+
+- .pop(); - Delete last item from an array
