@@ -73,4 +73,4 @@ Can add multiple item at the same time like `.push()`
 
 - .splice();
 
-- .sort();
+- .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
