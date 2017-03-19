@@ -72,3 +72,5 @@ Can add multiple item at the same time like `.push()`
 >
 
 - .splice();
+
+- .sort();
