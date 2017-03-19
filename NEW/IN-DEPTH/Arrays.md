@@ -74,3 +74,8 @@ Can add multiple item at the same time like `.push()`
 - .splice(); - Changes the contents of an array by removing existing items and/or adding new items
 
 - .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
+
+#### Checking array
+- .length // Property to count how many value in the array
+// arrayName.length;
+
