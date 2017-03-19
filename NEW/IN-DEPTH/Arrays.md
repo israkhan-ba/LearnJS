@@ -47,3 +47,35 @@ First, for example, we set an array and assign values to it.
 > `myArray.push("SIX", "Sieben");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
+
+- .pop(); - Delete last item from an array
+> `myArray.push("SIX");`  
+> // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
+>
+> `myArray.push("SIX", "Sieben");`  
+> // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
+> // so you can push (add) any item to your array using *`push()`* method
+
+- .pop(); - Delete last item from an array
+
+- .shift(); - Delete first item from an array
+
+- .unshift(); - Add new item to an array at the beginning,   
+Can add multiple item at the same time like `.push()`
+
+- .slice(); - Keep a specific number of item from an array, in specific index.
+> `myArray.slice(0, 2);`  
+> // This will return **_["Value1", true]_**  
+> // Because the parameters were set to index **0** and **2** items.
+>
+> Using negative number in the parameters
+>
+
+- .splice(); - Changes the contents of an array by removing existing items and/or adding new items
+
+- .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
+
+#### Checking array
+- .length // Property to count how many value in the array
+// arrayName.length;
+
