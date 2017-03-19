@@ -62,3 +62,11 @@ First, for example, we set an array and assign values to it.
 
 - .unshift(); - Add new item to an array at the beginning,   
 Can add multiple item at the same time like `.push()`
+
+- .slice(); - Keep a specific number of item from an array, in specific index.
+> `myArray.slice(0, 2);`  
+> // This will return **_["Value1", true]_**  
+> // Because the parameters were set to index **0** and **2** items.
+>
+> Using negative number in the parameters
+>
