@@ -23,7 +23,8 @@ Using **[**...**]** (Brackets) after variable that an array is associate
 First, for example, we set an array and assign values to it.
 > `myArray = ["Value1", true, 3, "4", "Five"]`
 
-- .length - Return how many value stored in the array.
+#### Checking array
+- .length - count how many value in the array, return a number of items stored in the array.
 > `console.log(myArray.length);`  
 > // Will show **5** in console  
 >
@@ -36,10 +37,16 @@ First, for example, we set an array and assign values to it.
 > `console.log(myArray[myArray.length - 2]);`  
 > // Will show **4** in console which is the second from the last value of the array.
 
-- .toString(); - Convert and return an array's value as a string.
+#### Return data from an array
+- .toString(); - Convert and return items of an array, by order, as a long string join each data with commas.
 > `myArray.toString();`  
 > // Will return **Value1,true,3,4,Five**
 
+
+- .join() // Method to convert all values of an array by order as a long string, similar to toString() except join() can change data seperator by argument (Argument must be STRING)
+// arrayName.join(" + "); Make "+" as string seperator instead of comma
+
+#### Uncategorized
 - .push(); - Add new item to an array at the last
 > `myArray.push("SIX");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
@@ -74,8 +81,3 @@ Can add multiple item at the same time like `.push()`
 - .splice(); - Changes the contents of an array by removing existing items and/or adding new items
 
 - .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
-
-#### Checking array
-- .length // Property to count how many value in the array
-// arrayName.length;
-
