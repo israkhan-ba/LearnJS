@@ -57,3 +57,5 @@ First, for example, we set an array and assign values to it.
 > // so you can push (add) any item to your array using *`push()`* method
 
 - .pop(); - Delete last item from an array
+
+- .shift(); - Delete first item from an array
