@@ -74,10 +74,6 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 
 #### Uncategorized
 
-
-
-- .pop(); - Delete last item from an array
-
 - .shift(); - Delete first item from an array
 
 - .unshift(); - Add new item to an array at the beginning,   
