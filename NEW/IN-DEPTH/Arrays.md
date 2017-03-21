@@ -90,13 +90,9 @@ Can add multiple item at the same time like `.push()`
 
 
 #### Array management
-
-
-#### Uncategorized
-
-
->
-
 - .splice(); - Changes the contents of an array by removing existing items and/or adding new items
+
+
+
 
 
