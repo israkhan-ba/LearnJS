@@ -80,6 +80,9 @@ Can add multiple item at the same time like `.push()`
 #### Sorting array
 - .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
 
+#### Copy to new array
+
+
 #### Uncategorized
 
 - .slice(); - Keep a specific number of item from an array, in specific index.
