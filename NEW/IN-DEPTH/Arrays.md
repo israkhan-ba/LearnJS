@@ -46,18 +46,16 @@ First, for example, we set an array and assign values to it.
 Work similarly to toString() excepted join() can change item seperator by the argument (Argument must be STRING)
 
 #### Adding array
-- push() // Method to add data to the last order of the array
-// array.push();
-
-
-#### Uncategorized
-- .push(); - Add new item to an array at the last
+- .push() // Add new item to the last order of the array
 > `myArray.push("SIX");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
 >
 > `myArray.push("SIX", "Sieben");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
+
+
+#### Uncategorized
 
 - .pop(); - Delete last item from an array
 > `myArray.push("SIX");`  
