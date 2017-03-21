@@ -38,37 +38,49 @@ First, for example, we set an array and assign values to it.
 > // Will show **4** in console which is the second from the last value of the array.
 
 #### Return data from an array
-- .toString(); - Convert and return items of an array, by order, as a long string join each data with commas.
+- .toString(); - Convert items of an array, by order, and return as a long string, which each items will be joined with commas.
 > `myArray.toString();`  
 > // Will return **Value1,true,3,4,Five**
 
+- .join(); - Convert items of an array, by order, and return as a long string.  
+Work similarly to toString() excepted join() can change item seperator by the argument (Argument must be STRING)
 
-- .join() // Method to convert all values of an array by order as a long string, similar to toString() except join() can change data seperator by argument (Argument must be STRING)
-// arrayName.join(" + "); Make "+" as string seperator instead of comma
-
-#### Uncategorized
-- .push(); - Add new item to an array at the last
+#### Adding array
+- .push() // Add new item to the last order of the array
 > `myArray.push("SIX");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
 >
 > `myArray.push("SIX", "Sieben");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
-
-- .pop(); - Delete last item from an array
-> `myArray.push("SIX");`  
-> // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
->
-> `myArray.push("SIX", "Sieben");`  
-> // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
-> // so you can push (add) any item to your array using *`push()`* method
-
-- .pop(); - Delete last item from an array
-
-- .shift(); - Delete first item from an array
 
 - .unshift(); - Add new item to an array at the beginning,   
 Can add multiple item at the same time like `.push()`
+
+#### Clear array 
+- arrayName.length = 0; // Make an array length to be 0, all data will be destroyed. - The recommended way.
+
+- arrayName = []; // Not recommended
+
+#### Display array
+- arrayName[#] // varName = Array name; # = Show value from the order number of the array 
+// arrayName[0];
+
+#### Deleting value in an array
+- .pop(); - Delete last item from an array
+> `myArray.push("SIX");`  
+> // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
+>
+> `myArray.push("SIX", "Sieben");`  
+> // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
+> // so you can push (add) any item to your array using *`push()`* method
+
+- .shift(); - Delete first item from an array
+
+#### Sorting array
+- .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
+
+#### Uncategorized
 
 - .slice(); - Keep a specific number of item from an array, in specific index.
 > `myArray.slice(0, 2);`  
@@ -80,4 +92,4 @@ Can add multiple item at the same time like `.push()`
 
 - .splice(); - Changes the contents of an array by removing existing items and/or adding new items
 
-- .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
+
