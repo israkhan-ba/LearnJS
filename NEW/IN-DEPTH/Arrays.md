@@ -54,6 +54,9 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
 
+- .unshift(); - Add new item to an array at the beginning,   
+Can add multiple item at the same time like `.push()`
+
 #### Clear array 
 - arrayName.length = 0; // Make an array length to be 0, all data will be destroyed. - The recommended way.
 
@@ -72,12 +75,13 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
 
-#### Uncategorized
-
 - .shift(); - Delete first item from an array
 
-- .unshift(); - Add new item to an array at the beginning,   
-Can add multiple item at the same time like `.push()`
+#### Uncategorized
+
+
+
+
 
 - .slice(); - Keep a specific number of item from an array, in specific index.
 > `myArray.slice(0, 2);`  
