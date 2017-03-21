@@ -64,10 +64,6 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 // arrayName[0];
 
 #### Deleting value in an array
-
-
-#### Uncategorized
-
 - .pop(); - Delete last item from an array
 > `myArray.push("SIX");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX"]_**
@@ -75,6 +71,10 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 > `myArray.push("SIX", "Sieben");`  
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
+
+#### Uncategorized
+
+
 
 - .pop(); - Delete last item from an array
 
