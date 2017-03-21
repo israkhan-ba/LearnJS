@@ -38,13 +38,17 @@ First, for example, we set an array and assign values to it.
 > // Will show **4** in console which is the second from the last value of the array.
 
 #### Return data from an array
-- .toString(); - Convert and return items of an array, by order, as a long string join each data with commas.
+- .toString(); - Convert items of an array, by order, and return as a long string, which each items will be joined with commas.
 > `myArray.toString();`  
 > // Will return **Value1,true,3,4,Five**
 
+- .join(); - Convert items of an array, by order, and return as a long string.  
+Work similarly to toString() excepted join() can change item seperator by the argument (Argument must be STRING)
 
-- .join() // Method to convert all values of an array by order as a long string, similar to toString() except join() can change data seperator by argument (Argument must be STRING)
-// arrayName.join(" + "); Make "+" as string seperator instead of comma
+#### Adding array
+- push() // Method to add data to the last order of the array
+// array.push();
+
 
 #### Uncategorized
 - .push(); - Add new item to an array at the last
