@@ -81,16 +81,16 @@ Can add multiple item at the same time like `.push()`
 - .sort(); - Sort items of an array and return the array, default sort order is according to string Unicode code code point.
 
 #### Copy to new array
-
-
-#### Uncategorized
-
 - .slice(); - Keep a specific number of item from an array, in specific index.
 > `myArray.slice(0, 2);`  
 > // This will return **_["Value1", true]_**  
 > // Because the parameters were set to index **0** and **2** items.
 >
 > Using negative number in the parameters
+
+#### Uncategorized
+
+
 >
 
 - .splice(); - Changes the contents of an array by removing existing items and/or adding new items
