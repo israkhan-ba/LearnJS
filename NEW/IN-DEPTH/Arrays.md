@@ -54,6 +54,10 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 > // This will return **_["Value1", true, 3, "4", "Five", "SIX", "Sieben"]_**  
 > // so you can push (add) any item to your array using *`push()`* method
 
+#### Clear array 
+- arrayName.length = 0; // Make an array length to be 0, all data will be destroyed. - The recommended way.
+
+- arrayName = []; // Not recommended
 
 #### Uncategorized
 
