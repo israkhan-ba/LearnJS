@@ -59,6 +59,10 @@ Work similarly to toString() excepted join() can change item seperator by the ar
 
 - arrayName = []; // Not recommended
 
+#### Display array
+- arrayName[#] // varName = Array name; # = Show value from the order number of the array 
+// arrayName[0];
+
 #### Uncategorized
 
 - .pop(); - Delete last item from an array
