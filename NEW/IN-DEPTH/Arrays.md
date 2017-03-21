@@ -88,6 +88,10 @@ Can add multiple item at the same time like `.push()`
 >
 > Using negative number in the parameters
 
+
+#### Array management
+
+
 #### Uncategorized
 
 
