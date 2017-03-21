@@ -77,11 +77,9 @@ Can add multiple item at the same time like `.push()`
 
 - .shift(); - Delete first item from an array
 
+#### Sorting array
+
 #### Uncategorized
-
-
-
-
 
 - .slice(); - Keep a specific number of item from an array, in specific index.
 > `myArray.slice(0, 2);`  
