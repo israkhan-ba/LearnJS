@@ -11,3 +11,10 @@ Example
 > typeof x;  
 > ```
 > // This will return `number`
+
+Example 2
+> ```
+> var x = "Some String";```
+> **`typeof`** `x;`
+>   
+> // This will return **`string`**
