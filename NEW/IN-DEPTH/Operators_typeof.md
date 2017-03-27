@@ -2,6 +2,8 @@
 
 typeof Operator is used to get the data type of its operand.
 
+> operand is an expression representing the object or primitive whose type is to be returned.
+
 ### Using typeof
 > `typeof targetVariable;`
 
