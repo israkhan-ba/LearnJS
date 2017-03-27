@@ -20,3 +20,5 @@ Example 2
 > **`typeof`** `x;`
 >   
 > // This will return **`string`**
+
+### Possible return values of typeof
