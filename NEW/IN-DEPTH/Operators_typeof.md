@@ -31,3 +31,6 @@ Host object (provided by the JS environment)
           : Implementation-dependent
 Function object (implements [[Call]] in ECMA-262 terms)                    : "function"
 Any other object : "object"
+
+#### Examples
+
