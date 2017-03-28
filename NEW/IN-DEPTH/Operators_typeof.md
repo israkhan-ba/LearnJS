@@ -62,3 +62,8 @@ typeof Symbol() === 'symbol'
 typeof Symbol('foo') === 'symbol'  
 typeof Symbol.iterator === 'symbol'  
 
+
+> // Undefined  
+typeof undefined === 'undefined';  
+typeof declaredButUndefinedVariable === 'undefined';  
+typeof undeclaredVariable === 'undefined';   
