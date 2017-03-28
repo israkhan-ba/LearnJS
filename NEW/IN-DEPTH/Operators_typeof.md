@@ -45,3 +45,8 @@ typeof Infinity === 'number';
 typeof NaN === 'number'; //   Despite being "Not-A-Number"  
 typeof Number(1) === 'number'; // but never use this form!
 
+> // Strings  
+typeof '' === 'string';  
+typeof "bla" === 'string';  
+typeof (typeof 1) === 'string'; // typeof always returns a string  
+typeof String('abc') === 'string'; // but never use this form!  
