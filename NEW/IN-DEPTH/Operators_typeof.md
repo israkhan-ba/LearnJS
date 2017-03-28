@@ -49,4 +49,9 @@ typeof Number(1) === 'number'; // but never use this form!
 typeof '' === 'string';  
 typeof "bla" === 'string';  
 typeof (typeof 1) === 'string'; // typeof always returns a string  
-typeof String('abc') === 'string'; // but never use this form!  
+typeof String('abc') === 'string'; // but never use this form! 
+
+> // Booleans
+typeof true === 'boolean';  
+typeof false === 'boolean';  
+typeof Boolean(true) === 'boolean'; // but never use this form!  
