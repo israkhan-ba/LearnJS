@@ -76,3 +76,9 @@ typeof {a: 1} === 'object';
 >
 >typeof [1, 2, 4] === 'object';  
 typeof new Date() === 'object';  
+
+
+> // The following is confusing. Don't use!  
+typeof new Boolean(true) === 'object';   
+typeof new Number(1) === 'object';   
+typeof new String('abc') === 'object';  
