@@ -67,3 +67,12 @@ typeof Symbol.iterator === 'symbol'
 typeof undefined === 'undefined';  
 typeof declaredButUndefinedVariable === 'undefined';  
 typeof undeclaredVariable === 'undefined';   
+
+
+> // Objects  
+typeof {a: 1} === 'object';  
+// use Array.isArray or Object.prototype.toString.call  
+// to differentiate regular objects from arrays  
+>
+>typeof [1, 2, 4] === 'object';  
+typeof new Date() === 'object';  
