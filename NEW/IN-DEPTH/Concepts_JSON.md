@@ -12,3 +12,9 @@ Only simple data expressions are allowed
 - No anything involves actual computation.
 
 Comments are not allowed.
+
+In JavaScript there are functions to deal with JSON which convert data from and to this format.
+
+- JSON.stringify takes a JavaScript value and returns a JSON-encoded string.
+
+- JSON.parse takes JSON-encoded string and converts it to the value
