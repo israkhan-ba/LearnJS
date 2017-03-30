@@ -9,3 +9,5 @@ High-order functions allow us to abstract over actions, not just values.
 - Functions that provide new types of control flow
 
 ## Taking Functions as Arguments
+
+When you pass a function by name without parentheses, you are passing the function object itself. When you pass it with parentheses, you are passing the result of executing that function.
