@@ -8,3 +8,10 @@ High-order functions allow us to abstract over actions, not just values.
 - Functions that change other functions
 - Functions that provide new types of control flow
 
+## Taking Functions as Arguments
+
+When you pass a function by name without parentheses, you are passing the function object itself. When you pass it with parentheses, you are passing the result of executing that function.
+
+## Returning Functions as Results
+
+JavaScript allows functions to return other functions as a result. This makes perfect sense, since functions are simply objects, they can be returned the same as any other value.
