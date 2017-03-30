@@ -17,3 +17,5 @@ When you pass a function by name without parentheses, you are passing the functi
 JavaScript allows functions to return other functions as a result. This makes perfect sense, since functions are simply objects, they can be returned the same as any other value.
 
 Defining a function as the return value of another function allows you to create functions that can be used as templates to create new functions. That opens the door to another world of functional JavaScript magic.
+
+Higher-order functions are so basic to the way JavaScript works, you’re already using them. Every time you pass an anonymous function or a callback, you’re actually taking the value that the passed function returns, and using that as an argument for another function.
