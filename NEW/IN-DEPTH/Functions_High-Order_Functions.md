@@ -8,3 +8,4 @@ High-order functions allow us to abstract over actions, not just values.
 - Functions that change other functions
 - Functions that provide new types of control flow
 
+## Taking Functions as Arguments
