@@ -1,3 +1,5 @@
+# Errors
+
 There are 2 main types of error
 
 1. Syntax errors
