@@ -2,10 +2,10 @@
 
 The purpose of this project is to track and share my learning about JavaScript including
 
-1. What, Why and How of each things in JS that I had passed.
-2. Share some ideas and concept for learning and developments.
-3. List of things to involve with, doing, making, learning.
-4. Anything around JS includes related subject and contexts.
+1. Defining of What, Why and How of each things in JS
+2. Sharing some ideas and concepts for learning and development.
+3. Making lists of things to involve with includes doing, making, learning.
+4. Talking about anything around JS in related subjects and related contexts.
 
 To make sure that anything in this repository will be useful and help faster learning in JavaScript I will try something first before commit anything to the repository
 as I am currently new to both JavaScript and GitHub and actually coding and development.
