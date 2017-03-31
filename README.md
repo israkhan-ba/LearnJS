@@ -2,16 +2,13 @@
 
 The purpose of this project is to track and share my learning about JavaScript including
 
-1. What, Why and How of each things in JS that I had passed.
-2. Share some ideas and concept for learning and developments.
-3. List of things to involve with, doing, making, learning.
-4. Anything around JS includes related subject and contexts.
+1. Defining of What, Why and How of each things in JS
+2. Sharing some ideas and concepts for learning and development.
+3. Making lists of things to involve with includes doing, making, learning.
+4. Talking about anything around JS in related subjects and related contexts.
 
-To make sure that anything in this repository will be useful and help faster learning in JavaScript I will try something first before commit anything to the repository
-as I am currently new to both JavaScript and GitHub and actually coding and development.
-It will not always the actual thing I do but just thing that a little bit refined
-and after I think something appropriate to commit, then I will.
-
+To make sure that this repository will be useful and help anyone who came here to learn faster in JavaScript 
+I will firstly trying a lot before commit anything to the repository.
 
 I will work with this project by session (which will be 2 hours block of time)
 I was intended to involved with it at least an hour everyday (Half session)
@@ -30,20 +27,20 @@ I just want to make a learning step for programming, refine it and share to you 
 - Some images and css.
 
 
-## Important Notes will contain in the repository root directory
-- **README.md** (This file) contain description of this project
+## Important notes will contain in the repository root directory
+- **README.md** (This file) will contained description of this project
 > Update occasionally when I have something new and important about on the project
 
-- **[OVERVIEW.md](OVERVIEW.md)** contain overall view of this project to make it easy find and see the progression.
+- **[OVERVIEW.md](OVERVIEW.md)** will contained overall details of this project to make it easy find and see the progression.
 > Update everyday
 
-- **[STACK.md](STACK.md)** contain the list of to-do things on JavaScript.
+- **[STACK.md](STACK.md)** will contained the list of to-do things on JavaScript.
 > Update many times a day after I skim through any interesting JS learning materials or it just catch my eyes.
 
-- **[LEARNING-TREE.md](LEARNING-TREE.md)** contain view for learning hierarchy.
+- **[LEARNING-TREE.md](LEARNING-TREE.md)** will contained view for learning hierarchy.
 > Update everyday at the late of my session.
 
-- **[LOGS.md](LOGS.md)** contain anything I just did with the project.
+- **[LOGS.md](LOGS.md)** will contained anything I just did with the project.
 > Update every day after I finish a thing.
 
 ## Directory Structure
