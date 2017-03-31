@@ -7,11 +7,8 @@ The purpose of this project is to track and share my learning about JavaScript i
 3. Making lists of things to involve with includes doing, making, learning.
 4. Talking about anything around JS in related subjects and related contexts.
 
-To make sure that anything in this repository will be useful and help faster learning in JavaScript I will try something first before commit anything to the repository
-as I am currently new to both JavaScript and GitHub and actually coding and development.
-It will not always the actual thing I do but just thing that a little bit refined
-and after I think something appropriate to commit, then I will.
-
+To make sure that this repository will be useful and help anyone who came here to learn faster in JavaScript 
+I will firstly trying a lot before commit anything to the repository.
 
 I will work with this project by session (which will be 2 hours block of time)
 I was intended to involved with it at least an hour everyday (Half session)
