@@ -69,3 +69,13 @@ Clear all old content and replace with the new one.
 - __Added:__ README.md
 - __Added:__ STACK.md
 - __Added:__ OVERVIEW.md
+
+
+Current Summary of this project.
++ 
+-Day #2 Session #1
+--- Create new 2 file. LEARNING-TREE.md, LOGS.md
+--- Create a new branch named 'Daily Update'
+
+-Day #1 Session #1
+--- Create new 3 file. README.md, OVERVIEW.md, STACK.md.
