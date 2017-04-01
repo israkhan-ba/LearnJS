@@ -9,3 +9,7 @@ so to say that we can use any variable before declared it.
 _this term you'll not find in JavaScript document_
 
 "It's a general way of thinking about how execution context (specifically the creation and execution phases) work in JavaScript"
+
+### Only declarations are hoists, and not innitializations
+If you initialize variable by some value, it won't be hoisted.
+so your variable will returns undefined.
