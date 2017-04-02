@@ -12,3 +12,5 @@ Each function has its own scope which will make any variable declaration inside 
 
 From ECMAScript 6 (2015) JavaScript will now available for block scope
 by using `let` keyword instead of `var` which can be used defined variables limiting their scope to the block in which they are declared
+
+Unlike `var`, variables beclared using `let` aren't hoisted.
