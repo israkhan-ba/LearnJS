@@ -1,7 +1,5 @@
 # Scoping
 
-There are 3 levels of scopes in JavaScript
+There are 2 main scopes in JavaScript - Global and Local 
 
-1. Global-level scope
-2. Function-level scope
-3. Block-level scope
+## Global scope
