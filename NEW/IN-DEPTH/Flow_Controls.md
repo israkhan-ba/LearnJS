@@ -1,6 +1,7 @@
 # Flow Control
 
 ### `if` / `else if` / `else`
+1. Regular way
 >```
 if(cond) {
     state1;
@@ -9,4 +10,7 @@ if(cond) {
 } else {
     state3;
 };
-```
+``` 
+
+2. Shorter way
+> `false ? a : b`
