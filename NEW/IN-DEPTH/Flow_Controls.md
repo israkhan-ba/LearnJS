@@ -60,3 +60,10 @@ if(cond) {
 &nbsp;&nbsp;&nbsp;
 `    statement;`  
 `}`
+
+`do... while`
+> 
+`do {`  
+&nbsp;&nbsp;&nbsp;
+`   statement;`  
+`} while(cond);`
