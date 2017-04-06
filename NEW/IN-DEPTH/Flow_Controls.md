@@ -1,6 +1,9 @@
 # Flow Control
 
 ### `if` / `else if` / `else`
+
+##### Examples
+
 1. Regular way
 >```
 if(cond) {
@@ -14,3 +17,5 @@ if(cond) {
 
 2. Shorter way
 > `false ? a : b`
+
+### `switch`
