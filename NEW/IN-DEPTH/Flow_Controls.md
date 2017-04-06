@@ -18,6 +18,7 @@ if(cond) {
 2. Shorter way
 > `false ? a : b`
 
+---
 ### `switch`
 
 ##### Example
@@ -47,3 +48,6 @@ if(cond) {
 &nbsp;&nbsp;&nbsp;&nbsp;
 `        statement;`  
 `};`
+
+---
+### `while` / `do{...} while(cond)`
