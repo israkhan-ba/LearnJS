@@ -51,3 +51,12 @@ if(cond) {
 
 ---
 ### `while` / `do{...} while(cond)`
+
+##### Example
+
+`while`
+> 
+`while(cond) {`  
+&nbsp;&nbsp;&nbsp;
+`    statement;`  
+`}`
