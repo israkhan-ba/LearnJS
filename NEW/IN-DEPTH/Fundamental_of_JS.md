@@ -10,3 +10,5 @@ And we have **expressions**, which is any valid set of literals, variables, oper
 
 In JavaScript **expressions** and **statements** are distinguished.    
 For short, an **expression** produces a value and a **statement** performs an action.
+
+### Statement
