@@ -43,3 +43,4 @@ A block set that use to group statements , expression and declaration together (
 In JavaScript, Blocks can be nested in any block.
 
 ### Values & Data Types
+Everything in computer is just data (and yes only data) and each and every data has its own role.
