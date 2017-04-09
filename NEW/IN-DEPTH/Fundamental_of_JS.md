@@ -1,5 +1,7 @@
 # Fundamental of JavaScript
 
+In this page, it will explain shortly about all of the JavaScript fundamental elements and concepts which will set a quick overview for the very basic of JavaScript
+
 ## Syntax
 
 Syntax is a set of rules that defined how a program are constructed.  
