@@ -2,6 +2,11 @@
 
 In this page, it will explain shortly about all of the JavaScript fundamental elements and concepts which will set a quick overview for the very basic of JavaScript
 
+And it will be recommended to re-read this page frequently as it could help you understand and get clarify with JavaScript quickly.
+
+So its very intention is to make you less confuse.
+
+
 ## Syntax
 
 Syntax is a set of rules that defined how a program are constructed.  
