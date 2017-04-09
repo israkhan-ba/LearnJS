@@ -36,3 +36,6 @@ Basically each statements are seperated by a semicolon ( **;** )
 If any expression that have produces side effect we will called them Expression statements.
 
 Because **statements** can contain **expression** so wherever JavaScript expects a statement, we can also write an expression in to that but not a vice versa (we can't write a statement where JavaScript expects an expression)
+
+### Code block
+
