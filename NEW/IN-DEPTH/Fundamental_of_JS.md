@@ -38,4 +38,6 @@ If any expression that have produces side effect we will called them Expression 
 Because **statements** can contain **expression** so wherever JavaScript expects a statement, we can also write an expression in to that but not a vice versa (we can't write a statement where JavaScript expects an expression)
 
 ### Code block
+A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
 
+In JavaScript, Blocks can be nested in any block.
