@@ -46,3 +46,5 @@ In JavaScript, Blocks can be nested in any block.
 Everything in computer is just data (and yes only data) and each and every data has its own role.
 
 Most of data are seperated to things called value, so values are some thing that represent some kind of data which will be stored in some way (like in memory).
+
+And each value have a type, which determines the kind of role it can play.
