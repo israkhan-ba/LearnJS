@@ -41,3 +41,5 @@ Because **statements** can contain **expression** so wherever JavaScript expects
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
 
 In JavaScript, Blocks can be nested in any block.
+
+### Values & Data Types
