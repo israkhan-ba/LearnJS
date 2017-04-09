@@ -48,3 +48,14 @@ Everything in computer is just data (and yes only data) and each and every data 
 Most of data are seperated to things called value, so values are some thing that represent some kind of data which will be stored in some way (like in memory).
 
 And each value have a type, which determines the kind of role it can play.
+
+In JavaScript there are basically 8 types of data
+
+- Number
+- String
+- Boolean
+- Array
+- Object
+- Undefined
+- Null
+- Function
