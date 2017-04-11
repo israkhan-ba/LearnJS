@@ -56,7 +56,12 @@ One of three primitive data types which represented numbers
 For short, we can defined numbers by using numerical character (0-9) , using dot ( . )  for floating point ( ex. 12345.67890 )
 and using operators symbol for calculation  ( + , - , * , / , % )
 
-- String
+
+- **String**
+A primitive data type using for contain any words, phases, or sentence  
+So we can defined strings by using Quotes ( ' ' ) or Double Quotes ( " " ) and some string in between them.
+
+
 - Boolean
 - Array
 - Object
