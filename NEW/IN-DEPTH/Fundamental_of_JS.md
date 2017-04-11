@@ -70,9 +70,13 @@ Another primitive data type that play the logical part. Values of boolean are ve
 A trivial data type that define only a single but special value which meaning "no value" its type is actually an object. So you can declare any variable and set it to null, then when it's printed out, you'll see "null" rather of "undefined"
 
 
+- **Undefined**
+Another trivial data type which you don't need to do anything expect just not assign any value to variables, or put simply it's means that a variable has been declared but no value exists.
+**Undefined** is not an object data type, it's a primitive type, and is a type of *`undefined`* itself.
+
+
 - Array
 - Object
-- Undefined
 - Function
 
 ### Variable
