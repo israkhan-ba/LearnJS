@@ -66,10 +66,13 @@ So we can defined strings by using Quotes ( ' ' ) or Double Quotes ( " " ) and s
 Another primitive data type that play the logical part. Values of boolean are very simple, just `true` and `false` but they're playing a big part in all application.
 
 
+- **Null**  
+A trivial data type that define only a single but special value which meaning "no value" its type is actually an object. So you can declare any variable and set it to null, then when it's printed out, you'll see "null" rather of "undefined"
+
+
 - Array
 - Object
 - Undefined
-- Null
 - Function
 
 ### Variable
