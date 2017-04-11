@@ -77,6 +77,8 @@ Another trivial data type which you don't need to do anything expect just not as
 
 
 - **Object**  
+Object is a data type which is collecion of properties  
+An object, in computer science, is a value in memory which is possibly referenced by an identifier.
 
  - **Array**  
 A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
