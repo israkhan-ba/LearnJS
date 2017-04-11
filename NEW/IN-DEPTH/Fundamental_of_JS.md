@@ -75,13 +75,13 @@ Another trivial data type which you don't need to do anything expect just not as
 **Undefined** is not an object data type, it's a primitive type, and is a type of *`undefined`* itself.
 
 
-- **Array**  
+
+- **Object**  
+
+ - **Array**  
 A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
 You can contain any data type in an array, also nest it with an other arrays or objects.
 
-
-- Object
-- Function
 
 ### Variable
 
