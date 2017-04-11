@@ -61,3 +61,7 @@ In JavaScript there are basically 8 types of data
 - Function
 
 ### Variable
+
+Variable is a container that used for storing data
+
+In JavaScript, Variable are declared by using `var` key word (Also we can initialize variable with values but it's not necessary to use `var` key word)
