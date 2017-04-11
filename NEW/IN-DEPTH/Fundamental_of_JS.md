@@ -62,7 +62,10 @@ A primitive data type using for contain any words, phases, or sentence
 So we can defined strings by using Quotes ( ' ' ) or Double Quotes ( " " ) and some string in between them.
 
 
-- Boolean
+- **Boolean**  
+Another primitive data type that play the logical part. Values of boolean are very simple, just `true` and `false` but they're playing a big part in all application.
+
+
 - Array
 - Object
 - Undefined
