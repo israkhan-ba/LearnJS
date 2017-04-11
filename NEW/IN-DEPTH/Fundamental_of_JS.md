@@ -51,11 +51,42 @@ And each value have a type, which determines the kind of role it can play.
 
 In JavaScript there are basically 8 types of data
 
-- Number
-- String
-- Boolean
-- Array
-- Object
-- Undefined
-- Null
-- Function
+- **Number**  
+One of three primitive data types which represented numbers  
+For short, we can defined numbers by using numerical character (0-9) , using dot ( . )  for floating point ( ex. 12345.67890 )
+and using operators symbol for calculation  ( + , - , * , / , % )
+
+
+- **String**
+A primitive data type using for contain any words, phases, or sentence  
+So we can defined strings by using Quotes ( ' ' ) or Double Quotes ( " " ) and some string in between them.
+
+
+- **Boolean**  
+Another primitive data type that play the logical part. Values of boolean are very simple, just `true` and `false` but they're playing a big part in all application.
+
+
+- **Null**  
+A trivial data type that define only a single but special value which meaning "no value" its type is actually an object. So you can declare any variable and set it to null, then when it's printed out, you'll see "null" rather of "undefined"
+
+
+- **Undefined**  
+Another trivial data type which you don't need to do anything expect just not assign any value to variables, or put simply it's means that a variable has been declared but no value exists.
+**Undefined** is not an object data type, it's a primitive type, and is a type of *`undefined`* itself.
+
+
+- **Object**  
+Object is a data type which is collecion of properties  
+An object, in computer science, is a value in memory which is possibly referenced by an identifier.
+
+ - **Array**  
+A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
+You can contain any data type in an array, also nest it with an other arrays or objects.
+
+
+### Variable
+
+Variable is a container that used for storing data
+
+In JavaScript, Variable are declared by using `var` key word (Also we can initialize variable with values but it's not necessary to use `var` key word)
+
