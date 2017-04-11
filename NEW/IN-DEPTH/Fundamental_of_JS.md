@@ -59,3 +59,5 @@ In JavaScript there are basically 8 types of data
 - Undefined
 - Null
 - Function
+
+### Variable
