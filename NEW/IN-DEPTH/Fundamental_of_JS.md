@@ -51,7 +51,11 @@ And each value have a type, which determines the kind of role it can play.
 
 In JavaScript there are basically 8 types of data
 
-- Number
+- **Number**  
+One of three primitive data types which represented numbers  
+For short, we can defined numbers by using numerical character (0-9) , using dot ( . )  for floating point ( ex. 12345.67890 )
+and using operators symbol for calculation  ( + , - , * , / , % )
+
 - String
 - Boolean
 - Array
@@ -65,3 +69,4 @@ In JavaScript there are basically 8 types of data
 Variable is a container that used for storing data
 
 In JavaScript, Variable are declared by using `var` key word (Also we can initialize variable with values but it's not necessary to use `var` key word)
+
