@@ -49,8 +49,10 @@ Most of data are seperated to things called value, so values are some thing that
 
 And each value have a type, which determines the kind of role it can play.
 
-In JavaScript there are basically 8 types of data
+In JavaScript there are basically 8 data types, which catagorized as 3 categories.  
+**Primitive Data Types**, **Special Data Types** and **Composite Data Types**
 
+#### Primitive Data Types
 - **Number**  
 One of three primitive data types which represented numbers  
 For short, we can defined numbers by using numerical character (0-9) , using dot ( . )  for floating point ( ex. 12345.67890 )
@@ -65,6 +67,7 @@ So we can defined strings by using Quotes ( ' ' ) or Double Quotes ( " " ) and s
 - **Boolean**  
 Another primitive data type that play the logical part. Values of boolean are very simple, just `true` and `false` but they're playing a big part in all application.
 
+#### Special Data Types
 
 - **Null**  
 A trivial data type that define only a single but special value which meaning "no value" its type is actually an object. So you can declare any variable and set it to null, then when it's printed out, you'll see "null" rather of "undefined"
@@ -74,16 +77,24 @@ A trivial data type that define only a single but special value which meaning "n
 Another trivial data type which you don't need to do anything expect just not assign any value to variables, or put simply it's means that a variable has been declared but no value exists.
 **Undefined** is not an object data type, it's a primitive type, and is a type of *`undefined`* itself.
 
+## Composite Data Types
 
-- **Object**  
-Object is a data type which is collecion of properties  
-An object, in computer science, is a value in memory which is possibly referenced by an identifier.
+- **Object** (Data type) 
+An object datatype, in computer science, is a value in memory which is possibly referenced by an identifier.
+It is a data type which is collecion of properties and methods
 
- - **Array**  
-A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
-You can contain any data type in an array, also nest it with an other arrays or objects.
+ - **Objects** (itself)  
+ JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
+ _You can contain any data types in an object, also nest objects and arrays within._
 
+ - **Arrays**  
+ A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
+ _You can contain any data types in an array, also nest it with other arrays or objects._
 
+ - **Functions**
+ A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
+ 
+ - **RegExps**
 ### Variable
 
 Variable is a container that used for storing data
