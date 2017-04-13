@@ -84,7 +84,8 @@ An object datatype, in computer science, is a value in memory which is possibly 
 It is a data type which is collecion of properties and methods
 
  - **Objects** (itself)  
-JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring 
+JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
+_You can contain any data types in an object, also nest objects and arrays within._
 
  - **Arrays**  
 A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
