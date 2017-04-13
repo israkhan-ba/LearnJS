@@ -94,7 +94,7 @@ It is a data type which is collecion of properties and methods
  - **Functions**
  A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
  
-
+ - **RegExps**
 ### Variable
 
 Variable is a container that used for storing data
