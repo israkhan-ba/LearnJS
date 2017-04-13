@@ -89,7 +89,7 @@ _You can contain any data types in an object, also nest objects and arrays withi
 
  - **Arrays**  
 A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
-You can contain any data type in an array, also nest it with an other arrays or objects.
+_You can contain any data types in an array, also nest it with other arrays or objects._
 
 
 ### Variable
