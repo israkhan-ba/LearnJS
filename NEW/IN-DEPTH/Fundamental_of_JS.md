@@ -52,6 +52,7 @@ And each value have a type, which determines the kind of role it can play.
 In JavaScript there are basically 8 data types, which catagorized as 3 categories.  
 **Primitive Data Types**, **Special Data Types** and **Composite Data Types**
 
+#### Primitive Data Types
 - **Number**  
 One of three primitive data types which represented numbers  
 For short, we can defined numbers by using numerical character (0-9) , using dot ( . )  for floating point ( ex. 12345.67890 )
