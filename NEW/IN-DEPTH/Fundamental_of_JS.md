@@ -49,7 +49,8 @@ Most of data are seperated to things called value, so values are some thing that
 
 And each value have a type, which determines the kind of role it can play.
 
-In JavaScript there are basically 8 types of data
+In JavaScript there are basically 8 data types, which catagorized as 3 categories.  
+**Primitive Data Types**, **Special Data Types** and **Composite Data Types**
 
 - **Number**  
 One of three primitive data types which represented numbers  
