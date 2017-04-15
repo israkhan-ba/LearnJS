@@ -104,3 +104,5 @@ In JavaScript, Variable are declared by using `var` key word (Also we can initia
 
 An identifier is a sequence of characters, or simply a name, in the code that provide label for identifies a variable, function, or property for reuse.
 It's differs from stings in that strings are data, while identifiers is part of the code.  
+
+_In JavaScript, there is no way to convert identifiers to strings, but sometimes it is possible to parse strings into identifiers._
