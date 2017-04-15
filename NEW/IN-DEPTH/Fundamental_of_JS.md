@@ -25,10 +25,13 @@ For short, an **expression** produces a value and a **statement** performs an ac
 
 Basically each statements are seperated by a semicolon ( **;** )
 
+---
 
 ### Expression
 
 **Expression** intended to produces or evaluates some value without any side effect, the value may be a number, a string, or a logical value. Conceptually, there are two main type of expressions: those that assign a value to a variable, and those that simply have a value.
+
+---
 
 
 ### Expression statement
@@ -37,10 +40,14 @@ If any expression that have produces side effect we will called them Expression 
 
 Because **statements** can contain **expression** so wherever JavaScript expects a statement, we can also write an expression in to that but not a vice versa (we can't write a statement where JavaScript expects an expression)
 
+---
+
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
 
 In JavaScript, Blocks can be nested in any block.
+
+---
 
 ### Values & Data Types
 Everything in computer is just data (and yes only data) and each and every data has its own role.
@@ -77,15 +84,18 @@ A trivial data type that define only a single but special value which meaning "n
 Another trivial data type which you don't need to do anything expect just not assign any value to variables, or put simply it's means that a variable has been declared but no value exists.
 **Undefined** is not an object data type, it's a primitive type, and is a type of *`undefined`* itself.
 
-## Composite Data Types
+#### Composite Data Types
 
 - **Object** (Data type) 
 An object datatype, in computer science, is a value in memory which is possibly referenced by an identifier.
 It is a data type which is collecion of properties
 
+---
 
 ### Variable
 
 Variable is a container that used for storing data
 
 In JavaScript, Variable are declared by using `var` key word (Also we can initialize variable with values but it's not necessary to use `var` key word)
+
+---
