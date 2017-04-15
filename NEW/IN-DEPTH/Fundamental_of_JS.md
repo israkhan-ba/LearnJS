@@ -106,3 +106,10 @@ An identifier is a sequence of characters, or simply a name, in the code that pr
 It's differs from stings in that strings are data, while identifiers is part of the code.  
 
 _In JavaScript, there is no way to convert identifiers to strings, but sometimes it is possible to parse strings into identifiers._
+
+Identifier naming examples
+>  i  
+> my_variable_name  
+> v13  
+> _dummy  
+> $str  
