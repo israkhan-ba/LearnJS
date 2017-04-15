@@ -113,3 +113,5 @@ Identifier naming examples
 > v13  
 > _dummy  
 > $str  
+
+Finally, identifiers cannot be the same as any of the keywords used for other purposes in JavaScript. The next section lists the special names that are reserved in JavaScript.
