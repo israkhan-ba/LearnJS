@@ -49,7 +49,7 @@ Most of data are seperated to things called value, so values are some thing that
 
 And each value have a type, which determines the kind of role it can play.
 
-In JavaScript there are basically 8 data types, which catagorized as 3 categories.  
+In JavaScript there are basically 6 data types, which catagorized as 3 categories.  
 **Primitive Data Types**, **Special Data Types** and **Composite Data Types**
 
 #### Primitive Data Types
@@ -81,23 +81,11 @@ Another trivial data type which you don't need to do anything expect just not as
 
 - **Object** (Data type) 
 An object datatype, in computer science, is a value in memory which is possibly referenced by an identifier.
-It is a data type which is collecion of properties and methods
+It is a data type which is collecion of properties
 
- - **Objects** (itself)  
- JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
- _You can contain any data types in an object, also nest objects and arrays within._
 
- - **Arrays**  
- A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
- _You can contain any data types in an array, also nest it with other arrays or objects._
-
- - **Functions**
- A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
- 
- - **RegExps**
 ### Variable
 
 Variable is a container that used for storing data
 
 In JavaScript, Variable are declared by using `var` key word (Also we can initialize variable with values but it's not necessary to use `var` key word)
-
