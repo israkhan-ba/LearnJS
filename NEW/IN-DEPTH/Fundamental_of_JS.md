@@ -168,5 +168,14 @@ numbers and other signs are not allowed
  - *`import`*
  - *`super`*
  
- ###### `'use strict'` mode
- 
+###### `'use strict'` mode
+
+ - *`implements`*
+ - *`interface`*
+ - *`let`*
+ - *`package`*
+ - *`private`*
+ - *`public`*
+ - *`protected`*
+ - *`static`*
+ - *`yield`*
