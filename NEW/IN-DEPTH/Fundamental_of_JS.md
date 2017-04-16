@@ -117,3 +117,5 @@ Identifier naming examples
 Unicode escape sequences are also allows in JavaScript ECMAScript to appear in identifiers.
 
 Finally, identifiers cannot be the same as any of the keywords used for other purposes in JavaScript. The next section lists the special names that are reserved in JavaScript.
+
+#### Rules of Identifier
