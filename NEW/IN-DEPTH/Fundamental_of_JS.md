@@ -167,3 +167,6 @@ numbers and other signs are not allowed
  - *`extends`*
  - *`import`*
  - *`super`*
+ 
+ ###### `'use strict'` mode
+ 
