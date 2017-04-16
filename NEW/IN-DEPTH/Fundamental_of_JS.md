@@ -129,3 +129,29 @@ Finally, identifiers cannot be the same as any of the keywords used for other pu
 numbers and other signs are not allowed
 
 ##### Keywords
+
+ - *`break`*
+ - *`case`*
+ - *`catch`*
+ - *`continue`*
+ - *`default`*
+ - *`delete`*
+ - *`do`*
+ - *`else`*
+ - *`if`*
+ - *`finally`*
+ - *`for`*
+ - *`function`*
+ - *`in`*
+ - *`instanceof`*
+ - *`new`*
+ - *`return`*
+ - *`switch`*
+ - *`this`*
+ - *`throw`*
+ - *`try`*
+ - *`typeof`*
+ - *`var`*
+ - *`void`*
+ - *`while`*
+ - *`with`*
