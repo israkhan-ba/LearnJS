@@ -156,5 +156,7 @@ numbers and other signs are not allowed
  - *`while`*
  - *`with`*
  
- ##### Reserved words
+##### Reserved words
+ 
+###### Nonstrict mode
  
