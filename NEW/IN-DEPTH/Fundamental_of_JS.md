@@ -179,3 +179,5 @@ numbers and other signs are not allowed
  - *`protected`*
  - *`static`*
  - *`yield`*
+ 
+##### Variables
