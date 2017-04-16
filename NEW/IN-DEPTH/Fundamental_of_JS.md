@@ -181,3 +181,9 @@ numbers and other signs are not allowed
  - *`yield`*
  
 ##### Variables
+
+###### Local scope
+ - *`var`* `a`
+ 
+###### Global scope
+ - *`a = 123`*
