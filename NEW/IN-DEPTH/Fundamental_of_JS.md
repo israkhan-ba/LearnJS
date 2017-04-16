@@ -117,3 +117,73 @@ Identifier naming examples
 Unicode escape sequences are also allows in JavaScript ECMAScript to appear in identifiers.
 
 Finally, identifiers cannot be the same as any of the keywords used for other purposes in JavaScript. The next section lists the special names that are reserved in JavaScript.
+
+#### Rules of Identifier
+
+##### Variables, Functions and Properties
+
+- Case-sensitive : a and A is different
+
+
+- Start only with ` $ ` (dolla sign) , letters (ascii, unicode) , *` _ `*   (underscore)  
+numbers and other signs are not allowed
+
+##### Keywords
+
+ - *`break`*
+ - *`case`*
+ - *`catch`*
+ - *`continue`*
+ - *`default`*
+ - *`delete`*
+ - *`do`*
+ - *`else`*
+ - *`if`*
+ - *`finally`*
+ - *`for`*
+ - *`function`*
+ - *`in`*
+ - *`instanceof`*
+ - *`new`*
+ - *`return`*
+ - *`switch`*
+ - *`this`*
+ - *`throw`*
+ - *`try`*
+ - *`typeof`*
+ - *`var`*
+ - *`void`*
+ - *`while`*
+ - *`with`*
+ 
+##### Reserved words
+ 
+###### Nonstrict mode
+
+ - *`class`*
+ - *`const`*
+ - *`enum`*
+ - *`export`*
+ - *`extends`*
+ - *`import`*
+ - *`super`*
+ 
+###### `'use strict'` mode
+
+ - *`implements`*
+ - *`interface`*
+ - *`let`*
+ - *`package`*
+ - *`private`*
+ - *`public`*
+ - *`protected`*
+ - *`static`*
+ - *`yield`*
+ 
+##### Variables
+
+###### Local scope
+ - *`var`* `a`
+ 
+###### Global scope
+ - *`a = 123`*
