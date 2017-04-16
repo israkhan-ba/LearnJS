@@ -127,3 +127,5 @@ Finally, identifiers cannot be the same as any of the keywords used for other pu
 
 - Start only with ` $ ` (dolla sign) , letters (ascii, unicode) , *` _ `*   (underscore)  
 numbers and other signs are not allowed
+
+##### Keywords
