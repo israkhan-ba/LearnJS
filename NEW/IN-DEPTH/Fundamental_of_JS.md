@@ -159,4 +159,11 @@ numbers and other signs are not allowed
 ##### Reserved words
  
 ###### Nonstrict mode
- 
+
+ - *`class`*
+ - *`const`*
+ - *`enum`*
+ - *`export`*
+ - *`extends`*
+ - *`import`*
+ - *`super`*
