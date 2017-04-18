@@ -173,19 +173,21 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  
 ###### Validation
  
+ - *`try`*
+ 
+ - *`throw`*
  
  - *`catch`*
+ 
+ - *`finally`*
+ 
+ 
  - *`continue`*
  - *`delete`*
- - *`do`*
- - *`finally`*
- - *`for`*
  - *`in`*
  - *`instanceof`*
  - *`return`*
  - *`this`*
- - *`throw`*
- - *`try`*
  - *`typeof`*
  - *`void`*
  - *`while`*
