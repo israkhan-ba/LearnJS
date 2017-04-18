@@ -160,7 +160,7 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  - *`break`*  
 
 
- ###### Loops
+###### Loops
  
  - *`for`*
  
@@ -169,6 +169,9 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  - *`do`*
  
  - *`while`*
+ 
+ 
+###### Validation
  
  
  - *`catch`*
