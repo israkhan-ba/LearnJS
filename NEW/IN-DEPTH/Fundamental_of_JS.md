@@ -159,23 +159,21 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  
  - *`break`*  
 
+
+ ###### Loops
  
  
- - *`break`*
- - *`case`*
+ 
+ 
  - *`catch`*
  - *`continue`*
- - *`default`*
  - *`delete`*
  - *`do`*
- - *`else`*
- - *`if`*
  - *`finally`*
  - *`for`*
  - *`in`*
  - *`instanceof`*
  - *`return`*
- - *`switch`*
  - *`this`*
  - *`throw`*
  - *`try`*
