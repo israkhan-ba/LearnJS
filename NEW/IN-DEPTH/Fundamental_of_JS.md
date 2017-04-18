@@ -132,6 +132,8 @@ numbers and other signs are not allowed
 
 In JavaScript, there are words in the syntax that reserved for specific purposes which they're not available to use to name any declaration, but it's possible to use these word as a part of a name, but it's not recommended for a good reason.
 
+###### Declaration
+
  - *`break`*
  - *`case`*
  - *`catch`*
