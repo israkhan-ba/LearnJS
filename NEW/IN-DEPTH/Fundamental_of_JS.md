@@ -134,6 +134,13 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 
 ###### Declaration
 
+ - *`var`*  
+ 
+ - *`function`*  
+ 
+ - *`new`*  
+ 
+ 
  - *`break`*
  - *`case`*
  - *`catch`*
@@ -145,17 +152,14 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  - *`if`*
  - *`finally`*
  - *`for`*
- - *`function`*
  - *`in`*
  - *`instanceof`*
- - *`new`*
  - *`return`*
  - *`switch`*
  - *`this`*
  - *`throw`*
  - *`try`*
  - *`typeof`*
- - *`var`*
  - *`void`*
  - *`while`*
  - *`with`*
