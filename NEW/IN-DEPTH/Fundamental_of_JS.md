@@ -162,7 +162,13 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 
  ###### Loops
  
+ - *`for`*
  
+ - *`in`*
+ 
+ - *`do`*
+ 
+ - *`while`*
  
  
  - *`catch`*
