@@ -170,6 +170,8 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  
  - *`while`*
  
+ - *`continue`*
+ 
  
 ###### Validation
  
@@ -182,15 +184,22 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  - *`finally`*
  
  
- - *`continue`*
- - *`delete`*
- - *`in`*
- - *`instanceof`*
- - *`return`*
- - *`this`*
+###### Operators
+
  - *`typeof`*
+
+ - *`instanceof`*
+
+ - *`this`*
+
+ - *`delete`*
+
  - *`void`*
- - *`while`*
+
+###### Statements
+
+ - *`return`*
+ 
  - *`with`*
  
 ##### Reserved words
