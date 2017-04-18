@@ -128,32 +128,78 @@ Finally, identifiers cannot be the same as any of the keywords used for other pu
 - Start only with ` $ ` (dolla sign) , letters (ascii, unicode) , *` _ `*   (underscore)  
 numbers and other signs are not allowed
 
-##### Keywords
+##### Reserved Keywords
 
- - *`break`*
- - *`case`*
- - *`catch`*
- - *`continue`*
- - *`default`*
- - *`delete`*
- - *`do`*
- - *`else`*
- - *`if`*
- - *`finally`*
+In JavaScript, there are words in the syntax that reserved for specific purposes which they're not available to use to name any declaration, but it's possible to use these word as a part of a name, but it's not recommended for a good reason.
+
+###### Declaration
+
+ - *`var`*  
+ 
+ - *`function`*  
+ 
+ - *`new`*  
+ 
+###### Conditional
+ 
+ 
+ - *`if`*    
+ 
+ - *`else`*  
+ 
+ - *`elseif`*  
+
+
+  
+ - *`switch`*  
+ 
+ - *`case`*  
+ 
+ - *`default`*  
+ 
+ - *`break`*  
+
+
+###### Loops
+ 
  - *`for`*
- - *`function`*
+ 
  - *`in`*
- - *`instanceof`*
- - *`new`*
- - *`return`*
- - *`switch`*
- - *`this`*
- - *`throw`*
- - *`try`*
- - *`typeof`*
- - *`var`*
- - *`void`*
+ 
+ - *`do`*
+ 
  - *`while`*
+ 
+ - *`continue`*
+ 
+ 
+###### Validation
+ 
+ - *`try`*
+ 
+ - *`throw`*
+ 
+ - *`catch`*
+ 
+ - *`finally`*
+ 
+ 
+###### Operators
+
+ - *`typeof`*
+
+ - *`instanceof`*
+
+ - *`this`*
+
+ - *`delete`*
+
+ - *`void`*
+
+###### Statements
+
+ - *`return`*
+ 
  - *`with`*
  
 ##### Reserved words
