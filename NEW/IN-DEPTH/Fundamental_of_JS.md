@@ -142,6 +142,25 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  
 ###### Conditional
  
+ 
+ - *`if`*    
+ 
+ - *`else`*  
+ 
+ - *`elseif`*  
+
+
+  
+ - *`switch`*  
+ 
+ - *`case`*  
+ 
+ - *`default`*  
+ 
+ - *`break`*  
+
+ 
+ 
  - *`break`*
  - *`case`*
  - *`catch`*
