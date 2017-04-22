@@ -247,6 +247,8 @@ List of operator types
  Assign values or variables
 
 - String Operators
+ Concatenate strings (add or join them together) 
+ 
 - Comparison Operators
 - Conditional (Ternary) Operator
 - Logical Operators
