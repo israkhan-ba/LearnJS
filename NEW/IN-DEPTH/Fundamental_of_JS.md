@@ -250,6 +250,8 @@ List of operator types
  Concatenate strings (add or join them together) 
  
 - Comparison Operators
+ Determine difference or equality between variables or values in logical statements
+
 - Conditional (Ternary) Operator
 - Logical Operators
 - Bitwise Operators
