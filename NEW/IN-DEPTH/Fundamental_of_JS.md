@@ -268,5 +268,9 @@ List of operator types
  Delete a property from an object
  
 - `in` Operator
+ Check and returns true if the specified property is in the specified object, otherwise false.
+
 - `instanceof` Operator
+ Check and returns true if the specified object is an instance of the specified object.
+
 - `void` Operator
