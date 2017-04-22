@@ -253,6 +253,8 @@ List of operator types
  Determine difference or equality between variables or values in logical statements
 
 - Conditional (Ternary) Operator
+ Assign a value to a variable based on a condition
+
 - Logical Operators
 - Bitwise Operators
 - `typeof` Operator
