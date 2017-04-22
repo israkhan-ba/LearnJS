@@ -265,6 +265,8 @@ List of operator types
  Check and returns the type of a variable, function, expression or object.
 
 - `delete` Operator
+ Delete a property from an object
+ 
 - `in` Operator
 - `instanceof` Operator
 - `void` Operator
