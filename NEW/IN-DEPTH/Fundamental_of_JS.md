@@ -244,6 +244,8 @@ List of operator types
  Perform arithmetic with each values and/or variables
 
 - Assignment Operators
+ Assign values or variables
+
 - String Operators
 - Comparison Operators
 - Conditional (Ternary) Operator
