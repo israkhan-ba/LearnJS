@@ -237,3 +237,18 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  ---
 
 ### Operators
+
+
+List of operator types
+- Arithmetic Operators
+- Assignment Operators
+- String Operators
+- Comparison Operators
+- Conditional (Ternary) Operator
+- Logical Operators
+- Bitwise Operators
+- `typeof` Operator
+- `delete` Operator
+- `in` Operator
+- `instanceof` Operator
+- `void` Operator
