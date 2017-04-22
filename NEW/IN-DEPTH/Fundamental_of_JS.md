@@ -256,6 +256,8 @@ List of operator types
  Assign a value to a variable based on a condition
 
 - Logical Operators
+ Determine logics between variables or values
+
 - Bitwise Operators
 - `typeof` Operator
 - `delete` Operator
