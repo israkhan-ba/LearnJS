@@ -259,7 +259,11 @@ List of operator types
  Determine logics between variables or values
 
 - Bitwise Operators
+
+
 - `typeof` Operator
+ Check and returns the type of a variable, function, expression or object.
+
 - `delete` Operator
 - `in` Operator
 - `instanceof` Operator
