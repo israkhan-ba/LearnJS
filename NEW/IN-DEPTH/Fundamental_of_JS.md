@@ -279,3 +279,5 @@ List of operator types
   ### Objects
   
   #### Object (itself) 
+  
+  #### Array (intrinsic object)
