@@ -283,3 +283,5 @@ List of operator types
 #### Array (intrinsic object)
   
 #### Functions
+
+#### Math object
