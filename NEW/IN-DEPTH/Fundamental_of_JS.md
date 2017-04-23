@@ -281,3 +281,5 @@ List of operator types
   #### Object (itself) 
   
   #### Array (intrinsic object)
+  
+  #### Functions
