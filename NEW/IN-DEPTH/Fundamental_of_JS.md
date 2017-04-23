@@ -274,3 +274,4 @@ List of operator types
  Check and returns true if the specified object is an instance of the specified object.
 
 - `void` Operator
+  Evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive value, using "void(0)" (useful when evaluating an expression without using the return value)
