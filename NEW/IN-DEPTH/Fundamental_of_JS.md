@@ -280,15 +280,20 @@ List of operator types
   
 #### Object (itself) 
  JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
+ 
  _You can contain any data types in an object, also nest objects and arrays within._
 
 #### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
-_You can contain any data types in an array, also nest it with other arrays or objects._
+ 
+ _You can contain any data types in an array, also nest it with other arrays or objects._
 
 #### Functions
  A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
 
 #### Math object
+ Perform mathematical tasks.
+ 
+ _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
 
 #### RegExps
