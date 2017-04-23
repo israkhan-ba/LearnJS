@@ -296,5 +296,9 @@ List of operator types
  
  _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
 
+#### Date object
+ Work with dates and times.
+ Date objects are created with new Date().
+
 #### RegExps
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
