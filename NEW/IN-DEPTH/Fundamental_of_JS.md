@@ -285,3 +285,5 @@ List of operator types
 #### Functions
 
 #### Math object
+
+#### RegExps
