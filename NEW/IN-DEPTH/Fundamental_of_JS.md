@@ -277,3 +277,5 @@ List of operator types
   Evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive value, using "void(0)" (useful when evaluating an expression without using the return value)
   
   ### Objects
+  
+  #### Object (itself) 
