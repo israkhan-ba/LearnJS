@@ -283,6 +283,8 @@ List of operator types
 
 #### Anatomy of JavaScript functions
 
+##### Function body
+
 
 ---
 
