@@ -289,6 +289,7 @@ List of operator types
 
 #### Function defining
 
+##### Named function
 
 ---
 
