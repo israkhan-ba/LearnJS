@@ -289,6 +289,9 @@ List of operator types
 ##### Function arguments
  The parameters of a function call are the function's arguments. Arguments are passed to functions by value. If the function changes the value of an argument, this change is not reflected globally or in the calling function. However, object references are values, too, and they are special: if the function changes the referred object's properties, that change is visible outside the function
 
+##### `return`
+
+
 #### Defining Functions
 
 ##### Named function
