@@ -275,7 +275,9 @@ List of operator types
 
 - `void` Operator
   Evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive value, using "void(0)" (useful when evaluating an expression without using the return value)
-  
+
+---
+
 ### Objects
   
 #### Object (itself) 
@@ -302,3 +304,7 @@ List of operator types
 
 #### RegExps
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
+ 
+ ---
+
+### Function
