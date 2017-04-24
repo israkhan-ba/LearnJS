@@ -275,7 +275,30 @@ List of operator types
 
 - `void` Operator
   Evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive value, using "void(0)" (useful when evaluating an expression without using the return value)
-  
+ 
+---
+
+### Function
+ A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
+
+#### Anatomy of JavaScript functions
+
+##### Function body
+ Generally speaking, a function is a "subprogram" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.
+
+##### Function arguments
+ The parameters of a function call are the function's arguments. Arguments are passed to functions by value. If the function changes the value of an argument, this change is not reflected globally or in the calling function. However, object references are values, too, and they are special: if the function changes the referred object's properties, that change is visible outside the function
+
+##### `return` statement
+ To return a value other than the default, a function must have a return statement that specifies the value to return. A function without a return statement will return a default value. In the case of a constructor called with the new keyword, the default value is the value of its this parameter. For all other functions, the default return value is undefined.
+
+
+#### Defining Functions
+
+##### Named function
+
+---
+
 ### Objects
   
 #### Object (itself) 
@@ -288,9 +311,9 @@ List of operator types
  
  _You can contain any data types in an array, also nest it with other arrays or objects._
 
-#### Functions
- A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
-
+#### Function object
+ 
+ 
 #### Math object
  Perform mathematical tasks.
  
