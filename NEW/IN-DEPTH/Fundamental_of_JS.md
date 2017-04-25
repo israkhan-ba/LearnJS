@@ -379,6 +379,23 @@ List of operator types
  };
 ```
 
+##### Passed as Argument
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ window.setTimeout(<strong>function add() {
+    alert(1 + 2);
+ }</strong>, 500);
+```
+
+* **_Anonymous Function_**
+>```
+ window.setTimeout(<strong>function() {
+      alert(1 + 2);
+ }</strong>, 500);
+```
+
 ---
 
 ### Objects
