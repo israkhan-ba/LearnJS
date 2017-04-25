@@ -419,6 +419,21 @@ List of operator types
  }
 ```
 
+##### Arrow Functions
+
+**_Code Examples_**
+* **_Anonymous Function_** 
+>```
+ var sum = (num1, num2) => {
+    return num1 + num2
+ };
+```
+
+* **_Anonymous w/out optional bracketed return_** 
+>```
+ var sum = (num1, num2) => num1 + num2; 
+```
+
 ---
 
 ### Objects
