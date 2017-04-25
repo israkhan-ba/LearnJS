@@ -297,7 +297,168 @@ List of operator types
 
 #### Defining Functions
 
-##### Named function
+##### Named function declaration
+
+**_Code Examples_**
+ 
+>```
+ function sum(num1,num2) {  
+     return num1 + num2;
+ }
+```
+
+##### Variable Assignment function expression
+ 
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ var sum = function add(num1,num2) {
+     return num1 + num2;
+ };
+```
+
+* **_Anonymous Function_**
+>```
+ var sum = function(num1, num2) {
+     return num1 + num2;
+ };
+```
+
+##### Immediately Invoked function expression
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ (function sum(num1, num2) {
+      return num1 + num2;
+ }(1, 2));
+```
+
+* **_Anonymous Function_**
+>```
+ (function(num1, num2) {
+        return num1 + num2;
+ }(1, 2));
+```
+
+##### Assigned and Invoked function expression
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ var sum = function add(num1, num2) {
+         return num1 + num2;
+}(1, 2);
+```
+
+* **_Anonymous Function_**
+>```
+ (function(num1, num2) {
+      return num1 + num2;
+ }(1, 2));
+```
+
+##### Property Assignment
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ var obj1 = {
+    sum: function add(num1, num2) {
+        return num1 + num2
+    }
+ };
+```
+
+* **_Anonymous Function_**
+>```
+ var obj2 = {
+    sum: function(num1, num2) {
+        return num1 + num2
+    }
+ };
+```
+
+##### Passed as Argument
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ window.setTimeout(<strong>function add() {
+    alert(1 + 2);
+ }</strong>, 500);
+```
+
+* **_Anonymous Function_**
+>```
+ window.setTimeout(<strong>function() {
+      alert(1 + 2);
+ }</strong>, 500);
+```
+
+##### Returned (closure)
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ function counter() {
+    var count = 0;
+        return function c() {
+            alert(count++);
+        }
+ }
+```
+
+* **_Anonymous Function_**
+>```
+ function counter() {
+    var count = 0;
+        return function() {
+            alert(count++);
+        }
+ }
+```
+
+##### Arrow Functions
+
+**_Code Examples_**
+* **_Anonymous Function_** 
+>```
+ var sum = (num1, num2) => {
+    return num1 + num2
+ };
+```
+
+* **_Anonymous w/out optional bracketed return_** 
+>```
+ var sum = (num1, num2) => num1 + num2; 
+```
+
+#### Function Constructor
+
+##### Construct a function
+
+**_Code Examples_**
+>```
+ var sum = new Function('num1', 'num2', 'return num1 + num2');
+``` 
+
+##### Constructor w/apply()
+
+**_Code Examples_**
+>```
+ var args = ['num1', 'num2', 'return num1 + num2'];
+ var sum = Function.apply(this, args);
+```
+
+##### Immediately Invoked Constructor w/apply()
+
+**_Code Examples_**
+>```
+ var args = ['num1', 'num2', 'return num1 + num2'];
+ Function.apply(this, args)
+         .apply(this, [1, 2]);
+```
 
 ---
 
