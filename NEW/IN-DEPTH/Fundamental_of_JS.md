@@ -307,6 +307,23 @@ List of operator types
  }
 ```
 
+##### Variable Assignment function expression
+ 
+**_Code Example_**
+* **_Named Function_** 
+>```
+ var sum = function add(num1,num2) {
+     return num1 + num2;
+ };
+```
+
+* **_Anonymous Function_**
+>```
+ var sum = function(num1, num2) {
+     return num1 + num2;
+ };
+```
+
 ---
 
 ### Objects
