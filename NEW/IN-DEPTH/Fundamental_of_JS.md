@@ -324,7 +324,7 @@ List of operator types
  };
 ```
 
-##### Immediately invoked function expression
+##### Immediately Invoked function expression
 
 **_Code Examples_**
 * **_Named Function_** 
@@ -338,6 +338,23 @@ List of operator types
 >```
  (function(num1, num2) {
         return num1 + num2;
+ }(1, 2));
+```
+
+##### Assigned and Invoked function expression
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ var sum = function add(num1, num2) {
+         return num1 + num2;
+}(1, 2);
+```
+
+* **_Anonymous Function_**
+>```
+ (function(num1, num2) {
+      return num1 + num2;
  }(1, 2));
 ```
 
