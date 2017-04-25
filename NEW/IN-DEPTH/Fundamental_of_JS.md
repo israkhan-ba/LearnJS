@@ -297,7 +297,12 @@ List of operator types
 
 #### Defining Functions
 
-##### Named function
+##### Named function declaration
+```
+ function sum(num1,num2) {  
+     return num1 + num2;
+ }
+```
 
 ---
 
