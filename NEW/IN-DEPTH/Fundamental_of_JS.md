@@ -443,6 +443,23 @@ List of operator types
  var sum = new Function('num1', 'num2', 'return num1 + num2');
 ``` 
 
+##### Constructor w/apply()
+
+**_Code Examples_**
+>```
+ var args = ['num1', 'num2', 'return num1 + num2'];
+ var sum = Function.apply(this, args);
+```
+
+##### Immediately Invoked Constructor w/apply()
+
+**_Code Examples_**
+>```
+ var args = ['num1', 'num2', 'return num1 + num2'];
+ Function.apply(this, args)
+         .apply(this, [1, 2]);
+```
+
 ---
 
 ### Objects
