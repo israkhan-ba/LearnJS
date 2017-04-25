@@ -436,6 +436,12 @@ List of operator types
 
 #### Function Constructor
 
+##### Construct a function
+
+**_Code Examples_**
+>```
+ var sum = new Function('num1', 'num2', 'return num1 + num2');
+``` 
 
 ---
 
