@@ -299,7 +299,7 @@ List of operator types
 
 ##### Named function declaration
 
-**_Code Example_**
+**_Code Examples_**
  
 >```
  function sum(num1,num2) {  
@@ -309,7 +309,7 @@ List of operator types
 
 ##### Variable Assignment function expression
  
-**_Code Example_**
+**_Code Examples_**
 * **_Named Function_** 
 >```
  var sum = function add(num1,num2) {
@@ -322,6 +322,23 @@ List of operator types
  var sum = function(num1, num2) {
      return num1 + num2;
  };
+```
+
+##### Immediately invoked function expression
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ (function sum(num1, num2) {
+      return num1 + num2;
+ }(1, 2));
+```
+
+* **_Anonymous Function_**
+>```
+ (function(num1, num2) {
+        return num1 + num2;
+ }(1, 2));
 ```
 
 ---
