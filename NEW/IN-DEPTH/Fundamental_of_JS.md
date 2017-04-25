@@ -358,6 +358,27 @@ List of operator types
  }(1, 2));
 ```
 
+##### Property Assignment
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ var obj1 = {
+    sum: function add(num1, num2) {
+        return num1 + num2
+    }
+ };
+```
+
+* **_Anonymous Function_**
+>```
+ var obj2 = {
+    sum: function(num1, num2) {
+        return num1 + num2
+    }
+ };
+```
+
 ---
 
 ### Objects
