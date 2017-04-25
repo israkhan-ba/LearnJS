@@ -302,10 +302,10 @@ List of operator types
 **_Code Examples_**
  
 >```
- function sum(num1,num2) {  
-     return num1 + num2;
- }
-```
+> function sum(num1,num2) {  
+>     return num1 + num2;
+> }
+>```
 
 ##### Variable Assignment function expression
  
