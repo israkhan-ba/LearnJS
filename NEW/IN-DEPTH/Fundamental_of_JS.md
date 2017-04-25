@@ -396,6 +396,29 @@ List of operator types
  }</strong>, 500);
 ```
 
+##### Returned (closure)
+
+**_Code Examples_**
+* **_Named Function_** 
+>```
+ function counter() {
+    var count = 0;
+        return function c() {
+            alert(count++);
+        }
+ }
+```
+
+* **_Anonymous Function_**
+>```
+ function counter() {
+    var count = 0;
+        return function() {
+            alert(count++);
+        }
+ }
+```
+
 ---
 
 ### Objects
