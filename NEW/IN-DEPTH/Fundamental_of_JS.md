@@ -314,7 +314,13 @@ List of operator types
  > *`// Something to do here`*  
  > `}`
 
+ And if we want the function to deal with something differently, then we could tell them by make them having **_parameters_** inside the parenthesis which will effect codes inside the function, and we can have any number of parameter by seperate each of them with **_`,`_** _`comma`_
 
+ > `function doSomething (` *__`param1,`__* *`param2, paramN`* `) {`  
+ > &nbsp;&nbsp;&nbsp;&nbsp;
+ > *`// Something to do here`*  
+ > `}`
+ 
 #### Anatomy of JavaScript functions
 
 ##### Function body
