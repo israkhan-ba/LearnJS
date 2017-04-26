@@ -321,6 +321,10 @@ List of operator types
  > *`// Something to do here`*  
  > `}`
  
+##### Execute a function
+
+
+ 
 #### Anatomy of JavaScript functions
 
 ##### Function body
