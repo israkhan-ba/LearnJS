@@ -305,6 +305,16 @@ List of operator types
 
  > `function doSomething ()` `{}`
  
+ Now we have a new function which basically doing nothing
+ so we need to program the function to have a set of statement
+ and we do write all of it inside the brackets sign like this
+
+ > `function doSomething () {`  
+ > &nbsp;&nbsp;&nbsp;&nbsp;
+ > *`// Something to do here`*  
+ > `}`
+
+
 #### Anatomy of JavaScript functions
 
 ##### Function body
