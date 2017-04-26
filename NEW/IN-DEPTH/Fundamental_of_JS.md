@@ -291,6 +291,10 @@ List of operator types
  
  >*`function`*
  
+ then follow with a function name which we could call it later when we need
+ 
+ > `function` *`doSomething`* 
+
 #### Anatomy of JavaScript functions
 
 ##### Function body
