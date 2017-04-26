@@ -293,6 +293,8 @@ List of operator types
  
  then follow with a function name which we could call it later when we need
  
+ *it's a practice called **Camel Case** which is a common way to name functions or variables in programming, where each word will start with capital letter, in this specific style is called lower camel case which initial lower case letter.*
+ 
  > `function` *`doSomething`* 
 
 #### Anatomy of JavaScript functions
