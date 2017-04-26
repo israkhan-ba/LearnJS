@@ -297,6 +297,11 @@ List of operator types
  
  > `function` *`doSomething`* 
 
+ and we need `()` a pair of parenthesis signs after the name
+
+ > `function doSomething` *`()`*
+ 
+ 
 #### Anatomy of JavaScript functions
 
 ##### Function body
