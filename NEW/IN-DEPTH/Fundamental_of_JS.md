@@ -284,7 +284,9 @@ List of operator types
  JavaScript functions are full fledged objects, often called first-class objects[1], having properties and methods, mutable values, and dynamic memory.
 
 #### Basic JavaScript Function
-
+ Like any other programming languages, we use functions in JavaScript to do something that can be reuse again and sometimes we can use it to produce different output then it's needs to tell the function in some way.
+ 
+ 
 #### Anatomy of JavaScript functions
 
 ##### Function body
