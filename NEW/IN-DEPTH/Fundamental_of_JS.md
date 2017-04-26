@@ -323,7 +323,9 @@ List of operator types
  
 ##### Execute a function
 
+Functions is created intended to be reuse at any time somewhere inside of our code, so we need to call them after we create them, the most basic way to call a function is using the function name follow with parenthesis, and it's case-sensitive
 
+ > *`doSomething()`*
  
 #### Anatomy of JavaScript functions
 
