@@ -287,7 +287,9 @@ List of operator types
  Like any other programming languages, we use functions in JavaScript to do something that can be reuse again and sometimes we can use it to produce different output then it's needs to tell the function in some way.
  
 ##### Create a function
-
+ We create a function by defining it, the most basic and simpliest way to do is using the `function` keyword
+ 
+ >*`function`*
  
 #### Anatomy of JavaScript functions
 
