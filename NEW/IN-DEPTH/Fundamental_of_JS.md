@@ -283,6 +283,54 @@ List of operator types
 
  JavaScript functions are full fledged objects, often called first-class objects[1], having properties and methods, mutable values, and dynamic memory.
 
+#### Basic JavaScript Function
+ Like any other programming languages, we use functions in JavaScript to do something that can be reuse again and sometimes we can use it to produce different output then it's needs to tell the function in some way.
+ 
+##### Create a function
+ We create a function by defining it, the most basic and simpliest way to do is using the `function` keyword
+ 
+ >*`function`*
+ 
+ then follow with a function name which we could call it later when we need
+ 
+ *it's a practice called **Camel Case** which is a common way to name functions or variables in programming, where each word will start with capital letter, in this specific style is called lower camel case which initial lower case letter.*
+ 
+ > `function` *`doSomething`* 
+
+ and we need `()` a pair of parenthesis signs after the name
+
+ > `function doSomething` *`()`*
+ 
+ and follow with `{}` a pair of brackets signs after that
+
+ > `function doSomething ()` `{}`
+ 
+ Now we have a new function which basically doing nothing
+ so we need to program the function to have a set of statement
+ and we do write all of it inside the brackets sign like this
+
+ > `function doSomething () {`  
+ > &nbsp;&nbsp;&nbsp;&nbsp;
+ > *`// Something to do here`*  
+ > `}`
+
+ And if we want the function to deal with something differently, then we could tell them by make them having **_parameters_** inside the parenthesis which will effect codes inside the function, and we can have any number of parameter by seperate each of them with **_`,`_** _`comma`_
+
+ > `function doSomething (` *__`param1,`__* *`param2, paramN`* `) {`  
+ > &nbsp;&nbsp;&nbsp;&nbsp;
+ > *`// Something to do here`*  
+ > `}`
+ 
+##### Execute a function
+
+ Functions is created intended to be reuse at any time somewhere inside of our code, so we need to call them after we create them, the most basic way to call a function is using the function name follow with parenthesis, and it's case-sensitive
+
+ > *`doSomething()`*
+ 
+ and we can pass arguments to is as it was defined using parameters
+
+ > `doSomething(` *__`arg1,`__* *`arg2, argN`* `)`
+ 
 #### Anatomy of JavaScript functions
 
 ##### Function body
