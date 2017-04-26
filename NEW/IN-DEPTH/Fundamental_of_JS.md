@@ -301,6 +301,9 @@ List of operator types
 
  > `function doSomething` *`()`*
  
+ and follow with `{}` a pair of brackets signs after that
+
+ > `function doSomething ()` `{}`
  
 #### Anatomy of JavaScript functions
 
