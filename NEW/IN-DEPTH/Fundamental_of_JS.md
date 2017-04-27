@@ -374,6 +374,8 @@ For short you can call the functions before they are created in the code. The en
 
 ##### Variable Assignment function expression
  
+ This is functionally equivalent to the Function Declaration above, except this variation is NOT hoisted.
+ 
 **_Code Examples_**
 * **_Named Function_** 
 >```
