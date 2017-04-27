@@ -456,6 +456,8 @@ By assigning functions (either named or unnamed) to properties of objects, we de
 
 ##### Passed as Argument
 
+Function names in ECMAScript are nothing more than variables, meaning we can pass them around like variables. Many methods (like setTimeout()) take functions as arguments. This is a common pattern for defining callbacks.
+
 **_Code Examples_**
 * **_Named Function_** 
 >```
