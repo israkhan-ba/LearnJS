@@ -347,15 +347,34 @@ List of operator types
 
 ##### Named function declaration
 
+This is the most classic and oldest way that we are familiar with in JavaScript, probably one of the first thing we do in the early day of our JavaScript learning.
+
+In **named function declaration** we have to know that there are few things to get cleared as these concept will help you understand a lot more in the future.
+
+1. Function declaration must have names
+That's mean in this method, you can't basically create anomymous functions, they're need to have an identifier.
+
+2. Can't declare functions in `if` statements
+
+3. Functions declaration are Hoisted
+For short you can call the functions before they are created in the code. The entire function get hoisten to the top of its containing scope
+
+*You can learn more in-depth in*  
+- Hoisting Concept
+- Scoping Concept 
+
+
 **_Code Examples_**
  
 >```
 > function sum(num1,num2) {  
 >     return num1 + num2;
 > }
->```
+>``` 
 
 ##### Variable Assignment function expression
+ 
+ This is functionally equivalent to the Function Declaration above, except this variation is NOT hoisted.
  
 **_Code Examples_**
 * **_Named Function_** 
@@ -370,9 +389,11 @@ List of operator types
 > var sum = function(num1, num2) {
 >     return num1 + num2;
 > };
->```
+>``` 
 
 ##### Immediately Invoked function expression
+
+This function is immediately invoked, meaning that it is defined and called at the same time. The function's name is only available within its execution scope (defined by the parentheses), so it cannot be called later in the program.
 
 **_Code Examples_**
 * **_Named Function_** 
@@ -387,9 +408,13 @@ List of operator types
 > (function(num1, num2) {
 >        return num1 + num2;
 > }(1, 2));
->```
+>``` 
 
 ##### Assigned and Invoked function expression
+
+This is a combination of the variable assignment expression and the immediately invoked function (both demonstrated above).
+
+One neat application for the named variety of this is to make recursive functions more readable, by substituting arguments.callee with your function name.
 
 **_Code Examples_**
 * **_Named Function_** 
@@ -404,9 +429,11 @@ List of operator types
 > (function(num1, num2) {
 >      return num1 + num2;
 > }(1, 2));
->```
+>``` 
 
 ##### Property Assignment
+
+By assigning functions (either named or unnamed) to properties of objects, we define methods on those objects. This has many applications in object oriented programming. We can also use this to namespace our functions, and keep them out of the global scope.
 
 **_Code Examples_**
 * **_Named Function_** 
@@ -425,9 +452,11 @@ List of operator types
 >        return num1 + num2
 >    }
 > };
->```
+>``` 
 
 ##### Passed as Argument
+
+Function names in ECMAScript are nothing more than variables, meaning we can pass them around like variables. Many methods (like setTimeout()) take functions as arguments. This is a common pattern for defining callbacks.
 
 **_Code Examples_**
 * **_Named Function_** 
@@ -442,9 +471,11 @@ List of operator types
 > window.setTimeout(<strong>function() {
 >      alert(1 + 2);
 > }</strong>, 500);
->```
+>``` 
 
 ##### Returned (closure)
+
+Functions can be returned from other functions. 
 
 **_Code Examples_**
 * **_Named Function_** 
@@ -465,7 +496,7 @@ List of operator types
 >            alert(count++);
 >        }
 > }
->```
+>``` 
 
 ##### Arrow Functions
 
@@ -480,7 +511,7 @@ List of operator types
 * **_Anonymous w/out optional bracketed return_** 
 >```
 > var sum = (num1, num2) => num1 + num2; 
->```
+>``` 
 
 #### Function Constructor
 
