@@ -412,6 +412,8 @@ This function is immediately invoked, meaning that it is defined and called at t
 
 ##### Assigned and Invoked function expression
 
+This is a combination of the variable assignment expression and the immediately invoked function (both demonstrated above).
+
 **_Code Examples_**
 * **_Named Function_** 
 >```
