@@ -393,6 +393,8 @@ For short you can call the functions before they are created in the code. The en
 
 ##### Immediately Invoked function expression
 
+This function is immediately invoked, meaning that it is defined and called at the same time. The function's name is only available within its execution scope (defined by the parentheses), so it cannot be called later in the program.
+
 **_Code Examples_**
 * **_Named Function_** 
 >```
