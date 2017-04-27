@@ -433,6 +433,8 @@ One neat application for the named variety of this is to make recursive function
 
 ##### Property Assignment
 
+By assigning functions (either named or unnamed) to properties of objects, we define methods on those objects. This has many applications in object oriented programming. We can also use this to namespace our functions, and keep them out of the global scope.
+
 **_Code Examples_**
 * **_Named Function_** 
 >```
