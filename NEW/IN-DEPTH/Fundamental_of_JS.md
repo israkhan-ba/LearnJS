@@ -354,6 +354,8 @@ In **named function declaration** we have to know that there are few things to g
 1. Function declaration must have names
 That's mean in this method, you can't basically create anomymous functions, they're need to have an identifier.
 
+2. Can't declare functions in `if` statements
+
 **_Code Examples_**
  
 >```
