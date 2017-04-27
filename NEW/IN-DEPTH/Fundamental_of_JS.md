@@ -356,6 +356,9 @@ That's mean in this method, you can't basically create anomymous functions, they
 
 2. Can't declare functions in `if` statements
 
+3. Functions declaration are Hoisted
+For short you can call the functions before they are created in the code. The entire function get hoisten to the top of its containing scope
+
 **_Code Examples_**
  
 >```
