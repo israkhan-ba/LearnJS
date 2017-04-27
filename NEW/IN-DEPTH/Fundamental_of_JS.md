@@ -414,6 +414,8 @@ This function is immediately invoked, meaning that it is defined and called at t
 
 This is a combination of the variable assignment expression and the immediately invoked function (both demonstrated above).
 
+One neat application for the named variety of this is to make recursive functions more readable, by substituting arguments.callee with your function name.
+
 **_Code Examples_**
 * **_Named Function_** 
 >```
