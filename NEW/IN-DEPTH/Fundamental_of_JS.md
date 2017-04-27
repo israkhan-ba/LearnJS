@@ -347,13 +347,15 @@ List of operator types
 
 ##### Named function declaration
 
+This is the most classic and oldest way that we are familiar with in JavaScript, probably one of the first thing we do in the early day of our JavaScript learning.
+
 **_Code Examples_**
  
 >```
 > function sum(num1,num2) {  
 >     return num1 + num2;
 > }
->```
+>``` 
 
 ##### Variable Assignment function expression
  
@@ -370,7 +372,7 @@ List of operator types
 > var sum = function(num1, num2) {
 >     return num1 + num2;
 > };
->```
+>``` 
 
 ##### Immediately Invoked function expression
 
@@ -387,7 +389,7 @@ List of operator types
 > (function(num1, num2) {
 >        return num1 + num2;
 > }(1, 2));
->```
+>``` 
 
 ##### Assigned and Invoked function expression
 
@@ -404,7 +406,7 @@ List of operator types
 > (function(num1, num2) {
 >      return num1 + num2;
 > }(1, 2));
->```
+>``` 
 
 ##### Property Assignment
 
@@ -425,7 +427,7 @@ List of operator types
 >        return num1 + num2
 >    }
 > };
->```
+>``` 
 
 ##### Passed as Argument
 
@@ -442,7 +444,7 @@ List of operator types
 > window.setTimeout(<strong>function() {
 >      alert(1 + 2);
 > }</strong>, 500);
->```
+>``` 
 
 ##### Returned (closure)
 
@@ -465,7 +467,7 @@ List of operator types
 >            alert(count++);
 >        }
 > }
->```
+>``` 
 
 ##### Arrow Functions
 
@@ -480,7 +482,7 @@ List of operator types
 * **_Anonymous w/out optional bracketed return_** 
 >```
 > var sum = (num1, num2) => num1 + num2; 
->```
+>``` 
 
 #### Function Constructor
 
