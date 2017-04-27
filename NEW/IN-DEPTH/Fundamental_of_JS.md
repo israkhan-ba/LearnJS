@@ -359,6 +359,11 @@ That's mean in this method, you can't basically create anomymous functions, they
 3. Functions declaration are Hoisted
 For short you can call the functions before they are created in the code. The entire function get hoisten to the top of its containing scope
 
+*You can learn more in-depth in*  
+- Hoisting Concept
+- Scoping Concept 
+
+
 **_Code Examples_**
  
 >```
@@ -368,6 +373,8 @@ For short you can call the functions before they are created in the code. The en
 >``` 
 
 ##### Variable Assignment function expression
+ 
+ This is functionally equivalent to the Function Declaration above, except this variation is NOT hoisted.
  
 **_Code Examples_**
 * **_Named Function_** 
