@@ -475,6 +475,8 @@ Function names in ECMAScript are nothing more than variables, meaning we can pas
 
 ##### Returned (closure)
 
+Functions can be returned from other functions. 
+
 **_Code Examples_**
 * **_Named Function_** 
 >```
