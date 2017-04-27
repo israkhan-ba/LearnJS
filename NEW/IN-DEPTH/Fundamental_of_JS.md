@@ -351,6 +351,9 @@ This is the most classic and oldest way that we are familiar with in JavaScript,
 
 In **named function declaration** we have to know that there are few things to get cleared as these concept will help you understand a lot more in the future.
 
+1. Function declaration must have names
+That's mean in this method, you can't basically create anomymous functions, they're need to have an identifier.
+
 **_Code Examples_**
  
 >```
