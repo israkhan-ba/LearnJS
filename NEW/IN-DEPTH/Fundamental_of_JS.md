@@ -349,6 +349,8 @@ List of operator types
 
 This is the most classic and oldest way that we are familiar with in JavaScript, probably one of the first thing we do in the early day of our JavaScript learning.
 
+In **named function declaration** we have to know that there are few things to get cleared as these concept will help you understand a lot more in the future.
+
 **_Code Examples_**
  
 >```
