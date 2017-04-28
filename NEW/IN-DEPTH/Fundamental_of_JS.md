@@ -108,6 +108,7 @@ You can also combine a declaration with an assignment, to immediately initialize
 
 var foo = 3;
 
+The value of an uninitialized variable is undefined:
 
 ---
 
