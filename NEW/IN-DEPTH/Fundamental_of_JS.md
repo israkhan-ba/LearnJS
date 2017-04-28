@@ -146,28 +146,49 @@ when we call f(), it calls g(). During runtime, g being called by f represents a
 The scope of a variable are the locations where it is accessible. 
 For example:
 
+> ```
 > function foo() {
 >     var x;
 > }
+```
 
 Here, the direct scope of x is the function foo().
 
-- Lexical scoping
+- Lexical scoping  
 Variables in JavaScript are lexically scoped, so the static structure of a program determines the scope of a variable (it is not influenced by, say, where a function is called from).
 
-- Nested scopes
+
+- Nested scopes  
 If scopes are nested within the direct scope of a variable, then the variable is accessible in all of those scopes:
 
-function foo(arg) {
-    function bar() {
-        console.log('arg: '+arg);
-    }
-    bar();
-}
-console.log(foo('hello')); // arg: hello
+> ```
+> function foo(arg) {  
+>    function bar() {  
+>        console.log('arg: '+arg);  
+>    }  
+>    bar();  
+> }
+> console.log(foo('hello')); // arg: hello  
+```  
+
 
 The direct scope of arg is foo(), but it is also accessible in the nested scope bar(). With regard to nesting, foo() is the outer scope and bar() is the inner scope.
 
+
+- Shadowing  
+If a scope declares a variable that has the same name as one in a surrounding scope, access to the outer variable is blocked in the inner scope and all scopes nested inside it. Changes to the inner variable do not affect the outer variable, which is accessible again after the inner scope is left:
+
+>```
+> var x = "global";  
+> function f() {  
+>    var x = "local";  
+>    console.log(x); // local  
+> }  
+> f();  
+> console.log(x); // global  
+```
+
+Inside the function f(), the global x is shadowed by a local x.
 
 ---
 
