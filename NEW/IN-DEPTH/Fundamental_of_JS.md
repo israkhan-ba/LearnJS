@@ -115,7 +115,7 @@ The value of an uninitialized variable is undefined:
 > undefined  
 
 
-Background: Static Versus Dynamic
+#### Static Versus Dynamic
 
 There are two angles from which you can examine the workings of a program:
 
@@ -141,6 +141,16 @@ You examine what happens while executing the program (“at runtime”). Given t
 
 when we call f(), it calls g(). During runtime, g being called by f represents a dynamic relationship.
 
+#### The Scope of a Variable
+
+The scope of a variable are the locations where it is accessible. 
+For example:
+
+> function foo() {
+>     var x;
+> }
+
+Here, the direct scope of x is the function foo().
 
 ---
 
