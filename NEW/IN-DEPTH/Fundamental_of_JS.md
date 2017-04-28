@@ -226,14 +226,6 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  - *`static`*
  - *`yield`*
  
-##### Variables
-
-###### Local scope
- - *`var`* `a`
- 
-###### Global scope
- - *`a = 123`*
- 
  ---
 
 ### Operators
