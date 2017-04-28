@@ -152,6 +152,9 @@ For example:
 
 Here, the direct scope of x is the function foo().
 
+- Lexical scoping
+Variables in JavaScript are lexically scoped, so the static structure of a program determines the scope of a variable (it is not influenced by, say, where a function is called from).
+
 ---
 
 ### Identifier
