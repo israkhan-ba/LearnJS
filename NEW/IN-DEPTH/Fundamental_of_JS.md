@@ -231,6 +231,16 @@ We can see that the variable bar already exists in the first line of f(), but it
 > }
 ```
 
+If you declare a variable that has already been declared, nothing happens (the variable’s value is unchanged):
+>```
+> > var x = 123;
+> > var x;
+> > x
+> 123
+```
+
+Each function declaration is also hoisted, but in a slightly different manner. The complete function is hoisted, not just the creation of the variable in which it is stored 
+
 ---
 
 ### Identifier
