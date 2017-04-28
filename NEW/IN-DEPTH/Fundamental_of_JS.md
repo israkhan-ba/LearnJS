@@ -190,6 +190,11 @@ If a scope declares a variable that has the same name as one in a surrounding sc
 
 Inside the function f(), the global x is shadowed by a local x.
 
+
+#### Variables Are Function-Scoped
+
+JavaScript’s variables are function-scoped: only functions introduce new scopes; blocks are ignored when it comes to scoping.
+
 ---
 
 ### Identifier
