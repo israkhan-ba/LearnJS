@@ -106,6 +106,9 @@ bar = 5; // not OK, an undeclared variable
 
 You can also combine a declaration with an assignment, to immediately initialize a variable:
 
+var foo = 3;
+
+
 ---
 
 ### Identifier
