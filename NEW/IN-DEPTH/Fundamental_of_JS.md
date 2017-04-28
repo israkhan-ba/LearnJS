@@ -117,6 +117,8 @@ undefined
 
 Background: Static Versus Dynamic
 
+There are two angles from which you can examine the workings of a program:
+
 
 ---
 
