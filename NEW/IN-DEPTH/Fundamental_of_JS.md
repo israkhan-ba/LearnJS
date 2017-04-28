@@ -100,9 +100,9 @@ In JavaScript, Variable are declared by using `var` key word (Also we can initia
 
 Variables in JavaScript are declare using `var` statement
 
-var foo;
-foo = 3; // OK, has been declared
-bar = 5; // not OK, an undeclared variable
+> var foo;   
+> foo = 3; // OK, has been declared  
+> bar = 5; // not OK, an undeclared variable  
 
 You can also combine a declaration with an assignment, to immediately initialize a variable:
 
@@ -110,9 +110,9 @@ var foo = 3;
 
 The value of an uninitialized variable is undefined:
 
-> var x;
-> x
-undefined
+> > var x;  
+> > x  
+> undefined  
 
 
 Background: Static Versus Dynamic
@@ -122,12 +122,25 @@ There are two angles from which you can examine the workings of a program:
 Statically (or lexically)
 You examine the program as it exists in source code, without running it. Given the following code, we can make the static assertion that function g is nested inside function f:
 
-function f() {
-    function g() {
-    }
-}
+> function f() {  
+>    function g() {  
+>    }  
+> }  
 
 The adjective lexical is used synonymously with static, because both pertain to the lexicon (the words, the source) of the program.
+
+
+Dynamically
+You examine what happens while executing the program (“at runtime”). Given the following code:
+
+> function g() {  
+> }  
+> function f() {  
+>     g();  
+> }  
+
+when we call f(), it calls g(). During runtime, g being called by f represents a dynamic relationship.
+
 
 ---
 
