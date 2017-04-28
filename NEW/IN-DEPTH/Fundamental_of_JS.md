@@ -207,6 +207,19 @@ For example:
 
 Put another way, `foo` is accessible within all of `main()`, not just inside the block.
 
+
+#### Variable Declarations Are Hoisted
+
+JavaScript hoists all variable declarations, it moves them to the beginning of their direct scopes. This makes it clear what happens if a variable is accessed before it has been declared:
+
+>```
+> function f() {
+>    console.log(bar);  // undefined
+>    var bar = 'abc';
+>    console.log(bar);  // abc
+> }
+```
+
 ---
 
 ### Identifier
