@@ -100,6 +100,11 @@ In JavaScript, Variable are declared by using `var` key word (Also we can initia
 
 Variables in JavaScript are declare using `var` statement
 
+var foo;
+foo = 3; // OK, has been declared
+bar = 5; // not OK, an undeclared variable
+
+
 
 ---
 
