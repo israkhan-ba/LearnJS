@@ -110,6 +110,10 @@ var foo = 3;
 
 The value of an uninitialized variable is undefined:
 
+> var x;
+> x
+undefined
+
 ---
 
 ### Identifier
