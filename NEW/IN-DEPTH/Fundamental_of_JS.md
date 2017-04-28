@@ -195,6 +195,18 @@ Inside the function f(), the global x is shadowed by a local x.
 
 JavaScript’s variables are function-scoped: only functions introduce new scopes; blocks are ignored when it comes to scoping.
 
+For example:
+>```
+> function main() {
+>     { // block starts
+>         var foo = 4;
+>     } // block ends
+>     console.log(foo); // 4
+> }
+```
+
+Put another way, `foo` is accessible within all of `main()`, not just inside the block.
+
 ---
 
 ### Identifier
