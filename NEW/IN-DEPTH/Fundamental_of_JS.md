@@ -155,6 +155,20 @@ Here, the direct scope of x is the function foo().
 - Lexical scoping
 Variables in JavaScript are lexically scoped, so the static structure of a program determines the scope of a variable (it is not influenced by, say, where a function is called from).
 
+- Nested scopes
+If scopes are nested within the direct scope of a variable, then the variable is accessible in all of those scopes:
+
+function foo(arg) {
+    function bar() {
+        console.log('arg: '+arg);
+    }
+    bar();
+}
+console.log(foo('hello')); // arg: hello
+
+The direct scope of arg is foo(), but it is also accessible in the nested scope bar(). With regard to nesting, foo() is the outer scope and bar() is the inner scope.
+
+
 ---
 
 ### Identifier
