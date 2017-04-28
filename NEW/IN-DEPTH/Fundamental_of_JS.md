@@ -241,6 +241,27 @@ If you declare a variable that has already been declared, nothing happens (the v
 
 Each function declaration is also hoisted, but in a slightly different manner. The complete function is hoisted, not just the creation of the variable in which it is stored 
 
+
+#### Global Variables
+The scope containing all of a program is called global scope or program scope. This is the scope you are in when entering a script (be it a < script > tag in a web page or be it a .js file). Inside the global scope, you can create a nested scope by defining a function. Inside such a function, you can again nest scopes. Each scope has access to its own variables and to the variables in the scopes that surround it. As the global scope surrounds all other scopes, its variables can be accessed everywhere:
+
+
+>```
+> // here we are in global scope
+> var globalVariable = 'xyz';
+> function f() {
+>     var localVariable = true;
+>     function g() {
+>         var anotherLocalVariable = 123;
+> 
+>         // All variables of surround scopes are accessible
+>         localVariable = false;
+>         globalVariable = 'abc';
+>     }
+> }
+> // here we are again in global scope
+```
+
 ---
 
 ### Identifier
