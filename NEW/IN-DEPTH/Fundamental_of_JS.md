@@ -114,6 +114,10 @@ The value of an uninitialized variable is undefined:
 > x
 undefined
 
+
+Background: Static Versus Dynamic
+
+
 ---
 
 ### Identifier
