@@ -98,6 +98,36 @@ Variable is a container that used for storing data
 
 In JavaScript, Variable are declared by using `var` key word (Also we can initialize variable with values but it's not necessary to use `var` key word)
 
+Variables in JavaScript are declare using `var` statement
+
+var foo;
+foo = 3; // OK, has been declared
+bar = 5; // not OK, an undeclared variable
+
+You can also combine a declaration with an assignment, to immediately initialize a variable:
+
+var foo = 3;
+
+The value of an uninitialized variable is undefined:
+
+> var x;
+> x
+undefined
+
+
+Background: Static Versus Dynamic
+
+There are two angles from which you can examine the workings of a program:
+
+Statically (or lexically)
+
+You examine the program as it exists in source code, without running it. Given the following code, we can make the static assertion that function g is nested inside function f:
+
+function f() {
+    function g() {
+    }
+}
+
 ---
 
 ### Identifier
@@ -225,14 +255,6 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  - *`protected`*
  - *`static`*
  - *`yield`*
- 
-##### Variables
-
-###### Local scope
- - *`var`* `a`
- 
-###### Global scope
- - *`a = 123`*
  
  ---
 
