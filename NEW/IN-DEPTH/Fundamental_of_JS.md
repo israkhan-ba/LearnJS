@@ -220,6 +220,17 @@ JavaScript hoists all variable declarations, it moves them to the beginning of t
 > }
 ```
 
+We can see that the variable bar already exists in the first line of f(), but it does not have a value yet; that is, the declaration has been hoisted, but not the assignment. JavaScript executes f() as if its code were:
+
+>```
+> function f() {
+>    var bar;
+>    console.log(bar);  // undefined
+>    bar = 'abc';
+>    console.log(bar);  // abc
+> }
+```
+
 ---
 
 ### Identifier
