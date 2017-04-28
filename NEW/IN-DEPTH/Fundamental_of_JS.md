@@ -121,6 +121,7 @@ There are two angles from which you can examine the workings of a program:
 
 Statically (or lexically)
 
+You examine the program as it exists in source code, without running it. Given the following code, we can make the static assertion that function g is nested inside function f:
 
 ---
 
