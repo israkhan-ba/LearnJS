@@ -104,15 +104,15 @@ Variables in JavaScript are declare using `var` statement
 > var foo;  
 > foo = 3; // OK, has been declared  
 > bar = 5; // not OK, an undeclared variable  
-```
->
+>```
+
 
 You can also combine a declaration with an assignment, to immediately initialize a variable:
 
 >```
 > var foo = 3;  
-```
->
+>```
+
 
 The value of an uninitialized variable is undefined:
 
