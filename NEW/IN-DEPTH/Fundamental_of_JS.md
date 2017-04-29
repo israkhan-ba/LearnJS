@@ -100,20 +100,28 @@ In JavaScript, Variable are declared by using `var` key word (Also we can initia
 
 Variables in JavaScript are declare using `var` statement
 
+>```
 > var foo;   
 > foo = 3; // OK, has been declared  
 > bar = 5; // not OK, an undeclared variable  
+```
+>
 
 You can also combine a declaration with an assignment, to immediately initialize a variable:
 
-var foo = 3;
+>```
+> var foo = 3;
+```
+>
 
 The value of an uninitialized variable is undefined:
 
+>```
 > > var x;  
 > > x  
 > undefined  
-
+```
+>
 
 #### Static Versus Dynamic
 
@@ -122,10 +130,13 @@ There are two angles from which you can examine the workings of a program:
 Statically (or lexically)
 You examine the program as it exists in source code, without running it. Given the following code, we can make the static assertion that function g is nested inside function f:
 
+>```
 > function f() {  
 >    function g() {  
 >    }  
 > }  
+```
+>
 
 The adjective lexical is used synonymously with static, because both pertain to the lexicon (the words, the source) of the program.
 
@@ -133,11 +144,14 @@ The adjective lexical is used synonymously with static, because both pertain to 
 Dynamically
 You examine what happens while executing the program (“at runtime”). Given the following code:
 
+>```
 > function g() {  
 > }  
 > function f() {  
 >     g();  
 > }  
+```
+>
 
 when we call f(), it calls g(). During runtime, g being called by f represents a dynamic relationship.
 
@@ -151,8 +165,10 @@ For example:
 >     var x;
 > }
 ```
+>
 
 Here, the direct scope of x is the function foo().
+
 
 - Lexical scoping  
 Variables in JavaScript are lexically scoped, so the static structure of a program determines the scope of a variable (it is not influenced by, say, where a function is called from).
@@ -160,6 +176,8 @@ Variables in JavaScript are lexically scoped, so the static structure of a progr
 
 - Nested scopes  
 If scopes are nested within the direct scope of a variable, then the variable is accessible in all of those scopes:
+
+
 
 > ```
 > function foo(arg) {  
@@ -170,6 +188,7 @@ If scopes are nested within the direct scope of a variable, then the variable is
 > }
 > console.log(foo('hello')); // arg: hello  
 ```  
+>
 
 
 The direct scope of arg is foo(), but it is also accessible in the nested scope bar(). With regard to nesting, foo() is the outer scope and bar() is the inner scope.
@@ -187,6 +206,7 @@ If a scope declares a variable that has the same name as one in a surrounding sc
 > f();  
 > console.log(x); // global  
 ```
+>
 
 Inside the function f(), the global x is shadowed by a local x.
 
@@ -204,6 +224,7 @@ For example:
 >     console.log(foo); // 4
 > }
 ```
+>
 
 Put another way, `foo` is accessible within all of `main()`, not just inside the block.
 
@@ -219,6 +240,7 @@ JavaScript hoists all variable declarations, it moves them to the beginning of t
 >    console.log(bar);  // abc
 > }
 ```
+>
 
 We can see that the variable bar already exists in the first line of f(), but it does not have a value yet; that is, the declaration has been hoisted, but not the assignment. JavaScript executes f() as if its code were:
 
@@ -230,6 +252,7 @@ We can see that the variable bar already exists in the first line of f(), but it
 >    console.log(bar);  // abc
 > }
 ```
+>
 
 If you declare a variable that has already been declared, nothing happens (the variable’s value is unchanged):
 >```
@@ -238,6 +261,7 @@ If you declare a variable that has already been declared, nothing happens (the v
 > > x
 > 123
 ```
+>
 
 Each function declaration is also hoisted, but in a slightly different manner. The complete function is hoisted, not just the creation of the variable in which it is stored 
 
@@ -261,6 +285,7 @@ The scope containing all of a program is called global scope or program scope. T
 > }
 > // here we are again in global scope
 ```
+>
 
 ---
 
