@@ -101,7 +101,7 @@ In JavaScript, Variable are declared by using `var` key word (Also we can initia
 Variables in JavaScript are declare using `var` statement
 
 >```
-> var foo;   
+> var foo;  
 > foo = 3; // OK, has been declared  
 > bar = 5; // not OK, an undeclared variable  
 ```
@@ -110,7 +110,7 @@ Variables in JavaScript are declare using `var` statement
 You can also combine a declaration with an assignment, to immediately initialize a variable:
 
 >```
-> var foo = 3;
+> var foo = 3;  
 ```
 >
 
@@ -122,6 +122,7 @@ The value of an uninitialized variable is undefined:
 > undefined  
 ```
 >
+
 
 #### Static Versus Dynamic
 
@@ -138,6 +139,7 @@ You examine the program as it exists in source code, without running it. Given t
 ```
 >
 
+
 The adjective lexical is used synonymously with static, because both pertain to the lexicon (the words, the source) of the program.
 
 
@@ -153,6 +155,7 @@ You examine what happens while executing the program (“at runtime”). Given t
 ```
 >
 
+
 when we call f(), it calls g(). During runtime, g being called by f represents a dynamic relationship.
 
 #### The Scope of a Variable
@@ -161,11 +164,12 @@ The scope of a variable are the locations where it is accessible.
 For example:
 
 > ```
-> function foo() {
->     var x;
-> }
+> function foo() {  
+>     var x;  
+> }  
 ```
 >
+
 
 Here, the direct scope of x is the function foo().
 
@@ -185,7 +189,7 @@ If scopes are nested within the direct scope of a variable, then the variable is
 >        console.log('arg: '+arg);  
 >    }  
 >    bar();  
-> }
+> }  
 > console.log(foo('hello')); // arg: hello  
 ```  
 >
@@ -208,6 +212,7 @@ If a scope declares a variable that has the same name as one in a surrounding sc
 ```
 >
 
+
 Inside the function f(), the global x is shadowed by a local x.
 
 
@@ -217,14 +222,15 @@ JavaScript’s variables are function-scoped: only functions introduce new scope
 
 For example:
 >```
-> function main() {
->     { // block starts
->         var foo = 4;
->     } // block ends
->     console.log(foo); // 4
-> }
+> function main() {  
+>     { // block starts  
+>         var foo = 4;  
+>     } // block ends  
+>     console.log(foo); // 4  
+> }  
 ```
 >
+
 
 Put another way, `foo` is accessible within all of `main()`, not just inside the block.
 
@@ -234,34 +240,36 @@ Put another way, `foo` is accessible within all of `main()`, not just inside the
 JavaScript hoists all variable declarations, it moves them to the beginning of their direct scopes. This makes it clear what happens if a variable is accessed before it has been declared:
 
 >```
-> function f() {
->    console.log(bar);  // undefined
->    var bar = 'abc';
->    console.log(bar);  // abc
-> }
+> function f() {  
+>    console.log(bar);  // undefined  
+>    var bar = 'abc';  
+>    console.log(bar);  // abc  
+> }  
 ```
 >
 
 We can see that the variable bar already exists in the first line of f(), but it does not have a value yet; that is, the declaration has been hoisted, but not the assignment. JavaScript executes f() as if its code were:
 
 >```
-> function f() {
->    var bar;
->    console.log(bar);  // undefined
->    bar = 'abc';
->    console.log(bar);  // abc
-> }
+> function f() {  
+>    var bar;  
+>    console.log(bar);  // undefined  
+>    bar = 'abc';  
+>    console.log(bar);  // abc  
+> }  
 ```
 >
 
+
 If you declare a variable that has already been declared, nothing happens (the variable’s value is unchanged):
 >```
-> > var x = 123;
-> > var x;
-> > x
-> 123
+> > var x = 123;  
+> > var x;  
+> > x  
+> 123  
 ```
 >
+
 
 Each function declaration is also hoisted, but in a slightly different manner. The complete function is hoisted, not just the creation of the variable in which it is stored 
 
