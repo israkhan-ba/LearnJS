@@ -87,6 +87,8 @@ The image invoked by the term *automatic semicolon insertion* is that the JavaSc
 
 Put another way, ASI helps the parser to determine when a statement ends. Normally, it ends with a semicolon.
 
+ASI dictates that a statement also ends if:
+
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
