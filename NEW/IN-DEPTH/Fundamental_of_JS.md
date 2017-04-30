@@ -25,6 +25,8 @@ For short, an **expression** produces a value and a **statement** performs an ac
 
 Basically each statements are seperated by a semicolon ( **;** )
 
+For examples
+- Declaration of variables and functions
 
 ---
 
