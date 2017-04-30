@@ -46,7 +46,12 @@ If any expression that have produces side effect we will called them Expression 
 
 Because **statements** can contain **expression** so wherever JavaScript expects a statement, we can also write an expression in to that but not a vice versa (we can't write a statement where JavaScript expects an expression)
 
+For example
+>```
+> foo(7, 1);
+>```
 
+The whole line is a statement (a so-called expression statement), but the function call foo(7, 1) is an expression.
 
 ---
 
