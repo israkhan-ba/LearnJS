@@ -98,7 +98,13 @@ JavaScript has two kinds of comments: single-line comments and multiline comment
 
 **Single-line** comments start with **//** and are terminated by the end of the line:
 
+> `x++;` **`// single-line comment`**
+
 **Multiline** comments are delimited by **/*** and ***/**:
+> **`/\* This is`  
+> `a multiline`  
+> `comment.`  
+> `\*/**`
 
 
 ### Code block
