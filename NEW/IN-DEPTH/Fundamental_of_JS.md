@@ -75,11 +75,12 @@ Semicolons terminate statements, but not blocks.
 
 Semicolons are optional in JavaScript.
 
-
 There is one case where you will see a semicolon after a block: a function expression is an expression that ends with a block. If such an expression comes last in a statement, it is followed by a semicolon
 > `// Pattern: var _ = ___;`  
 > `var x = 3 * 7;`  
 > `var f = function () { };  // function expr. inside var decl.`  
+
+#### Automatic Semicolon Insertion
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
