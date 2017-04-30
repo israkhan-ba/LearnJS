@@ -19,7 +19,7 @@ In JavaScript **expressions** and **statements** are distinguished.
 For short, an **expression** produces a value and a **statement** performs an action.
 
 
-### Statement
+### Statements
 
 **Statements** are using to **do** something or produce some behavior and they will cause some side effects, so we can basically categorize statements by their kinds of side effect.
 
@@ -27,6 +27,9 @@ Basically each statements are seperated by a semicolon ( **;** )
 
 For examples
 - Declaration of variables and functions
+
+- Using keywords to do something
+ * Create code blocks using `if`...`else` statements
 
 ---
 
