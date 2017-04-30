@@ -49,6 +49,9 @@ For example
 > 3 * 7
 >```
 
+- **if-then-else** as an expression
+> *`var`* `x =` **` y >= 0 ? y : -y;`**
+
 ---
 
 
