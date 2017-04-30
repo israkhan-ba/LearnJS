@@ -71,7 +71,10 @@ The whole line is a statement (a so-called expression statement), but the functi
 ---
 
 ### Semicolons
+Semicolons terminate statements, but not blocks.
+
 Semicolons are optional in JavaScript.
+
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
