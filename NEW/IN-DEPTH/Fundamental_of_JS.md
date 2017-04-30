@@ -98,6 +98,9 @@ JavaScript has two kinds of comments: single-line comments and multiline comment
 
 **Single-line** comments start with **//** and are terminated by the end of the line:
 
+**Multiline** comments are delimited by **/*** and ***/**:
+
+
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
 
