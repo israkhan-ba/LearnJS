@@ -31,7 +31,11 @@ For examples
 
 - Using keywords to do something
  * Create code blocks using `if`...`else` statements
-
+ > *`if (`* `x >= 0` *`) {`*
+ >          // do something here
+ > *`} else {`*
+ >          // do something else
+ > *`}`*
 ---
 
 ### Expression
