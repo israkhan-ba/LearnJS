@@ -81,6 +81,8 @@ There is one case where you will see a semicolon after a block: a function expre
 > `var f = function () { };  // function expr. inside var decl.`  
 
 #### Automatic Semicolon Insertion
+The goal of automatic semicolon insertion (ASI) is to make semicolons optional at the end of a line.
+
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
