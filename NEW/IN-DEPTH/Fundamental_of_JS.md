@@ -36,6 +36,7 @@ For examples
  > *`} else {`*
  >          // do something else
  > *`}`*
+
 ---
 
 ### Expression
@@ -43,10 +44,10 @@ For examples
 **Expression** intended to **produces** or evaluates some value without any side effect, the value may be a number, a string, or a logical value. Conceptually, there are two main type of expressions: those that assign a value to a variable, and those that simply have a value.
 
 For example
+- Simple expression
 >```
 > 3 * 7
 >```
-
 
 ---
 
