@@ -27,15 +27,30 @@ Basically each statements are seperated by a semicolon ( **;** )
 
 For examples
 - Declaration of variables and functions
+> *`var`* `x`;
 
 - Using keywords to do something
  * Create code blocks using `if`...`else` statements
+ > *`if (`* `x >= 0` *`) {`*
+ >          // do something here
+ > *`} else {`*
+ >          // do something else
+ > *`}`*
 
 ---
 
 ### Expression
 
 **Expression** intended to **produces** or evaluates some value without any side effect, the value may be a number, a string, or a logical value. Conceptually, there are two main type of expressions: those that assign a value to a variable, and those that simply have a value.
+
+For example
+- Simple expression
+>```
+> 3 * 7
+>```
+
+- **if-then-else** as an expression
+> *`var`* `x =` **` y >= 0 ? y : -y;`**
 
 ---
 
@@ -46,9 +61,30 @@ If any expression that have produces side effect we will called them Expression 
 
 Because **statements** can contain **expression** so wherever JavaScript expects a statement, we can also write an expression in to that but not a vice versa (we can't write a statement where JavaScript expects an expression)
 
+For example
+>```
+> foo(7, 1);
+>```
 
+The whole line is a statement (a so-called expression statement), but the function call foo(7, 1) is an expression.
 
 ---
+
+### Semicolons
+Semicolons terminate statements, but not blocks.
+
+Semicolons are optional in JavaScript.
+
+There is one case where you will see a semicolon after a block: a function expression is an expression that ends with a block. If such an expression comes last in a statement, it is followed by a semicolon
+> `// Pattern: var _ = ___;`  
+> `var x = 3 * 7;`  
+> `var f = function () { };  // function expr. inside var decl.`  
+
+#### Automatic Semicolon Insertion
+The goal of automatic semicolon insertion (ASI) is to make semicolons optional at the end of a line.
+
+The image invoked by the term *automatic semicolon insertion* is that the JavaScript parser inserts semicolons for you (internally, things are usually handled differently).
+
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
