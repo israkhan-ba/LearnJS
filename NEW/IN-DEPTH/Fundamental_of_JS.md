@@ -94,7 +94,7 @@ ASI dictates that a statement also ends if:
 
 
 ### Comments
-
+JavaScript has two kinds of comments: single-line comments and multiline comments.
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
