@@ -90,6 +90,7 @@ Put another way, ASI helps the parser to determine when a statement ends. Normal
 ASI dictates that a statement also ends if:
 - A line terminator (e.g., a newline) is followed by an illegal token.
 - A closing brace is encountered.
+- The end of the file has been reached.
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
