@@ -85,6 +85,27 @@ The goal of automatic semicolon insertion (ASI) is to make semicolons optional a
 
 The image invoked by the term *automatic semicolon insertion* is that the JavaScript parser inserts semicolons for you (internally, things are usually handled differently).
 
+Put another way, ASI helps the parser to determine when a statement ends. Normally, it ends with a semicolon.
+
+ASI dictates that a statement also ends if:
+- A line terminator (e.g., a newline) is followed by an illegal token.
+- A closing brace is encountered.
+- The end of the file has been reached.
+
+
+### Comments
+JavaScript has two kinds of comments: single-line comments and multiline comments.
+
+**Single-line** comments start with **//** and are terminated by the end of the line:
+
+> `x++;` **`// single-line comment`**
+
+**Multiline** comments are delimited by **/*** and ***/**:
+> **`/\* This is`  
+> `a multiline`  
+> `comment.`  
+> `\*/**`
+
 
 ### Code block
 A block set that use to group statements , expression and declaration together (and can be zero statement either), functions, or if statement are some sort of block statements
