@@ -27,7 +27,7 @@ Basically each statements are seperated by a semicolon ( **;** )
 
 For examples
 - Declaration of variables and functions
-> *`var`* `foo`;
+> *`var`* `x`;
 
 - Using keywords to do something
  * Create code blocks using `if`...`else` statements
