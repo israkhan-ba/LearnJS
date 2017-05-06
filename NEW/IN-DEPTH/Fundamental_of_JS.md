@@ -936,7 +936,7 @@ The two most important ones are `forEach` and `map`.
 
 - `forEach` iterates over an array and hands the current element and its index to a function:
 
-
+- `map` creates a new array by applying a function to each element of an existing array:
 
 #### Function object
  
