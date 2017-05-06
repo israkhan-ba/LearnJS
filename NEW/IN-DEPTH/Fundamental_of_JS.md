@@ -859,11 +859,17 @@ Note that arrays are objects and can thus have object properties:
 > > arr.foo
 > 123
 >```
-`
+
 
 #### Array Methods
-
-
+Arrays have many methods here are the list
+- Copy elements
+- Append an element
+- Remove last element
+- Remove first element
+- Prepend an element
+- Find the index of an element
+- All elements in a single string
 
 #### Function object
  
