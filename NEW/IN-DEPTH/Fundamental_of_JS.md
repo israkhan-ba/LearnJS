@@ -807,6 +807,17 @@ The preceding array has three elements: the strings 'a', 'b', and 'c'.
 
 You can access them via integer indices:
 
+**_Code Examples_**
+>```
+> > arr[0]
+> 'a'
+> > arr[0] = 'x';
+> > arr
+> [ 'x', 'b', 'c' ]
+>```
+
+
+
 #### Function object
  
  
