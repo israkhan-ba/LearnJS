@@ -834,6 +834,11 @@ You can use it to append elements and to remove elements:
 > 3
 >```
 
+>```
+> > arr.length = 1;
+> > arr
+> [ 'a' ]
+>```
 
 
 #### Function object
