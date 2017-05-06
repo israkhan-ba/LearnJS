@@ -881,6 +881,15 @@ Arrays have many methods here are the list
 >```
 
 - Remove last element using `pop()` method
+**_Code Examples_**
+>```
+> > arr.pop()
+> 'x'
+> > arr
+> [ 'a', 'b', 'c' ] // the last element removed
+>```
+
+
 - Remove first element using `shift()` method
 - Prepend an element using `unshift()` method
 - Find the index of an element using `indexOf()` method
