@@ -910,6 +910,15 @@ Arrays have many methods here are the list
 
 
 - Find the index of an element using `indexOf()` method
+**_Code Examples_**
+>```
+> > arr.indexOf('b')  // find the index of an element
+> 1
+> > arr.indexOf('y')
+> -1
+>```
+
+
 - All elements in a single string using `join()` method
 
 
