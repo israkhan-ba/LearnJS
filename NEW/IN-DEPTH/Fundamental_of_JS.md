@@ -819,6 +819,13 @@ You can access them via integer indices:
 The length property indicates how many elements an array has.
 You can use it to append elements and to remove elements:
 
+**_Code Examples_**
+>```
+> > var arr = ['a', 'b'];
+> > arr.length
+> 2
+>```
+
 
 #### Function object
  
