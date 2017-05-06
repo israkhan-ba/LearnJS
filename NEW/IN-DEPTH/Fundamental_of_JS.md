@@ -869,7 +869,9 @@ Arrays have many methods here are the list
 - Remove first element using `shift()` method
 - Prepend an element using `unshift()` method
 - Find the index of an element using `indexOf()` method
-- All elements in a single string
+- All elements in a single string using `join()` method
+
+
 
 #### Function object
  
