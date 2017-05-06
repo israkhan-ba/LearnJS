@@ -803,7 +803,7 @@ Functions can be returned from other functions.
 Array literals are handy for creating arrays:
 > `> var arr = [ 'a', 'b', 'c' ];`
 
-The preceding array has three elements: the strings 'a', 'b', and 'c'.
+The preceding array has three elements: the strings `'a'`, `'b'`, and `'c'`.
 
 You can access them via integer indices:
 
@@ -816,7 +816,7 @@ You can access them via integer indices:
 > [ 'x', 'b', 'c' ]
 >```
 
-The length property indicates how many elements an array has.
+The `length` property indicates how many elements an array has.
 You can use it to append elements and to remove elements:
 
 **_Code Examples_**
@@ -840,7 +840,7 @@ You can use it to append elements and to remove elements:
 > [ 'a' ]
 >```
 
-The in operator works for arrays, too:
+The `in` operator works for arrays, too:
 
 **_Code Examples_**
 >```
@@ -949,14 +949,14 @@ The preceding code produces the following output:
 2. c
 
 Note that the function in line (1) is free to ignore arguments.
-It could, for example, only have the parameter elem.
+It could, for example, only have the parameter `elem`.
 
 - `map` creates a new array by applying a function to each element of an existing array:
 **_Code Examples_**
->```
-> > [1,2,3].map(function (x) { return x*x })
-> [ 1, 4, 9 ]
->```
+ >```
+ > > [1,2,3].map(function (x) { return x*x })
+ > [ 1, 4, 9 ]
+ >```
 
 
 #### Function object
