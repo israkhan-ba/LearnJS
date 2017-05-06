@@ -873,6 +873,13 @@ Arrays have many methods here are the list
 >```
 
 - Append an element using `push()` method
+**_Code Examples_**
+>```
+> > arr.push('x')  
+> > arr
+> [ 'a', 'b', 'c', 'x' ] // append an element 4
+>```
+
 - Remove last element using `pop()` method
 - Remove first element using `shift()` method
 - Prepend an element using `unshift()` method
