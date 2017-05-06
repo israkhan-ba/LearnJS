@@ -942,7 +942,10 @@ The two most important ones are `forEach` and `map`.
 >         console.log(index + '. ' + elem);
 >     });
 >```
-    
+
+The preceding code produces the following output:
+
+
 - `map` creates a new array by applying a function to each element of an existing array:
 
 #### Function object
