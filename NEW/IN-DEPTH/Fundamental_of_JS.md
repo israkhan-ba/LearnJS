@@ -805,6 +805,8 @@ Array literals are handy for creating arrays:
 
 The preceding array has three elements: the strings 'a', 'b', and 'c'.
 
+You can access them via integer indices:
+
 #### Function object
  
  
