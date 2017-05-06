@@ -800,7 +800,8 @@ Functions can be returned from other functions.
  _You can contain any data types in an array, also nest it with other arrays or objects._
 
 #### Array Literals
-
+Array literals are handy for creating arrays:
+> `> var arr = [ 'a', 'b', 'c' ];`
 
 #### Function object
  
