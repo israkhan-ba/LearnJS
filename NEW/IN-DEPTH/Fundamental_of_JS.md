@@ -114,7 +114,7 @@ In JavaScript, Blocks can be nested in any block.
 
 ---
 
-### Values & Data Types
+## Values & Data Types
 Everything in computer is just data (and yes only data) and each and every data has its own role.
 
 Most of data are seperated to things called value, so values are some thing that represent some kind of data which will be stored in some way (like in memory).
@@ -157,7 +157,7 @@ It is a data type which is collecion of properties
 
 ---
 
-### Variable
+## Variable
 
 Variable is a container that used for storing data
 
@@ -354,7 +354,7 @@ The scope containing all of a program is called global scope or program scope. T
 
 ---
 
-### Identifier
+## Identifier
 
 An identifier is a sequence of characters, or simply a name, in the code that provide label for identifies a variable, function, or property for reuse.
 It's differs from stings in that strings are data, while identifiers is part of the code.  
@@ -482,7 +482,7 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  
  ---
 
-### Operators
+## Operators
 
 
 List of operator types
@@ -524,7 +524,7 @@ List of operator types
  
 ---
 
-### Function
+## Function
  A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
 
  JavaScript functions are full fledged objects, often called first-class objects[1], having properties and methods, mutable values, and dynamic memory.
@@ -787,17 +787,177 @@ Functions can be returned from other functions.
 
 ---
 
-### Objects
+## Objects
   
 #### Object (itself) 
  JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
  
  _You can contain any data types in an object, also nest objects and arrays within._
 
-#### Array (intrinsic object)
- A container-like value which is an object data type, it's can contain values serially in an index manner which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
+### Array (intrinsic object)
+ A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
  
  _You can contain any data types in an array, also nest it with other arrays or objects._
+
+#### Array Literals
+Array literals are handy for creating arrays:
+> `> var arr = [ 'a', 'b', 'c' ];`
+
+The preceding array has three elements: the strings `'a'`, `'b'`, and `'c'`.
+
+You can access them via integer indices:
+
+**_Code Examples_**
+>```
+> > arr[0]
+> 'a'
+> > arr[0] = 'x';
+> > arr
+> [ 'x', 'b', 'c' ]
+>```
+
+The `length` property indicates how many elements an array has.
+You can use it to append elements and to remove elements:
+
+**_Code Examples_**
+>```
+> > var arr = ['a', 'b'];
+> > arr.length
+> 2
+>```
+`
+>```
+> > arr[arr.length] = 'c';
+> > arr
+> [ 'a', 'b', 'c' ]
+> > arr.length
+> 3
+>```
+`
+>```
+> > arr.length = 1;
+> > arr
+> [ 'a' ]
+>```
+
+The `in` operator works for arrays, too:
+
+**_Code Examples_**
+>```
+> > var arr = [ 'a', 'b', 'c' ];
+> > 1 in arr // is there an element at index 1?
+> true
+> > 5 in arr // is there an element at index 5?
+> false
+>```
+
+Note that arrays are objects and can thus have object properties:
+**_Code Examples_**
+>```
+> > var arr = [];
+> > arr.foo = 123;
+> > arr.foo
+> 123
+>```
+
+
+#### Array Methods
+Arrays have many methods here are the list
+- Copy elements using `slice()` method
+**_Code Examples_**
+>```
+> > arr.slice(1, 2)
+> [ 'b' ]
+> > arr.slice(1)
+> [ 'b', 'c' ]
+>```
+
+- Append an element using `push()` method
+**_Code Examples_**
+>```
+> > arr.push('x')  
+> > arr
+> [ 'a', 'b', 'c', 'x' ] // append an element 4
+>```
+
+- Remove last element using `pop()` method
+**_Code Examples_**
+>```
+> > arr.pop()
+> 'x'
+> > arr
+> [ 'a', 'b', 'c' ] // the last element removed
+>```
+
+
+- Remove first element using `shift()` method
+**_Code Examples_**
+>```
+> > arr.shift()  // remove first element
+> 'a'
+> > arr
+> [ 'b', 'c' ]
+>```
+
+- Prepend an element using `unshift()` method
+**_Code Examples_**
+>```
+> > arr.unshift('x')  // prepend an element
+> 3
+> > arr
+> [ 'x', 'b', 'c' ]
+>```
+
+
+- Find the index of an element using `indexOf()` method
+**_Code Examples_**
+>```
+> > arr.indexOf('b')  // find the index of an element
+> 1
+> > arr.indexOf('y')
+> -1
+>```
+
+
+- All elements in a single string using `join()` method
+**_Code Examples_**
+>```
+> > arr.join('-')  // all elements in a single string
+> 'x-b-c'
+> > arr.join('')
+> 'xbc'
+> > arr.join()
+> 'x,b,c'
+>```
+
+#### Iterating over Arrays
+There are several array methods for iterating over elements
+The two most important ones are `forEach` and `map`.
+
+- `forEach` iterates over an array and hands the current element and its index to a function:
+**_Code Examples_**
+>```
+> [ 'a', 'b', 'c' ].forEach(
+>     function (elem, index) {  // (1)
+>         console.log(index + '. ' + elem);
+>     });
+>```
+
+The preceding code produces the following output:
+0. a
+1. b
+2. c
+
+Note that the function in line (1) is free to ignore arguments.
+It could, for example, only have the parameter `elem`.
+
+- `map` creates a new array by applying a function to each element of an existing array:
+**_Code Examples_**
+ >```
+ > > [1,2,3].map(function (x) { return x*x })
+ > [ 1, 4, 9 ]
+ >```
+
 
 #### Function object
  
