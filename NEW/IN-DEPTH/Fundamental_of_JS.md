@@ -816,6 +816,8 @@ You can access them via integer indices:
 > [ 'x', 'b', 'c' ]
 >```
 
+The length property indicates how many elements an array has.
+
 
 
 #### Function object
