@@ -840,7 +840,7 @@ You can use it to append elements and to remove elements:
 > [ 'a' ]
 >```
 
-
+The in operator works for arrays, too:
 
 
 #### Function object
