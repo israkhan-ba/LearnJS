@@ -842,6 +842,15 @@ You can use it to append elements and to remove elements:
 
 The in operator works for arrays, too:
 
+**_Code Examples_**
+>```
+> > var arr = [ 'a', 'b', 'c' ];
+> > 1 in arr // is there an element at index 1?
+> true
+> > 5 in arr // is there an element at index 5?
+> false
+>```
+
 
 #### Function object
  
