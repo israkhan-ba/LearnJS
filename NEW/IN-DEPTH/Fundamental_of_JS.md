@@ -851,6 +851,9 @@ The in operator works for arrays, too:
 > false
 >```
 
+Note that arrays are objects and can thus have object properties:
+
+
 
 #### Function object
  
