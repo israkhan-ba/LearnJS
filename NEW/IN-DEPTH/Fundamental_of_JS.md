@@ -864,6 +864,14 @@ Note that arrays are objects and can thus have object properties:
 #### Array Methods
 Arrays have many methods here are the list
 - Copy elements using `slice()` method
+**_Code Examples_**
+>```
+> > arr.slice(1, 2)
+> [ 'b' ]
+> > arr.slice(1)
+> [ 'b', 'c' ]
+>```
+
 - Append an element using `push()` method
 - Remove last element using `pop()` method
 - Remove first element using `shift()` method
