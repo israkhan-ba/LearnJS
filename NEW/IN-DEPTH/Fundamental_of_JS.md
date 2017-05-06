@@ -803,6 +803,8 @@ Functions can be returned from other functions.
 Array literals are handy for creating arrays:
 > `> var arr = [ 'a', 'b', 'c' ];`
 
+The preceding array has three elements: the strings 'a', 'b', and 'c'.
+
 #### Function object
  
  
