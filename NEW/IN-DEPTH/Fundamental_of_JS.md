@@ -852,6 +852,13 @@ The in operator works for arrays, too:
 >```
 
 Note that arrays are objects and can thus have object properties:
+**_Code Examples_**
+>```
+> > var arr = [];
+> > arr.foo = 123;
+> > arr.foo
+> 123
+>```
 
 
 
