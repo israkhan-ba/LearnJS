@@ -930,6 +930,8 @@ Arrays have many methods here are the list
 > 'x,b,c'
 >```
 
+#### Iterating over Arrays
+
 
 #### Function object
  
