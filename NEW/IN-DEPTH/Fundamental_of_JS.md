@@ -866,7 +866,7 @@ Arrays have many methods here are the list
 - Copy elements using `slice()` method
 - Append an element using `push()` method
 - Remove last element using `pop()` method
-- Remove first element
+- Remove first element using `shift()` method
 - Prepend an element
 - Find the index of an element
 - All elements in a single string
