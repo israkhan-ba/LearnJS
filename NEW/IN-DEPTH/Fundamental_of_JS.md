@@ -114,7 +114,7 @@ In JavaScript, Blocks can be nested in any block.
 
 ---
 
-### Values & Data Types
+## Values & Data Types
 Everything in computer is just data (and yes only data) and each and every data has its own role.
 
 Most of data are seperated to things called value, so values are some thing that represent some kind of data which will be stored in some way (like in memory).
@@ -157,7 +157,7 @@ It is a data type which is collecion of properties
 
 ---
 
-### Variable
+## Variable
 
 Variable is a container that used for storing data
 
@@ -354,7 +354,7 @@ The scope containing all of a program is called global scope or program scope. T
 
 ---
 
-### Identifier
+## Identifier
 
 An identifier is a sequence of characters, or simply a name, in the code that provide label for identifies a variable, function, or property for reuse.
 It's differs from stings in that strings are data, while identifiers is part of the code.  
@@ -482,7 +482,7 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
  
  ---
 
-### Operators
+## Operators
 
 
 List of operator types
@@ -524,7 +524,7 @@ List of operator types
  
 ---
 
-### Function
+## Function
  A set of statements that can be executed together and reusable, in JavaScript it is more special as functions are first-class objects which mean we can use any function as a value like others data types, so we can do (almost) everything to them, e.g. Assigning them to variables, Pass them as arguments to other functions, return another function from them. , So these are powerful ways to use them.
 
  JavaScript functions are full fledged objects, often called first-class objects[1], having properties and methods, mutable values, and dynamic memory.
@@ -787,7 +787,7 @@ Functions can be returned from other functions.
 
 ---
 
-### Objects
+## Objects
   
 #### Object (itself) 
  JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
