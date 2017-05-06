@@ -944,7 +944,9 @@ The two most important ones are `forEach` and `map`.
 >```
 
 The preceding code produces the following output:
-
+0. a
+1. b
+2. c
 
 - `map` creates a new array by applying a function to each element of an existing array:
 
