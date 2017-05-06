@@ -920,7 +920,15 @@ Arrays have many methods here are the list
 
 
 - All elements in a single string using `join()` method
-
+**_Code Examples_**
+>```
+> > arr.join('-')  // all elements in a single string
+> 'x-b-c'
+> > arr.join('')
+> 'xbc'
+> > arr.join()
+> 'x,b,c'
+>```
 
 
 #### Function object
