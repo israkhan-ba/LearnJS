@@ -931,6 +931,8 @@ Arrays have many methods here are the list
 >```
 
 #### Iterating over Arrays
+There are several array methods for iterating over elements
+The two most important ones are `forEach` and `map`.
 
 
 #### Function object
