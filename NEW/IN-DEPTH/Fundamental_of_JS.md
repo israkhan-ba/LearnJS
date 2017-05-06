@@ -949,7 +949,7 @@ The preceding code produces the following output:
 2. c
 
 Note that the function in line (1) is free to ignore arguments.
-
+It could, for example, only have the parameter elem.
 
 - `map` creates a new array by applying a function to each element of an existing array:
 
