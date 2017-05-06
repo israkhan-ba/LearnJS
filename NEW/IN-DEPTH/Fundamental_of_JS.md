@@ -826,6 +826,15 @@ You can use it to append elements and to remove elements:
 > 2
 >```
 
+>```
+> > arr[arr.length] = 'c';
+> > arr
+> [ 'a', 'b', 'c' ]
+> > arr.length
+> 3
+>```
+
+
 
 #### Function object
  
