@@ -948,6 +948,9 @@ The preceding code produces the following output:
 1. b
 2. c
 
+Note that the function in line (1) is free to ignore arguments.
+
+
 - `map` creates a new array by applying a function to each element of an existing array:
 
 #### Function object
