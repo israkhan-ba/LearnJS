@@ -863,7 +863,7 @@ Note that arrays are objects and can thus have object properties:
 
 #### Array Methods
 Arrays have many methods here are the list
-- Copy elements
+- Copy elements using `slice()` method
 - Append an element
 - Remove last element
 - Remove first element
