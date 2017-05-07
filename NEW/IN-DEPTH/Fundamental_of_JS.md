@@ -910,6 +910,23 @@ Remove a property is so simple using `delete` operator
 
 You can nest any object inside an object by simply add them as values of properties
 
+ **_Code Examples_**
+>```
+> var obj = { 
+>     key1: 'value1',
+>     key2: 'value2',
+>     methodA: function() {
+>       ...
+>     },
+      nestObj: {
+        keyA: 'value of keyA'
+      }
+> };
+>
+>```
+
+
+
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
  
