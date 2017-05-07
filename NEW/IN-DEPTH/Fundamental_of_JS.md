@@ -900,6 +900,9 @@ Remove a property is so simple using `delete` operator
 > > delete obj.keyA
 > true
 >
+> > 'keyA' in obj
+> false
+>
 >```
 
 
