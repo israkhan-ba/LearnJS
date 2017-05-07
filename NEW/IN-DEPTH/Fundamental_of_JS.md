@@ -817,7 +817,7 @@ and add (key, value) pair as properties and use a comma in between each pair
 >
 >```
 
-also functions can be added into objects and it's now called 'methods'
+also functions can be added into objects and are called 'methods'
 
  **_Code Examples_**
 >```
