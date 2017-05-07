@@ -883,6 +883,13 @@ Check wether a property exists in an object using `in` operator
 
 More way to check that a property exist
 
+ **_Code Examples_**
+>```
+> > obj.key1 !== undefined
+> true
+>
+>```
+
 
 
 ### Array (intrinsic object)
