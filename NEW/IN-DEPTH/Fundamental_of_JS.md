@@ -845,7 +845,7 @@ And you can call its methods just like this
 
  **_Code Examples_**
 >```
-> > obj.method1()
+> > obj.methodA()
 > 'This is methodA'
 >
 >```
