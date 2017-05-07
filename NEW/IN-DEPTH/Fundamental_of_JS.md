@@ -860,6 +860,8 @@ If you want to write ("set") new value to properties, it's simple just assign th
 >
 >```
 
+Check wether a property exists in an object using `in` operator
+
 
 
 ### Array (intrinsic object)
