@@ -888,6 +888,9 @@ More way to check that a property exist
 > > obj.key1 !== undefined
 > true
 >
+> > obj.keyA !== undefined
+> false
+>
 >```
 
 
