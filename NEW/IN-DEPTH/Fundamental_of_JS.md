@@ -925,6 +925,8 @@ You can nest any object inside an object by simply add them as values of propert
 >
 >```
 
+Accessing nested object properties and methods is also just add more dot operators and target keys
+
 
 
 ### Array (intrinsic object)
