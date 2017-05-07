@@ -823,7 +823,7 @@ also functions can be added into objects and it's now called 'methods'
 >```
 > var obj = { 
 >     key1: 'value1',
->     key2: 'valie2',
+>     key2: 'value2',
 >     methodA: function() {
 >       // do something
         console.log('This is methodA') // will show 'This is methodA' in the console
@@ -837,7 +837,7 @@ Here you can read ("get") an object's property by access it directly using `.` (
  **_Code Examples_**
 >```
 > > obj.key1
-> 'value'
+> 'value1'
 >
 >```
 
