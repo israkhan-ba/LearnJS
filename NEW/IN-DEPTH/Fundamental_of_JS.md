@@ -789,10 +789,178 @@ Functions can be returned from other functions.
 
 ## Objects
   
-#### Object (itself) 
- JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring   
+### Single Object 
+ 
+ Like all values, objects have properties (or consider it as a set of properties)
+
+ JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring
  
  _You can contain any data types in an object, also nest objects and arrays within._
+
+#### Object Literals
+ So we can create an object (blank) directly using `{ }`
+ 
+ **_Code Examples_**
+>```
+> var obj = { };
+>
+>```
+
+and add (key, value) pair as properties and use a comma in between each pair  
+
+ **_Code Examples_**
+>```
+> var obj = { 
+>     key1: 'value1',
+>     key2: 'valie2'
+> };
+>
+>```
+
+also functions can be added into objects and are called 'methods'
+
+ **_Code Examples_**
+>```
+> var obj = { 
+>     key1: 'value1',
+>     key2: 'value2',
+>     methodA: function() {
+>       // do something
+        console.log('This is methodA') // will show 'This is methodA' in the console
+>     }
+> };
+>
+>```
+
+Here you can read ("get") an object's property by access it directly using `.` (dot operator)
+
+ **_Code Examples_**
+>```
+> > obj.key1
+> 'value1'
+>
+>```
+
+And you can call its methods (Function-valued properties) just like this
+
+ **_Code Examples_**
+>```
+> > obj.methodA()
+> 'This is methodA'
+>
+>```
+
+Read a property that doesn't exists will return the value `undefined`
+
+ **_Code Examples_**
+>```
+> > obj.keyA
+> undefined
+>
+>```
+
+If you want to write ("set") new value to properties, it's simple just assign them directly
+
+ **_Code Examples_**
+>```
+> > obj.key1 = 'New value for key 1'
+> > obj.key1
+> 'New value for Key 1'
+>
+>```
+
+Check wether a property exists in an object using `in` operator
+
+ **_Code Examples_**
+>```
+> > 'key1' in obj
+> true
+> 
+> > 'keyA' in obj
+> false
+>
+>```
+
+More way to check that a property exist
+
+ **_Code Examples_**
+>```
+> > obj.key1 !== undefined
+> true
+>
+> > obj.keyA !== undefined
+> false
+>
+>```
+
+Remove a property is so simple using `delete` operator
+
+ **_Code Examples_**
+>```
+> > delete obj.keyA
+> true
+>
+> > 'keyA' in obj
+> false
+>
+>```
+
+##### Arbitrary Property Keys
+ A property key can be any string. So far, we have seen property keys in object literals and after the dot operator. However, you can use them that way only if they are identifiers (see Identifiers and Variable Names). If you want to use other strings as keys, you have to quote them in an object literal and use square brackets to get and set the property: [Edit needed]
+
+ **_Code Examples_**
+>```
+> > var obj = { 'not an identifier': 123 };
+> > obj['not an identifier']
+> 123
+> > obj['not an identifier'] = 456;
+>
+>```
+
+ Square brackets also allow you to compute the key of a property:
+
+ **_Code Examples_**
+>```
+> > var obj = { hello: 'world' };
+> > var x = 'hello';
+> 
+> > obj[x]
+> 'world'
+> > obj['hel'+'lo']
+> 'world'
+> 
+>```
+
+
+##### Nested object
+
+You can nest any object inside an object by simply add them as values of properties
+
+ **_Code Examples_**
+>```
+> var obj = { 
+>     key1: 'value1',
+>     key2: 'value2',
+>     methodA: function() {
+>       ...
+>     },
+      nestObj: {
+        keyA: 'value of keyA'
+      }
+> };
+>
+>```
+
+Accessing nested object properties and methods is also just add more dot operators and target keys
+
+ **_Code Examples_**
+>```
+> > obj.nestObj.keyA
+> 'value of keyA'
+>
+>```
+
+
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
