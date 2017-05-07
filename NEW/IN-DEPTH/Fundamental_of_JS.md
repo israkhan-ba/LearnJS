@@ -919,6 +919,18 @@ Remove a property is so simple using `delete` operator
 
  Square brackets also allow you to compute the key of a property:
 
+ **_Code Examples_**
+>```
+> > var obj = { hello: 'world' };
+> > var x = 'hello';
+> 
+> > obj[x]
+> 'world'
+> > obj['hel'+'lo']
+> 'world'
+> 
+>```
+
 
 ##### Nested object
 
