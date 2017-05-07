@@ -917,6 +917,8 @@ Remove a property is so simple using `delete` operator
 >
 >```
 
+ Square brackets also allow you to compute the key of a property:
+
 
 ##### Nested object
 
