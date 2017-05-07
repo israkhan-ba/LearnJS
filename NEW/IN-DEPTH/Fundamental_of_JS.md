@@ -807,6 +807,7 @@ Functions can be returned from other functions.
 >```
 
 and add (key, value) pair as properties and use a comma in between each pair  
+
  **_Code Examples_**
 >```
 > var obj = { 
@@ -817,6 +818,18 @@ and add (key, value) pair as properties and use a comma in between each pair
 >```
 
 also functions can be added into objects and it's now called 'methods'
+
+ **_Code Examples_**
+>```
+> var obj = { 
+>     key1: 'value1',
+>     key2: 'valie2',
+>     methodA: function() {
+>       // do something
+>     }
+> };
+>
+>```
 
 
 ### Array (intrinsic object)
