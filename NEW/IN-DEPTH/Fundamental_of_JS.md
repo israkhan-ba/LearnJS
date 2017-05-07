@@ -791,6 +791,10 @@ Functions can be returned from other functions.
   
 ### Single Object 
  
+ Like all values, objects have properties (or consider it as a set of properties)
+
+ JavaScript Objects are collecion of properties and methods which will be contained inside curly brackets `{ }` in the format of `key : value` paring
+ 
  _You can contain any data types in an object, also nest objects and arrays within._
 
 
