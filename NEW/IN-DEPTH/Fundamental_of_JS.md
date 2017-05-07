@@ -841,7 +841,7 @@ Here you can read ("get") an object's property by access it directly using `.` (
 >
 >```
 
-And you can call its methods just like this
+And you can call its methods (Function-valued properties) just like this
 
  **_Code Examples_**
 >```
