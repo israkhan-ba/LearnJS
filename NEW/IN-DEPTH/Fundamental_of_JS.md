@@ -802,12 +802,20 @@ Functions can be returned from other functions.
  
  **_Code Examples_**
 >```
-> var = { };
+> var obj = { };
 >
 >```
 
-and add (key, value) pair as properties
+and add (key, value) pair as properties and use a comma inbetween each pair  
 
+ **_Code Examples_**
+>```
+> var obj = { 
+>     key1: 'value1',
+>     key2: 'valie2'
+> };
+>
+>```
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
