@@ -798,13 +798,16 @@ Functions can be returned from other functions.
  _You can contain any data types in an object, also nest objects and arrays within._
 
 #### Object Literals
- So we can create a plain object directly using `{ }`
+ So we can create an object (blank) directly using `{ }`
  
  **_Code Examples_**
 >```
-> var = { }
+> var = { };
 >
 >```
+
+and add (key, value) pair as properties
+
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
