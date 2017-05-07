@@ -895,6 +895,12 @@ More way to check that a property exist
 
 Remove a property is so simple using `delete` operator
 
+ **_Code Examples_**
+>```
+> > delete obj.keyA
+> true
+>
+>```
 
 
 ### Array (intrinsic object)
