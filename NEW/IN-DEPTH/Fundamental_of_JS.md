@@ -831,7 +831,7 @@ also functions can be added into objects and it's now called 'methods'
 >
 >```
 
-Here you can read an object property by access it directly using `.` (dot operator)
+Here you can read ("get") an object property by access it directly using `.` (dot operator)
 
  **_Code Examples_**
 >```
