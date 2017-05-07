@@ -826,6 +826,7 @@ also functions can be added into objects and it's now called 'methods'
 >     key2: 'valie2',
 >     methodA: function() {
 >       // do something
+        console.log('This is methodA') // will show 'This is methodA' in the console
 >     }
 > };
 >
