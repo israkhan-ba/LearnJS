@@ -906,7 +906,7 @@ Remove a property is so simple using `delete` operator
 >```
 
 ##### Arbitrary Property Keys
-
+ A property key can be any string. So far, we have seen property keys in object literals and after the dot operator. However, you can use them that way only if they are identifiers (see Identifiers and Variable Names). If you want to use other strings as keys, you have to quote them in an object literal and use square brackets to get and set the property: [Edit needed]
 
 ##### Nested object
 
