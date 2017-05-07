@@ -893,6 +893,8 @@ More way to check that a property exist
 >
 >```
 
+Remove a property is so simple using `delete` operator
+
 
 
 ### Array (intrinsic object)
