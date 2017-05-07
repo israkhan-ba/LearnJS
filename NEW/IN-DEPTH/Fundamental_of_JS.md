@@ -850,6 +850,9 @@ And you can call its methods (Function-valued properties) just like this
 >
 >```
 
+Read a property that doesn't exists will return the value `undefined`
+
+
 If you want to write ("set") new value to properties, it's simple just assign them directly
 
  **_Code Examples_**
