@@ -867,6 +867,8 @@ Check wether a property exists in an object using `in` operator
 > > 'key1' in obj
 > true
 > 
+> > 'keyA' in obj
+> false
 >
 >```
 
