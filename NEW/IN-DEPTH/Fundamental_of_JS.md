@@ -962,6 +962,7 @@ Accessing nested object properties and methods is also just add more dot operato
 
 #### Extracting Methods
 
+If you extract a method, it loses its connection with the object. On its own, the function is not a method anymore, and this has the value undefined (in strict mode).
 
 
 ### Array (intrinsic object)
