@@ -1039,6 +1039,20 @@ Let’s look at two ways of fixing this. First, we could store this in a differe
 > }
 >```
 
+Or, forEach has a second parameter that allows you to provide a value for this:
+
+ **_Code Examples_**
+>```
+> logHiToFriends: function () {
+>     'use strict';
+>     this.friends.forEach(function (friend) {
+>         console.log(this.name+' says hi to '+friend);
+>     }, this);
+> }
+>```
+
+Function expressions are often used as arguments in function calls in JavaScript. Always be careful when you refer to this from one of those function expressions.
+
 
 
 ### Array (intrinsic object)
