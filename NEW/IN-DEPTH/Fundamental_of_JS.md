@@ -1026,6 +1026,19 @@ Calling logHiToFriends produces an error:
 > TypeError: Cannot read property 'name' of undefined
 >```
 
+Let’s look at two ways of fixing this. First, we could store this in a different variable:
+
+ **_Code Examples_**
+>```
+> logHiToFriends: function () {
+>     'use strict';
+>     var that = this;
+>     this.friends.forEach(function (friend) {
+>         console.log(that.name+' says hi to '+friend);
+>     });
+> }
+>```
+
 
 
 ### Array (intrinsic object)
