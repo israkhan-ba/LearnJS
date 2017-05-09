@@ -964,6 +964,19 @@ Accessing nested object properties and methods is also just add more dot operato
 
 If you extract a method, it loses its connection with the object. On its own, the function is not a method anymore, and this has the value undefined (in strict mode).
 
+As an example, let’s go back to the earlier object jane:
+ **_Code Examples_**
+>```
+> 'use strict';
+> var jane = {
+>     name: 'Jane',
+> 
+>     describe: function () {
+>         return 'Person named '+this.name;
+>     }
+> };
+>```
+
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
