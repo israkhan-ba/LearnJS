@@ -965,6 +965,7 @@ Accessing nested object properties and methods is also just add more dot operato
 If you extract a method, it loses its connection with the object. On its own, the function is not a method anymore, and this has the value undefined (in strict mode).
 
 As an example, let’s go back to the earlier object jane:
+
  **_Code Examples_**
 >```
 > 'use strict';
@@ -975,6 +976,15 @@ As an example, let’s go back to the earlier object jane:
 >         return 'Person named '+this.name;
 >     }
 > };
+>```
+
+We want to extract the method describe from jane, put it into a variable func, and call it. However, that doesn’t work:
+
+ **_Code Examples_**
+>```
+> > var func = jane.describe;
+> > func()
+> TypeError: Cannot read property 'name' of undefined
 >```
 
 
