@@ -997,6 +997,10 @@ The solution is to use the method bind() that all functions have. It creates a n
 >```
 
 
+#### Functions Inside a Method
+
+
+
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
  
