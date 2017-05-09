@@ -960,6 +960,8 @@ Accessing nested object properties and methods is also just add more dot operato
 >
 >```
 
+#### Extracting Methods
+
 
 
 ### Array (intrinsic object)
