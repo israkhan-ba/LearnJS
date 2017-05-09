@@ -999,6 +999,8 @@ The solution is to use the method bind() that all functions have. It creates a n
 
 #### Functions Inside a Method
 
+Every function has its own special variable this. This is inconvenient if you nest a function inside a method, because you can’t access the method’s this from the function.
+
 
 
 ### Array (intrinsic object)
