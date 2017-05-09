@@ -1018,6 +1018,16 @@ The following is an example where we call forEach with a function to iterate ove
 > }
 >```
 
+Calling logHiToFriends produces an error:
+
+ **_Code Examples_**
+>```
+> > jane.logHiToFriends()
+> TypeError: Cannot read property 'name' of undefined
+>```
+
+
+
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
  
