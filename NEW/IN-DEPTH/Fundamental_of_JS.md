@@ -788,7 +788,9 @@ Functions can be returned from other functions.
 ---
 
 ## Objects
-  
+
+ In JavaScript, All nonprimitive values are objects.
+ 
 ### Single Object 
  
  Like all values, objects have properties (or consider it as a set of properties)
