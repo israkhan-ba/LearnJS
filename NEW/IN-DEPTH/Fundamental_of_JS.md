@@ -1089,7 +1089,9 @@ Function expressions are often used as arguments in function calls in JavaScript
 
 
 #### Constructors: Factories for Objects
+ Until now, you may think that JavaScript objects are only maps from strings to values, a notion suggested by JavaScript’s object literals, which look like the map/dictionary literals of other languages. However, JavaScript objects also support a feature that is truly object-oriented: inheritance. This section does not fully explain how JavaScript inheritance works, but it shows you a simple pattern to get you started. Consult Chapter 17 if you want to know more.
 
+ In addition to being “real” functions and methods, functions play another role in JavaScript: they become constructors—factories for objects—if invoked via the new operator. Constructors are thus a rough analog to classes in other languages. By convention, the names of constructors start with capital letters.
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
