@@ -2,13 +2,13 @@
 
 The purpose of this project is to track and share my learning about JavaScript including
 
-1. Defining of What, Why and How of each things in JS
+1. Defining of What, Why and How of each thing in JS
 2. Sharing some ideas and concepts for learning and development.
 3. Making lists of things to involve with includes doing, making, learning.
 4. Talking about anything around JS in related subjects and related contexts.
 
 To make sure that this repository will be useful and help anyone who came here to learn faster in JavaScript 
-I will firstly trying a lot before commit anything to the repository.
+I will firstly trying a lot before committing anything to the repository.
 
 I will work with this project by session (which will be 2 hours block of time)
 I was intended to involved with it at least an hour everyday (Half session)
