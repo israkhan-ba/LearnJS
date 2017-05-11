@@ -810,7 +810,10 @@ Identities are compared; every value has its own identity:
 > > true
 > >```
 
+
 #### Mutable by default
+You can normally freely change, add, and remove properties
+
 
 
 
