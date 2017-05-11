@@ -796,6 +796,10 @@ Functions can be returned from other functions.
 ### Objects Characteristics
 
 
+#### Compared by reference
+
+
+
 ### Single Object 
  
  Like all values, objects have properties (or consider it as a set of properties)
