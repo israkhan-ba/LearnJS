@@ -791,7 +791,11 @@ Functions can be returned from other functions.
 
  In JavaScript, All nonprimitive values are objects.
  The most common kinds of objects are Single (plain) objects, Arrays, and Regular Expressions
- 
+
+
+### Objects Characteristics
+
+
 ### Single Object 
  
  Like all values, objects have properties (or consider it as a set of properties)
