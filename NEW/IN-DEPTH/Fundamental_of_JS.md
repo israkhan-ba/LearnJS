@@ -810,6 +810,10 @@ Identities are compared; every value has its own identity:
 > > true
 > >```
 
+#### Mutable by default
+
+
+
 ### Single Object 
  
  Like all values, objects have properties (or consider it as a set of properties)
