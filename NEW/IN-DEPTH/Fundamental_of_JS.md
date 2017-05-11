@@ -1106,6 +1106,23 @@ Function expressions are often used as arguments in function calls in JavaScript
 > };
 >```
 
+We can see that a constructor has two parts. First, the function Point sets up the instance data. Second, the property Point.prototype contains an object with the methods. The former data is specific to each instance, while the latter data is shared among all instances.
+To use Point, we invoke it via the new operator:
+ 
+ **_Code Examples_**
+>```
+> > var p = new Point(3, 5);
+> p.x
+> 3
+> > p.dist()
+> 5.830951894845301
+>```
+
+p is an instance of Point:
+>```
+> > p instanceof Point
+> true
+>```
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
