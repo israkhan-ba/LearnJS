@@ -1093,6 +1093,20 @@ Function expressions are often used as arguments in function calls in JavaScript
 
  In addition to being “real” functions and methods, functions play another role in JavaScript: they become constructors—factories for objects—if invoked via the new operator. Constructors are thus a rough analog to classes in other languages. By convention, the names of constructors start with capital letters.
 
+ **_Code Examples_**
+>```
+> // Set up instance data
+> function Point(x, y) {
+>     this.x = x;
+>     this.y = y;
+> }
+> // Methods
+> Point.prototype.dist = function () {
+>     return Math.sqrt(this.x*this.x + this.y*this.y);
+> };
+>```
+
+
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
  
