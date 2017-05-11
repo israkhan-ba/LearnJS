@@ -814,7 +814,13 @@ Identities are compared; every value has its own identity:
 #### Mutable by default
 You can normally freely change, add, and remove properties
 
-
+**_Code Examples_**
+>```
+> > var obj = {};
+> > obj.foo = 123; // add property `foo`
+> > obj.foo
+> 123
+> >```
 
 
 ### Single Object 
