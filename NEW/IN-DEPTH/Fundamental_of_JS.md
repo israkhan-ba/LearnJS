@@ -796,6 +796,20 @@ Functions can be returned from other functions.
 ### Objects Characteristics
 
 
+#### Compared by reference
+Identities are compared; every value has its own identity:
+
+**_Code Examples_**
+>```
+> > ({} === {})  // two different empty objects
+> false
+>  
+> > var obj1 = {};
+> > var obj2 = obj1;
+> > obj1 === obj2
+> > true
+> >```
+
 ### Single Object 
  
  Like all values, objects have properties (or consider it as a set of properties)
