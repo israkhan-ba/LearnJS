@@ -1088,6 +1088,8 @@ Or, forEach has a second parameter that allows you to provide a value for this:
 Function expressions are often used as arguments in function calls in JavaScript. Always be careful when you refer to this from one of those function expressions.
 
 
+#### Constructors: Factories for Objects
+
 
 ### Array (intrinsic object)
  A container-like value which is an object data type, it's can contain values serially in an index manner (sequentially) which we call them elements, start counting each elements from index 0, and when there are changes in an array, it will resort the index number.  
