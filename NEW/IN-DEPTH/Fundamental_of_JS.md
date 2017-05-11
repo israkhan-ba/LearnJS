@@ -790,6 +790,7 @@ Functions can be returned from other functions.
 ## Objects
 
  In JavaScript, All nonprimitive values are objects.
+ The most common kinds of objects are Single (plain) objects, Arrays, and Regular Expressions
  
 ### Single Object 
  
