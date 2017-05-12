@@ -1314,3 +1314,7 @@ Method test(): Is There a Match?
 > true
 > > /^a+b+$/.test('aaa')
 > false
+
+Method exec(): Match and Capture Groups
+> /a(b+)a/.exec('_abbba_aba_')
+[ 'abbba', 'bbb' ]
