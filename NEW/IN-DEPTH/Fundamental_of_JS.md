@@ -1301,10 +1301,16 @@ It could, for example, only have the parameter `elem`.
  Work with dates and times.
  Date objects are created with new Date().
 
-#### RegExps
+### RegExps
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
 
 JavaScript has built-in support for regular expressions. They are delimited by slashes:
 
 > /^abc$/
 > /[A-Za-z0-9]+/
+
+Method test(): Is There a Match?
+> > /^a+b+$/.test('aaab')
+> true
+> > /^a+b+$/.test('aaa')
+> false
