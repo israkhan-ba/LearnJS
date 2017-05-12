@@ -1324,3 +1324,5 @@ The returned array contains the complete match at index 0, the capture of the fi
 Method replace(): Search and Replace
 > > '<a> <bbb>'.replace(/<(.*?)>/g, '[$1]')
 > '[a] [bbb]'
+
+The first parameter of replace must be a regular expression with a /g flag; otherwise, only the first occurrence is replaced. There is also a way to use a function to compute the replacement.
