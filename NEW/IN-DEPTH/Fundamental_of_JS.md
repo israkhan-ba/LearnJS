@@ -1293,7 +1293,7 @@ It could, for example, only have the parameter `elem`.
  
  
 ### Math object
- Perform mathematical tasks.
+ Math is an object with arithmetic functions to perform mathematical tasks.
  
  _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
 
