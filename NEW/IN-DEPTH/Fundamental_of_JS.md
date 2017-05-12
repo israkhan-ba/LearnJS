@@ -1318,3 +1318,5 @@ Method test(): Is There a Match?
 Method exec(): Match and Capture Groups
 > /a(b+)a/.exec('_abbba_aba_')
 [ 'abbba', 'bbb' ]
+
+The returned array contains the complete match at index 0, the capture of the first group at index 1, and so on. There is a way to invoke this method repeatedly to get all matches.
