@@ -1301,5 +1301,7 @@ It could, for example, only have the parameter `elem`.
  Work with dates and times.
  Date objects are created with new Date().
 
-#### RegExps
+### RegExps
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
+ 
+ 
