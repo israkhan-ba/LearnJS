@@ -1328,7 +1328,7 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
 ## Standard built-in objects
 
-### Math object
+### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
  _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
