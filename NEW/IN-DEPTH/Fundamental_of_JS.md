@@ -1365,3 +1365,4 @@ The first parameter of replace must be a regular expression with a /g flag; othe
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
  
+#### The Date Constructor
