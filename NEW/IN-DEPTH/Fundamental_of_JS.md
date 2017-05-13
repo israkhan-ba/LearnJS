@@ -1292,31 +1292,7 @@ It could, for example, only have the parameter `elem`.
 #### Function object
  
  
-### Math object
- Math is an object with arithmetic functions to perform mathematical tasks.
- 
- _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
 
-**_Code Examples_**
->```
-> > Math.abs(-2)
-> 2
-> 
-> > Math.pow(3, 2)  // 3 to the power of 2
-> 9
-> 
-> > Math.max(2, -1, 5)
-> 5
-> 
-> > Math.round(1.9)
-> 2
-> 
-> > Math.PI  // pre-defined constant for π
-> 3.141592653589793
-> 
-> > Math.cos(Math.PI)  // compute the cosine for 180°
-> -1
->```
 
 
 #### Date object
@@ -1351,3 +1327,29 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
 
 ## Standard built-in objects
+
+### Math object
+ Math is an object with arithmetic functions to perform mathematical tasks.
+ 
+ _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
+
+**_Code Examples_**
+>```
+> > Math.abs(-2)
+> 2
+> 
+> > Math.pow(3, 2)  // 3 to the power of 2
+> 9
+> 
+> > Math.max(2, -1, 5)
+> 5
+> 
+> > Math.round(1.9)
+> 2
+> 
+> > Math.PI  // pre-defined constant for π
+> 3.141592653589793
+> 
+> > Math.cos(Math.PI)  // compute the cosine for 180°
+> -1
+>```
