@@ -1295,9 +1295,7 @@ It could, for example, only have the parameter `elem`.
 
 
 
-#### Date object
- Work with dates and times.
- Date objects are created with new Date().
+
 
 ### RegExps
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
@@ -1362,3 +1360,7 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 > > Math.cos(Math.PI)  // compute the cosine for 180°
 > -1
 >```
+
+#### Date object
+ Work with dates and times.
+ Date objects are created with new Date().
