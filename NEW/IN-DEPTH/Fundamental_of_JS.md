@@ -1366,3 +1366,5 @@ The first parameter of replace must be a regular expression with a /g flag; othe
  by Date constructor so you can parsing, managing, and displaying dates.
  
 #### The Date Constructor
+
+There are four ways of invoking the constructor of `Date`
