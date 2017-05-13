@@ -1348,3 +1348,6 @@ Method replace(): Search and Replace
 > '[a] [bbb]'
 
 The first parameter of replace must be a regular expression with a /g flag; otherwise, only the first occurrence is replaced. There is also a way to use a function to compute the replacement.
+
+
+## Standard built-in objects
