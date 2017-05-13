@@ -1287,17 +1287,9 @@ It could, for example, only have the parameter `elem`.
  > > [1,2,3].map(function (x) { return x*x })
  > [ 1, 4, 9 ]
  >```
+>
 
-
-#### Function object
- 
- 
-
-
-
-
-
-### RegExps
+### Regular Expression (RegExps)
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
 
 JavaScript has built-in support for regular expressions.   
@@ -1368,3 +1360,4 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
+
