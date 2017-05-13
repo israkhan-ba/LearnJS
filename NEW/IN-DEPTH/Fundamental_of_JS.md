@@ -1302,26 +1302,35 @@ It could, for example, only have the parameter `elem`.
 ### RegExps
  Describes a pattern of characters. Perform pattern-matching and "search-and-replace" functions on text.
 
-JavaScript has built-in support for regular expressions. They are delimited by slashes:
+JavaScript has built-in support for regular expressions.   
 
+They are delimited by slashes:
+>```
 > /^abc$/
 > /[A-Za-z0-9]+/
+>```
 
 Method test(): Is There a Match?
+>```
 > > /^a+b+$/.test('aaab')
 > true
 > > /^a+b+$/.test('aaa')
 > false
+>```
 
 Method exec(): Match and Capture Groups
+>```
 > /a(b+)a/.exec('_abbba_aba_')
 [ 'abbba', 'bbb' ]
+>```
 
 The returned array contains the complete match at index 0, the capture of the first group at index 1, and so on. There is a way to invoke this method repeatedly to get all matches.
 
 Method replace(): Search and Replace
+>```
 > > '<a> <bbb>'.replace(/<(.*?)>/g, '[$1]')
 > '[a] [bbb]'
+>```
 
 The first parameter of replace must be a regular expression with a /g flag; otherwise, only the first occurrence is replaced. There is also a way to use a function to compute the replacement.
 
