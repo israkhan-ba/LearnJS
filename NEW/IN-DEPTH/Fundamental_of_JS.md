@@ -490,6 +490,9 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 ### Arithmetic Operators
 
 
+### Comparison Operators
+
+
 List of operator types
 - Arithmetic Operators
  Perform arithmetic with each values and/or variables
