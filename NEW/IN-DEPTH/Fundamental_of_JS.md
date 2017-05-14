@@ -484,6 +484,7 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 
 ## Operators
 
+### Arithmetic Operators
 
 List of operator types
 - Arithmetic Operators
