@@ -505,6 +505,9 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 ### Bitwise Operators
 
 
+### Comma Operator
+
+
 List of operator types
 - Arithmetic Operators
  Perform arithmetic with each values and/or variables
