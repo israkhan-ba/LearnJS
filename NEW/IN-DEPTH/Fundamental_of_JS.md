@@ -499,6 +499,8 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 ### Conditional (Ternary) Operator
 
 
+### String Operators
+
 
 List of operator types
 - Arithmetic Operators
