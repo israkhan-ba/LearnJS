@@ -496,6 +496,10 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 ### Logical Operators
 
 
+### Conditional (Ternary) Operator
+
+
+
 List of operator types
 - Arithmetic Operators
  Perform arithmetic with each values and/or variables
