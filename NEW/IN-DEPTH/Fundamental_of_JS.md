@@ -484,6 +484,37 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 
 ## Operators
 
+List of Operators
+- **Assignment Operators**  
+ Assign values or variables
+ 
+- **Arithmetic Operators**  
+ Perform arithmetic with each values and/or variables
+
+- **Comparison Operators**  
+ Determine difference or equality between variables or values in logical statements
+ 
+- **Logical Operators**  
+ Determine logics between variables or values
+ 
+- **Conditional (Ternary) Operator**  
+ Assign a value to a variable based on a condition
+ 
+- **String Operators**  
+ Concatenate strings (add or join them together) 
+ 
+- **Bitwise Operators**  
+
+
+- **Comma Operator**  
+
+
+- **Unary Operators**  
+
+
+- **Relational Operators**
+
+
 ### Assignment Operators
 
 
@@ -514,42 +545,7 @@ In JavaScript, there are words in the syntax that reserved for specific purposes
 ### Relational Operators
 
 
-List of operator types
-- Arithmetic Operators
- Perform arithmetic with each values and/or variables
 
-- Assignment Operators
- Assign values or variables
-
-- String Operators
- Concatenate strings (add or join them together) 
- 
-- Comparison Operators
- Determine difference or equality between variables or values in logical statements
-
-- Conditional (Ternary) Operator
- Assign a value to a variable based on a condition
-
-- Logical Operators
- Determine logics between variables or values
-
-- Bitwise Operators
-
-
-- `typeof` Operator
- Check and returns the type of a variable, function, expression or object.
-
-- `delete` Operator
- Delete a property from an object
- 
-- `in` Operator
- Check and returns true if the specified property is in the specified object, otherwise false.
-
-- `instanceof` Operator
- Check and returns true if the specified object is an instance of the specified object.
-
-- `void` Operator
-  Evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive value, using "void(0)" (useful when evaluating an expression without using the return value)
  
 ---
 
