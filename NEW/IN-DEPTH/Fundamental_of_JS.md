@@ -599,6 +599,15 @@ List of Operators
 > *Operator:* `x` **`*=`** `y`  
 > *Meaning:*  `x  = x * y`
  
+**_Code Examples_**
+>```
+> // Assuming the following variable
+> //  bar = 5
+> 
+> bar *= 2     // 10
+> bar *= 'foo' // NaN
+>```
+
 
 ### Arithmetic Operators
 
