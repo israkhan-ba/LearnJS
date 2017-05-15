@@ -577,6 +577,10 @@ List of Operators
 
  The subtraction assignment operator subtracts the value of the right operand from a variable and assigns the result to the variable.
  
+**_Syntax_**
+> *Operator:* `x` **`-=`** `y`  
+> *Meaning:*  `x  = x - y`
+
 
 ### Arithmetic Operators
 
