@@ -541,6 +541,9 @@ List of Operators
 
  The addition assignment operator adds the value of the right operand to a variable and assigns the result to the variable. The types of the two operands determine the behavior of the addition assignment operator. Addition or concatenation is possible.
 
+**_Syntax_**
+> *Operator:* `x` **`+=`** `y`  
+> *Meaning:*  `x  = x + y`
 
 ### Arithmetic Operators
 
