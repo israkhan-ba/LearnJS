@@ -536,6 +536,8 @@ List of Operators
 > x = y = z // x, y and z are all 25
 >```
 
+#### Addition assignment ( += )
+
 
 ### Arithmetic Operators
 
