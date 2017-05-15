@@ -541,6 +541,37 @@ List of Operators
 
  The addition assignment operator adds the value of the right operand to a variable and assigns the result to the variable. The types of the two operands determine the behavior of the addition assignment operator. Addition or concatenation is possible.
 
+**_Syntax_**
+> *Operator:* `x` **`+=`** `y`  
+> *Meaning:*  `x  = x + y`
+
+**_Code Examples_**
+>```
+> // Assuming the following variables  
+> //  foo = 'foo'  
+> //  bar = 5  
+> //  baz = true  
+>  
+> 
+> // Number + Number -> addition
+> bar += 2 // 7
+> 
+> // Boolean + Number -> addition
+> baz += 1 // 2
+> 
+> // Boolean + Boolean -> addition
+> baz += false // 1
+> 
+> // Number + String -> concatenation
+> bar += 'foo' // "5foo"
+> 
+> // String + Boolean -> concatenation
+> foo += false // "foofalse"
+> 
+> // String + String -> concatenation
+> foo += 'bar' // "foobar"
+>```
+
 
 ### Arithmetic Operators
 
