@@ -575,6 +575,8 @@ List of Operators
 
 #### Subtraction Assignment ( -= )
 
+ The subtraction assignment operator subtracts the value of the right operand from a variable and assigns the result to the variable.
+ 
 
 ### Arithmetic Operators
 
