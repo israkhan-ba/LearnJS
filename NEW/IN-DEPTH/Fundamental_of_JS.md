@@ -536,7 +536,10 @@ List of Operators
 > x = y = z // x, y and z are all 25
 >```
 
-#### Addition assignment ( += )
+
+#### Addition Assignment ( += )
+
+ The addition assignment operator adds the value of the right operand to a variable and assigns the result to the variable. The types of the two operands determine the behavior of the addition assignment operator. Addition or concatenation is possible.
 
 
 ### Arithmetic Operators
