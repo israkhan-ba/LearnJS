@@ -591,6 +591,9 @@ List of Operators
 >```
 
 
+#### Multiplication Assignment ( *= )
+
+
 ### Arithmetic Operators
 
 
