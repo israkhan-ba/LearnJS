@@ -611,6 +611,8 @@ List of Operators
 
 #### Division Assignment ( /= )
 
+ The division assignment operator divides a variable by the value of the right operand and assigns the result to the variable.
+
 
 ### Arithmetic Operators
 
