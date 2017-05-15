@@ -516,11 +516,12 @@ List of Operators
 
 
 ### Assignment Operators
-An assignment operator assigns a value to its left operand based on the value of its right operand.
-The basic assignment operator is equal (=), which assigns the value of its right operand to its left operand.
+ An assignment operator assigns a value to its left operand based on the value of its right operand.
+ The basic assignment operator is equal (=), which assigns the value of its right operand to its left operand.
+
 
 #### Assignment ( = )
-
+ Simple assignment operator which assigns a value to a variable. The assignment operation evaluates to the assigned value. Chaining the assignment operator is possible in order to assign a single value to multiple variables.
 
 ### Arithmetic Operators
 
