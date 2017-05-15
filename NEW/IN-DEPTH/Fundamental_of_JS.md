@@ -613,6 +613,20 @@ List of Operators
 
  The division assignment operator divides a variable by the value of the right operand and assigns the result to the variable.
 
+**_Syntax_**
+> *Operator:* `x` **`/=`** `y`  
+> *Meaning:*  `x  = x / y`
+ 
+**_Code Examples_**
+>```
+> // Assuming the following variable
+> //  bar = 5
+> 
+> bar /= 2     // 2.5
+> bar /= 'foo' // NaN
+> bar /= 0     // Infinity
+>```
+
 
 ### Arithmetic Operators
 
