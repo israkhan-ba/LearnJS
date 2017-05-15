@@ -521,6 +521,10 @@ List of Operators
 
 #### Assignment ( = )
  Simple assignment operator which assigns a value to a variable. The assignment operation evaluates to the assigned value. Chaining the assignment operator is possible in order to assign a single value to multiple variables.
+ 
+  **_Syntax_**
+> *Operator:* `x` **`=`** `y`
+
 
 ### Arithmetic Operators
 
