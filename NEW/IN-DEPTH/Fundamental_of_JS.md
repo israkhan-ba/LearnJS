@@ -628,6 +628,9 @@ List of Operators
 >```
 
 
+#### Remainder Assignment ( % )
+
+
 ### Arithmetic Operators
 
 
