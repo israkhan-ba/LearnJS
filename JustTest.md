@@ -1,3 +1,3 @@
-Test 1
+- contribution counts 4 for original repo
 
-Test 2
+- contribution counts 5 for original repo
