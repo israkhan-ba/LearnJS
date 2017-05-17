@@ -646,6 +646,8 @@ List of Operators
 > 5.5 % 2 // 1.5
 >```
 
+#### Exponentiation Assignment ( ** )
+
 
 ### Arithmetic Operators
 
