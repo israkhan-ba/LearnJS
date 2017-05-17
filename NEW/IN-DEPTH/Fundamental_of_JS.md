@@ -635,6 +635,17 @@ List of Operators
 **_Syntax_**
 > *Operator:* `var1` **`%`** `var2`
 
+**_Code Examples_**
+>```
+> 12 % 5 // 2
+> -1 % 2 // -1
+> NaN % 2 // NaN
+> 1 % 2 // 1
+> 2 % 3 // 2
+> -4 % 2 // -0
+> 5.5 % 2 // 1.5
+>```
+
 
 ### Arithmetic Operators
 
