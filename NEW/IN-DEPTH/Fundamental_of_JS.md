@@ -632,6 +632,9 @@ List of Operators
 
  The remainder operator returns the remainder left over when one operand is divided by a second operand. It always takes the sign of the dividend, not the divisor. 
  
+**_Syntax_**
+> *Operator:* `var1` **`%`** `var2`
+
 
 ### Arithmetic Operators
 
