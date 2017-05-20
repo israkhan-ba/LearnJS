@@ -704,6 +704,9 @@ List of Operators
  - If used postfix (for example, x--), then it returns the value before decrementing.
  - If used prefix (for example, --x), then it returns the value after decrementing.
  
+**_Syntax_**
+> *Operator:* `x-- or --x`
+
 
 ### Arithmetic Operators
 
