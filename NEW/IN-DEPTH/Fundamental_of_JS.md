@@ -699,7 +699,11 @@ List of Operators
 
 #### Decrement Operator ( -- )
 
+ The decrement operator decrements (subtracts one from) its operand and returns a value.
 
+ - If used postfix (for example, x--), then it returns the value before decrementing.
+ - If used prefix (for example, --x), then it returns the value after decrementing.
+ 
 
 ### Arithmetic Operators
 
