@@ -739,6 +739,17 @@ List of Operators
 
 #### Unary Negation Operator ( - )
 
+ The unary negation operator precedes its operand and negates it.
+ 
+**_Syntax_**
+> *Operator:* `-x`
+
+**_Code Examples_**
+>```
+> var x = 3;
+> y = -x; // y = -3, x = 3
+>```
+
 
 ### Arithmetic Operators
 
