@@ -718,7 +718,23 @@ List of Operators
 > b = --a; // a = 1, b = 1
 >```
 
+
 #### Unary Plus Operator ( + )
+
+ The unary plus operator precedes its operand and evaluates to its operand but attempts to convert it into a number, if it isn't already. Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number. It can convert string representations of integers and floats, as well as the non-string values true, false, and null. Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
+ 
+**_Syntax_**
+> *Operator:* `+x`
+
+**_Code Examples_**
+>```
+> +3     // 3
+> +'3'   // 3
+> +true  // 1
+> +false // 0
+> +null  // 0
+> +function(val){  return val } // NaN
+>```
 
 
 #### Unary Negation Operator ( - )
