@@ -685,6 +685,17 @@ List of Operators
 **_Syntax_**
 > *Operator:* `x++ or ++x`
 
+**_Code Examples_**
+>```
+> // Postfix 
+> var x = 3;
+> y = x++; // y = 3, x = 4
+> 
+> // Prefix
+> var a = 2;
+> b = ++a; // a = 3, b = 3
+> >```
+
 
 ### Arithmetic Operators
 
