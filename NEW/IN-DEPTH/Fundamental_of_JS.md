@@ -677,6 +677,11 @@ List of Operators
 
 #### Increment Operator ( ++ )
 
+ The increment operator increments (adds one to) its operand and returns a value.
+
+ - If used postfix, with operator after operand (for example, x++), then it returns the value before incrementing.
+ - If used prefix with operator before operand (for example, ++x), then it returns the value after incrementing.
+
 
 ### Arithmetic Operators
 
