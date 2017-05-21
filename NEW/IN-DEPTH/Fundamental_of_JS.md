@@ -654,6 +654,9 @@ List of Operators
 #### Decrement Operator ( -- )
 
 
+#### Unary Plus Operator ( + )
+
+
 ### Comparison Operators
 
 
