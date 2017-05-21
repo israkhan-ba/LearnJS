@@ -648,6 +648,9 @@ List of Operators
 #### Exponentiation Operator ( ** )
 
 
+#### Increment Operator ( ++ )
+
+
 ### Comparison Operators
 
 
