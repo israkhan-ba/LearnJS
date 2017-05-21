@@ -633,6 +633,9 @@ List of Operators
 #### Addition Operator ( + )
 
 
+#### Subtraction Operator ( - )
+
+
 ### Comparison Operators
 
 
