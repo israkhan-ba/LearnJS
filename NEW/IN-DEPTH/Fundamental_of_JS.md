@@ -631,6 +631,7 @@ List of Operators
 ### Arithmetic Operators
 
  An arithmetic operator takes numerical values (either literals or variables) as their operands and returns a single numerical value. The standard arithmetic operators are addition (+), subtraction (-), multiplication (*), and division (/).
+ These operators work as they do in most other programming languages when used with floating point numbers (in particular, note that division by zero produces Infinity). For example:
  
 
 #### Addition Operator ( + )
