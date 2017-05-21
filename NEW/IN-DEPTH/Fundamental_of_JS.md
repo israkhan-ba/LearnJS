@@ -657,6 +657,9 @@ List of Operators
 #### Unary Plus Operator ( + )
 
 
+#### Unary Negation Operator ( - )
+
+
 ### Comparison Operators
 
 
