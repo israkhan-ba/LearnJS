@@ -651,6 +651,9 @@ List of Operators
 #### Increment Operator ( ++ )
 
 
+#### Decrement Operator ( -- )
+
+
 ### Comparison Operators
 
 
