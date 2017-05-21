@@ -645,6 +645,9 @@ List of Operators
 #### Remainder Operator ( % )
 
 
+#### Exponentiation Operator ( ** )
+
+
 ### Comparison Operators
 
 
