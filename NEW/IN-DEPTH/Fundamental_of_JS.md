@@ -630,6 +630,8 @@ List of Operators
 
 ### Arithmetic Operators
 
+#### Addition Operator ( + )
+
 
 ### Comparison Operators
 
