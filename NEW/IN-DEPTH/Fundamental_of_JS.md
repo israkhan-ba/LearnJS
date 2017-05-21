@@ -630,6 +630,9 @@ List of Operators
 
 ### Arithmetic Operators
 
+ An arithmetic operator takes numerical values (either literals or variables) as their operands and returns a single numerical value. The standard arithmetic operators are addition (+), subtraction (-), multiplication (*), and division (/).
+ 
+
 #### Addition Operator ( + )
 
 
