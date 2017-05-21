@@ -642,6 +642,9 @@ List of Operators
 #### Division Operator ( / )
 
 
+#### Remainder Operator ( % )
+
+
 ### Comparison Operators
 
 
