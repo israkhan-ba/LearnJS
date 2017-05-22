@@ -667,6 +667,8 @@ List of Operators
 
 #### Exponentiation Operator ( ** )
 
+ The exponentiation operator returns the result of raising first operand to the power second operand. that is, var1var2, in the preceding statement, where var1 and var2 are variables. Exponentiation operator is right associative. a ** b ** c is equal to a ** (b ** c).
+
 
 #### Increment Operator ( ++ )
 
