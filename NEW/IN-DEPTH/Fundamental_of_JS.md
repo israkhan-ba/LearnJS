@@ -701,6 +701,9 @@ List of Operators
  - If used postfix, with operator after operand (for example, x++), then it returns the value before incrementing.
  - If used prefix with operator before operand (for example, ++x), then it returns the value after incrementing.
 
+**_Syntax_**
+> *Operator:* `x++ or ++x`
+
 
 #### Decrement Operator ( -- )
 
