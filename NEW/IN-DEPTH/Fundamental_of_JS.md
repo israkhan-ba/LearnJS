@@ -672,6 +672,27 @@ List of Operators
 **_Syntax_**
 > *Operator:* `var1` __`**`__ `var2`
 
+**_Code Examples_**
+>```
+> 2 ** 3 // 8
+> 3 ** 2 // 9
+> 3 ** 2.5 // 15.588457268119896
+> 10 ** -1 // 0.1
+> NaN ** 2 // NaN
+> 
+> 2 ** 3 ** 2 // 512
+> 2 ** (3 ** 2) // 512
+> (2 ** 3) ** 2 // 64
+>```
+> To invert the sign of the result of an exponentiation expression:
+>```
+> -(2 ** 2) // -4
+>```
+> To force the base of an exponentiation expression to be a negative number:
+>```
+> (-2) ** 2 // 4
+>```
+
 
 #### Increment Operator ( ++ )
 
