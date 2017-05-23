@@ -665,6 +665,8 @@ List of Operators
 
 #### Subtraction Operator ( - )
 
+ The subtraction operator subtracts the two operands, producing their difference.
+ 
 
 #### Multiplication Operator ( * )
 
