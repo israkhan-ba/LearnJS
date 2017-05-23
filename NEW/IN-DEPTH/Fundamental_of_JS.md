@@ -685,6 +685,15 @@ List of Operators
 **_Syntax_**
 > *Operator:* `x` **`*`** `y`
 
+**_Code Examples_**
+>```
+> 2 * 2 // 4
+> -2 * 2 // -4
+> Infinity * 0 // NaN
+> Infinity * Infinity // Infinity
+> 'foo' * 2 // NaN
+>```
+
 
 #### Division Operator ( / )
 
