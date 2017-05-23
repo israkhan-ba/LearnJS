@@ -641,6 +641,27 @@ List of Operators
 **_Syntax_**
 > *Operator:* `x` **`+`** `y`
 
+**_Code Examples_**
+>```
+> // Number + Number -> addition
+> 1 + 2 // 3
+> 
+> // Boolean + Number -> addition
+> true + 1 // 2
+> 
+> // Boolean + Boolean -> addition
+> false + false // 0
+> 
+> // Number + String -> concatenation
+> 5 + 'foo' // "5foo"
+> 
+> // String + Boolean -> concatenation
+> 'foo' + false // "foofalse"
+> 
+> // String + String -> concatenation
+> 'foo' + 'bar' // "foobar"
+>```
+
 
 #### Subtraction Operator ( - )
 
