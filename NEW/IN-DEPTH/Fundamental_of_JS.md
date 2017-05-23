@@ -682,6 +682,9 @@ List of Operators
 
  The multiplication operator produces the product of the operands.
 
+**_Syntax_**
+> *Operator:* `x` **`*`** `y`
+
 
 #### Division Operator ( / )
 
