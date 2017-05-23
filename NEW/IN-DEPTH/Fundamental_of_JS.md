@@ -638,6 +638,10 @@ List of Operators
 
  The addition operator produces the sum of numeric operands or string concatenation.
 
+**_Syntax_**
+> *Operator:* `x` **`+`** `y`
+
+
 #### Subtraction Operator ( - )
 
 
