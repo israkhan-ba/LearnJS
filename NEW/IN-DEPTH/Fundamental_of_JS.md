@@ -680,6 +680,8 @@ List of Operators
 
 #### Multiplication Operator ( * )
 
+ The multiplication operator produces the product of the operands.
+
 
 #### Division Operator ( / )
 
