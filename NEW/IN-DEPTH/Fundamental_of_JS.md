@@ -701,6 +701,19 @@ List of Operators
 
 **_Syntax_**
 > *Operator:* `x` **`/`** `y`
+
+**_Code Examples_**
+>```
+> 1 / 2      // returns 0.5 in JavaScript
+> 1 / 2      // returns 0 in Java 
+> // (neither number is explicitly a floating point number)
+> 
+> 1.0 / 2.0  // returns 0.5 in both JavaScript and Java
+> 
+> 2.0 / 0    // returns Infinity in JavaScript
+> 2.0 / 0.0  // returns Infinity too
+> 2.0 / -0.0 // returns -Infinity in JavaScript
+>```
  
 
 #### Remainder Operator ( % )
