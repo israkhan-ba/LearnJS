@@ -697,6 +697,8 @@ List of Operators
 
 #### Division Operator ( / )
 
+ The division operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor.
+ 
 
 #### Remainder Operator ( % )
 
