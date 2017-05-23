@@ -669,6 +669,13 @@ List of Operators
 
 **_Syntax_**
 > *Operator:* `x` **`-`** `y`
+
+**_Code Examples_**
+>```
+> 5 - 3 // 2
+> 3 - 5 // -2
+> 'foo' - 3 // NaN
+>```
  
 
 #### Multiplication Operator ( * )
