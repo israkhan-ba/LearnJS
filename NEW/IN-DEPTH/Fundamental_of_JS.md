@@ -815,6 +815,16 @@ List of Operators
 **_Syntax_**
 > *Operator:* `+x`
 
+**_Code Examples_**
+>```
+> +3     // 3
+> +'3'   // 3
+> +true  // 1
+> +false // 0
+> +null  // 0
+> +function(val){  return val } // NaN
+>```
+
 
 #### Unary Negation Operator ( - )
 
