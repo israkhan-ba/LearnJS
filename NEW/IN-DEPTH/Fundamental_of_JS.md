@@ -833,6 +833,12 @@ List of Operators
 **_Syntax_**
 > *Operator:* `-x`
 
+**_Code Examples_**
+>```
+> var x = 3;
+> y = -x; // y = -3, x = 3
+>```
+
 
 ### Comparison Operators
 
