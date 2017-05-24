@@ -843,6 +843,8 @@ Although unary negation (-) also can convert non-numbers, unary plus is the fast
 
 It can convert string representations of integers and floats, as well as the non-string values true, false, and null.
 
+Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. 
+
 
 ### Comparison Operators
 
