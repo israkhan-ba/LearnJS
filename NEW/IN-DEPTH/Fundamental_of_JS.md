@@ -841,6 +841,9 @@ List of Operators
 
 Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number.
 
+It can convert string representations of integers and floats, as well as the non-string values true, false, and null.
+
+
 ### Comparison Operators
 
 
