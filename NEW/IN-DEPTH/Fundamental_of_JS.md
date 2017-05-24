@@ -845,6 +845,8 @@ It can convert string representations of integers and floats, as well as the non
 
 Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. 
 
+Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
+
 
 ### Comparison Operators
 
