@@ -840,13 +840,13 @@ List of Operators
 >```
 
 **_Notes_**
-Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number.
+- Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number.
 
-It can convert string representations of integers and floats, as well as the non-string values true, false, and null.
+- It can convert string representations of integers and floats, as well as the non-string values true, false, and null.
 
-Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. 
+- Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. 
 
-Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
+- Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
 
 
 ### Comparison Operators
