@@ -811,6 +811,10 @@ List of Operators
 #### Unary Plus Operator ( + )
 
  The unary plus operator precedes its operand and evaluates to its operand but attempts to convert it into a number, if it isn't already. 
+ 
+**_Syntax_**
+> *Operator:* `+x`
+
 
 #### Unary Negation Operator ( - )
 
