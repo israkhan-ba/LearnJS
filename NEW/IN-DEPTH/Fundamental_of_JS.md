@@ -839,6 +839,7 @@ List of Operators
 > y = -x; // y = -3, x = 3
 >```
 
+Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number.
 
 ### Comparison Operators
 
