@@ -828,6 +828,8 @@ List of Operators
 
 #### Unary Negation Operator ( - )
 
+ The unary negation operator precedes its operand and negates it.
+
 
 ### Comparison Operators
 
