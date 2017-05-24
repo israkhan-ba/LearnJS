@@ -839,6 +839,7 @@ List of Operators
 > y = -x; // y = -3, x = 3
 >```
 
+**_Notes_**
 Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number.
 
 It can convert string representations of integers and floats, as well as the non-string values true, false, and null.
