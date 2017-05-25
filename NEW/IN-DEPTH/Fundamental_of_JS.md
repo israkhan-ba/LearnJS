@@ -855,6 +855,9 @@ List of Operators
 #### Equality Operator ( == )
 
 
+#### Inequality Operator ( != )
+
+
 ### Comparison Operators - Relational
 
 
