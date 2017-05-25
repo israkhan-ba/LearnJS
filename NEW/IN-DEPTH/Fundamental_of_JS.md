@@ -851,6 +851,8 @@ List of Operators
 
 ### Comparison Operators - Equality
 
+ JavaScript has both strict and type–converting comparisons. A strict comparison (e.g., ===) is only true if the operands are of the same type and the contents match. The more commonly-used abstract comparison (e.g. ==) converts the operands to the same type before making the comparison.
+
 
 #### Equality Operator ( == )
 
