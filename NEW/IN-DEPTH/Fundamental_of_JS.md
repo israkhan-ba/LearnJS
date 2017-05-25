@@ -870,6 +870,9 @@ List of Operators
 #### Greater Than Operator ( > )
 
 
+#### Less Than Operator ( < )
+
+
 ### Logical Operators
 
 
