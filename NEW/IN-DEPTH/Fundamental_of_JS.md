@@ -849,7 +849,6 @@ List of Operators
 - Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
 
 
-### Comparison Operators
 
 
 ### Logical Operators
