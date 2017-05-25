@@ -876,6 +876,9 @@ List of Operators
 #### Greater Than or Equal Operator ( >= )
 
 
+#### Less Than or Equal Operator ( <= )
+
+
 ### Logical Operators
 
 
