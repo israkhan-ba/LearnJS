@@ -867,6 +867,9 @@ List of Operators
 ### Comparison Operators - Relational
 
 
+#### Greater Than Operator ( > )
+
+
 ### Logical Operators
 
 
