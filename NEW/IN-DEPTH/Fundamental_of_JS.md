@@ -855,7 +855,8 @@ List of Operators
 
 
 #### Equality Operator ( == )
-
+ 
+ The equality operator converts the operands if they are not of the same type, then applies strict comparison. If both operands are objects, then JavaScript compares internal references which are equal when operands refer to the same object in memory.
 
 #### Inequality Operator ( != )
 
