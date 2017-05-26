@@ -914,6 +914,13 @@ List of Operators
  The non-identity operator returns true if the operands are not equal and/or not of the same type. 
 
 **_Syntax_**
+> *Operator:* `x` __`!==`__ `y`
+
+**_Code Examples_**
+>```
+> 3 !== '3' // true
+> 4 !== 3   // true
+>```
 
 
 ### Comparison Operators - Relational
