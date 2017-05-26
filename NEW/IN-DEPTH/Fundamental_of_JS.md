@@ -861,6 +861,20 @@ List of Operators
 **_Syntax_**
 > *Operator:* `x` __`==`__ `y`
 
+**_Code Examples_**
+>```
+>  1   ==  1        // true
+> '1'  ==  1        // true
+>  1   == '1'       // true
+>  0   == false     // true
+>  0   == null      // false
+> var object1 = {'value': 'key'}, object2 = {'value': 'key'}; 
+> object1 == object2 //false
+> 
+>  0   == undefined // false
+> null  == undefined // true
+>```
+
 
 #### Inequality Operator ( != )
 
