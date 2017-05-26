@@ -882,6 +882,15 @@ List of Operators
 
 **_Syntax_**
 > *Operator:* `x` __`!=`__ `y`
+
+**_Code Examples_**
+>```
+> 1 !=   2     // true
+> 1 !=  '1'    // false
+> 1 !=  "1"    // false
+> 1 !=  true   // false
+> 0 !=  false  // false
+>```
  
 
 #### Identity / Strict Equality Operator ( === )
