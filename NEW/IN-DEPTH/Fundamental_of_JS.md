@@ -911,7 +911,9 @@ List of Operators
 
 #### Non-Identity / Strict Inequality ( !== )
 
- The non-identity operator returns true if the operands are not equal and/or not of the same type.
+ The non-identity operator returns true if the operands are not equal and/or not of the same type. 
+
+**_Syntax_**
 
 
 ### Comparison Operators - Relational
