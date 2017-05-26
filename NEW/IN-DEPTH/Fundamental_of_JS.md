@@ -899,6 +899,14 @@ List of Operators
 
 **_Syntax_**
 > *Operator:* `x` __`===`__ `y`
+
+**_Code Examples_**
+>```
+> 3 === 3   // true
+> 3 === '3' // false
+> var object1 = {'value': 'key'}, object2 = {'value': 'key'};
+> object1 === object2 //false
+>```
  
 
 #### Non-Identity / Strict Inequality ( !== )
