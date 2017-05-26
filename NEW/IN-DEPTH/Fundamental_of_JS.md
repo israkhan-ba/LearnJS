@@ -895,6 +895,8 @@ List of Operators
 
 #### Identity / Strict Equality Operator ( === )
 
+ The identity operator returns true if the operands are strictly equal (see above) with no type conversion. 
+ 
 
 #### Non-Identity / Strict Inequality ( !== )
 
