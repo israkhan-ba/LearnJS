@@ -879,6 +879,9 @@ List of Operators
 #### Inequality Operator ( != )
 
  The inequality operator returns true if the operands are not equal. If the two operands are not of the same type, JavaScript attempts to convert the operands to an appropriate type for the comparison. If both operands are objects, then JavaScript compares internal references which are not equal when operands refer to different objects in memory.
+
+**_Syntax_**
+> *Operator:* `x` __`!=`__ `y`
  
 
 #### Identity / Strict Equality Operator ( === )
