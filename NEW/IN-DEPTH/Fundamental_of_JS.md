@@ -959,6 +959,12 @@ List of Operators
 **_Syntax_**
 > *Operator:* `x` __`>=`__ `y`
 
+**_Code Examples_**
+>```
+> 4 >= 3 // true
+> 3 >= 3 // true
+>```
+
 
 #### Less Than or Equal Operator ( <= )
 
