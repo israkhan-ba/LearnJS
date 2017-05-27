@@ -988,6 +988,7 @@ List of Operators
  If a value can be converted to false, the value is so-called falsy.
 
  Examples of expressions that can be converted to false are:
+ - `null;`
  
  
 #### Logical AND ( && )
