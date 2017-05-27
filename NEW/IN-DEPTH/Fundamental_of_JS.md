@@ -982,7 +982,7 @@ List of Operators
 
 ### Logical Operators
 
- Logical operators are typically used with Boolean (logical) values.
+ Logical operators are typically used with Boolean (logical) values. When they are, they return a Boolean value. 
  
 
 ### Conditional (Ternary) Operator
