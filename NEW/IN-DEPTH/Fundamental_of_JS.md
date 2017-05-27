@@ -941,10 +941,15 @@ List of Operators
 
 #### Less Than Operator ( < )
 
- The greater than or equal operator returns true if the left operand is greater than or equal to the right operand.
+ The less than operator returns true if the left operand is less than the right operand.
 
 **_Syntax_**
 > *Operator:* `x` __`<`__ `y`
+
+**_Code Examples_**
+>```
+> 3 < 4 // true
+>```
  
 
 #### Greater Than or Equal Operator ( >= )
