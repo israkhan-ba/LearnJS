@@ -982,6 +982,29 @@ List of Operators
 
 ### Logical Operators
 
+ Logical operators are typically used with Boolean (logical) values. When they are, they return a Boolean value. However, the && and || operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value.
+ 
+ If a value can be converted to true, the value is so-called truthy.
+ If a value can be converted to false, the value is so-called falsy.
+
+ Examples of expressions that can be converted to false are:
+ - `null;`
+ - `NaN;`
+ - `0;`
+ - `empty string ("");`
+ - `undefined.`
+
+ Even though the && and || operators can be used with operands that are not Boolean values, they can still be considered Boolean operators since their return values can always be converted to Boolean values.
+ 
+
+#### Logical AND ( && )
+
+
+#### Logical OR ( || )
+
+
+#### Logical NOT ( ! )
+
 
 ### Conditional (Ternary) Operator
 
