@@ -941,6 +941,8 @@ List of Operators
 
 #### Less Than Operator ( < )
 
+ The greater than or equal operator returns true if the left operand is greater than or equal to the right operand.
+ 
 
 #### Greater Than or Equal Operator ( >= )
 
