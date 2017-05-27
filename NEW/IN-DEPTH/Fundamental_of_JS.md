@@ -973,6 +973,12 @@ List of Operators
 **_Syntax_**
 > *Operator:* `x` __`<=`__ `y`
 
+**_Code Examples_**
+>```
+> 3 <= 4 // true
+> 3 <= 3 // true
+>```
+
 
 ### Logical Operators
 
