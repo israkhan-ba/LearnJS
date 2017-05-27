@@ -968,6 +968,8 @@ List of Operators
 
 #### Less Than or Equal Operator ( <= )
 
+ The less than or equal operator returns true if the left operand is less than or equal to the right operand.
+
 
 ### Logical Operators
 
