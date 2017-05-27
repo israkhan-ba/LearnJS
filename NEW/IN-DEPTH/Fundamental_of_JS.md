@@ -987,6 +987,9 @@ List of Operators
 #### Logical AND ( && )
 
 
+#### Logical OR ( || )
+
+
 ### Conditional (Ternary) Operator
 
 
