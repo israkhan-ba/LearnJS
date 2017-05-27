@@ -928,6 +928,8 @@ List of Operators
 
 #### Greater Than Operator ( > )
 
+ The greater than operator returns true if the left operand is greater than the right operand.
+ 
 
 #### Less Than Operator ( < )
 
