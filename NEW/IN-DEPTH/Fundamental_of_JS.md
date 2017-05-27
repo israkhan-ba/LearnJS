@@ -990,6 +990,7 @@ List of Operators
  Examples of expressions that can be converted to false are:
  - `null;`
  - `NaN;`
+ - `0;`
  
  
 #### Logical AND ( && )
