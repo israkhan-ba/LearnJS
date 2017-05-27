@@ -990,6 +990,9 @@ List of Operators
 #### Logical OR ( || )
 
 
+#### Logical NOT ( ! )
+
+
 ### Conditional (Ternary) Operator
 
 
