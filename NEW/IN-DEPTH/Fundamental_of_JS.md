@@ -954,6 +954,8 @@ List of Operators
 
 #### Greater Than or Equal Operator ( >= )
 
+ The greater than or equal operator returns true if the left operand is greater than or equal to the right operand.
+
 
 #### Less Than or Equal Operator ( <= )
 
