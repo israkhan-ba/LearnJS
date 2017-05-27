@@ -970,6 +970,9 @@ List of Operators
 
  The less than or equal operator returns true if the left operand is less than or equal to the right operand.
 
+**_Syntax_**
+> *Operator:* `x` __`<=`__ `y`
+
 
 ### Logical Operators
 
