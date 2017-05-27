@@ -991,6 +991,7 @@ List of Operators
  - `null;`
  - `NaN;`
  - `0;`
+ - `empty string ("");`
  
  
 #### Logical AND ( && )
