@@ -984,6 +984,9 @@ List of Operators
 
  Logical operators are typically used with Boolean (logical) values. When they are, they return a Boolean value. However, the && and || operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value.
  
+ If a value can be converted to true, the value is so-called truthy.
+
+
 #### Logical AND ( && )
 
 
