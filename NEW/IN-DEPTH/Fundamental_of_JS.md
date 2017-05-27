@@ -929,6 +929,9 @@ List of Operators
 #### Greater Than Operator ( > )
 
  The greater than operator returns true if the left operand is greater than the right operand.
+
+**_Syntax_**
+> *Operator:* `x` __`>`__ `y`
  
 
 #### Less Than Operator ( < )
