@@ -987,6 +987,9 @@ List of Operators
  If a value can be converted to true, the value is so-called truthy.
  If a value can be converted to false, the value is so-called falsy.
 
+ Examples of expressions that can be converted to false are:
+ 
+ 
 #### Logical AND ( && )
 
 
