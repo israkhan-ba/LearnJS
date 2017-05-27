@@ -993,8 +993,10 @@ List of Operators
  - `0;`
  - `empty string ("");`
  - `undefined.`
+
+ Even though the && and || operators can be used with operands that are not Boolean values, they can still be considered Boolean operators since their return values can always be converted to Boolean values.
  
- 
+
 #### Logical AND ( && )
 
 
