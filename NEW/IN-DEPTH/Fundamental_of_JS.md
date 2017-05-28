@@ -1035,6 +1035,7 @@ List of Operators
 >```
 > n1 = !true
 > n2 = !false
+> n3 = !'Cat'
 >```
 
 
