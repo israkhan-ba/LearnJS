@@ -1024,6 +1024,7 @@ List of Operators
 > o5 = 'Cat' || 'Dog'      // t || t returns "Cat"
 > o6 = false || 'Cat'      // f || t returns "Cat"
 > o7 = 'Cat' || false      // t || f returns "Cat"
+> o8 = ''    || false      // returns false
 >```
 
 
