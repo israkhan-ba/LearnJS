@@ -1009,6 +1009,7 @@ List of Operators
 > a6 = false && 'Cat'     // f && t returns false
 > a7 = 'Cat' && false     // t && f returns false
 > a8 = '' && false        // returns ""
+> a9 = false && ||        // returns false
 >```
 
 
