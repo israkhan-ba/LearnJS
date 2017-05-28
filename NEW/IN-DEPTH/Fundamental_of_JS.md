@@ -1020,6 +1020,7 @@ List of Operators
 > o1 = true  || true       // t || t returns true
 > o2 = false || true       // f || t returns true
 > o3 = true  || false      // t || f returns true
+> o4 = false || (3 == 4)   // f || f returns false
 >```
 
 
