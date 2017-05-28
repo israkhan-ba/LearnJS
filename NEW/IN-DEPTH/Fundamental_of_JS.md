@@ -1021,6 +1021,7 @@ List of Operators
 > o2 = false || true       // f || t returns true
 > o3 = true  || false      // t || f returns true
 > o4 = false || (3 == 4)   // f || f returns false
+> o5 = 'Cat' || 'Dog'      // t || t returns "Cat"
 >```
 
 
