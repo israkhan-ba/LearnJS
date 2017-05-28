@@ -1031,6 +1031,13 @@ List of Operators
 
 #### Logical NOT ( ! )
 
+**_Code Examples_**
+>```
+> n1 = !true
+> n2 = !false
+> n3 = !'Cat'
+>```
+
 
 ### Conditional (Ternary) Operator
 
