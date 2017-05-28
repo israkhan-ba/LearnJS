@@ -1017,6 +1017,7 @@ List of Operators
 
 **_Code Examples_**
 >```
+> o1 = true  || true       // t || t returns true
 >```
 
 
