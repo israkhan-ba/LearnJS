@@ -1008,6 +1008,7 @@ List of Operators
 > a5 = 'Cat' && 'Dog'     // t && t returns "Dog"
 > a6 = false && 'Cat'     // f && t returns false
 > a7 = 'Cat' && false     // t && f returns false
+> a8 = '' && false        // returns ""
 >```
 
 
