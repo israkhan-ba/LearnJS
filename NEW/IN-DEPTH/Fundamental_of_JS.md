@@ -1018,6 +1018,7 @@ List of Operators
 **_Code Examples_**
 >```
 > o1 = true  || true       // t || t returns true
+> o2 = false || true       // f || t returns true
 >```
 
 
