@@ -1033,7 +1033,8 @@ List of Operators
 
 **_Code Examples_**
 >```
-> n1 = !true 
+> n1 = !true
+> n2 = !false
 >```
 
 
