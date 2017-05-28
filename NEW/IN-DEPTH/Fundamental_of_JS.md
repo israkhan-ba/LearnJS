@@ -1015,6 +1015,10 @@ List of Operators
 
 #### Logical OR ( || )
 
+**_Code Examples_**
+>```
+>```
+
 
 #### Logical NOT ( ! )
 
