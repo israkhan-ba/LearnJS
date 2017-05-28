@@ -1002,6 +1002,7 @@ List of Operators
 **_Code Examples_**
 >```
 > a1 = true  && true      // t && t returns true
+> a2 = true  && false     // t && f returns false
 >```
 
 
