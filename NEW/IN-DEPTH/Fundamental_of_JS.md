@@ -1000,6 +1000,10 @@ List of Operators
 #### Logical AND ( && )
 
 **_Code Examples_**
+>```
+> a1 = true  && true      // t && t returns true
+>```
+
 
 #### Logical OR ( || )
 
