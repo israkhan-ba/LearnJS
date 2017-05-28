@@ -1003,6 +1003,7 @@ List of Operators
 >```
 > a1 = true  && true      // t && t returns true
 > a2 = true  && false     // t && f returns false
+> a3 = false && true      // f && t returns false
 >```
 
 
