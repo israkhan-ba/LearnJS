@@ -1007,6 +1007,7 @@ List of Operators
 > a4 = false && (3 == 4)  // f && f returns false
 > a5 = 'Cat' && 'Dog'     // t && t returns "Dog"
 > a6 = false && 'Cat'     // f && t returns false
+> a7 = 'Cat' && false     // t && f returns false
 >```
 
 
