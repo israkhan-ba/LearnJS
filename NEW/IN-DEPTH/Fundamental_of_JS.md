@@ -1153,8 +1153,6 @@ Expressions with values of any type.
  The comma operator (,) simply evaluates both of its operands and returns the value of the last operand.
  This operator is primarily used inside a `for` loop, to allow multiple variables to be updated each time through the loop.
  
-**_Code Examples_**
-
 
 ### Unary Operators
 
