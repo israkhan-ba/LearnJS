@@ -1171,6 +1171,8 @@ Expressions with values of any type.
 
 #### `typeof` Operator
 
+#### `void` Operator
+
 
 ### Relational Operators
  
