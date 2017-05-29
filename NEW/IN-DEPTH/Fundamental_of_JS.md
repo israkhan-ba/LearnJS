@@ -1057,10 +1057,12 @@ Expressions with values of any type.
 
 **_Code Examples_**
 - **Basic usage**  
-Display a different message based on the value of the isMember variable.
+ Display a different message based on the value of the isMember variable.
  >```
  > 'The fee is ' + (isMember ? '$2.00' : '$10.00');
  >```
+
+ Assign variables depending on a ternary result:
  
 
 ### String Operators
