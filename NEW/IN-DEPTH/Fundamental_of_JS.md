@@ -1086,6 +1086,8 @@ Expressions with values of any type.
  > console.log(access); // logs "Half pie"
  >```
  
+ Use ternary evaluations in free space in order to do different operations
+ 
  
 ### String Operators
 
