@@ -1154,8 +1154,12 @@ Expressions with values of any type.
  This operator is primarily used inside a `for` loop, to allow multiple variables to be updated each time through the loop.
  
  **_Code Examples_**
+ >```
+ > for (var i = 0, j = 9; i <= j; i++, j--)
+ >     console.log('a[' + i + '][' + j + ']= ' + a[i][j]);
+ >```
  
-
+ 
 ### Unary Operators
 
 
