@@ -1071,12 +1071,20 @@ Expressions with values of any type.
  Multiple ternary evaluations_(the conditional operator is right associative)_
  >```
  > var firstCheck = false,
- > secondCheck = false,
- > access = firstCheck ? 'Access denied' : secondCheck ? 'Access denied' : 'Access granted'; 
+ >     secondCheck = false,
+ >     access = firstCheck ? 'Access denied' : 
+ >              secondCheck ? 'Access denied' : 'Access granted'; 
  > console.log(access); // logs "Access granted"
  >```
  
  Use multiple conditions like in a multiple-conditions IF statement
+ >```
+ > var condition1 = true,
+ >     condition2 = false,
+ >     access = condition1 ? condition2 ? "Full pie": "Half pie": 
+ >              condition2 ? "Half pie" : "No pie, don't cry" ;
+ > console.log(access); // logs "Half pie"
+ >```
  
  
 ### String Operators
