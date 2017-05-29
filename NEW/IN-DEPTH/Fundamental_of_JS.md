@@ -1130,7 +1130,7 @@ Expressions with values of any type.
  
 ### String Operators
 
- Concatenation operator (+) concatenates two string values together
+ Concatenation operator (+) concatenates two string values together, returning another string that is the union of the two operand strings.
 
 
 ### Bitwise Operators
