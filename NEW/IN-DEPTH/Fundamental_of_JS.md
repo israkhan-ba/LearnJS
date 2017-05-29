@@ -1150,6 +1150,8 @@ Expressions with values of any type.
 
 ### Comma Operator
 
+ The comma operator (,) simply evaluates both of its operands and returns the value of the last operand.
+ 
 
 ### Unary Operators
 
