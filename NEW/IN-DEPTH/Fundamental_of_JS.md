@@ -1048,7 +1048,8 @@ List of Operators
 > condition ? expr1 : expr2 
 
 **_Parameter_**
-- condition (or conditions)
+- `condition` (or `conditions`)  
+An expression that evaluates to `true` or `false`.
 
 
 ### String Operators
