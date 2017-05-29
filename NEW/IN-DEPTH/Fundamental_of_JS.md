@@ -1169,6 +1169,8 @@ Expressions with values of any type.
  
 #### `delete` Operator
 
+#### `typeof` Operator
+
 
 ### Relational Operators
  
