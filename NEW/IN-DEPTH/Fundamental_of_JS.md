@@ -1067,8 +1067,8 @@ Expressions with values of any type.
  > var elvisLives = Math.PI > 4 ? 'Yep' : 'Nope';
  >```
  
-- **More advanced usage**
- 
+- **More advanced usage**  
+ Multiple ternary evaluations_(the conditional operator is right associative)_
  
 ### String Operators
 
