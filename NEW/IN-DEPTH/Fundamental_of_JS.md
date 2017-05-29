@@ -1094,6 +1094,17 @@ Expressions with values of any type.
  >```
  
  Do more than one single operation per case, separating them with a comma
+ >```
+ > var stop = false, age = 23;
+ >
+ > age > 18 ? (
+ >      alert('OK, you can go.'),
+ >      location.assign('continue.html')
+ > ) : (
+ >      stop = true,
+ >      alert('Sorry, you are much too young!')
+ > );
+ >```
  
  
 ### String Operators
