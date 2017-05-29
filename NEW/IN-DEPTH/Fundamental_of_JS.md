@@ -1093,6 +1093,8 @@ Expressions with values of any type.
  > age > 18 ? location.assign('continue.html') : stop = true;
  >```
  
+ Do more than one single operation per case, separating them with a comma
+ 
  
 ### String Operators
 
