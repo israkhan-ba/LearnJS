@@ -1048,6 +1048,7 @@ List of Operators
 > condition ? expr1 : expr2 
 
 **_Parameter_**
+- condition (or conditions)
 
 
 ### String Operators
