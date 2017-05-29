@@ -1041,7 +1041,91 @@ List of Operators
 
 ### Conditional (Ternary) Operator
 
+ The conditional (ternary) operator is an operator to use for conditional as expression, it frequently used as a shortcut for the `if` statement.
+ And it's the only operator that takes three operands.
+ 
+ If condition is true, the operator returns the value of expr1; otherwise, it returns the value of expr2. 
+ 
+**_Syntax_**
+> condition ? expr1 : expr2 
 
+**_Parameter_**
+- `condition` (or `conditions`)  
+An expression that evaluates to `true` or `false`.
+- `expr1`, `expr2`  
+Expressions with values of any type.
+
+**_Code Examples_**
+- **Basic usage**  
+ Display a different message based on the value of the isMember variable.
+ >```
+ > 'The fee is ' + (isMember ? '$2.00' : '$10.00');
+ >```
+
+ Assign variables depending on a ternary result.
+ >```
+ > var elvisLives = Math.PI > 4 ? 'Yep' : 'Nope';
+ >```
+ 
+- **More advanced usage**  
+ Multiple ternary evaluations_(the conditional operator is right associative)_.
+ >```
+ > var firstCheck = false,
+ >     secondCheck = false,
+ >     access = firstCheck ? 'Access denied' : 
+ >              secondCheck ? 'Access denied' : 'Access granted'; 
+ > console.log(access); // logs "Access granted"
+ >```
+ 
+ Use multiple conditions like in a multiple-conditions IF statement.
+ >```
+ > var condition1 = true,
+ >     condition2 = false,
+ >     access = condition1 ? condition2 ? "Full pie": "Half pie": 
+ >              condition2 ? "Half pie" : "No pie, don't cry" ;
+ > console.log(access); // logs "Half pie"
+ >```
+ 
+ Use ternary evaluations in free space in order to do different operations.
+ >```
+ > var stop = false, age = 16;
+ > 
+ > age > 18 ? location.assign('continue.html') : stop = true;
+ >```
+ 
+ Do more than one single operation per case, separating them with a comma.
+ >```
+ > var stop = false, age = 23;
+ >
+ > age > 18 ? (
+ >      alert('OK, you can go.'),
+ >      location.assign('continue.html')
+ > ) : (
+ >      stop = true,
+ >      alert('Sorry, you are much too young!')
+ > );
+ >```
+ 
+ Do more than one operation during the assignation of a value.
+ >```
+ > var age = 16;
+ >
+ > var url = age > 18 ? (
+ >      alert('OK, you can go.'), 
+ >      // alert returns "undefined", but it will be ignored because
+ >      // isn't the last comma-separated value of the parenthesis
+ >      'continue.html' // the value to be assigned if age > 18
+ > ) : (
+ >      alert('You are much too young!'),
+ >      alert('Sorry :-('),
+ >      // etc. etc.
+ >      'stop.html' // the value to be assigned if !(age > 18)
+ > );
+ >
+ > location.assign(url); // "stop.html"
+ >```
+
+ 
 ### String Operators
 
 
