@@ -1139,6 +1139,11 @@ Expressions with values of any type.
 
 - The shorthand assignment operator += can also be used to concatenate strings.
 
+>```
+> var mystring = 'alpha';
+> mystring += 'bet'; // evaluates to "alphabet" and assigns this value to mystring.
+> ```
+
 
 ### Bitwise Operators
 
