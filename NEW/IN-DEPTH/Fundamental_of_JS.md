@@ -1137,6 +1137,8 @@ Expressions with values of any type.
 > console.log('my ' + 'string'); // console logs the string "my string".
 >```
 
+- The shorthand assignment operator += can also be used to concatenate strings.
+
 
 ### Bitwise Operators
 
