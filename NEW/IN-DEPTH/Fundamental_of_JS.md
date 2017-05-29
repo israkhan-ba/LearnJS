@@ -1047,6 +1047,8 @@ List of Operators
 **_Syntax_**
 > condition ? expr1 : expr2 
 
+**_Parameter_**
+
 
 ### String Operators
 
