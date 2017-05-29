@@ -1165,12 +1165,22 @@ Expressions with values of any type.
  
 ### Unary Operators
 
+ A unary operation is an operation with only one operand.
+ 
+#### `delete` Operator
+
+#### `typeof` Operator
+
+#### `void` Operator
+
 
 ### Relational Operators
  
+#### `in` Operator
+
+#### `instanceof` Operator
 
 
- 
 ---
 
 ## Function
