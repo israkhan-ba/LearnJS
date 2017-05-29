@@ -1165,6 +1165,8 @@ Expressions with values of any type.
  
 ### Unary Operators
 
+ A unary operation is an operation with only one operand.
+ 
 
 ### Relational Operators
  
