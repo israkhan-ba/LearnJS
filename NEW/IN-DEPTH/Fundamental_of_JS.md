@@ -1107,7 +1107,27 @@ Expressions with values of any type.
  >```
  
  Do more than one operation during the assignation of a value.
+ >```
+ > var age = 16;
+ >
+ > var url = age > 18 ? (
+ >      alert('OK, you can go.'), 
+ >      // alert returns "undefined", but it will be ignored because
+ >      // isn't the last comma-separated value of the parenthesis
+ >      'continue.html' // the value to be assigned if age > 18
+ > ) : (
+ >      alert('You are much too young!'),
+ >      alert('Sorry :-('),
+ >      // etc. etc.
+ >      'stop.html' // the value to be assigned if !(age > 18)
+ > );
+ >
+ > location.assign(url); // "stop.html"
+ >```
  
+
+location.assign(url); // "stop.html"
+ >```
  
 ### String Operators
 
