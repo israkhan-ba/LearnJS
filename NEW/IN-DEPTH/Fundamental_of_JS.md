@@ -1042,6 +1042,7 @@ List of Operators
 ### Conditional (Ternary) Operator
 
  The conditional (ternary) operator is an operator to use for conditional as expression, it frequently used as a shortcut for the `if` statement.
+ And it's the only operator that takes three operands.
 
 
 ### String Operators
