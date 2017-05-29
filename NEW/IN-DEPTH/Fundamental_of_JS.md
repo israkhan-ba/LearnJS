@@ -1056,7 +1056,11 @@ An expression that evaluates to `true` or `false`.
 Expressions with values of any type.
 
 **_Code Examples_**
-
+- **Basic usage**  
+Display a different message based on the value of the isMember variable.
+ >```
+ >```
+ 
 
 ### String Operators
 
