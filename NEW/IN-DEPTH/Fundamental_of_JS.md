@@ -1087,6 +1087,11 @@ Expressions with values of any type.
  >```
  
  Use ternary evaluations in free space in order to do different operations
+ >```
+ > var stop = false, age = 16;
+ > 
+ > age > 18 ? location.assign('continue.html') : stop = true;
+ >```
  
  
 ### String Operators
