@@ -1130,6 +1130,8 @@ Expressions with values of any type.
  
 ### String Operators
 
+ Concatenation operator (+) concatenates two string values together
+
 
 ### Bitwise Operators
 
