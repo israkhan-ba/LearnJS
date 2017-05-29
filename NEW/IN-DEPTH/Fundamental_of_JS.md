@@ -1062,13 +1062,13 @@ Expressions with values of any type.
  > 'The fee is ' + (isMember ? '$2.00' : '$10.00');
  >```
 
- Assign variables depending on a ternary result:
+ Assign variables depending on a ternary result.
  >```
  > var elvisLives = Math.PI > 4 ? 'Yep' : 'Nope';
  >```
  
 - **More advanced usage**  
- Multiple ternary evaluations_(the conditional operator is right associative)_
+ Multiple ternary evaluations_(the conditional operator is right associative)_.
  >```
  > var firstCheck = false,
  >     secondCheck = false,
@@ -1077,7 +1077,7 @@ Expressions with values of any type.
  > console.log(access); // logs "Access granted"
  >```
  
- Use multiple conditions like in a multiple-conditions IF statement
+ Use multiple conditions like in a multiple-conditions IF statement.
  >```
  > var condition1 = true,
  >     condition2 = false,
@@ -1086,14 +1086,14 @@ Expressions with values of any type.
  > console.log(access); // logs "Half pie"
  >```
  
- Use ternary evaluations in free space in order to do different operations
+ Use ternary evaluations in free space in order to do different operations.
  >```
  > var stop = false, age = 16;
  > 
  > age > 18 ? location.assign('continue.html') : stop = true;
  >```
  
- Do more than one single operation per case, separating them with a comma
+ Do more than one single operation per case, separating them with a comma.
  >```
  > var stop = false, age = 23;
  >
@@ -1124,10 +1124,7 @@ Expressions with values of any type.
  >
  > location.assign(url); // "stop.html"
  >```
- 
 
-location.assign(url); // "stop.html"
- >```
  
 ### String Operators
 
