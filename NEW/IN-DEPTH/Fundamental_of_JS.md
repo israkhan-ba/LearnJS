@@ -1067,6 +1067,8 @@ Expressions with values of any type.
  > var elvisLives = Math.PI > 4 ? 'Yep' : 'Nope';
  >```
  
+- **More advanced usage**
+ 
  
 ### String Operators
 
