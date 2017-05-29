@@ -1124,9 +1124,25 @@ Expressions with values of any type.
  >
  > location.assign(url); // "stop.html"
  >```
-
+ 
+ _In this case, the last comma-separated value of the parenthesis will be the value to be assigned._
+ 
  
 ### String Operators
+
+ Concatenation operator (+) concatenates two string values together, returning another string that is the union of the two operand strings.
+
+**_Code Examples_**
+>```
+> console.log('my ' + 'string'); // console logs the string "my string".
+>```
+
+- The shorthand assignment operator += can also be used to concatenate strings.
+
+>```
+> var mystring = 'alpha';
+> mystring += 'bet'; // evaluates to "alphabet" and assigns this value to mystring.
+> ```
 
 
 ### Bitwise Operators
@@ -1134,7 +1150,19 @@ Expressions with values of any type.
 
 ### Comma Operator
 
-
+ The comma operator (,) simply evaluates both of its operands and returns the value of the last operand.
+ This operator is primarily used inside a `for` loop, to allow multiple variables to be updated each time through the loop.
+ 
+ **_Code Examples_**
+ >```
+ > for (var i = 0, j = 9; i <= j; i++, j--)
+ >     console.log('a[' + i + '][' + j + ']= ' + a[i][j]);
+ >```
+ 
+ _If a is a 2-dimensional array with 10 elements on a side, the following code uses the comma operator to update two variables at once._
+ _the code prints the values of the diagonal elements in the array_
+ 
+ 
 ### Unary Operators
 
 
