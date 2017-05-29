@@ -1069,6 +1069,13 @@ Expressions with values of any type.
  
 - **More advanced usage**  
  Multiple ternary evaluations_(the conditional operator is right associative)_
+ >```
+ > var firstCheck = false,
+ > secondCheck = false,
+ > access = firstCheck ? 'Access denied' : secondCheck ? 'Access denied' : 'Access granted'; 
+ > console.log(access); // logs "Access granted"
+ >```
+ 
  
 ### String Operators
 
