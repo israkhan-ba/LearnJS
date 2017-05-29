@@ -1159,7 +1159,9 @@ Expressions with values of any type.
  >     console.log('a[' + i + '][' + j + ']= ' + a[i][j]);
  >```
  
- _if a is a 2-dimensional array with 10 elements on a side, the following code uses the comma operator to update two variables at once._
+ _If a is a 2-dimensional array with 10 elements on a side, the following code uses the comma operator to update two variables at once._
+ _the code prints the values of the diagonal elements in the array_
+ 
  
 ### Unary Operators
 
