@@ -1059,6 +1059,7 @@ Expressions with values of any type.
 - **Basic usage**  
 Display a different message based on the value of the isMember variable.
  >```
+ > 'The fee is ' + (isMember ? '$2.00' : '$10.00');
  >```
  
 
