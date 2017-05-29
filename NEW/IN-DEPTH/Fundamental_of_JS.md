@@ -1167,6 +1167,8 @@ Expressions with values of any type.
 
  A unary operation is an operation with only one operand.
  
+#### `delete` Operator
+
 
 ### Relational Operators
  
