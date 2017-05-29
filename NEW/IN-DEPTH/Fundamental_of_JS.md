@@ -1076,6 +1076,8 @@ Expressions with values of any type.
  > console.log(access); // logs "Access granted"
  >```
  
+ Use multiple conditions like in a multiple-conditions IF statement
+ 
  
 ### String Operators
 
