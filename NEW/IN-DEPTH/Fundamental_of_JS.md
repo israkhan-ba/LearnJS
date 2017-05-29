@@ -1063,8 +1063,11 @@ Expressions with values of any type.
  >```
 
  Assign variables depending on a ternary result:
+ >```
+ > var elvisLives = Math.PI > 4 ? 'Yep' : 'Nope';
+ >```
  
-
+ 
 ### String Operators
 
 
