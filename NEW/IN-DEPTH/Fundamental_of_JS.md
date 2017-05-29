@@ -1178,7 +1178,9 @@ Expressions with values of any type.
  
 #### `in` Operator
 
- 
+#### `instanceof` Operator
+
+
 ---
 
 ## Function
