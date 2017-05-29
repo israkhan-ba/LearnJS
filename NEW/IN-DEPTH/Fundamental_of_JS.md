@@ -1124,7 +1124,9 @@ Expressions with values of any type.
  >
  > location.assign(url); // "stop.html"
  >```
-
+ 
+ _In this case, the last comma-separated value of the parenthesis will be the value to be assigned._
+ 
  
 ### String Operators
 
