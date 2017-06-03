@@ -1158,6 +1158,15 @@ Expressions with values of any type.
 ##### Bitwise NOT ( ~ )
 
 
+#### Bitwise Shift Operators
+
+##### Left Shift Operator ( << )
+
+##### Sign-propagating Right Shift Operator ( >> )
+
+##### Zero-fill Right Shift ( >>> )
+
+
 ### Comma Operator
 
  The comma operator (,) simply evaluates both of its operands and returns the value of the last operand.
