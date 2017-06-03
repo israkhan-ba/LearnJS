@@ -1153,6 +1153,9 @@ Expressions with values of any type.
 
 
 #### Bitwise Logical Operators
+ 
+ Conceptually, the bitwise logical operators work as follows:
+
 
 ##### Bitwise AND ( & )
 
