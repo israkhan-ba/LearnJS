@@ -1155,6 +1155,7 @@ Expressions with values of any type.
 #### Bitwise Logical Operators
  
  Conceptually, the bitwise logical operators work as follows:
+ - The operands are converted to 32-bit integers and expressed by a series of bits (zeroes and ones). 
 
 
 ##### Bitwise AND ( & )
