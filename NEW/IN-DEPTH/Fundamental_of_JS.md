@@ -1147,15 +1147,20 @@ Expressions with values of any type.
 
 ### Bitwise Operators
 
- Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones), rather than as decimal, hexadecimal, or octal numbers.
- For example, the decimal number nine has a binary representation of 1001.
- Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.
+ Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones),  
+ rather than as decimal, hexadecimal, or octal numbers.
+ 
+ For example, the decimal number nine has a binary representation of 1001.  
+ Bitwise operators perform their operations on such binary representations,  
+ but they return standard JavaScript numerical values.
 
 
 #### Bitwise Logical Operators
  
  Conceptually, the bitwise logical operators work as follows:
  - The operands are converted to 32-bit integers and expressed by a series of bits (zeroes and ones). Numbers with more than 32 bits get their most significant bits discarded.
+ - Each bit in the first operand is paired with the corresponding bit in the second operand: first bit to first bit, second bit to second bit, and so on.
+ - The operator is applied to each pair of bits, and the result is constructed bitwise.
 
 
 ##### Bitwise AND ( & )
