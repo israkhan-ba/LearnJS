@@ -1149,13 +1149,13 @@ Expressions with values of any type.
 
 #### Bitwise Logical Operators
 
-#### Bitwise AND ( & )
+##### Bitwise AND ( & )
 
-#### Bitwise OR ( | )
+##### Bitwise OR ( | )
 
-#### Bitwise XOR ( ^ )
+##### Bitwise XOR ( ^ )
 
-#### Bitwise NOT ( ~ )
+##### Bitwise NOT ( ~ )
 
 
 ### Comma Operator
