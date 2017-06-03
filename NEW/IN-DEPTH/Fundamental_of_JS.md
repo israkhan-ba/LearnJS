@@ -1156,6 +1156,7 @@ Expressions with values of any type.
  
  Conceptually, the bitwise logical operators work as follows:
  - The operands are converted to 32-bit integers and expressed by a series of bits (zeroes and ones). Numbers with more than 32 bits get their most significant bits discarded.
+ - Each bit in the first operand is paired with the corresponding bit in the second operand: first bit to first bit, second bit to second bit, and so on.
 
 
 ##### Bitwise AND ( & )
