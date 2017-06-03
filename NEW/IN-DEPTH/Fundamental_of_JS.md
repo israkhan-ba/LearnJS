@@ -1153,6 +1153,8 @@ Expressions with values of any type.
 
 #### Bitwise XOR ( ^ )
 
+#### Bitwise NOT ( ~ )
+
 
 ### Comma Operator
 
