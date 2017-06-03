@@ -1164,6 +1164,8 @@ Expressions with values of any type.
 
 ##### Sign-propagating Right Shift Operator ( >> )
 
+##### Zero-fill Right Shift ( >>> )
+
 
 ### Comma Operator
 
