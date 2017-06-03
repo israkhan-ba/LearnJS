@@ -1149,6 +1149,8 @@ Expressions with values of any type.
 
  Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones), rather than as decimal, hexadecimal, or octal numbers.
  For example, the decimal number nine has a binary representation of 1001.
+ Bitwise operators perform their operations on such binary representations.
+
 
 #### Bitwise Logical Operators
 
