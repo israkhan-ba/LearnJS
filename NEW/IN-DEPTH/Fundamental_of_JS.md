@@ -1147,6 +1147,8 @@ Expressions with values of any type.
 
 ### Bitwise Operators
 
+#### Bitwise AND ( & )
+
 
 ### Comma Operator
 
