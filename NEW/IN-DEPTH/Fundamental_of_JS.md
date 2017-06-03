@@ -1160,6 +1160,8 @@ Expressions with values of any type.
 
 #### Bitwise Shift Operators
 
+##### Left Shift Operator ( << )
+
 
 ### Comma Operator
 
