@@ -1147,6 +1147,7 @@ Expressions with values of any type.
 
 ### Bitwise Operators
 
+
 #### Bitwise Logical Operators
 
 ##### Bitwise AND ( & )
@@ -1165,6 +1166,9 @@ Expressions with values of any type.
 ##### Sign-propagating Right Shift Operator ( >> )
 
 ##### Zero-fill Right Shift ( >>> )
+
+
+#### Signed 32-bit integers
 
 
 ### Comma Operator
