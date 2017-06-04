@@ -1170,6 +1170,9 @@ Expressions with values of any type.
 
 ##### Bitwise OR ( | )
 
+ Performs the OR operation on each pair of bits. a OR b yields 1 if either a or b is 1.
+ 
+
 ##### Bitwise XOR ( ^ )
 
 ##### Bitwise NOT ( ~ )
