@@ -1180,6 +1180,8 @@ Expressions with values of any type.
 
 ##### Bitwise NOT ( ~ )
 
+ Performs the NOT operator on each bit. NOT a yields the inverted value (a.k.a. one's complement) of a.
+ 
 
 #### Bitwise Shift Operators
 
