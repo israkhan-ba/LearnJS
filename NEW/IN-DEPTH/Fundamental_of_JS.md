@@ -1194,6 +1194,10 @@ The direction of the shift operation is controlled by the operator used.
 
 ##### Left Shift Operator ( << )
 
+ This operator shifts the first operand the specified number of bits to the left. 
+ Excess bits shifted off to the left are discarded. Zero bits are shifted in from the right.
+ 
+ 
 ##### Sign-propagating Right Shift Operator ( >> )
 
 ##### Zero-fill Right Shift ( >>> )
