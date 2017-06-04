@@ -1175,6 +1175,9 @@ Expressions with values of any type.
 
 ##### Bitwise XOR ( ^ )
 
+ Performs the XOR operation on each pair of bits. a XOR b yields 1 if a and b are different.
+ 
+
 ##### Bitwise NOT ( ~ )
 
 
