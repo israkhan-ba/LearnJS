@@ -1210,7 +1210,12 @@ The direction of the shift operation is controlled by the operator used.
 
 ##### Zero-fill Right Shift ( >>> )
 
-
+ This operator shifts the first operand the specified number of bits to the right. 
+ Excess bits shifted off to the right are discarded. 
+ Zero bits are shifted in from the left. 
+ The sign bit becomes 0, so the result is always non-negative.
+ 
+ 
 #### Signed 32-bit integers
 
 
