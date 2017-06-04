@@ -1200,6 +1200,13 @@ The direction of the shift operation is controlled by the operator used.
  
 ##### Sign-propagating Right Shift Operator ( >> )
 
+ This operator shifts the first operand the specified number of bits to the right. 
+ Excess bits shifted off to the right are discarded. 
+ Copies of the leftmost bit are shifted in from the left. 
+ Since the new leftmost bit has the same value as the previous leftmost bit, 
+ the sign bit (the leftmost bit) does not change. 
+ 
+
 ##### Zero-fill Right Shift ( >>> )
 
 
