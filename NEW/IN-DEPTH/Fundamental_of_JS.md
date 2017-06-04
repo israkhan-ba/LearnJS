@@ -1205,6 +1205,7 @@ The direction of the shift operation is controlled by the operator used.
  Copies of the leftmost bit are shifted in from the left. 
  Since the new leftmost bit has the same value as the previous leftmost bit, 
  the sign bit (the leftmost bit) does not change. 
+ Hence the name "sign-propagating".
  
 
 ##### Zero-fill Right Shift ( >>> )
