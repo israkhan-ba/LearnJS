@@ -1185,6 +1185,9 @@ Expressions with values of any type.
 
 #### Bitwise Shift Operators
 
+ The bitwise shift operators take two operands
+ 
+
 ##### Left Shift Operator ( << )
 
 ##### Sign-propagating Right Shift Operator ( >> )
