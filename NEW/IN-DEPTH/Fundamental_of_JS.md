@@ -1165,6 +1165,9 @@ Expressions with values of any type.
 
 ##### Bitwise AND ( & )
 
+ Performs the AND operation on each pair of bits. a AND b yields 1 only if both a and b are 1. 
+ 
+
 ##### Bitwise OR ( | )
 
 ##### Bitwise XOR ( ^ )
