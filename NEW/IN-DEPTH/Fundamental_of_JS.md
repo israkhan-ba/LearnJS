@@ -1219,6 +1219,7 @@ The direction of the shift operation is controlled by the operator used.
 #### Signed 32-bit integers
  
  The operands of all bitwise operators are converted to signed 32-bit integers in two's complement format. 
+ Two's complement format means that a number's negative counterpart (e.g. 5 vs. -5) is all the number's bits inverted (bitwise NOT of the number, a.k.a. ones' complement of the number) plus one.
  
 
 ### Comma Operator
