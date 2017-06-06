@@ -1250,7 +1250,9 @@ The direction of the shift operation is controlled by the operator used.
  else `false` will be returned.
  
  However, it is important to consider the following scenarios:
- 
+
+ - If the property which you are trying to delete does not exist, delete will not have any effect and will return `true`
+
 
 #### `typeof` Operator
 
