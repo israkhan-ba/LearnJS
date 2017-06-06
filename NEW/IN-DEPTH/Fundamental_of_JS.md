@@ -1243,6 +1243,9 @@ The direction of the shift operation is controlled by the operator used.
  
 #### `delete` Operator
 
+ The `delete` operator removes a property from an object.
+
+
 #### `typeof` Operator
 
 #### `void` Operator
