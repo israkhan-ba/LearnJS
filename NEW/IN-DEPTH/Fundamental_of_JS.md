@@ -1245,6 +1245,7 @@ The direction of the shift operation is controlled by the operator used.
 
  The `delete` operator removes a property from an object.
  Unlike what common belief suggests, the delete operator has nothing to do with directly freeing memory. (Memory management is done indirectly via breaking references.)
+ The `delete` operator removes a given property from an object.
  
 
 #### `typeof` Operator
