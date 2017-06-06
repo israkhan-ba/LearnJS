@@ -1253,6 +1253,8 @@ The direction of the shift operation is controlled by the operator used.
 
  - If the property which you are trying to delete does not exist, delete will not have any effect and will return `true`
 
+ - If a property with the same name exists on the object's prototype chain, then, after deletion, the object will use the property from the prototype chain.
+ 
 
 #### `typeof` Operator
 
