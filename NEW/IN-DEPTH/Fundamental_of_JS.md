@@ -1249,6 +1249,8 @@ The direction of the shift operation is controlled by the operator used.
  On successful deletion, it will return `true`,
  else `false` will be returned.
  
+ However, it is important to consider the following scenarios:
+ 
 
 #### `typeof` Operator
 
