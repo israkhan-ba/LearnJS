@@ -1217,7 +1217,9 @@ The direction of the shift operation is controlled by the operator used.
  
  
 #### Signed 32-bit integers
-
+ 
+ The operands of all bitwise operators are converted to signed 32-bit integers in two's complement format. 
+ 
 
 ### Comma Operator
 
