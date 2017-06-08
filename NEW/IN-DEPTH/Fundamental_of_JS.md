@@ -1281,8 +1281,9 @@ The direction of the shift operation is controlled by the operator used.
 > console.log(delete Employee.salary); // returns true
 >```
 
-**Non-configurable properties**
-
+**Non-configurable Properties**
+ 
+  When a property is marked as non-configurable, delete won't have any effect, and will return false.
 
 
 #### `typeof` Operator
