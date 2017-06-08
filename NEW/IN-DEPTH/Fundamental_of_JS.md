@@ -1294,6 +1294,9 @@ The direction of the shift operation is controlled by the operator used.
 > console.log(delete Employee.name);  // returns false
 >```
 
+`var`, `let` and `const` create non-configurable properties that cannot be deleted with the `delete` operator
+
+
 
 #### `typeof` Operator
 
