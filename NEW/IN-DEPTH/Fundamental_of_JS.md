@@ -1259,6 +1259,7 @@ The direction of the shift operation is controlled by the operator used.
  
   - As such, delete cannot delete any functions in the global scope (whether this is part from a function definition or a function expression).
  
+  - Functions which are part of an object (apart from the global scope) can be deleted with delete.
 
 #### `typeof` Operator
 
