@@ -1283,7 +1283,8 @@ The direction of the shift operation is controlled by the operator used.
 
 **Non-configurable Properties**
  
-  When a property is marked as non-configurable, delete won't have any effect, and will return false.
+  When a property is marked as non-configurable, `delete` won't have any effect, and will return `false`.
+  In strict mode this will raise a `SyntaxError`.
 
 
 #### `typeof` Operator
