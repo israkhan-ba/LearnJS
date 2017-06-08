@@ -1265,6 +1265,23 @@ The direction of the shift operation is controlled by the operator used.
  
  - Non-configurable properties cannot be removed. This includes properties of built-in objects like `Math`, `Array`, `Object` and properties that are created as non-configurable with methods like `Object.defineProperty()`.
 
+**_Code Examples_**
+>```
+> var Employee = {
+>   age: 28,
+>   name: 'abc',
+>   designation: 'developer'
+> }
+> 
+> console.log(delete Employee.name);   // returns true
+> console.log(delete Employee.age);    // returns true
+> 
+> // When trying to delete a property that does 
+> // not exist, true is returned 
+> console.log(delete Employee.salary); // returns true
+>```
+
+
 #### `typeof` Operator
 
 #### `void` Operator
