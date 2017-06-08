@@ -1296,6 +1296,23 @@ The direction of the shift operation is controlled by the operator used.
 
 `var`, `let` and `const` create non-configurable properties that cannot be deleted with the `delete` operator
 
+**_Code Examples_**
+>```
+> var nameOther = 'XYZ';
+> 
+> // We can access this global property using:
+> Object.getOwnPropertyDescriptor(window, 'nameOther');  
+> 
+> // output: Object {value: "XYZ", 
+> //                  writable: true, 
+> //                  enumerable: true,
+> //                  configurable: false}
+> 
+> // Since "nameOther" is added using with the
+> // var keyword, it is marked as "non-configurable"
+> 
+> delete nameOther;   // return false
+>```
 
 
 #### `typeof` Operator
