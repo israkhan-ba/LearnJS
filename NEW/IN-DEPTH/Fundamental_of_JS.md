@@ -1286,6 +1286,14 @@ The direction of the shift operation is controlled by the operator used.
   When a property is marked as non-configurable, `delete` won't have any effect, and will return `false`.
   In strict mode this will raise a `SyntaxError`.
 
+**_Code Examples_**
+>```
+> var Employee = {};
+> Object.defineProperty(Employee, 'name', {configurable: false});
+> 
+> console.log(delete Employee.name);  // returns false
+>```
+
 
 #### `typeof` Operator
 
