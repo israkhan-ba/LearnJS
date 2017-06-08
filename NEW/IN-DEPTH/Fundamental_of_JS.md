@@ -1314,6 +1314,8 @@ The direction of the shift operation is controlled by the operator used.
 > delete nameOther;   // return false
 >```
 
+In strict mode, this would have raised an exception.
+
 
 #### `typeof` Operator
 
