@@ -1261,6 +1261,9 @@ The direction of the shift operation is controlled by the operator used.
  
   - Functions which are part of an object (apart from the global scope) can be deleted with delete.
 
+ - Any property declared with `let` or `const` cannot be deleted from the scope within which they were defined.
+ 
+
 #### `typeof` Operator
 
 #### `void` Operator
