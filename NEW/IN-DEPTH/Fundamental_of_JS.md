@@ -1255,7 +1255,9 @@ The direction of the shift operation is controlled by the operator used.
 
  - If a property with the same name exists on the object's prototype chain, then, after deletion, the object will use the property from the prototype chain (in other words, delete only has an effect on own properties).
  
- - Any property declared with var cannot be deleted from the global scope or from a function's scope.
+ - Any property declared with `var` cannot be deleted from the global scope or from a function's scope.
+ 
+  - As such, delete cannot delete any functions in the global scope (whether this is part from a function definition or a function expression).
  
 
 #### `typeof` Operator
