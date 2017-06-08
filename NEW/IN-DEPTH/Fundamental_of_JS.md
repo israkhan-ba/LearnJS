@@ -1281,6 +1281,9 @@ The direction of the shift operation is controlled by the operator used.
 > console.log(delete Employee.salary); // returns true
 >```
 
+**Non-configurable properties**
+
+
 
 #### `typeof` Operator
 
