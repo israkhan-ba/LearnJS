@@ -1263,6 +1263,7 @@ The direction of the shift operation is controlled by the operator used.
 
  - Any property declared with `let` or `const` cannot be deleted from the scope within which they were defined.
  
+ - Non-configurable properties cannot be removed. This includes properties of built-in objects like `Math`, `Array`, `Object` and properties that are created as non-configurable with methods like `Object.defineProperty()`.
 
 #### `typeof` Operator
 
