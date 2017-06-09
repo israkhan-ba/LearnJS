@@ -1324,6 +1324,9 @@ In strict mode, this would have raised an exception.
 **_Syntax_** 
 > `typeof` _`operand`_
 
+**_Parameters_**  
+`operand` is an expression representing the object or primitive whose type is to be returned.
+
 
 #### `void` Operator
 
