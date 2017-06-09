@@ -1334,6 +1334,7 @@ The following table summarizes the possible return values of `typeof`.
 | Undefined  | `"undefined"`  |
 | Null  | `"object"`  |
 | Boolean  | `"boolean"`  |
+| Number  | `"number"`  |
 
 
 #### `void` Operator
