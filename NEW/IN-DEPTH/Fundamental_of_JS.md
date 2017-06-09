@@ -1332,6 +1332,7 @@ The following table summarizes the possible return values of `typeof`.
 | Type       | Result  |
 | -------    | ------- |
 | Undefined  | `"undefined"`  |
+| Null  | `"object"`  |
 
 
 #### `void` Operator
