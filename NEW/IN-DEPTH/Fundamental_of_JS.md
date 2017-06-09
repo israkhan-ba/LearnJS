@@ -1321,6 +1321,10 @@ In strict mode, this would have raised an exception.
 
  The `typeof` operator returns a string indicating the type of the unevaluated operand.
  
+**_Syntax_** 
+> `typeof` _`operand`_
+
+
 #### `void` Operator
 
 
