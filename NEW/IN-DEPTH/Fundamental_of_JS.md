@@ -1327,7 +1327,11 @@ In strict mode, this would have raised an exception.
 **_Parameters_**  
 `operand` is an expression representing the object or primitive whose type is to be returned.
 
-The following table summarizes the possible return values of typeof.
+The following table summarizes the possible return values of `typeof`.
+
+| Type       | Result  |
+| -------    | ------- |
+| Undefined  | `"undefined"`  |
 
 
 #### `void` Operator
