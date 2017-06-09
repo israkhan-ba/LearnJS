@@ -1335,6 +1335,7 @@ The following table summarizes the possible return values of `typeof`.
 | Null  | `"object"`  |
 | Boolean  | `"boolean"`  |
 | Number  | `"number"`  |
+| String  | `"string"`  |
 
 
 #### `void` Operator
