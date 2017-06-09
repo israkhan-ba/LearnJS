@@ -1337,6 +1337,7 @@ The following table summarizes the possible return values of `typeof`.
 | Number  | `"number"`  |
 | String  | `"string"`  |
 | Symbol (new in ECMAScript 2015)  | `"symbol"`  |
+| Function object (implements [[Call]] in ECMA-262 terms) | `"function"` |
 
 
 #### `void` Operator
