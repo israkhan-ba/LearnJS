@@ -1336,6 +1336,7 @@ The following table summarizes the possible return values of `typeof`.
 | Boolean  | `"boolean"`  |
 | Number  | `"number"`  |
 | String  | `"string"`  |
+| Symbol (new in ECMAScript 2015)  | `"symbol"`  |
 
 
 #### `void` Operator
