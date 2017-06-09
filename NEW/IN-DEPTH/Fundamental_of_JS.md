@@ -1319,6 +1319,8 @@ In strict mode, this would have raised an exception.
 
 #### `typeof` Operator
 
+ The `typeof` operator returns a string indicating the type of the unevaluated operand.
+ 
 #### `void` Operator
 
 
