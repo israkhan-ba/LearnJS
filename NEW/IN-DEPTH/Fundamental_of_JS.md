@@ -1340,6 +1340,10 @@ The following table summarizes the possible return values of `typeof`.
 | Function object (implements [[Call]] in ECMA-262 terms) | `"function"` |
 | Any other object | `"object"`     |
 
+**_Code Examples_**
+>```
+>```
+
 
 #### `void` Operator
 
