@@ -1357,6 +1357,11 @@ The following table summarizes the possible return values of `typeof`.
 > typeof '1' === 'string'; // note that a number within a string is still typeof string
 > typeof (typeof 1) === 'string'; // typeof always returns a string
 > typeof String('abc') === 'string'; // but never use this form!
+> 
+> // Booleans
+> typeof true === 'boolean';
+> typeof false === 'boolean';
+> typeof Boolean(true) === 'boolean'; // but never use this form!
 >```
 
 #### `void` Operator
