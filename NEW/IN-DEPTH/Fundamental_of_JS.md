@@ -1362,6 +1362,11 @@ The following table summarizes the possible return values of `typeof`.
 > typeof true === 'boolean';
 > typeof false === 'boolean';
 > typeof Boolean(true) === 'boolean'; // but never use this form!
+> 
+> // Symbols
+> typeof Symbol() === 'symbol'
+> typeof Symbol('foo') === 'symbol'
+> typeof Symbol.iterator === 'symbol'
 >```
 
 #### `void` Operator
