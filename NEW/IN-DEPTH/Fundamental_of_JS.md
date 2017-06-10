@@ -1329,16 +1329,17 @@ In strict mode, this would have raised an exception.
 
 The following table summarizes the possible return values of `typeof`.
 
-| Type       | Result  |
-| -------    | ------- |
+| Type       | Result         |
+| -------    | -------        |
 | Undefined  | `"undefined"`  |
-| Null  | `"object"`  |
-| Boolean  | `"boolean"`  |
-| Number  | `"number"`  |
-| String  | `"string"`  |
+| Null       | `"object"`     |
+| Boolean    | `"boolean"`    |
+| Number     | `"number"`     |
+| String     | `"string"`     |
 | Symbol (new in ECMAScript 2015)  | `"symbol"`  |
 | Function object (implements [[Call]] in ECMA-262 terms) | `"function"` |
-| Any other object | `"object"` |
+| Any other object | `"object"`     |
+
 
 #### `void` Operator
 
