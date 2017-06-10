@@ -1372,6 +1372,9 @@ The following table summarizes the possible return values of `typeof`.
 > typeof undefined === 'undefined';
 > typeof declaredButUndefinedVariable === 'undefined';
 > typeof undeclaredVariable === 'undefined'; 
+>
+> // Objects
+> typeof {a: 1} === 'object';
 >```
 
 
