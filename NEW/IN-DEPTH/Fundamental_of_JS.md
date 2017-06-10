@@ -1342,6 +1342,14 @@ The following table summarizes the possible return values of `typeof`.
 
 **_Code Examples_**
 >```
+> // Numbers
+> typeof 37 === 'number';
+> typeof 3.14 === 'number';
+> typeof(42) === 'number';
+> typeof Math.LN2 === 'number';
+> typeof Infinity === 'number';
+> typeof NaN === 'number'; // Despite being "Not-A-Number"
+> typeof Number(1) === 'number'; // but never use this form!
 >```
 
 
