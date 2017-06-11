@@ -1393,6 +1393,9 @@ The following table summarizes the possible return values of `typeof`.
 > typeof Math.sin === 'function';
 >```
 
+**_Notes_**
+`null`
+
 
 #### `void` Operator
 
