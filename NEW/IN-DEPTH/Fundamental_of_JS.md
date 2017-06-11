@@ -1408,7 +1408,11 @@ The following table summarizes the possible return values of `typeof`.
  
 **Regular expressions**  
  Callable regular expressions were a non-standard addition in some browsers.
- 
+>```
+> typeof /s/ === 'function'; // Chrome 1-12 Non-conform to ECMAScript 5.1
+> typeof /s/ === 'object';   // Firefox 5+  Conform to ECMAScript 5.1
+>```
+
  
 #### `void` Operator
 
