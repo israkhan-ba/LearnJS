@@ -1414,9 +1414,12 @@ The following table summarizes the possible return values of `typeof`.
 >```
 
 **Exceptions**  
-All current browsers expose a non-standard host object document.all with type Undefined.
+All current browsers expose a non-standard host object `document.all` with type Undefined.
+>```
+> typeof document.all === 'undefined'
+>```
 
- 
+
 #### `void` Operator
 
 
