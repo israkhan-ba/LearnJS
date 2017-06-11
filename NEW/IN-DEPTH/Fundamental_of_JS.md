@@ -1413,6 +1413,9 @@ The following table summarizes the possible return values of `typeof`.
 > typeof /s/ === 'object';   // Firefox 5+  Conform to ECMAScript 5.1
 >```
 
+**Exceptions**  
+All current browsers expose a non-standard host object document.all with type Undefined.
+
  
 #### `void` Operator
 
