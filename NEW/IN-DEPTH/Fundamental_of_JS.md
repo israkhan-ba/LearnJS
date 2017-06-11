@@ -1395,6 +1395,10 @@ The following table summarizes the possible return values of `typeof`.
 
 **_Notes_**
 `null`
+>```
+> // This stands since the beginning of JavaScript
+> typeof null === 'object';
+>```
 
 
 #### `void` Operator
