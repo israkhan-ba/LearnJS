@@ -1394,15 +1394,18 @@ The following table summarizes the possible return values of `typeof`.
 >```
 
 **_Notes_**
+
 `null`
 >```
 > // This stands since the beginning of JavaScript
 > typeof null === 'object';
 >```
 
- In the first implementation of JavaScript, JavaScript values were represented as a type tag and a value.
- The type tag for objects was 0. null was represented as the NULL pointer (0x00 in most platforms).
- Consequently, null had 0 as type tag, hence the bogus typeof return value.
+ In the first implementation of JavaScript, JavaScript values were represented as a type tag and a value.  
+ The type tag for objects was 0. null was represented as the NULL pointer (0x00 in most platforms).  
+ Consequently, null had 0 as type tag, hence the bogus typeof return value.  
+ A fix was proposed for **ECMAScript** (via an opt-in), but was rejected. It would have resulted in `typeof` _`null === 'null'`_
+ 
  
  
 #### `void` Operator
