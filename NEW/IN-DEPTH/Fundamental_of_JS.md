@@ -1395,7 +1395,7 @@ The following table summarizes the possible return values of `typeof`.
 
 **_Notes_**
 
-`null`
+**`null`**
 >```
 > // This stands since the beginning of JavaScript
 > typeof null === 'object';
@@ -1406,6 +1406,7 @@ The following table summarizes the possible return values of `typeof`.
  Consequently, null had 0 as type tag, hence the bogus typeof return value.  
  A fix was proposed for **ECMAScript** (via an opt-in), but was rejected. It would have resulted in `typeof` _`null === 'null'`_
  
+**Regular expressions**
  
  
 #### `void` Operator
