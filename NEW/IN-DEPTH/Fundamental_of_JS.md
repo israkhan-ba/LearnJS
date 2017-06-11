@@ -1400,6 +1400,7 @@ The following table summarizes the possible return values of `typeof`.
 > typeof null === 'object';
 >```
 
+ In the first implementation of JavaScript, JavaScript values were represented as a type tag and a value.
 
 #### `void` Operator
 
