@@ -1331,8 +1331,8 @@ The following table summarizes the possible return values of `typeof`.
 
 | Type       | Result         |
 | -------    | -------        |
-| Undefined  | `"undefined"`  |
-| Null       | `"object"`     |
+| Undefined  | `"undefined"`  | 
+| Null *(See below)*       | `"object"`     |
 | Boolean    | `"boolean"`    |
 | Number     | `"number"`     |
 | String     | `"string"`     |
