@@ -1419,6 +1419,9 @@ All current browsers expose a non-standard host object `document.all` with type 
 > typeof document.all === 'undefined'
 >```
 
+ Although the specification allows custom type tags for non-standard exotic objects, it requires those type tags to be different from the predefined ones.  
+ The case of `document.all` having type tag `'undefined'` must be classified as an exceptional violation of the rules.
+
 
 #### `void` Operator
 
