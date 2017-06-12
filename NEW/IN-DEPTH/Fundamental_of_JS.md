@@ -1427,6 +1427,9 @@ All current browsers expose a non-standard host object `document.all` with type 
 
  The `void` operator evaluates the given expression and then returns `undefined`.
 
+**_Syntax_** 
+> `void` _`expression`_
+
  This operator allows inserting expressions that produce side effects into places where an expression that evaluates to `undefined` is desired.
 
  The `void` operator is often used merely to obtain the undefined primitive value, usually using "`void(0)`" (which is equivalent to "`void 0`").  
