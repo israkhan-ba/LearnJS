@@ -1459,6 +1459,17 @@ All current browsers expose a non-standard host object `document.all` with type 
 
  When a browser follows a javascript: URI, it evaluates the code in the URI and then replaces the contents of the page with the returned value, unless the returned value is undefined. The void operator can be used to return undefined. For example:
 
+**_Code Examples_**
+>```
+> <a href="javascript:void(0);">
+>   Click here to do nothing
+> </a>
+> 
+> <a href="javascript:void(document.body.style.backgroundColor='green');">
+>   Click here for green background
+> </a>
+>```
+
 
 ### Relational Operators
  
