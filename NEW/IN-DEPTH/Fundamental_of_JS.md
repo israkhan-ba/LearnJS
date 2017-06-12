@@ -1434,7 +1434,9 @@ All current browsers expose a non-standard host object `document.all` with type 
 
  The `void` operator is often used merely to obtain the undefined primitive value, usually using "`void(0)`" (which is equivalent to "`void 0`").  
  In these cases, the global variable `undefined` can be used instead (assuming it has not been assigned to a non-default value).
- 
+
+**Immediately Invoked Function Expressions**
+
 
 ### Relational Operators
  
