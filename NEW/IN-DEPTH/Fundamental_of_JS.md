@@ -1438,7 +1438,23 @@ All current browsers expose a non-standard host object `document.all` with type 
 **Immediately Invoked Function Expressions**
 
  When using an _immediately-invoked function expression_, `void` can be used to force the `function` keyword to be treated as an expression instead of a declaration.
- 
+
+**_Code Examples_**
+>```
+> void function iife() {
+>     var bar = function () {};
+>     var baz = function () {};
+>     var foo = function () {
+>         bar();
+>         baz();
+>      };
+>     var biz = function () {};
+> 
+>     foo();
+>     biz();
+> }();
+>```
+
 
 ### Relational Operators
  
