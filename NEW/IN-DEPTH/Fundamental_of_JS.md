@@ -1470,6 +1470,9 @@ All current browsers expose a non-standard host object `document.all` with type 
 > </a>
 >```
 
+**_Note_**
+However, that the `javascript:` pseudo protocol is discouraged over other alternatives, such as unobtrusive event handlers.
+
 
 ### Relational Operators
  
