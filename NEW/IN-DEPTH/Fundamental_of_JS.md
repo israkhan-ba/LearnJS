@@ -1455,6 +1455,8 @@ All current browsers expose a non-standard host object `document.all` with type 
 > }();
 >```
 
+**JavaScript URIs**
+
 
 ### Relational Operators
  
