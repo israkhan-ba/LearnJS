@@ -1425,6 +1425,8 @@ All current browsers expose a non-standard host object `document.all` with type 
 
 #### `void` Operator
 
+ The `void` operator evaluates the given expression and then returns `undefined`.
+
 
 ### Relational Operators
  
