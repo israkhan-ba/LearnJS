@@ -1487,6 +1487,9 @@ However, that the `javascript:` pseudo protocol is discouraged over other altern
 __prop__  
  > A string or symbol representing a property name or array index (non-symbols will be coerced to strings).
 
+__objectName__  
+ > Name of an object.
+
 
 #### `instanceof` Operator
 
