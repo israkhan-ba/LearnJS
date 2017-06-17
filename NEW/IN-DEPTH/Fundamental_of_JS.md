@@ -1501,6 +1501,10 @@ __objectName__
 >                   // index number, not the value at that index)
 > 'length' in trees // returns true (length is an Array property)
 > Symbol.iterator in trees // returns true (arrays are iterable, works only in ES2015+)
+>
+> // Predefined objects
+> 'PI' in Math          // returns true
+>
 >```
 
 
