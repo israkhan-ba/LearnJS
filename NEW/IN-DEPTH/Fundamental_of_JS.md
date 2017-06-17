@@ -1480,6 +1480,9 @@ However, that the `javascript:` pseudo protocol is discouraged over other altern
 
  The `in` operator returns true if the specified property is in the specified object.
  
+**_Syntax_** 
+> _`prop`_ `in` _`objectName`_
+
 
 #### `instanceof` Operator
 
