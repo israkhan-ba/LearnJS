@@ -1483,6 +1483,10 @@ However, that the `javascript:` pseudo protocol is discouraged over other altern
 **_Syntax_** 
 > _`prop`_ `in` _`objectName`_
 
+**_Parameter_**  
+__prop__  
+ > A string or symbol representing a property name or array index (non-symbols will be coerced to strings).
+
 
 #### `instanceof` Operator
 
