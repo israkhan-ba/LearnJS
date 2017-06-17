@@ -1490,6 +1490,10 @@ __prop__
 __objectName__  
  > Name of an object.
 
+**_Code Examples_**
+>```
+>```
+
 
 #### `instanceof` Operator
 
