@@ -1523,6 +1523,8 @@ __objectName__
 > 'length' in color2
 >```
 
+Using `in` with `deleted` or `undefined` properties
+
 
 #### `instanceof` Operator
 
