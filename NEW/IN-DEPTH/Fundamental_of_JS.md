@@ -1514,6 +1514,11 @@ __objectName__
 
  You must specify an object on the right side of the in operator. For example, you can specify a string created with the String constructor, but you cannot specify a string literal.
 
+>```
+> var color1 = new String('green');
+> 'length' in color1 // returns true
+>```
+
 
 #### `instanceof` Operator
 
