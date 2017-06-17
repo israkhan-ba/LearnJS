@@ -1478,6 +1478,9 @@ However, that the `javascript:` pseudo protocol is discouraged over other altern
  
 #### `in` Operator
 
+ The `in` operator returns true if the specified property is in the specified object.
+ 
+
 #### `instanceof` Operator
 
 
