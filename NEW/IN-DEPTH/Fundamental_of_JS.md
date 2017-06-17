@@ -1512,6 +1512,8 @@ __objectName__
 > 
 >```
 
+ You must specify an object on the right side of the in operator. For example, you can specify a string created with the String constructor, but you cannot specify a string literal.
+
 
 #### `instanceof` Operator
 
