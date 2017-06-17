@@ -1517,6 +1517,10 @@ __objectName__
 >```
 > var color1 = new String('green');
 > 'length' in color1 // returns true
+>
+> var color2 = 'coral';
+> // generates an error (color2 is not a String object)
+> 'length' in color2
 >```
 
 
