@@ -1554,6 +1554,8 @@ Inherited properties
 
 #### `instanceof` Operator
 
+The in operator returns `true` for properties in the prototype chain.
+
 
 ---
 
