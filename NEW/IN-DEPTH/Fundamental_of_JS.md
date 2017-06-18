@@ -1539,6 +1539,12 @@ Using `in` with `deleted` or `undefined` properties
 
  If you set a property to `undefined` but do not delete it, the in operator returns true for that property.
 
+>```
+> var mycar = {make: 'Honda', model: 'Accord', year: 1998};
+> mycar.make = undefined;
+> 'make' in mycar;  // returns true
+>```
+
 
 #### `instanceof` Operator
 
