@@ -1551,10 +1551,15 @@ Using `in` with `deleted` or `undefined` properties
 
 Inherited properties
 
+The in operator returns `true` for properties in the prototype chain.
+
+>```
+> 'toString' in {}; // returns true
+>```
+
 
 #### `instanceof` Operator
 
-The in operator returns `true` for properties in the prototype chain.
 
 
 ---
