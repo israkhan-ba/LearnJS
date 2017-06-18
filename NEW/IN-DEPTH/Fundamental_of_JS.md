@@ -1525,6 +1525,9 @@ __objectName__
 
 Using `in` with `deleted` or `undefined` properties
 
+ If you delete a property with the `delete` operator, the in operator returns `false` for that property.
+
+
 
 #### `instanceof` Operator
 
