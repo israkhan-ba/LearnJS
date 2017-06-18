@@ -1537,6 +1537,8 @@ Using `in` with `deleted` or `undefined` properties
 > 3 in trees; // returns false
 >```
 
+ If you set a property to `undefined` but do not delete it, the in operator returns true for that property.
+
 
 #### `instanceof` Operator
 
