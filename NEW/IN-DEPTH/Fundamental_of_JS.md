@@ -1549,6 +1549,8 @@ Using `in` with `deleted` or `undefined` properties
 > 3 in trees; // returns true
 >```
 
+Inherited properties
+
 
 #### `instanceof` Operator
 
