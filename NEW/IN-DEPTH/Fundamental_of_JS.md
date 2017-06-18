@@ -1560,6 +1560,8 @@ The in operator returns `true` for properties in the prototype chain.
 
 #### `instanceof` Operator
 
+ The `instanceof` operator tests whether an object in its prototype chain has the prototype property of a constructor.
+
 
 
 ---
