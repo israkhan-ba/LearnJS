@@ -1531,6 +1531,10 @@ Using `in` with `deleted` or `undefined` properties
 > var mycar = {make: 'Honda', model: 'Accord', year: 1998};
 > delete mycar.make;
 > 'make' in mycar;  // returns false
+>
+> var trees = new Array('redwood', 'bay', 'cedar', 'oak', 'maple');
+> delete trees[3];
+> 3 in trees; // returns false
 >```
 
 
