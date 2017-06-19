@@ -1587,6 +1587,10 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 > 
 > // false, because D.prototype is nowhere in o's prototype chain
 > o instanceof D;
+> 
+> o instanceof Object; // true, because:
+> C.prototype instanceof Object // true
+> 
 >```
 
 ---
