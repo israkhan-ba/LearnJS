@@ -1574,6 +1574,15 @@ __constructor__
 
 The `instanceof` operator tests presence of `constructor.prototype` in `object`'s prototype chain.
 
+**_Code Examples_**
+>```
+> // defining constructors
+> function C() {}
+> function D() {}
+> 
+> var o = new C();
+> 
+>```
 
 ---
 
