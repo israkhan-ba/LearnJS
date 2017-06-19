@@ -1591,6 +1591,9 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 > o instanceof Object; // true, because:
 > C.prototype instanceof Object // true
 > 
+> C.prototype = {};
+> var o2 = new C();
+> 
 >```
 
 ---
