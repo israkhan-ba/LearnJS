@@ -1603,7 +1603,7 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 > D.prototype = new C(); // add C to [[Prototype]] linkage of D
 > var o3 = new D();
 > o3 instanceof D; // true
->
+> o3 instanceof C; // true since C.prototype is now in o3's prototype chain
 >```
 
 ---
