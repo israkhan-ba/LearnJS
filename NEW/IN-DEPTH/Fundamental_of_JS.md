@@ -1565,6 +1565,10 @@ The in operator returns `true` for properties in the prototype chain.
 **_Syntax_** 
 > _`object`_ `instanceof` _`constructor`_
 
+**_Parameter_** 
+__object__
+> The object to test.
+
 The `nstanceof` operator tests presence of `constructor.prototype` in `object`'s prototype chain.
 
 
