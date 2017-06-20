@@ -1632,6 +1632,9 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 ### Legacy Generator Function Expression
 
 
+### Async Function Expression
+
+
 ---
 
 ## Function
