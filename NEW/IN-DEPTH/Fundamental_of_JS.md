@@ -1610,9 +1610,15 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 
 ## Expressions
 
+
+### Operator Precedence
+
+
 ### Expression Closures
 
+
 ### Destructuring Assignment
+
 
 ### Legacy Generator Function Expression
 
