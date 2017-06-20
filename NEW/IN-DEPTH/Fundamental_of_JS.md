@@ -1614,6 +1614,8 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 
 ### Destructuring Assignment
 
+### Legacy Generator Function Expression
+
 
 ---
 
