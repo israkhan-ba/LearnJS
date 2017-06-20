@@ -1635,6 +1635,9 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 ### Async Function Expression
 
 
+### Class Expression
+
+
 ---
 
 ## Function
