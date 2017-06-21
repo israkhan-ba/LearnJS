@@ -1661,7 +1661,8 @@ __JavaScript has the following expression categories:__
   > a * c + b * c // 9
   >```
 
-  Comprehensions
+  Comprehensions  
+  Comprehensions are an experimental JavaScript feature, targeted to be included in a future ECMAScript version. There are two versions of comprehensions
   
   
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
