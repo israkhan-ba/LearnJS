@@ -1634,6 +1634,10 @@ __JavaScript has the following expression categories:__
   In general, `this` refers to the calling object in a method.  
   Use `this` either with the dot or the bracket notation.
   
+  >```
+  > this['propertyName']
+  > this.propertyName
+  >```
   
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
