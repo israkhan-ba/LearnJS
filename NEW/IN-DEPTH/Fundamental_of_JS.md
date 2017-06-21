@@ -1630,7 +1630,8 @@ __JavaScript has the following expression categories:__
 
  `this` keyword (For example)  
 
-  Use the `this` keyword to refer to the current object.
+  Use the `this` keyword to refer to the current object.  
+  In general, `this` refers to the calling object in a method.
 
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
