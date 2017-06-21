@@ -1626,7 +1626,7 @@ __JavaScript has the following expression categories:__
 - **Arithmetic:** evaluates to a number, for example 3.14159. (Generally uses arithmetic operators.)
 - **String:** evaluates to a character string, for example, "Fred" or "234". (Generally uses string operators.)
 - **Logical:** evaluates to true or false. (Often involves logical operators.)
-- Primary Expressions
+- **Primary Expressions:** Basic keywords and general expressions in JavaScript.
 - Left-hand-side Expressions
 
 
