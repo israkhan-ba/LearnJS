@@ -1661,6 +1661,9 @@ __JavaScript has the following expression categories:__
   > a * c + b * c // 9
   >```
 
+  Comprehensions
+  
+  
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
 
