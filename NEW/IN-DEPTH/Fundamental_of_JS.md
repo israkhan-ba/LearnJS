@@ -1619,6 +1619,8 @@ The expression x = 7 is an example of the first type.
 This expression uses the `=` operator to assign the value seven to the variable x.  
 The expression itself evaluates to seven.
 
+The code 3 + 4 is an example of the second expression type.
+
 
 ### Object Initializer
 
