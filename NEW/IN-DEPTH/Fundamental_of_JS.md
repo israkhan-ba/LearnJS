@@ -1656,6 +1656,9 @@ __JavaScript has the following expression categories:__
   > // now overriding precedence 
   > // addition before multiplication   
   > (a + b) * c   // 9
+  >   
+  > // which is equivalent to
+  > a * c + b * c // 9
   >```
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
