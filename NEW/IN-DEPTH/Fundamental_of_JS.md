@@ -1611,7 +1611,7 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 ## Expressions
  
  An `expression` is any valid unit of code that resolves to a value.
- Every syntactically valid expression resolves to some value.
+ Every syntactically valid expression resolves to some value but conceptually, there are two types of expressions.
  
 
 ### Object Initializer
