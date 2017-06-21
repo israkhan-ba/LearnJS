@@ -1627,6 +1627,7 @@ __JavaScript has the following expression categories:__
 - String
 - Logical
 - Primary Expressions
+- Left-hand-side Expressions
 
 
 ### Object Initializer
