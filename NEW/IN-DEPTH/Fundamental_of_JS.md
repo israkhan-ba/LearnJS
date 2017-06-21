@@ -1626,7 +1626,20 @@ __JavaScript has the following expression categories:__
 - **Arithmetic:** evaluates to a number, for example 3.14159. (Generally uses arithmetic operators.)
 - **String:** evaluates to a character string, for example, "Fred" or "234". (Generally uses string operators.)
 - **Logical:** evaluates to true or false. (Often involves logical operators.)
-- **Primary Expressions:** Basic keywords and general expressions in JavaScript.
+- **Primary Expressions:** Basic keywords and general expressions in JavaScript.  
+
+ `this` keyword (For example)  
+
+  Use the `this` keyword to refer to the current object.  
+  In general, `this` refers to the calling object in a method.  
+  Use `this` either with the dot or the bracket notation.
+  
+  >```
+  > this['propertyName']
+  > this.propertyName
+  >```
+  
+
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
 
