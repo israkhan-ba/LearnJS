@@ -1627,7 +1627,7 @@ __JavaScript has the following expression categories:__
 - **String:** evaluates to a character string, for example, "Fred" or "234". (Generally uses string operators.)
 - **Logical:** evaluates to true or false. (Often involves logical operators.)
 - **Primary Expressions:** Basic keywords and general expressions in JavaScript.
-- Left-hand-side Expressions
+- **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
 
 ### Object Initializer
