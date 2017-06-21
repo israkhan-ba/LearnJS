@@ -1622,6 +1622,8 @@ The expression itself evaluates to seven.
 The code 3 + 4 is an example of the second expression type.
 This expression uses the + operator to add three and four together without assigning the result, seven, to a variable.
 
+__JavaScript has the following expression categories:__
+
 
 ### Object Initializer
 
