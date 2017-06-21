@@ -1620,6 +1620,7 @@ This expression uses the `=` operator to assign the value seven to the variable 
 The expression itself evaluates to seven.
 
 The code 3 + 4 is an example of the second expression type.
+This expression uses the + operator to add three and four together.
 
 
 ### Object Initializer
