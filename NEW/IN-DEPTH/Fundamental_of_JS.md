@@ -1624,7 +1624,7 @@ This expression uses the + operator to add three and four together without assig
 
 __JavaScript has the following expression categories:__
 - **Arithmetic:** evaluates to a number, for example 3.14159. (Generally uses arithmetic operators.)
-- String
+- **String:** evaluates to a character string, for example, "Fred" or "234". (Generally uses string operators.)
 - Logical
 - Primary Expressions
 - Left-hand-side Expressions
