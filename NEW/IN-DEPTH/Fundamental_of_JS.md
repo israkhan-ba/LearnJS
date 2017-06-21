@@ -1609,7 +1609,9 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
 ---
 
 ## Expressions
-
+ 
+ An `expression` is any valid unit of code that resolves to a value.
+ 
 
 ### Object Initializer
 
