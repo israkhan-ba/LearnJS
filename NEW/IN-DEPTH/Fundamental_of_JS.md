@@ -1615,8 +1615,9 @@ The `instanceof` operator tests presence of `constructor.prototype` in `object`'
  1. with side effects (for example: those that assign value to a variable) 
  2. and those that in some sense evaluates and therefore resolves to value.
  
-The expression x = 7 is an example of the first type.
-This expression uses the `=` operator to assign the value seven to the variable x.
+The expression x = 7 is an example of the first type.  
+This expression uses the `=` operator to assign the value seven to the variable x.  
+The expression itself evaluates to seven.
 
 
 ### Object Initializer
