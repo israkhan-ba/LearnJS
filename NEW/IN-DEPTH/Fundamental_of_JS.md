@@ -1639,6 +1639,8 @@ __JavaScript has the following expression categories:__
   > this.propertyName
   >```
   
+  Grouping operator
+  
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
