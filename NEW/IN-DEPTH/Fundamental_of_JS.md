@@ -1624,6 +1624,8 @@ This expression uses the + operator to add three and four together without assig
 
 __JavaScript has the following expression categories:__
 - Arithmetic
+- String
+
 
 ### Object Initializer
 
