@@ -1643,6 +1643,16 @@ __JavaScript has the following expression categories:__
   The grouping operator ( ) controls the precedence of evaluation in expressions.  
   For example, you can override multiplication and division first, then addition and subtraction to evaluate addition first.
   
+  >```
+  > var a = 1;
+  > var b = 2;
+  > var c = 3;
+  > 
+  > // default precedence
+  > a + b * c     // 7
+  > // evaluated by default like this
+  > a + (b * c)   // 7
+  >```
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
