@@ -1663,8 +1663,9 @@ __JavaScript has the following expression categories:__
 
   Comprehensions  
   Comprehensions are an experimental JavaScript feature, targeted to be included in a future ECMAScript version. There are two versions of comprehensions
-  > `[for (x of y) x]` Array comprehensions.
-
+  > `[for (x of y) x]` Array comprehensions.  
+  > `(for (x of y) y)` Generator comprehensions.
+  
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
