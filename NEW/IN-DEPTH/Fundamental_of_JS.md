@@ -1639,7 +1639,8 @@ __JavaScript has the following expression categories:__
   > this.propertyName
   >```
   
-  Grouping operator
+  Grouping operator  
+  The grouping operator ( ) controls the precedence of evaluation in expressions.
   
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
