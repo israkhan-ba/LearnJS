@@ -1666,6 +1666,8 @@ __JavaScript has the following expression categories:__
   > `[for (x of y) x]` Array comprehensions.  
   > `(for (x of y) y)` Generator comprehensions.
   
+  Comprehensions exist in many programming languages and allow you to quickly assemble a new array based on an existing one
+  
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
