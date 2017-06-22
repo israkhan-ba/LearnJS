@@ -1688,10 +1688,15 @@ __JavaScript has the following expression categories:__
   > `var parts = ['shoulder', 'knees'];`  
   > `var lyrics = ['head', ...parts, 'and', 'toes'];`
   
+  Similarly, the spread operator works with function calls:
   
-        Similarly, the spread operator works with function calls:
+  >```
+  > function f(x, y, z) { }
+  > var args = [0, 1, 2];
+  > f(...args);
+  >```
   
-  
+
 ### Object Initializer
 
 
