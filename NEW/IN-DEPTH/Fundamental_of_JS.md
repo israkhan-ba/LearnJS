@@ -1685,6 +1685,9 @@ __JavaScript has the following expression categories:__
   **`Spread` operator** 
   The `spread` operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.
   
+  > `var parts = ['shoulder', 'knees'];`  
+  > `var lyrics = ['head', ...parts, 'and', 'toes'];`
+  
 ### Object Initializer
 
 
