@@ -1677,7 +1677,7 @@ __JavaScript has the following expression categories:__
   > `var objectName = new objectType([param1, param2, ..., paramN]);`
 
   **`super` keyword**  
-  The `super` keyword is used to call functions on an object's parent.
+  The `super` keyword is used to call functions on an object's parent. It is useful with classes to call the parent constructor.
   
 
 ### Object Initializer
