@@ -1671,6 +1671,8 @@ __JavaScript has the following expression categories:__
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
+  **`new` operator**
+
 
 ### Object Initializer
 
