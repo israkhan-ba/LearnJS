@@ -1682,7 +1682,9 @@ __JavaScript has the following expression categories:__
   > `super([arguments]); // calls the parent constructor.`
   > `super.functionOnParent([arguments]);`
 
-
+  **`Spread` operator** 
+  
+  
 ### Object Initializer
 
 
