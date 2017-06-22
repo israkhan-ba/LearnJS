@@ -1673,6 +1673,9 @@ __JavaScript has the following expression categories:__
 
   **`new` operator**  
   You can use the new operator to create an instance of a user-defined object type or of one of the built-in object types.
+  
+  > `var objectName = new objectType([param1, param2, ..., paramN]);`
+
 
 ### Object Initializer
 
