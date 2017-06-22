@@ -1679,6 +1679,9 @@ __JavaScript has the following expression categories:__
   **`super` keyword**  
   The `super` keyword is used to call functions on an object's parent. It is useful with classes to call the parent constructor.
   
+  > `super([arguments]); // calls the parent constructor.`
+  > `super.functionOnParent([arguments]);`
+
 
 ### Object Initializer
 
