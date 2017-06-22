@@ -1671,8 +1671,8 @@ __JavaScript has the following expression categories:__
 
 - **Left-hand-side Expressions:** Left values are the destination of an assignment.
 
-  **`new` operator**
-
+  **`new` operator**  
+  You can use the new operator to create an instance of a user-defined object type or of one of the built-in object types.
 
 ### Object Initializer
 
