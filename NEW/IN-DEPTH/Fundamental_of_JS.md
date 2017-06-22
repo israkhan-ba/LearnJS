@@ -1676,6 +1676,9 @@ __JavaScript has the following expression categories:__
   
   > `var objectName = new objectType([param1, param2, ..., paramN]);`
 
+  **`super` operator**  
+  
+  
 
 ### Object Initializer
 
