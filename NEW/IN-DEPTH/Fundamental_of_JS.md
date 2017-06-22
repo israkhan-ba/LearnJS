@@ -1688,6 +1688,10 @@ __JavaScript has the following expression categories:__
   > `var parts = ['shoulder', 'knees'];`  
   > `var lyrics = ['head', ...parts, 'and', 'toes'];`
   
+  
+        Similarly, the spread operator works with function calls:
+  
+  
 ### Object Initializer
 
 
