@@ -1683,7 +1683,7 @@ __JavaScript has the following expression categories:__
   > `super.functionOnParent([arguments]);`
 
   **`Spread` operator** 
-  
+  The `spread` operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.
   
 ### Object Initializer
 
