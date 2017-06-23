@@ -1704,6 +1704,7 @@ __JavaScript has the following expression categories:__
 **_Syntax_** 
 >```
 > var o = {};
+> var o = {a: 'foo', b: 42, c: {}};
 >```
  
 
