@@ -1708,6 +1708,9 @@ __JavaScript has the following expression categories:__
 >
 > var a = 'foo', b = 42, c = {};
 > var o = {a: a, b: b, c: c};
+> 
+> var o = {
+> };
 >```
  
 
