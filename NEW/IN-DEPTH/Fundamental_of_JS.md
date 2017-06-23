@@ -1712,6 +1712,7 @@ __JavaScript has the following expression categories:__
 > var o = {
 >   property: function ([parameters]) {},
 >   get property() {}
+>   set property(value) {}
 > };
 >```
  
