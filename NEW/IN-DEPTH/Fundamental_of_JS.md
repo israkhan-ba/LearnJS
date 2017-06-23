@@ -1699,6 +1699,7 @@ __JavaScript has the following expression categories:__
 
 ### Object Initializer
 
+ Objects can be initialized using new Object(), Object.create(), or using the literal notation (initializer notation).
 
 ### Property Accessors
 
