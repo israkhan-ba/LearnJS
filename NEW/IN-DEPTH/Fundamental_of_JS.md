@@ -1699,7 +1699,7 @@ __JavaScript has the following expression categories:__
 
 ### Object Initializer
 
- Objects can be initialized using new Object(), Object.create(), or using the literal notation (initializer notation). An object initializer is a comma-delimited list of zero.
+ Objects can be initialized using new Object(), Object.create(), or using the literal notation (initializer notation). An object initializer is a comma-delimited list of zero or more pairs of property names and associated values of an object.
 
 ### Property Accessors
 
