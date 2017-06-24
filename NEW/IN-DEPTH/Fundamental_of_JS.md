@@ -1763,6 +1763,10 @@ __JavaScript has the following expression categories:__
  Once you have created an object, you might want to read or change them. Object properties can be accessed by using the dot notation or the bracket notation.  
  See **### Property Accessors** for detailed information.
 
+>```
+> object.foo; // "bar"
+>```
+
 
 ### Property Accessors
 
