@@ -1758,6 +1758,8 @@ The following code creates an object with three properties and the keys are __"f
 > }
 >```
 
+**Accessing properties**
+
 
 ### Property Accessors
 
