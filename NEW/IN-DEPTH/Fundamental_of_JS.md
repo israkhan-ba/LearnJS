@@ -1750,6 +1750,14 @@ However, the advantage of the _literal_ or _initializer_ notation is, that you a
 You simply notate a list of `key: value` pairs delimited by comma.  
 The following code creates an object with three properties and the keys are __"foo"__, __"age"__ and __"baz"__.  The values of these keys are a string __"bar"__, a number 42 and the third property has another object as its value.
 
+>```
+> var object = {
+>   foo: 'bar',
+>   age: 42,
+>   baz: {myProp: 12}
+> }
+>```
+
 
 ### Property Accessors
 
