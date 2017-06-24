@@ -1741,6 +1741,8 @@ __JavaScript has the following expression categories:__
  Objects consist of `properties`, which are used to describe an object.  
  Values of object properties can either contain primitive data types or other objects.
 
+**Creating objects**
+
 
 ### Property Accessors
 
