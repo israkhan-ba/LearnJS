@@ -1733,6 +1733,10 @@ __JavaScript has the following expression categories:__
 > 
 > // Computed property names (ES2015)
 > var prop = 'foo';
+> var o = {
+>   [prop]: 'hey',
+>   ['b' + 'ar']: 'there'
+> };
 >```
 
 ### Operator Precedence
