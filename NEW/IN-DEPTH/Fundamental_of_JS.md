@@ -1760,7 +1760,8 @@ __JavaScript has the following expression categories:__
 
 **Accessing properties**
 
- Once you have created an object, you might want to read or change them. Object properties can be accessed by using the dot notation or the bracket notation.
+ Once you have created an object, you might want to read or change them. Object properties can be accessed by using the dot notation or the bracket notation.  
+ See **### Property Accessors** for detailed information.
 
 
 ### Property Accessors
