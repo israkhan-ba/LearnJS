@@ -1725,6 +1725,11 @@ __JavaScript has the following expression categories:__
 > // Shorthand property names (ES2015)
 > var a = 'foo', b = 42, c = {};
 > var o = {a, b, c};
+> 
+> // Shorthand method names (ES2015)
+> var o = {
+>   property([parameters]) {}
+> };
 >```
 
 ### Operator Precedence
