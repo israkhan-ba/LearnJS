@@ -1766,6 +1766,8 @@ __JavaScript has the following expression categories:__
 >```
 > object.foo; // "bar"
 > object['age']; // 42
+>
+> object.foo = 'baz';
 >```
 
 
