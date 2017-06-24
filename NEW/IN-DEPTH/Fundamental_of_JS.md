@@ -1746,7 +1746,8 @@ __JavaScript has the following expression categories:__
 An empty object with no properties can be created like this
 > `var object = {};`
 
-However, the advantage of the literal or initializer notation is, that you are able to quickly create objects with properties inside the curly braces.
+However, the advantage of the _literal_ or _initializer_ notation is, that you are able to quickly create objects with properties inside the curly braces.  
+You simply notate a list of `key: value` pairs delimited by comma.
 
 
 ### Property Accessors
