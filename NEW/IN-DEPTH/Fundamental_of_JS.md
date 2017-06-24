@@ -1719,8 +1719,6 @@ __JavaScript has the following expression categories:__
 **New notations in ECMAScript 2015**
 
 
-### Property Accessors
-
 >```
 > // Shorthand property names (ES2015)
 > var a = 'foo', b = 42, c = {};
@@ -1738,6 +1736,10 @@ __JavaScript has the following expression categories:__
 >   ['b' + 'ar']: 'there'
 > };
 >```
+
+
+### Property Accessors
+
 
 ### Operator Precedence
 
