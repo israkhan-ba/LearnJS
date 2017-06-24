@@ -1738,8 +1738,9 @@ __JavaScript has the following expression categories:__
 >```
 
  An object initializer is an expression that describes the initialization of an `Object`.  
- Objects consist of `properties`, which are used to describe an object.
- 
+ Objects consist of `properties`, which are used to describe an object.  
+ Values of object properties can either contain primitive data types or other objects.
+
 
 ### Property Accessors
 
