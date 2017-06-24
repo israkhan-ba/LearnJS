@@ -1716,6 +1716,8 @@ __JavaScript has the following expression categories:__
 > };
 >```
  
+**New notations in ECMAScript 2015**
+
 
 ### Property Accessors
 
