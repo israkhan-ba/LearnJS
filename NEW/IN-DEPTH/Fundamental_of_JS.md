@@ -1743,6 +1743,9 @@ __JavaScript has the following expression categories:__
 
 **Creating objects**
 
+An empty object with no properties can be created like this
+> `var object = {};`
+
 
 ### Property Accessors
 
