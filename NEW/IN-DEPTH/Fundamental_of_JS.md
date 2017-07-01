@@ -1814,6 +1814,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >   set property(value) {}
 >```
 
+ In ECMAScript 2015, a shorthand notation is available, so that the keyword "function" is no longer necessary.
+
 
 ### Property Accessors
 
