@@ -1810,7 +1810,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >```
 > var o = {
 >   property: function ([parameters]) {},
->   get property() {}
+>   get property() {},
+>   set property(value) {}
 >```
 
 
