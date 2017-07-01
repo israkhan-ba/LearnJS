@@ -1848,6 +1848,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
  Starting with ECMAScript 2015, the object initializer syntax also supports computed property names.  That allows you to put an expression in brackets [], that will be computed as the property name. 
  This is symmetrical to the bracket notation of the property accessor syntax, which you might have used to read and set properties already.
+ Now you can use the same syntax in object literals, too:
  
 
 ### Property Accessors
