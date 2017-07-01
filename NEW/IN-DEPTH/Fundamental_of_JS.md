@@ -1890,6 +1890,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 > // Object { foo: "baz", x: 42, y: 13 }
 >```
 
+**Note** that `Object.assign()` triggers setters whereas the spread operator doesn't.
+
 
 ### Property Accessors
 
