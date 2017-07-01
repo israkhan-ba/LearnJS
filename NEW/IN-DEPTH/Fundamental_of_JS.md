@@ -1807,6 +1807,11 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
  A property of an object can also refer to a `function` or a `getter` or `setter` method.
  
+>```
+> var o = {
+>   property: function ([parameters]) {}
+>```
+
 
 ### Property Accessors
 
