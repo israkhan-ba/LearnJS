@@ -1797,6 +1797,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >
 > // Shorthand property names (ES2015)
 > var o = {a, b, c};
+>
+> // In other words,
+> console.log((o.a === {a}.a)); // true
 >```
 
 
