@@ -1770,6 +1770,38 @@ __JavaScript has the following expression categories:__
 > object.foo = 'baz';
 >```
 
+**Property definitions**
+
+ We have already learned how to notate properties using the initializer syntax.
+ Oftentimes, there are variables in your code that you would like to put into an object.
+ You will see code like this:
+
+>```
+> var a = 'foo', 
+>    b = 42,
+>    c = {};
+>
+> var o = { 
+>   a: a,
+>   b: b,
+>   c: c
+> };
+>```
+
+With ECMAScript 2015, there is a shorter notation available to achieve the same:
+
+>```
+> var a = 'foo', 
+>    b = 42, 
+>    c = {};
+>
+> // Shorthand property names (ES2015)
+> var o = {a, b, c};
+>
+> // In other words,
+> console.log((o.a === {a}.a)); // true
+>```
+
 
 ### Property Accessors
 
