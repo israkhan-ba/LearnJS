@@ -1770,6 +1770,8 @@ __JavaScript has the following expression categories:__
 > object.foo = 'baz';
 >```
 
+**Property definitions**
+
 
 ### Property Accessors
 
