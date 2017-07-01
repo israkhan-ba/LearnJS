@@ -1877,6 +1877,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
  The Rest/Spread Properties for ECMAScript proposal (stage 3) adds spread properties to object literals. It copies own enumerable properties from a provided object onto a new object.
  
+ Shallow-cloning (excluding prototype) or merging objects is now possible using a shorter syntax than Object.assign().
+ 
 
 ### Property Accessors
 
