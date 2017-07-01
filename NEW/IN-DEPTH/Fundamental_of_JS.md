@@ -1846,6 +1846,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
 #### Computed Property Names
 
+ Starting with ECMAScript 2015, the object initializer syntax also supports computed property names.
+ 
 
 ### Property Accessors
 
