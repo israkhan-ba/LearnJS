@@ -1850,6 +1850,16 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  This is symmetrical to the bracket notation of the property accessor syntax, which you might have used to read and set properties already.
  Now you can use the same syntax in object literals, too:
  
+>```
+> // Computed property names (ES2015)
+> var i = 0;
+> var a = {
+>   ['foo' + ++i]: i,
+>   ['foo' + ++i]: i,
+>   ['foo' + ++i]: i
+> };
+>```
+
 
 ### Property Accessors
 
