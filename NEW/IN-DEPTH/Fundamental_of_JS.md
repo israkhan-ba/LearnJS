@@ -1803,6 +1803,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >```
 
 
+#### Method definitions
+
+
 ### Property Accessors
 
 
