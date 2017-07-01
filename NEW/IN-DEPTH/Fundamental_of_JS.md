@@ -1794,6 +1794,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 > var a = 'foo', 
 >    b = 42, 
 >    c = {};
+>
+> // Shorthand property names (ES2015)
+> var o = {a, b, c};
 >```
 
 
