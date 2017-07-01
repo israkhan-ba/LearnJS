@@ -1788,6 +1788,8 @@ __JavaScript has the following expression categories:__
 > };
 >```
 
+With ECMAScript 2015, there is a shorter notation available to achieve the same:
+
 
 ### Property Accessors
 
