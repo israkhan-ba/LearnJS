@@ -1817,10 +1817,10 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  In ECMAScript 2015, a shorthand notation is available, so that the keyword "function" is no longer necessary.
 
 >```
+> // Shorthand method names (ES2015)
 > var o = {
->   *generator() {
->     ...........
->   }
+>   property([parameters]) {},
+>   *generator() {}
 > };
 >```
 
