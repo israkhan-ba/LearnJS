@@ -1858,6 +1858,10 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >   ['foo' + ++i]: i,
 >   ['foo' + ++i]: i
 > };
+>
+> console.log(a.foo1); // 1
+> console.log(a.foo2); // 2
+> console.log(a.foo3); // 3
 >```
 
 
