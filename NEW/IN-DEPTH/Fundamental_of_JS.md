@@ -1775,7 +1775,13 @@ __JavaScript has the following expression categories:__
  We have already learned how to notate properties using the initializer syntax.
  Oftentimes, there are variables in your code that you would like to put into an object.
  You will see code like this:
- 
+
+>```
+> var a = 'foo', 
+>    b = 42,
+>    c = {};
+>```
+
 
 ### Property Accessors
 
