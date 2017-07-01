@@ -1824,6 +1824,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 > };
 >```
 
+ In ECMAScript 2015 There is a way to concisely define properties whose values are generator functions:
+
 
 ### Property Accessors
 
