@@ -1873,6 +1873,26 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >```
 
 
+#### Spread Properties
+
+ The Rest/Spread Properties for ECMAScript proposal (stage 3) adds spread properties to object literals. It copies own enumerable properties from a provided object onto a new object.
+ 
+ Shallow-cloning (excluding prototype) or merging objects is now possible using a shorter syntax than `Object.assign()`.
+ 
+>```
+> var obj1 = { foo: 'bar', x: 42 };
+> var obj2 = { foo: 'baz', y: 13 };
+> 
+> var clonedObj = { ...obj1 };
+> // Object { foo: "bar", x: 42 }
+>
+> var mergedObj = { ...obj1, ...obj2 };
+> // Object { foo: "baz", x: 42, y: 13 }
+>```
+
+**Note** that `Object.assign()` triggers setters whereas the spread operator doesn't.
+
+
 ### Property Accessors
 
 
