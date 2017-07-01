@@ -1741,7 +1741,7 @@ __JavaScript has the following expression categories:__
  Objects consist of `properties`, which are used to describe an object.  
  Values of object properties can either contain primitive data types or other objects.
 
-**Creating objects**
+## Creating Objects
 
  An empty object with no properties can be created like this
 > `var object = {};`
@@ -1758,7 +1758,7 @@ __JavaScript has the following expression categories:__
 > }
 >```
 
-**Accessing properties**
+#### Accessing Properties
 
  Once you have created an object, you might want to read or change them. Object properties can be accessed by using the dot notation or the bracket notation.  
  See **### Property Accessors** for detailed information.
@@ -1770,7 +1770,7 @@ __JavaScript has the following expression categories:__
 > object.foo = 'baz';
 >```
 
-**Property definitions**
+#### Property definitions
 
  We have already learned how to notate properties using the initializer syntax.
  Oftentimes, there are variables in your code that you would like to put into an object.
