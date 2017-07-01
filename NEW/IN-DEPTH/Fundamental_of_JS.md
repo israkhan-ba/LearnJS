@@ -1772,6 +1772,8 @@ __JavaScript has the following expression categories:__
 
 **Property definitions**
 
+ We have already learned how to notate properties using the initializer syntax.
+
 
 ### Property Accessors
 
