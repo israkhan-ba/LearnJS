@@ -1836,6 +1836,14 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
  Which is equivalent to this ES5-like notation (but note that ECMAScript 5 has no generators):
  
+>```
+> var o = {
+>   generator: function* () {
+>     ...........
+>   }
+> };
+>```
+
 
 ### Property Accessors
 
