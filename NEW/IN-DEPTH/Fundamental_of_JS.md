@@ -1803,6 +1803,48 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >```
 
 
+#### Method definitions
+
+ A property of an object can also refer to a `function` or a `getter` or `setter` method.
+ 
+>```
+> var o = {
+>   property: function ([parameters]) {},
+>   get property() {},
+>   set property(value) {}
+>```
+
+ In ECMAScript 2015, a shorthand notation is available, so that the keyword "function" is no longer necessary.
+
+>```
+> // Shorthand method names (ES2015)
+> var o = {
+>   property([parameters]) {},
+>   *generator() {}
+> };
+>```
+
+ In ECMAScript 2015 There is a way to concisely define properties whose values are generator functions:
+ 
+>```
+> var o = {
+>   *generator() {
+>       ...........
+>   }
+> };
+>```
+
+ Which is equivalent to this ES5-like notation (but note that ECMAScript 5 has no generators):
+ 
+>```
+> var o = {
+>   generator: function* () {
+>     ...........
+>   }
+> };
+>```
+
+
 ### Property Accessors
 
 
