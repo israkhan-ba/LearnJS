@@ -1875,7 +1875,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
 #### Spread Properties
 
- The Rest/Spread Properties for ECMAScript proposal (stage 3) adds spread properties to object literals.
+ The Rest/Spread Properties for ECMAScript proposal (stage 3) adds spread properties to object literals. It copies own enumerable properties from a provided object onto a new object.
  
 
 ### Property Accessors
