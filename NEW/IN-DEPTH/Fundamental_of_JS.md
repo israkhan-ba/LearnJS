@@ -1960,7 +1960,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 One can think of an object as an *associative array* (a.k.a. map, dictionary, hash, lookup table). 
 The keys in this array are the names of the object's properties.
 It's typical when speaking of an object's properties to make a distinction between properties and methods.
-
+However, the property/method distinction is little more than a convention. 
+ 
 
 ### Operator Precedence
 
