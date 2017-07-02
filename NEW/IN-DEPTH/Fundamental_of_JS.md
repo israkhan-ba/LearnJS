@@ -1979,6 +1979,8 @@ For example, object.$1 is valid, while object.1 is not.
 > document.createElement('pre');
 >```
 
+Here, the method named "createElement" is retrieved from document and is called.
+
 
 ### Operator Precedence
 
