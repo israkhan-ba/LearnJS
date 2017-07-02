@@ -1969,6 +1969,7 @@ There are two ways to access properties: dot notation and bracket notation.
 
 >```
 > get = object.property;
+> object.property = set;
 >```
 
 
