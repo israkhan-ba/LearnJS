@@ -1903,6 +1903,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  >```
  > var obj1 = {};
  > assert(Object.getPrototypeOf(obj1) === Object.prototype);
+ > 
+ > var obj2 = {__proto__: null};
+ > assert(Object.getPrototypeOf(obj2) === null);
  >```
 
 ### Property Accessors
