@@ -1965,6 +1965,22 @@ A method is simply a property that can be called, for example if it has a refere
 
 There are two ways to access properties: dot notation and bracket notation.
 
+#### Dot Notation
+
+>```
+> get = object.property;
+> object.property = set;
+>```
+
+In this code, property must be a valid JavaScript identifier, i.e. a sequence of alphanumerical characters, also including the underscore ("_") and dollar sign ("$"), that cannot start with a number.
+For example, object.$1 is valid, while object.1 is not.
+
+>```
+> document.createElement('pre');
+>```
+
+Here, the method named "createElement" is retrieved from document and is called.
+
 
 ### Operator Precedence
 
