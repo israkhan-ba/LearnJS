@@ -1935,6 +1935,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  > assert(obj3.__proto__ === 17);
  >```
  
+#### Object Literal Notation vs JSON
+
 
 ### Property Accessors
 
