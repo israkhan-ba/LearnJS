@@ -1941,7 +1941,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  Although they look similar, there are differences between them:
  
  - JSON permits only property definition using "property": value syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
- 
+ - In JSON the values can only be strings, numbers, arrays, true, false, null, or another (JSON) object.
 
 ### Property Accessors
 
