@@ -1893,6 +1893,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 **Note** that `Object.assign()` triggers setters whereas the spread operator doesn't.
 
 
+#### Prototype Mutation
+
+
 ### Property Accessors
 
 
