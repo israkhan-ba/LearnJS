@@ -1967,6 +1967,10 @@ There are two ways to access properties: dot notation and bracket notation.
 
 #### Dot Notation
 
+>```
+> get = object.property;
+>```
+
 
 ### Operator Precedence
 
