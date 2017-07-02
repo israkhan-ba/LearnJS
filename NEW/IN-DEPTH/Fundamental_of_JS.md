@@ -1930,6 +1930,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  > 
  > var obj2 = {__proto__() { return 'hello'; }};
  > assert(obj2.__proto__() === 'hello');
+ > 
+ > var obj3 = {['__prot' + 'o__']: 17};
+ > assert(obj3.__proto__ === 17);
  >```
  
 
