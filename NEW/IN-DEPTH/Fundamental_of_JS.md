@@ -1965,6 +1965,8 @@ A method is simply a property that can be called, for example if it has a refere
 
 There are two ways to access properties: dot notation and bracket notation.
 
+#### Dot Notation
+
 
 ### Operator Precedence
 
