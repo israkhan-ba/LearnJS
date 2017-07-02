@@ -1973,6 +1973,7 @@ There are two ways to access properties: dot notation and bracket notation.
 >```
 
 In this code, property must be a valid JavaScript identifier, i.e. a sequence of alphanumerical characters, also including the underscore ("_") and dollar sign ("$"), that cannot start with a number.
+For example, object.$1 is valid, while object.1 is not.
 
 
 ### Operator Precedence
