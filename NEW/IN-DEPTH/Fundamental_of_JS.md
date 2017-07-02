@@ -1949,6 +1949,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
 ### Property Accessors
 
+ Property accessors provide access to an object's properties by using the dot notation or the bracket notation.
+ 
 
 ### Operator Precedence
 
