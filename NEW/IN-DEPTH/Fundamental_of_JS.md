@@ -1958,6 +1958,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 >```
  
 One can think of an object as an *associative array* (a.k.a. map, dictionary, hash, lookup table). 
+The keys in this array are the names of the object's properties.
 
 
 ### Operator Precedence
