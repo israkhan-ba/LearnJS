@@ -1935,6 +1935,17 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  > assert(obj3.__proto__ === 17);
  >```
  
+#### Object Literal Notation vs JSON
+
+ The object literal notation is not the same as the JavaScript Object Notation (JSON). 
+ Although they look similar, there are differences between them:
+ 
+ - JSON permits only property definition using `"property": value` syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
+ - In JSON the values can only be strings, numbers, arrays, `true`, `false`, `null`, or another (JSON) object.
+ - A function value (see "Methods" above) can not be assigned to a value in JSON.
+ - Objects like `Date` will be a string after `JSON.parse()`.
+ - `JSON.parse()` will reject computed property names and an error will be thrown.
+ 
 
 ### Property Accessors
 
