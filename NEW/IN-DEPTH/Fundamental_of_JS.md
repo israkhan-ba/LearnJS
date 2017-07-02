@@ -1963,7 +1963,7 @@ It's typical when speaking of an object's properties to make a distinction betwe
 However, the property/method distinction is little more than a convention. 
 A method is simply a property that can be called, for example if it has a reference to a Function instance as its value.
 
-There are two ways to access properties: dot notation
+There are two ways to access properties: dot notation and bracket notation.
 
 
 ### Operator Precedence
