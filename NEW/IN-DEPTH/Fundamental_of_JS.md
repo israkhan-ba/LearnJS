@@ -1940,6 +1940,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  The object literal notation is not the same as the JavaScript Object Notation (JSON). 
  Although they look similar, there are differences between them:
  
+ - JSON permits only property definition using "property": value syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
+ 
 
 ### Property Accessors
 
