@@ -1949,6 +1949,22 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
 ### Property Accessors
 
+ Property accessors provide access to an object's properties by using the dot notation or the bracket notation.
+ 
+**_Syntax_** 
+>```
+> object.property
+> object['property']
+>```
+ 
+One can think of an object as an *associative array* (a.k.a. map, dictionary, hash, lookup table). 
+The keys in this array are the names of the object's properties.
+It's typical when speaking of an object's properties to make a distinction between properties and methods.
+However, the property/method distinction is little more than a convention. 
+A method is simply a property that can be called, for example if it has a reference to a Function instance as its value.
+
+There are two ways to access properties: dot notation and bracket notation.
+
 
 ### Operator Precedence
 
