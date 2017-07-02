@@ -1972,6 +1972,8 @@ There are two ways to access properties: dot notation and bracket notation.
 > object.property = set;
 >```
 
+In this code, property must be a valid JavaScript identifier.
+
 
 ### Operator Precedence
 
