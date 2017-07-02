@@ -1915,6 +1915,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  > assert(Object.getPrototypeOf(obj4) === Object.prototype);
  > assert(!obj4.hasOwnProperty('__proto__'));
  >```
+ 
+ Only a single prototype mutation is permitted in an object literal: multiple prototype mutations are a syntax error.
+ 
 
 ### Property Accessors
 
