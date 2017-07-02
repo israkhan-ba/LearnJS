@@ -1893,6 +1893,49 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 **Note** that `Object.assign()` triggers setters whereas the spread operator doesn't.
 
 
+#### Prototype Mutation
+
+ A property definition of the form __proto__: value or "__proto__": value does not create a property with the name __proto__. 
+ 
+ Instead, if the provided value is an object or null, it changes the [[Prototype]] of the created object to that value.
+ (If the value is not an object or null, the object is not changed.)
+ 
+ >```
+ > var obj1 = {};
+ > assert(Object.getPrototypeOf(obj1) === Object.prototype);
+ > 
+ > var obj2 = {__proto__: null};
+ > assert(Object.getPrototypeOf(obj2) === null);
+ >
+ > var protoObj = {};
+ > var obj3 = {'__proto__': protoObj};
+ > assert(Object.getPrototypeOf(obj3) === protoObj);
+ >
+ > var obj4 = {__proto__: 'not an object or null'};
+ > assert(Object.getPrototypeOf(obj4) === Object.prototype);
+ > assert(!obj4.hasOwnProperty('__proto__'));
+ >```
+ 
+ Only a single prototype mutation is permitted in an object literal: multiple prototype mutations are a syntax error.
+ 
+ Property definitions that do not use "colon" notation are not prototype mutations: they are property definitions that behave identically to similar definitions using any other name.
+ 
+ >```
+ > var __proto__ = 'variable';
+ > 
+ > var obj1 = {__proto__};
+ > assert(Object.getPrototypeOf(obj1) === Object.prototype);
+ > assert(obj1.hasOwnProperty('__proto__'));
+ > assert(obj1.__proto__ === 'variable');
+ > 
+ > var obj2 = {__proto__() { return 'hello'; }};
+ > assert(obj2.__proto__() === 'hello');
+ > 
+ > var obj3 = {['__prot' + 'o__']: 17};
+ > assert(obj3.__proto__ === 17);
+ >```
+ 
+
 ### Property Accessors
 
 
