@@ -1942,6 +1942,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
  - JSON permits only property definition using "property": value syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
  - In JSON the values can only be strings, numbers, arrays, true, false, null, or another (JSON) object.
+ - A function value (see "Methods" above) can not be assigned to a value in JSON.
+ 
 
 ### Property Accessors
 
