@@ -1910,6 +1910,10 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  > var protoObj = {};
  > var obj3 = {'__proto__': protoObj};
  > assert(Object.getPrototypeOf(obj3) === protoObj);
+ >
+ > var obj4 = {__proto__: 'not an object or null'};
+ > assert(Object.getPrototypeOf(obj4) === Object.prototype);
+ > assert(!obj4.hasOwnProperty('__proto__'));
  >```
 
 ### Property Accessors
