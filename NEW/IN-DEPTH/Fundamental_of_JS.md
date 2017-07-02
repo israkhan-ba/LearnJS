@@ -1920,6 +1920,10 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
  Property definitions that do not use "colon" notation are not prototype mutations: they are property definitions that behave identically to similar definitions using any other name.
  
+ >```
+ > var __proto__ = 'variable';
+ >```
+ 
 
 ### Property Accessors
 
