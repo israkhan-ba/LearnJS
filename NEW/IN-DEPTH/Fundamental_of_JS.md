@@ -1922,6 +1922,11 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
  >```
  > var __proto__ = 'variable';
+ > 
+ > var obj1 = {__proto__};
+ > assert(Object.getPrototypeOf(obj1) === Object.prototype);
+ > assert(obj1.hasOwnProperty('__proto__'));
+ > assert(obj1.__proto__ === 'variable');
  >```
  
 
