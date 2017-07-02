@@ -1918,7 +1918,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
  Only a single prototype mutation is permitted in an object literal: multiple prototype mutations are a syntax error.
  
- Property definitions that do not use "colon" notation are not prototype mutations
+ Property definitions that do not use "colon" notation are not prototype mutations: they are property definitions that behave identically to similar definitions using any other name.
  
 
 ### Property Accessors
