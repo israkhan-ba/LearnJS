@@ -1900,6 +1900,10 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  Instead, if the provided value is an object or null, it changes the [[Prototype]] of the created object to that value.
  (If the value is not an object or null, the object is not changed.)
  
+ >```
+ > var obj1 = {};
+ > assert(Object.getPrototypeOf(obj1) === Object.prototype);
+ >```
 
 ### Property Accessors
 
