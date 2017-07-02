@@ -1927,6 +1927,9 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  > assert(Object.getPrototypeOf(obj1) === Object.prototype);
  > assert(obj1.hasOwnProperty('__proto__'));
  > assert(obj1.__proto__ === 'variable');
+ > 
+ > var obj2 = {__proto__() { return 'hello'; }};
+ > assert(obj2.__proto__() === 'hello');
  >```
  
 
