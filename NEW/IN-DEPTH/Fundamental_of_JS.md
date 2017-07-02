@@ -1937,6 +1937,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
 #### Object Literal Notation vs JSON
 
+ The object literal notation is not the same as the JavaScript Object Notation (JSON). 
+ 
 
 ### Property Accessors
 
