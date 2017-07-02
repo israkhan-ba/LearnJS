@@ -1898,6 +1898,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  A property definition of the form __proto__: value or "__proto__": value does not create a property with the name __proto__. 
  
  Instead, if the provided value is an object or null, it changes the [[Prototype]] of the created object to that value.
+ (If the value is not an object or null, the object is not changed.)
  
 
 ### Property Accessors
