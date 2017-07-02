@@ -1895,6 +1895,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 
 #### Prototype Mutation
 
+ A property definition of the form __proto__: value or "__proto__": value does not create a property with the name __proto__. 
+ 
 
 ### Property Accessors
 
