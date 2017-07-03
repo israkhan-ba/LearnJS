@@ -2091,6 +2091,9 @@ It is better to use bracket notation instead:
  > a = b = 5;
  >```
  
+ with the expected result that a and b get the value 5.
+ 
+ 
  
 ### Expression Closures
 
