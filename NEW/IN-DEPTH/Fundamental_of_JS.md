@@ -2084,6 +2084,8 @@ It is better to use bracket notation instead:
  > a OP b OP c
  >```
  
+ Left-associativity (left-to-right) means that it is processed as (a OP b) OP c.
+ 
  
 ### Expression Closures
 
