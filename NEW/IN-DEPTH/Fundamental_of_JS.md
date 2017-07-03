@@ -2012,6 +2012,8 @@ property_name is a string. The string does not have to be a valid identifier; it
 
 This does the exact same thing as the previous example.
 
+A space before bracket notation is allowed.
+
 
 ### Operator Precedence
 
