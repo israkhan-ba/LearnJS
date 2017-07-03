@@ -2068,6 +2068,8 @@ It is better to use bracket notation instead:
  Operator precedence determines the order in which operators are evaluated.
  Operators with higher precedence are evaluated first.
  
+ A common example:
+ 
  
 ### Expression Closures
 
