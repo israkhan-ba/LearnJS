@@ -2042,7 +2042,8 @@ This also outputs "value", since both foo and bar are converted to the same stri
 
 #### Method Binding
 
-A method is not bound to the object that it is a method of.
+A method is not bound to the object that it is a method of. 
+Specifically, `this` is not fixed in a method.
 
 
 ### Operator Precedence
