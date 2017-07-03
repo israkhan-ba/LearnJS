@@ -2040,6 +2040,8 @@ This outputs "value", since 1 is type-casted into '1'.
 
 This also outputs "value", since both foo and bar are converted to the same string.
 
+#### Method Binding
+
 
 ### Operator Precedence
 
