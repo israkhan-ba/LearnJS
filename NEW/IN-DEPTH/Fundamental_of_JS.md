@@ -2020,6 +2020,8 @@ A space before bracket notation is allowed.
 
 #### Property Names
 
+Property names must be strings.
+
 
 ### Operator Precedence
 
