@@ -2080,6 +2080,10 @@ It is better to use bracket notation instead:
  Associativity determines the order in which operators of the same precedence are processed.
  For example, consider an expression:
  
+ >```
+ > a OP b OP c
+ >```
+ 
  
 ### Expression Closures
 
