@@ -2030,6 +2030,8 @@ Any non-string object, including a number, is typecasted into a string via the `
 > console.log(object[1]);
 >```
 
+This outputs "value", since 1 is type-casted into '1'.
+
 
 ### Operator Precedence
 
