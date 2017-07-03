@@ -2075,6 +2075,8 @@ It is better to use bracket notation instead:
  
  The multiplication operator ("*") has higher precedence than the addition operator ("+") and thus will be evaluated first.
  
+#### Associativity
+
  
 ### Expression Closures
 
