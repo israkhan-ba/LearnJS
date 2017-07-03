@@ -2058,6 +2058,10 @@ For example, the following syntax is often seen in many scripts.
 Also, `strFormControl` would have to hold an identifier, which is not required for names and IDs of form controls.
 It is better to use bracket notation instead:
 
+>```
+> x = document.forms['form_name'].elements[strFormControl].value;
+>```
+
 
 ### Operator Precedence
 
