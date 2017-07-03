@@ -2099,6 +2099,10 @@ It is better to use bracket notation instead:
 
  The following table is ordered from highest (20) to lowest (0) precedence.
 
+| Precedence | Operator type        | Associativity | Individual operators |
+| -------    | -------------------- | ------------- | -------------------- |
+|            |                      |               | .                    |
+
 
 ### Expression Closures
 
