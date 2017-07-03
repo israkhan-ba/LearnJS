@@ -2001,7 +2001,10 @@ If you use a method for a numeric literal and the numeric literal has no exponen
 
 >```
 > get = object[property_name];
+> object[property_name] = set;
 >```
+
+property_name is a string.
 
 
 ### Operator Precedence
