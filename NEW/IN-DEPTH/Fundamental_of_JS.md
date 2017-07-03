@@ -2043,7 +2043,8 @@ This also outputs "value", since both foo and bar are converted to the same stri
 #### Method Binding
 
 A method is not bound to the object that it is a method of. 
-Specifically, `this` is not fixed in a method.
+Specifically, `this` is not fixed in a method,  i.e., this does not necessarily refer to an object containing the method.
+
 
 
 ### Operator Precedence
