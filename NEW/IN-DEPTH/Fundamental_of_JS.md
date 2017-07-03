@@ -2045,6 +2045,8 @@ This also outputs "value", since both foo and bar are converted to the same stri
 A method is not bound to the object that it is a method of. 
 Specifically, `this` is not fixed in a method,  i.e., `this` does not necessarily refer to an object containing the method. `this` is instead "passed" by the function call.
 
+#### Note on `eval`
+
 
 
 ### Operator Precedence
