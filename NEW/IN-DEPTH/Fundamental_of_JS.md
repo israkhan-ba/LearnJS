@@ -2055,6 +2055,7 @@ For example, the following syntax is often seen in many scripts.
 >```
 
 `eval` is slow and should be avoided whenever possible.
+Also, `strFormControl` would have to hold an identifier, which is not required for names and IDs of form controls.
 
 
 ### Operator Precedence
