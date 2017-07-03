@@ -2105,6 +2105,7 @@ It is better to use bracket notation instead:
 | 19         | Member Access           | left-to-right | … . …                |
 |            | Computed Member Access  | left-to-right | … [ … ]              |
 |            | new (with argument list)| n/a           | new … ( … )          |
+|            | Function Call           | left-to-right | … ( … )              |
 
 
 ### Expression Closures
