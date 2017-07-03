@@ -2024,6 +2024,10 @@ Property names must be strings.
 This means that non-string objects cannot be used as keys in the object.
 Any non-string object, including a number, is typecasted into a string via the `toString` method.
 
+>```
+> var object = {};
+>```
+
 
 ### Operator Precedence
 
