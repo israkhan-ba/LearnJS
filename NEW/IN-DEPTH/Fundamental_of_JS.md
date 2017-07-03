@@ -2034,6 +2034,7 @@ This outputs "value", since 1 is type-casted into '1'.
 
 >```
 > var foo = {unique_prop: 1}, bar = {unique_prop: 2}, object = {};
+> object[foo] = 'value';
 >```
 
 
