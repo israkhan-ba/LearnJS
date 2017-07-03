@@ -2092,7 +2092,7 @@ It is better to use bracket notation instead:
  >```
  
  with the expected result that a and b get the value 5.
- 
+ This is because the assignment operator returns the value that it assigned.
  
  
 ### Expression Closures
