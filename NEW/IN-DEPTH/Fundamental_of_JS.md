@@ -2099,10 +2099,11 @@ It is better to use bracket notation instead:
 
  The following table is ordered from highest (20) to lowest (0) precedence.
 
-| Precedence | Operator type        | Associativity | Individual operators |
-| -------    | -------------------- | ------------- | -------------------- |
-| 20         | Grouping             | n/a           | ( … )                |
-| 19         | Member Access        | left-to-right | … . …                |
+| Precedence | Operator type           | Associativity | Individual operators |
+| -------    | ----------------------- | ------------- | -------------------- |
+| 20         | Grouping                | n/a           | ( … )                |
+| 19         | Member Access           | left-to-right | … . …                |
+|            | Computed Member Access  | left-to-right | … [ … ]              |
 
 
 ### Expression Closures
