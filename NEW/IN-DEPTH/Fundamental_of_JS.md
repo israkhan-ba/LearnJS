@@ -2087,6 +2087,10 @@ It is better to use bracket notation instead:
  Left-associativity (left-to-right) means that it is processed as (a OP b) OP c, while right-associativity (right-to-left) means it is interpreted as a OP (b OP c).
  Assignment operators are right-associative, so you can write.
  
+ >```
+ > a = b = 5;
+ >```
+ 
  
 ### Expression Closures
 
