@@ -2018,6 +2018,28 @@ A space before bracket notation is allowed.
 > document ['createElement']('pre');
 >```
 
+#### Property Names
+
+Property names must be strings.
+This means that non-string objects cannot be used as keys in the object.
+Any non-string object, including a number, is typecasted into a string via the `toString` method.
+
+>```
+> var object = {};
+> object['1'] = 'value';
+> console.log(object[1]);
+>```
+
+This outputs "value", since 1 is type-casted into '1'.
+
+>```
+> var foo = {unique_prop: 1}, bar = {unique_prop: 2}, object = {};
+> object[foo] = 'value';
+> console.log(object[bar]);
+>```
+
+This also outputs "value", since both foo and bar are converted to the same string.
+
 
 ### Operator Precedence
 
