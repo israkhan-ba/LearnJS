@@ -2095,7 +2095,9 @@ It is better to use bracket notation instead:
  This is because the assignment operator returns the value that it assigned.
  First, b is set to 5. Then the a is also set to 5, the return value of b = 5, aka right operand of the assignment.
  
- 
+#### Table
+
+
 ### Expression Closures
 
 
