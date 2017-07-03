@@ -2050,6 +2050,10 @@ Specifically, `this` is not fixed in a method,  i.e., `this` does not necessaril
 JavaScript novices often make the mistake of using eval where the bracket notation can be used instead.
 For example, the following syntax is often seen in many scripts.
 
+>```
+> x = eval('document.forms.form_name.elements.' + strFormControl + '.value');
+>```
+
 
 ### Operator Precedence
 
