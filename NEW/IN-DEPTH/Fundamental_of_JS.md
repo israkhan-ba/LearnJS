@@ -2006,6 +2006,10 @@ If you use a method for a numeric literal and the numeric literal has no exponen
 
 property_name is a string. The string does not have to be a valid identifier; it can have any value, e.g. "1foo", "!bar!", or even " " (a space).
 
+>```
+> document['createElement']('pre');
+>```
+
 
 ### Operator Precedence
 
