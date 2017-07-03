@@ -2027,6 +2027,7 @@ Any non-string object, including a number, is typecasted into a string via the `
 >```
 > var object = {};
 > object['1'] = 'value';
+> console.log(object[1]);
 >```
 
 
