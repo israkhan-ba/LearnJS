@@ -2108,6 +2108,7 @@ It is better to use bracket notation instead:
 |            | Function Call               | left-to-right | … ( … )              |
 | 18         | new (without argument list) | right-to-left | new …                |
 | 17         | Postfix Increment           | right-to-left | … ++                 |
+|            | Postfix Decrement           | right-to-left | … --                 |
 
 
 ### Expression Closures
