@@ -2022,6 +2022,7 @@ A space before bracket notation is allowed.
 
 Property names must be strings.
 This means that non-string objects cannot be used as keys in the object.
+Any non-string object, including a number.
 
 
 ### Operator Precedence
