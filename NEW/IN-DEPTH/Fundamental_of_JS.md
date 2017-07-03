@@ -1983,6 +1983,10 @@ Here, the method named "createElement" is retrieved from document and is called.
 
 If you use a method for a numeric literal and the numeric literal has no exponent and no decimal point, leave white-space(s) before the dot that precedes the method call to prevent the dot from being interpreted as a decimal point.
 
+>```
+> 77 .toExponential();
+>```
+
 
 ### Operator Precedence
 
