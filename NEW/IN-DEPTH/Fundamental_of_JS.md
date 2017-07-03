@@ -1997,6 +1997,27 @@ If you use a method for a numeric literal and the numeric literal has no exponen
 > // because 77. === 77.0, no ambiguity
 >```
 
+#### Bracket Notation
+
+>```
+> get = object[property_name];
+> object[property_name] = set;
+>```
+
+property_name is a string. The string does not have to be a valid identifier; it can have any value, e.g. "1foo", "!bar!", or even " " (a space).
+
+>```
+> document['createElement']('pre');
+>```
+
+This does the exact same thing as the previous example.
+
+A space before bracket notation is allowed.
+
+>```
+> document ['createElement']('pre');
+>```
+
 
 ### Operator Precedence
 
