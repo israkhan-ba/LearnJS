@@ -1988,6 +1988,8 @@ If you use a method for a numeric literal and the numeric literal has no exponen
 > // or
 > 77
 > .toExponential();
+> // or
+> (77).toExponential();
 >```
 
 
