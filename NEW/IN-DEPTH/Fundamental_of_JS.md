@@ -2065,7 +2065,9 @@ It is better to use bracket notation instead:
 
 ### Operator Precedence
 
-
+ Operator precedence determines the order in which operators are evaluated.
+ 
+ 
 ### Expression Closures
 
 
