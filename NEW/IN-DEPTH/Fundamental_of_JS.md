@@ -2065,7 +2065,17 @@ It is better to use bracket notation instead:
 
 ### Operator Precedence
 
-
+ Operator precedence determines the order in which operators are evaluated.
+ Operators with higher precedence are evaluated first.
+ 
+ A common example:
+ >```
+ > 3 + 4 * 5 // returns 23
+ >```
+ 
+ The multiplication operator ("*") has higher precedence than the addition operator ("+") and thus will be evaluated first.
+ 
+ 
 ### Expression Closures
 
 
