@@ -2069,6 +2069,9 @@ It is better to use bracket notation instead:
  Operators with higher precedence are evaluated first.
  
  A common example:
+ >```
+ > 3 + 4 * 5 // returns 23
+ >```
  
  
 ### Expression Closures
