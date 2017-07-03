@@ -2032,6 +2032,10 @@ Any non-string object, including a number, is typecasted into a string via the `
 
 This outputs "value", since 1 is type-casted into '1'.
 
+>```
+> var foo = {unique_prop: 1}, bar = {unique_prop: 2}, object = {};
+>```
+
 
 ### Operator Precedence
 
