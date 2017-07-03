@@ -1997,6 +1997,8 @@ If you use a method for a numeric literal and the numeric literal has no exponen
 > // because 77. === 77.0, no ambiguity
 >```
 
+#### Bracket Notation
+
 
 ### Operator Precedence
 
