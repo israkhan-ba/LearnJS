@@ -2097,6 +2097,8 @@ It is better to use bracket notation instead:
  
 #### Table
 
+ The following table is ordered from highest (20) to lowest (0) precedence.
+
 
 ### Expression Closures
 
