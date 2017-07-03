@@ -2099,13 +2099,14 @@ It is better to use bracket notation instead:
 
  The following table is ordered from highest (20) to lowest (0) precedence.
 
-| Precedence | Operator type           | Associativity | Individual operators |
-|    :---:   | ----------------------- | ------------- |      :---------:     |
-| 20         | Grouping                | n/a           | ( … )                |
-| 19         | Member Access           | left-to-right | … . …                |
-|            | Computed Member Access  | left-to-right | … [ … ]              |
-|            | new (with argument list)| n/a           | new … ( … )          |
-|            | Function Call           | left-to-right | … ( … )              |
+| Precedence | Operator type               | Associativity | Individual operators |
+|    :---:   | --------------------------- | ------------- |      :---------:     |
+| 20         | Grouping                    | n/a           | ( … )                |
+| 19         | Member Access               | left-to-right | … . …                |
+|            | Computed Member Access      | left-to-right | … [ … ]              |
+|            | new (with argument list)    | n/a           | new … ( … )          |
+|            | Function Call               | left-to-right | … ( … )              |
+| 18         | new (without argument list) | left-to-right | … ( … )              |
 
 
 ### Expression Closures
