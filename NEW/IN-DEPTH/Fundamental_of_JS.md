@@ -2054,6 +2054,8 @@ For example, the following syntax is often seen in many scripts.
 > x = eval('document.forms.form_name.elements.' + strFormControl + '.value');
 >```
 
+`eval` is slow and should be avoided whenever possible.
+
 
 ### Operator Precedence
 
