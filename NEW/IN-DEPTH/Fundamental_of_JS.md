@@ -2102,6 +2102,7 @@ It is better to use bracket notation instead:
 | Precedence | Operator type        | Associativity | Individual operators |
 | -------    | -------------------- | ------------- | -------------------- |
 | 20         | Grouping             | n/a           | ( … )                |
+| 19         | Member Access        | left-to-right | … . …                |
 
 
 ### Expression Closures
