@@ -1994,6 +1994,7 @@ If you use a method for a numeric literal and the numeric literal has no exponen
 > 77..toExponential();
 > // or
 > 77.0.toExponential();
+> // because 77. === 77.0, no ambiguity
 >```
 
 
