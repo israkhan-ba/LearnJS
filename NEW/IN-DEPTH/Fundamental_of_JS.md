@@ -2040,6 +2040,28 @@ This outputs "value", since 1 is type-casted into '1'.
 
 This also outputs "value", since both foo and bar are converted to the same string.
 
+#### Method Binding
+
+A method is not bound to the object that it is a method of. 
+Specifically, `this` is not fixed in a method,  i.e., `this` does not necessarily refer to an object containing the method. `this` is instead "passed" by the function call.
+
+#### Note on `eval`
+
+JavaScript novices often make the mistake of using eval where the bracket notation can be used instead.
+For example, the following syntax is often seen in many scripts.
+
+>```
+> x = eval('document.forms.form_name.elements.' + strFormControl + '.value');
+>```
+
+`eval` is slow and should be avoided whenever possible.
+Also, `strFormControl` would have to hold an identifier, which is not required for names and IDs of form controls.
+It is better to use bracket notation instead:
+
+>```
+> x = document.forms['form_name'].elements[strFormControl].value;
+>```
+
 
 ### Operator Precedence
 
