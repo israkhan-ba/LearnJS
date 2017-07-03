@@ -2014,6 +2014,10 @@ This does the exact same thing as the previous example.
 
 A space before bracket notation is allowed.
 
+>```
+> document ['createElement']('pre');
+>```
+
 
 ### Operator Precedence
 
