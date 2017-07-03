@@ -2073,6 +2073,8 @@ It is better to use bracket notation instead:
  > 3 + 4 * 5 // returns 23
  >```
  
+ The multiplication operator ("*") has higher precedence than the addition operator ("+") and thus will be evaluated first.
+ 
  
 ### Expression Closures
 
