@@ -2113,6 +2113,7 @@ It is better to use bracket notation instead:
 |            | Bitwise NOT                 | right-to-left | ~ …                  |
 |            | Unary Plus                  | right-to-left | + …                  |
 |            | Unary Negation              | right-to-left | - …                  |
+|            | Prefix Increment            | right-to-left | ++ …                 |
 
 
 ### Expression Closures
