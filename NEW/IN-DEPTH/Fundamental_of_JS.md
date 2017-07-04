@@ -2117,6 +2117,7 @@ It is better to use bracket notation instead:
 |            | Prefix Decrement            | right-to-left | -- …                 |
 |            | typeof                      | right-to-left | typeof …             |
 |            | void                        | right-to-left | void …               |
+|            | delete                      | right-to-left | delete …             |
 
 
 ### Expression Closures
