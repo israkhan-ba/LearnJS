@@ -2123,6 +2123,7 @@ It is better to use bracket notation instead:
 |            | Division                    | left-to-right | … / …                |
 |            | Remainder                   | left-to-right | … % …                |
 | 13         | Addition                    | left-to-right | … + …                |
+|            | Subtraction                 | left-to-right | … - …                |
 
 
 ### Expression Closures
