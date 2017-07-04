@@ -2114,6 +2114,7 @@ It is better to use bracket notation instead:
 |            | Unary Plus                  | right-to-left | + …                  |
 |            | Unary Negation              | right-to-left | - …                  |
 |            | Prefix Increment            | right-to-left | ++ …                 |
+|            | Prefix Decrement            | right-to-left | -- …                 |
 
 
 ### Expression Closures
