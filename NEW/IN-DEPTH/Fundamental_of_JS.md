@@ -2118,6 +2118,7 @@ It is better to use bracket notation instead:
 |            | typeof                      | right-to-left | typeof …             |
 |            | void                        | right-to-left | void …               |
 |            | delete                      | right-to-left | delete …             |
+| 15         | Exponentiation              | right-to-left | … ** …               |
 
 
 ### Expression Closures
