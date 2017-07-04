@@ -2111,6 +2111,7 @@ It is better to use bracket notation instead:
 |            | Postfix Decrement           | right-to-left | … --                 |
 | 16         | Logical NOT                 | right-to-left | ! …                  |
 |            | Bitwise NOT                 | right-to-left | ~ …                  |
+|            | Unary Plus                  | right-to-left | + …                  |
 
 
 ### Expression Closures
