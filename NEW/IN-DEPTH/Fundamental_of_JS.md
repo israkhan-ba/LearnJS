@@ -1847,7 +1847,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
 #### Computed Property Names
 
  Starting with ECMAScript 2015, the object initializer syntax also supports computed property names.  That allows you to put an expression in brackets [], that will be computed as the property name. 
- This is symmetrical to the bracket notation of the property accessor syntax, which you might have used to read and set properties already.
+ This is symmetrical to the bracket notation of the property accessor syntax, which you might have used to read and set properties already.  
  Now you can use the same syntax in object literals, too:
  
 >```
@@ -1937,7 +1937,7 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
 #### Object Literal Notation vs JSON
 
- The object literal notation is not the same as the JavaScript Object Notation (JSON). 
+ The object literal notation is not the same as the JavaScript Object Notation (JSON).   
  Although they look similar, there are differences between them:
  
  - JSON permits only property definition using `"property": value` syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
@@ -1959,8 +1959,8 @@ With ECMAScript 2015, there is a shorter notation available to achieve the same:
  
 One can think of an object as an *associative array* (a.k.a. map, dictionary, hash, lookup table). 
 The keys in this array are the names of the object's properties.
-It's typical when speaking of an object's properties to make a distinction between properties and methods.
-However, the property/method distinction is little more than a convention. 
+It's typical when speaking of an object's properties to make a distinction between properties and methods.  
+However, the property/method distinction is little more than a convention.   
 A method is simply a property that can be called, for example if it has a reference to a Function instance as its value.
 
 There are two ways to access properties: dot notation and bracket notation.
@@ -1972,7 +1972,7 @@ There are two ways to access properties: dot notation and bracket notation.
 > object.property = set;
 >```
 
-In this code, property must be a valid JavaScript identifier, i.e. a sequence of alphanumerical characters, also including the underscore ("_") and dollar sign ("$"), that cannot start with a number.
+In this code, property must be a valid JavaScript identifier, i.e. a sequence of alphanumerical characters, also including the underscore ("_") and dollar sign ("$"), that cannot start with a number.  
 For example, object.$1 is valid, while object.1 is not.
 
 >```
@@ -2020,8 +2020,8 @@ A space before bracket notation is allowed.
 
 #### Property Names
 
-Property names must be strings.
-This means that non-string objects cannot be used as keys in the object.
+Property names must be strings.  
+This means that non-string objects cannot be used as keys in the object.  
 Any non-string object, including a number, is typecasted into a string via the `toString` method.
 
 >```
@@ -2047,14 +2047,14 @@ Specifically, `this` is not fixed in a method,  i.e., `this` does not necessaril
 
 #### Note on `eval`
 
-JavaScript novices often make the mistake of using eval where the bracket notation can be used instead.
+JavaScript novices often make the mistake of using eval where the bracket notation can be used instead.  
 For example, the following syntax is often seen in many scripts.
 
 >```
 > x = eval('document.forms.form_name.elements.' + strFormControl + '.value');
 >```
 
-`eval` is slow and should be avoided whenever possible.
+`eval` is slow and should be avoided whenever possible.  
 Also, `strFormControl` would have to hold an identifier, which is not required for names and IDs of form controls.
 It is better to use bracket notation instead:
 
@@ -2065,7 +2065,7 @@ It is better to use bracket notation instead:
 
 ### Operator Precedence
 
- Operator precedence determines the order in which operators are evaluated.
+ Operator precedence determines the order in which operators are evaluated.  
  Operators with higher precedence are evaluated first.
  
  A common example:
@@ -2084,14 +2084,14 @@ It is better to use bracket notation instead:
  > a OP b OP c
  >```
  
- Left-associativity (left-to-right) means that it is processed as (a OP b) OP c, while right-associativity (right-to-left) means it is interpreted as a OP (b OP c).
+ Left-associativity (left-to-right) means that it is processed as (a OP b) OP c, while right-associativity (right-to-left) means it is interpreted as a OP (b OP c).  
  Assignment operators are right-associative, so you can write.
  
  >```
  > a = b = 5;
  >```
  
- with the expected result that a and b get the value 5.
+ with the expected result that a and b get the value 5.  
  This is because the assignment operator returns the value that it assigned.
  First, b is set to 5. Then the a is also set to 5, the return value of b = 5, aka right operand of the assignment.
  
@@ -2100,7 +2100,7 @@ It is better to use bracket notation instead:
  The following table is ordered from highest (20) to lowest (0) precedence.
 
 | Precedence | Operator type               | Associativity | Individual operators |
-|    :---:   | --------------------------- | ------------- |      :---------:     |
+|   :---:    | --------------------------- | ------------- |      :---------:     |
 | 20         | Grouping                    | n/a           | ( … )                |
 | 19         | Member Access               | left-to-right | … . …                |
 |            | Computed Member Access      | left-to-right | … [ … ]              |
