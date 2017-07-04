@@ -2119,6 +2119,7 @@ It is better to use bracket notation instead:
 |            | void                        | right-to-left | void …               |
 |            | delete                      | right-to-left | delete …             |
 | 15         | Exponentiation              | right-to-left | … ** …               |
+| 14         | Multiplication              | left-to-right | … * …                |
 
 
 ### Expression Closures
