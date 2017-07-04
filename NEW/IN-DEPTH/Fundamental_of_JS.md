@@ -2109,6 +2109,8 @@ It is better to use bracket notation instead:
 | 18         | new (without argument list) | right-to-left | new …                |
 | 17         | Postfix Increment           | right-to-left | … ++                 |
 |            | Postfix Decrement           | right-to-left | … --                 |
+| 16         | Logical NOT                 | right-to-left | ! …                  |
+
 
 
 ### Expression Closures
