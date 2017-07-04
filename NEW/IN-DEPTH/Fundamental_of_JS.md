@@ -2112,6 +2112,7 @@ It is better to use bracket notation instead:
 | 16         | Logical NOT                 | right-to-left | ! …                  |
 |            | Bitwise NOT                 | right-to-left | ~ …                  |
 |            | Unary Plus                  | right-to-left | + …                  |
+|            | Unary Negation              | right-to-left | - …                  |
 
 
 ### Expression Closures
