@@ -2121,6 +2121,7 @@ It is better to use bracket notation instead:
 | 15         | Exponentiation              | right-to-left | … ** …               |
 | 14         | Multiplication              | left-to-right | … * …                |
 |            | Division                    | left-to-right | … / …                |
+|            | Remainder                   | left-to-right | … % …                |
 
 
 ### Expression Closures
