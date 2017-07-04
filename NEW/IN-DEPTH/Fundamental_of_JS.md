@@ -2122,6 +2122,7 @@ It is better to use bracket notation instead:
 | 14         | Multiplication              | left-to-right | … * …                |
 |            | Division                    | left-to-right | … / …                |
 |            | Remainder                   | left-to-right | … % …                |
+| 13         | Addition                    | left-to-right | … + …                |
 
 
 ### Expression Closures
