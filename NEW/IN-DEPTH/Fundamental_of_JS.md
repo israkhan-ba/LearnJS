@@ -2134,7 +2134,7 @@ It is better to use bracket notation instead:
 |            | in	                       | left-to-right | … in …               |
 |            | instanceof	               | left-to-right | … instanceof …       |
 | 10	     | Equality	                   | left-to-right | … == …               |
-
+Inequality	left-to-right	… != …
 
 ### Expression Closures
 
