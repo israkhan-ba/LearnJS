@@ -2157,6 +2157,7 @@ It is better to use bracket notation instead:
 |            |                             |               | … ^= …               |
 |            |                             |               | … |= …               |
 2	yield	right-to-left	yield …
+yield*	right-to-left	yield* …
 
 
 ### Expression Closures
