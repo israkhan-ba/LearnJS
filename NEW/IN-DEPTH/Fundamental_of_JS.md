@@ -2144,7 +2144,7 @@ It is better to use bracket notation instead:
 | 5	         | Logical OR	               | left-to-right | … || …               |
 | 4	         | Conditional	               | right-to-left | … ? … : …            | 
 | 3	         | Assignment	               | right-to-left | … = …                |
-
+… += …
 
 ### Expression Closures
 
