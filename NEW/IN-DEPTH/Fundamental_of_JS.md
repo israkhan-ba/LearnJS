@@ -2125,7 +2125,7 @@ It is better to use bracket notation instead:
 | 13         | Addition                    | left-to-right | … + …                |
 |            | Subtraction                 | left-to-right | … - …                |
 12	Bitwise Left Shift	left-to-right	… << …
-
+Bitwise Right Shift	left-to-right	… >> …
 
 
 ### Expression Closures
