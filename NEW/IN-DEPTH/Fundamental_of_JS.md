@@ -2145,6 +2145,8 @@ It is better to use bracket notation instead:
 | 4	         | Conditional	               | right-to-left | … ? … : …            | 
 | 3	         | Assignment	               | right-to-left | … = …                |
 … += …
+… -= …
+
 
 ### Expression Closures
 
