@@ -2179,6 +2179,9 @@ JavaScript 1.7 and older:
 JavaScript 1.8:
 > `function(x) x * x`
 
+**_Parameters_** 
+
+
 
 ### Destructuring Assignment
 
