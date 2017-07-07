@@ -2139,9 +2139,9 @@ It is better to use bracket notation instead:
 |            | Strict Inequality	       | left-to-right | … !== …              | 
 | 9	         | Bitwise AND	               | left-to-right | … & …                |
 | 8	         | Bitwise XOR	               | left-to-right | … ^ …                |
-| 7	         | Bitwise OR	               | left-to-right | … | …                | 
+| 7	         | Bitwise OR	               | left-to-right | … &#124; …           | 
 | 6	         | Logical AND	               | left-to-right | … && …               |
-| 5	         | Logical OR	               | left-to-right | … || …               |
+| 5	         | Logical OR	               | left-to-right | … &#124;&#124; …     |
 | 4	         | Conditional	               | right-to-left | … ? … : …            | 
 | 3	         | Assignment	               | right-to-left | … = …                |
 |            |                             |               | … += …               |
