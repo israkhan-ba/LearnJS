@@ -2165,7 +2165,7 @@ It is better to use bracket notation instead:
 ### Expression Closures
 
  Expression closures are a shorthand function syntax for writing simple functions.
- This addition is nothing more than a shorthand for writing simple functions.
+ This addition is nothing more than a shorthand for writing simple functions, giving the language something similar to a typical Lambda notation.
  
 
 ### Destructuring Assignment
