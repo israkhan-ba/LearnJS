@@ -2179,6 +2179,8 @@ JavaScript 1.7 and older:
 JavaScript 1.8:
 > `function(x) x * x`
 
+This syntax allows you to leave off the braces and 'return' statement
+
 **_Parameters_** 
 - **name**  
   The function name. Can be omitted, in which case the function is `anonymous`.  
