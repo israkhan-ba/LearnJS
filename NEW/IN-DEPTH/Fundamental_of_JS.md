@@ -2179,7 +2179,7 @@ JavaScript 1.7 and older:
 JavaScript 1.8:
 > `function(x) x * x`
 
-This syntax allows you to leave off the braces and 'return' statement
+This syntax allows you to leave off the braces and 'return' statement - making them implicit.
 
 **_Parameters_** 
 - **name**  
