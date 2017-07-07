@@ -2182,6 +2182,7 @@ JavaScript 1.8:
 **_Parameters_** 
 - **name**  
   The function name. Can be omitted, in which case the function is `anonymous`.
+  The name is only local to the function body.
   
 
 ### Destructuring Assignment
