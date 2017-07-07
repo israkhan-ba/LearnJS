@@ -2173,6 +2173,9 @@ It is better to use bracket notation instead:
 >   expression
 >```
 
+JavaScript 1.7 and older:
+> `function(x) { return x * x; }`
+
 
 ### Destructuring Assignment
 
