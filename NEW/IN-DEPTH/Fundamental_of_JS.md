@@ -2200,6 +2200,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 **_Examples_** 
 
 - A shorthand for binding event listeners:
+    > document.addEventListener('click', function() false, true);
 
 
 ### Destructuring Assignment
