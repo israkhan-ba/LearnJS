@@ -2214,6 +2214,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  **_Syntax_**
  >``` 
  > var a, b, rest;
+ > [a, b] = [10, 20];
  >```
  
 
