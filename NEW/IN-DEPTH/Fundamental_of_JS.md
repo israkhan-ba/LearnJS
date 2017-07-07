@@ -2211,6 +2211,11 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  
  The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
  
+ **_Syntax_**
+ >``` 
+ > var a, b, rest;
+ >```
+ 
 
 ### Spread Syntax
 
