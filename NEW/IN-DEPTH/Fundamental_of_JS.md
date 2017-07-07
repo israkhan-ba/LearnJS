@@ -2231,6 +2231,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > ({a, b, ...rest} = {a: 10, b: 20, c: 30, d: 40});
  >```
  
+ The object and array literal expressions provide an easy way to create `ad hoc` packages of data.
+
 
 ### Spread Syntax
 
