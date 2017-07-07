@@ -2208,7 +2208,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
     
 
 ### Destructuring Assignment
-
+ 
+ The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays
+ 
 
 ### Spread Syntax
 
