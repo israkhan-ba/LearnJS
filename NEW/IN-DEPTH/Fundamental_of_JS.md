@@ -2203,6 +2203,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
     > document.addEventListener('click', function() false, true);
 
 
+- Using this notation with some of the array functions from JavaScript 1.6:
+
+
 ### Destructuring Assignment
 
 
