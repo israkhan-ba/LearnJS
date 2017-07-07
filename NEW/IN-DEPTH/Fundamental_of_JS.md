@@ -2217,6 +2217,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > [a, b] = [10, 20];
  > console.log(a); // 10
  > console.log(b); // 20
+ >
+ > [a, b, ...rest] = [10, 20, 30, 40, 50];
  >```
  
 
