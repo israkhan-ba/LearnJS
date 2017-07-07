@@ -2226,6 +2226,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > ({a, b} = {a: 10, b: 20});
  > console.log(a); // 10
  > console.log(b); // 20
+ >
+ > // Stage 3 proposal
+ > ({a, b, ...rest} = {a: 10, b: 20, c: 30, d: 40});
  >```
  
 
