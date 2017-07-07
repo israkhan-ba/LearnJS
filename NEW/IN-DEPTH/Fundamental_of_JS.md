@@ -2196,6 +2196,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 - **expression**  
   The expression which comprise the body of the function.
   
+  
+**_Examples_** 
+
+
 
 ### Destructuring Assignment
 
