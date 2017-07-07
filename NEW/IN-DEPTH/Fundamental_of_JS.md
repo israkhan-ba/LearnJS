@@ -2167,6 +2167,12 @@ It is better to use bracket notation instead:
  Expression closures are a shorthand function syntax for writing simple functions.
  This addition is nothing more than a shorthand for writing simple functions, giving the language something similar to a typical Lambda notation.
  
+**_Syntax_** 
+>```
+> function [name]([param1[, param2[, ..., paramN]]])
+>   expression
+>```
+
 
 ### Destructuring Assignment
 
