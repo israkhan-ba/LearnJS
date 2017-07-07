@@ -2232,6 +2232,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  >```
  
  The object and array literal expressions provide an easy way to create `ad hoc` packages of data.
+ 
+ > `var x = [1, 2, 3, 4, 5];`
 
 
 ### Spread Syntax
