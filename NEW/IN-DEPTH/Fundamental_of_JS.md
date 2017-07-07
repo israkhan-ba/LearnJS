@@ -2164,6 +2164,8 @@ It is better to use bracket notation instead:
 
 ### Expression Closures
 
+ Expression closures are a shorthand function syntax for writing simple functions.
+ 
 
 ### Destructuring Assignment
 
