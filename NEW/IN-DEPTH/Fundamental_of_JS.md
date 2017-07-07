@@ -2181,12 +2181,14 @@ JavaScript 1.8:
 
 **_Parameters_** 
 - **name**  
-  The function name. Can be omitted, in which case the function is `anonymous`.
+  The function name. Can be omitted, in which case the function is `anonymous`.  
   The name is only local to the function body.
   
-- **paramN**  
-  The name of an argument to be passed to the function.
   
+- **paramN**  
+  The name of an argument to be passed to the function.  
+   A function can have up to 255 arguments.
+   
   
 
 ### Destructuring Assignment
