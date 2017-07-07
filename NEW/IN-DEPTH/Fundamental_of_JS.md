@@ -2188,6 +2188,9 @@ JavaScript 1.8:
 - **paramN**  
   The name of an argument to be passed to the function.  
    A function can have up to 255 arguments.
+  
+  
+- **expression**  
    
   
 
