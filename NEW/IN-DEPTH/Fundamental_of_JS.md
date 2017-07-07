@@ -2204,7 +2204,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 
 - Using this notation with some of the array functions from JavaScript 1.6:
-
+    > elems.some(function(elem) elem.type == 'text');
+    
 
 ### Destructuring Assignment
 
