@@ -2164,6 +2164,38 @@ It is better to use bracket notation instead:
 
 ### Expression Closures
 
+ Expression closures are a shorthand function syntax for writing simple functions.
+ This addition is nothing more than a shorthand for writing simple functions, giving the language something similar to a typical Lambda notation.
+ 
+**_Syntax_** 
+>```
+> function [name]([param1[, param2[, ..., paramN]]])
+>   expression
+>```
+
+JavaScript 1.7 and older:
+> `function(x) { return x * x; }`
+
+JavaScript 1.8:
+> `function(x) x * x`
+
+This syntax allows you to leave off the braces and 'return' statement - making them implicit. There is no added benefit to writing code in this manner, other than having it be syntactically shorter.
+
+
+**_Parameters_** 
+- **name**  
+  The function name. Can be omitted, in which case the function is `anonymous`.  
+  The name is only local to the function body.
+  
+  
+- **paramN**  
+  The name of an argument to be passed to the function.  
+   A function can have up to 255 arguments.
+  
+  
+- **expression**  
+  The expression which comprise the body of the function.
+  
 
 ### Destructuring Assignment
 
