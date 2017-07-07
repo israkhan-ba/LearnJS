@@ -2185,6 +2185,7 @@ JavaScript 1.8:
   The name is only local to the function body.
   
 - **paramN**  
+  The name of an argument to be passed to the function.
   
   
 
