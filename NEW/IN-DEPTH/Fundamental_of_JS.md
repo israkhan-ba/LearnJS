@@ -2191,7 +2191,7 @@ JavaScript 1.8:
   
   
 - **expression**  
-   
+  The expression which comprise the body of the function.
   
 
 ### Destructuring Assignment
