@@ -2199,6 +2199,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
   
 **_Examples_** 
 
+- A shorthand for binding event listeners:
 
 
 ### Destructuring Assignment
