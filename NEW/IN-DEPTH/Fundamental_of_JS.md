@@ -2250,7 +2250,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 #### Array Destructuring
 Basic variable assignment
 
-
+Assignment separate from declaration
 
 ### Spread Syntax
 
