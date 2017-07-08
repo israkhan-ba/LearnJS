@@ -2253,6 +2253,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 **_Basic Variable Assignment_**
 >```
 > var foo = ['one', 'two', 'three'];
+>
+> var [one, two, three] = foo;
 >```
 
 
