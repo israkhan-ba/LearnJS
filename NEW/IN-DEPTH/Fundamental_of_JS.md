@@ -2251,6 +2251,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 #### Array Destructuring
 
 **_Basic Variable Assignment_**
+>```
+> var foo = ['one', 'two', 'three'];
+>```
 
 
 ### Spread Syntax
