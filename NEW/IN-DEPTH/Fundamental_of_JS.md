@@ -2270,8 +2270,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > 
 > [a, b] = [1, 2];
 > console.log(a); // 1
-
+> console.log(b); // 2
 >```
+
 
 ### Spread Syntax
 
