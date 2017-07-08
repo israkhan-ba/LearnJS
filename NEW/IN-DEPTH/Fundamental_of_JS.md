@@ -2247,21 +2247,12 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  This capability is similar to features present in languages such as Perl and Python.
 
+
 #### Array Destructuring
-Basic variable assignment
-
-Assignment separate from declaration
-
-Default values
-
-Swapping variables
-
-Parsing an array returned from a function
 
 
 
 ### Spread Syntax
-
 
 ### Function Expression
 
