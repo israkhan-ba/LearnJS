@@ -2254,6 +2254,9 @@ Assignment separate from declaration
 
 Default values
 
+Swapping variables
+
+
 ### Spread Syntax
 
 
