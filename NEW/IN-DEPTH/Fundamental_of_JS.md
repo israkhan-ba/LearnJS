@@ -2238,6 +2238,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  The destructuring assignment uses similar syntax.
  but on the left-hand side of the assignment to define what values to unpack from the sourced variable.
  
+ >```
+ > var x = [1, 2, 3, 4, 5];
+ >```
 
 ### Spread Syntax
 
