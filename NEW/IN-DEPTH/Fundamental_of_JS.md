@@ -2252,6 +2252,8 @@ Basic variable assignment
 
 Assignment separate from declaration
 
+Default values
+
 ### Spread Syntax
 
 
