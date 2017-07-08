@@ -2256,6 +2256,9 @@ Default values
 
 Swapping variables
 
+Parsing an array returned from a function
+
+
 
 ### Spread Syntax
 
