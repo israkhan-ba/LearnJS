@@ -2247,6 +2247,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  This capability is similar to features present in languages such as Perl and Python.
 
+#### Array Destructuring
+
 
 ### Spread Syntax
 
