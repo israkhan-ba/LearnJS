@@ -2245,6 +2245,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > console.log(z); // 2
  >```
 
+ This capability is similar to features present in languages such as Perl and Python.
+
+
 ### Spread Syntax
 
 
