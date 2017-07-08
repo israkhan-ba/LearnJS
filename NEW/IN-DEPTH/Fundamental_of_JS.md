@@ -2261,6 +2261,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >```
 
 
+**_Assignment Separate from Declaration_**
+
+
 ### Spread Syntax
 
 ### Function Expression
