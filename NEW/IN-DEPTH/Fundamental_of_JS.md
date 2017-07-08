@@ -2247,21 +2247,21 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  This capability is similar to features present in languages such as Perl and Python.
 
+
 #### Array Destructuring
-Basic variable assignment
 
-Assignment separate from declaration
-
-Default values
-
-Swapping variables
-
-Parsing an array returned from a function
-
+**_Basic Variable Assignment_**
+>```
+> var foo = ['one', 'two', 'three'];
+>
+> var [one, two, three] = foo;
+> console.log(one); // "one"
+> console.log(two); // "two"
+> console.log(three); // "three"
+>```
 
 
 ### Spread Syntax
-
 
 ### Function Expression
 
