@@ -2255,6 +2255,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > var foo = ['one', 'two', 'three'];
 >
 > var [one, two, three] = foo;
+> console.log(one); // "one"
 >```
 
 
