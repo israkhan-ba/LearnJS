@@ -2241,6 +2241,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  >```
  > var x = [1, 2, 3, 4, 5];
  > var [y, z] = x;
+ > console.log(y); // 1
  >```
 
 ### Spread Syntax
