@@ -2267,6 +2267,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 >```
 > var a, b;
+> 
+> [a, b] = [1, 2];
 >```
 
 ### Spread Syntax
