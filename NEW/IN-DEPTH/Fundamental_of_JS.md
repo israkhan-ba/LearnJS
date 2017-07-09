@@ -2273,6 +2273,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(b); // 2
 >```
 
+**_Default Values_**
+
 
 ### Spread Syntax
 
