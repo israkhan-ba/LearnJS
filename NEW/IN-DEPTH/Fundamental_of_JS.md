@@ -2279,6 +2279,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  
  >```
  > var a, b;
+ >
+ > [a=5, b=7] = [1];
  >```
  
 
