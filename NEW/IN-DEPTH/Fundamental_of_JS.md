@@ -2273,6 +2273,18 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(b); // 2
 >```
 
+**_Default Values_**
+
+ A variable can be assigned a default, in the case that the value unpacked from the array is undefined.
+ 
+ >```
+ > var a, b;
+ >
+ > [a=5, b=7] = [1];
+ > console.log(a); // 1
+ > console.log(b); // 7
+ >```
+ 
 
 ### Spread Syntax
 
