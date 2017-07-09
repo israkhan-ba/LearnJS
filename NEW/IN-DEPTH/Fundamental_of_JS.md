@@ -2285,6 +2285,20 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > console.log(b); // 7
  >```
  
+**_Swapping Variables_**
+
+ Two variables values can be swapped in one destructuring expression.
+ Without destructuring assignment, swapping two values requires a temporary variable (or, in some low-level languages, the XOR-swap trick).
+
+ >```
+ > var a = 1;
+ > var b = 3;
+ >
+ > [a, b] = [b, a];
+ > console.log(a); // 3
+ > console.log(b); // 1
+ >```
+
 
 ### Spread Syntax
 
