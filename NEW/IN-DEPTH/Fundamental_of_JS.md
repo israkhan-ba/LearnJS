@@ -2301,6 +2301,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Parsing an array returned from a function_**
 
+ It's always been possible to return an array from a function.
+ 
+
+
 ### Spread Syntax
 
 ### Function Expression
