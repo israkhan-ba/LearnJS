@@ -2311,6 +2311,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > function f() {
  >  return [1, 2];
  > }
+ >
+ > var a, b; 
  >```
  
 
