@@ -2299,6 +2299,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > console.log(b); // 1
  >```
 
+**_Parsing an array returned from a function_**
 
 ### Spread Syntax
 
