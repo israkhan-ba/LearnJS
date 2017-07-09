@@ -2285,6 +2285,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > console.log(b); // 7
  >```
  
+**_Swapping Variables_**
+
 
 ### Spread Syntax
 
