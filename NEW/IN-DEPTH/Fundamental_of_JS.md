@@ -2275,7 +2275,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Default Values_**
 
- A variable can be assigned a default.
+ A variable can be assigned a default, in the case that the value unpacked from the array is undefined.
  
 
 ### Spread Syntax
