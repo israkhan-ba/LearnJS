@@ -2307,6 +2307,12 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  In this example, 
  f() returns the values [1, 2] as its output, which can be parsed in a single line with destructuring.
  
+ >```
+ > function f() {
+ >  return [1, 2];
+ > }
+ >```
+ 
 
 ### Spread Syntax
 
