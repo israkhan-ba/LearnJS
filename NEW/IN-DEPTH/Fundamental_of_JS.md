@@ -2277,6 +2277,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  A variable can be assigned a default, in the case that the value unpacked from the array is undefined.
  
+ >```
+ > var a, b;
+ >```
+ 
 
 ### Spread Syntax
 
