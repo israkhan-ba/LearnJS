@@ -2287,6 +2287,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  
 **_Swapping Variables_**
 
+ Two variables values can be swapped in one destructuring expression.
+
+
+
 
 ### Spread Syntax
 
