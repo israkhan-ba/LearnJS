@@ -2290,6 +2290,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  Two variables values can be swapped in one destructuring expression.
  Without destructuring assignment, swapping two values requires a temporary variable (or, in some low-level languages, the XOR-swap trick).
 
+ >```
+ > var a = 1;
+ >```
 
 
 ### Spread Syntax
