@@ -2304,7 +2304,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  It's always been possible to return an array from a function.
  Destructuring can make working with an array return value more concise.
 
- In this example, f() returns the values [1, 2] as its output
+ In this example, 
+ f() returns the values [1, 2] as its output, which can be parsed in a single line with destructuring.
  
 
 ### Spread Syntax
