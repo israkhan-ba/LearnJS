@@ -2295,6 +2295,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  > var b = 3;
  >
  > [a, b] = [b, a];
+ > console.log(a); // 3
  >```
 
 
