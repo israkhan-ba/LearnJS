@@ -2292,6 +2292,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  >```
  > var a = 1;
+ > var b = 3;
  >```
 
 
