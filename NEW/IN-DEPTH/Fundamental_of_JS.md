@@ -2326,6 +2326,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > function f() {
 >   return [1, 2, 3];
 > } 
+>
+> var [a, , b] = f();
+> console.log(a); // 1
+> console.log(b); // 3
 >```
 
 
