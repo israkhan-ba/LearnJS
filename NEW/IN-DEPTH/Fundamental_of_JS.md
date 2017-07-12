@@ -2322,6 +2322,12 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  You can ignore return values that you're not interested in:
  
+>```
+> function f() {
+>   return [1, 2, 3];
+> } 
+>```
+
 
 ### Spread Syntax
 
