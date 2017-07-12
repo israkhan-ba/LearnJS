@@ -2332,6 +2332,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(b); // 3
 >```
 
+ You can also ignore all returned values:
+
 
 ### Spread Syntax
 
