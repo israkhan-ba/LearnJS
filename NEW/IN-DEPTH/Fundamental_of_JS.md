@@ -2347,6 +2347,13 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(b); // [2, 3]
 >```
 
+ Note that a SyntaxError will be thrown if a trailing comma is used on the left-hand side with a rest element:
+
+>```
+> var [a, ...b,] = [1, 2, 3];
+> // SyntaxError: rest element may not have a trailing comma
+>```
+
 
 ### Spread Syntax
 
