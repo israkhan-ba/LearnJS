@@ -2320,6 +2320,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  
 **_Ignoring some returned values_** 
 
+ You can ignore return values that you're not interested in:
+ 
 
 ### Spread Syntax
 
