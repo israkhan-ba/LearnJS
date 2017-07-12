@@ -2341,6 +2341,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  When destructuring an array, you can unpack and assign the remaining part of it to a variable using the rest pattern:
  
+  
 
 ### Spread Syntax
 
