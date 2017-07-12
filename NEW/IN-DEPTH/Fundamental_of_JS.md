@@ -2333,6 +2333,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >```
 
  You can also ignore all returned values:
+ 
+> `[,,] = f();`
 
 
 ### Spread Syntax
