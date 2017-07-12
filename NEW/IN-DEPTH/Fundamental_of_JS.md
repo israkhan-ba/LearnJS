@@ -2337,6 +2337,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > `[,,] = f();`
 
 
+**_Assigning the rest of an array to a variable_**
+
+
 ### Spread Syntax
 
 ### Function Expression
