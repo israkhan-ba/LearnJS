@@ -2343,6 +2343,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  
 >```
 > var [a, ...b] = [1, 2, 3];
+> console.log(a); // 1
 >```
 
 
