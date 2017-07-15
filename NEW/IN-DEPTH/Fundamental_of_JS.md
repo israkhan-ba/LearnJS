@@ -2275,7 +2275,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Default Values_**
 
- A variable can be assigned a default, in the case that the value unpacked from the array is undefined.
+ A variable can be assigned a default, in the case that the value unpacked from the array is `undefined`.
  
  >```
  > var a, b;
@@ -2305,7 +2305,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  Destructuring can make working with an array return value more concise.
 
  In this example, 
- f() returns the values [1, 2] as its output, which can be parsed in a single line with destructuring.
+ `f()` returns the values `[1, 2]` as its output, which can be parsed in a single line with destructuring.
  
  >```
  > function f() {
@@ -2356,7 +2356,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Unpacking values from a regular expression match_**
  
- When the regular expression exec() method finds a match, it returns an array containing first the entire matched portion of the string and then the portions of the string that matched each parenthesized group in the regular expression.
+ When the regular expression `exec()` method finds a match, it returns an array containing first the entire matched portion of the string and then the portions of the string that matched each parenthesized group in the regular expression.
  Destructuring assignment allows you to unpack the parts out of this array easily, ignoring the full match if it is not needed.
  
 >```
