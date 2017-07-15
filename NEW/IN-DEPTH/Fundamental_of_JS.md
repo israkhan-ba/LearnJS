@@ -2357,7 +2357,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 **_Unpacking values from a regular expression match_**
  
  When the regular expression exec() method finds a match, it returns an array containing first the entire matched portion of the string and then the portions of the string that matched each parenthesized group in the regular expression.
- Destructuring assignment allows you to unpack the parts out of this array easily
+ Destructuring assignment allows you to unpack the parts out of this array easily, ignoring the full match if it is not needed.
  
 
 ### Spread Syntax
