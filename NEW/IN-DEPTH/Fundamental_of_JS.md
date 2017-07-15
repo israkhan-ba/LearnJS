@@ -2356,7 +2356,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Unpacking values from a regular expression match_**
  
- When the regular expression exec() method finds a match, it returns an array containing first the entire matched portion of the string
+ When the regular expression exec() method finds a match, it returns an array containing first the entire matched portion of the string and then the portions of the string that matched each parenthesized group in the regular expression.
  
 
 ### Spread Syntax
