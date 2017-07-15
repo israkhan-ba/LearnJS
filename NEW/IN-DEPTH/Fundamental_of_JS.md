@@ -2361,6 +2361,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
  
 >```
 > var url = 'https://developer.mozilla.org/en-US/Web/JavaScript';
+> 
+> var parsedURL = /^(\w+)\:\/\/([^\/]+)\/(.*)$/.exec(url);
 >```
 
 
