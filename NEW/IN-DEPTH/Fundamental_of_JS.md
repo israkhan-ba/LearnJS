@@ -2354,6 +2354,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > // SyntaxError: rest element may not have a trailing comma
 >```
 
+**_Unpacking values from a regular expression match_**
+
 
 ### Spread Syntax
 
