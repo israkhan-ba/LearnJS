@@ -2366,6 +2366,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(parsedURL); // ["https://developer.mozilla.org/en-US/Web/JavaScript", "https", "developer.mozilla.org", "en-US/Web/JavaScript"]
 >
 > var [, protocol, fullhost, fullpath] = parsedURL;
+>
+> console.log(protocol); // "https"
 >```
 
 
