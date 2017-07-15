@@ -2355,7 +2355,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >```
 
 **_Unpacking values from a regular expression match_**
-
+ 
+ When the regular expression exec() method finds a match
+ 
 
 ### Spread Syntax
 
