@@ -2371,6 +2371,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >```
 
 
+#### Object Destructuring
+
+
+
 ### Spread Syntax
 
 ### Function Expression
