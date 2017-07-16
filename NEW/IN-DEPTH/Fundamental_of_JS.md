@@ -2383,6 +2383,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(q); // true
 >```
 
+**_Assignment without declaration_**
+
+
 
 ### Spread Syntax
 
