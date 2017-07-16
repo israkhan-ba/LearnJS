@@ -2387,6 +2387,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  A variable can be assigned its value with destructuring separate from its declaration.
 
+>```
+> var a, b;
+>```
 
 
 
