@@ -2395,6 +2395,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Assigning to new variable names_**
 
+ A property can be unpacked from an object and assigned to a variable with a different name than the object property.
 
 
 ### Spread Syntax
