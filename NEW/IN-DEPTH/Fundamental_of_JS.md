@@ -2375,6 +2375,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Basic Assignment_**
 
+>```
+> var o = {p: 42, q: true};
+>```
+
 
 ### Spread Syntax
 
