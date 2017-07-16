@@ -2393,6 +2393,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > ({a, b} = {a: 1, b: 2});
 >```
 
+**_Assigning to new variable names_**
+
 
 
 ### Spread Syntax
