@@ -2373,6 +2373,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 #### Object Destructuring
 
+**_Basic Assignment_**
 
 
 ### Spread Syntax
