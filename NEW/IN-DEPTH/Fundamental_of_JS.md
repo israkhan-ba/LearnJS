@@ -2377,6 +2377,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 >```
 > var o = {p: 42, q: true};
+> var {p, q} = o;
 >```
 
 
