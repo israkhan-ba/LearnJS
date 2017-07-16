@@ -2385,6 +2385,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Assignment without declaration_**
 
+ A variable can be assigned its value with destructuring separate from its declaration.
+
+
 
 
 ### Spread Syntax
