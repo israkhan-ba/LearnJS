@@ -2417,6 +2417,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >```
 
 **_Setting a function parameter's default value_**
+*ES5 version*
 
 
 ### Spread Syntax
