@@ -2407,6 +2407,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Default values_**
 
+ A variable can be assigned a default
+ 
 
 ### Spread Syntax
 
