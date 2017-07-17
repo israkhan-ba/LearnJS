@@ -2402,6 +2402,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > var {p: foo, q: bar} = o;
 >
 > console.log(foo); // 42 
+> console.log(bar); // true
 >```
 
 
