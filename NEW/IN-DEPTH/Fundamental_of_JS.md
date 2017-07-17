@@ -2416,6 +2416,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(b); // 5
 >```
 
+**_Setting a function parameter's default value_**
+
 
 ### Spread Syntax
 
