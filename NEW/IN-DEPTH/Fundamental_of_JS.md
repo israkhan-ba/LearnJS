@@ -2405,6 +2405,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(bar); // true
 >```
 
+**_Default values_**
+
 
 ### Spread Syntax
 
