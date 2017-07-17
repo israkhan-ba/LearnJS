@@ -2409,6 +2409,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
  A variable can be assigned a default, in the case that the value unpacked from the object is `undefined`.
  
+>```
+> var {a = 10, b = 5} = {a: 3};
+>```
+
 
 ### Spread Syntax
 
