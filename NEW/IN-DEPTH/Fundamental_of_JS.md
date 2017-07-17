@@ -2407,7 +2407,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Default values_**
 
- A variable can be assigned a default
+ A variable can be assigned a default, in the case that the value unpacked from the object is `undefined`.
  
 
 ### Spread Syntax
