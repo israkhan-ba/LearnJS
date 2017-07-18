@@ -2465,6 +2465,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > };
 >
 > var {title: englishTitle, translations: [{title: localeTitle}]} = metadata;
+>
+> console.log(englishTitle); // "Scratchpad"
+> console.log(localeTitle);  // "JavaScript-Umgebung"
 >```
 
 
