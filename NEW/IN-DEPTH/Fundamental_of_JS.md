@@ -2419,6 +2419,16 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 **_Setting a function parameter's default value_**
 *ES5 version*
 
+>```
+> function drawES5Chart(options) {
+>  options = options === undefined ? {} : options;
+>  var size = options.size === undefined ? 'big' : options.size;
+>  var cords = options.cords === undefined ? {x: 0, y: 0} : options.cords;
+>  var radius = options.radius === undefined ? 25 : options.radius;
+>  console.log(size, cords, radius);
+>  // now finally do some chart drawing
+> }
+>```
 
 ### Spread Syntax
 
