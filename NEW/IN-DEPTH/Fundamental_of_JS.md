@@ -2441,6 +2441,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >   console.log(size, cords, radius);
 >   // do some chart drawing
 > }
+> drawES2015Chart({
+>   cords: {x: 18, y: 30},
+>   radius: 30
+> });
 >```
 
 
