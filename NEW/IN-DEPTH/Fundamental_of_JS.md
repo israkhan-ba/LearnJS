@@ -2435,6 +2435,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > });
 >```
 
+*ES2015 version*
+
+
+
 ### Spread Syntax
 
 ### Function Expression
