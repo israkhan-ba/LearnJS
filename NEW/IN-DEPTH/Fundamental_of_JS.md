@@ -2436,7 +2436,12 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >```
 
 *ES2015 version*
-
+>```
+> function drawES2015Chart({size = 'big', cords = {x: 0, y: 0}, radius = 25} = {}) {
+>   console.log(size, cords, radius);
+>   // do some chart drawing
+> }
+>```
 
 
 ### Spread Syntax
