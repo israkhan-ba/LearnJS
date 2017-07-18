@@ -2463,7 +2463,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >     ],
 >     url: '/en-US/docs/Tools/Scratchpad'
 > };
+>
+> var {title: englishTitle, translations: [{title: localeTitle}]} = metadata;
 >```
+
 
 ### Spread Syntax
 
