@@ -2493,6 +2493,13 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >     age: 25
 >   }
 > ];
+> 
+> for (var {name: n, family: {father: f}} of people) {
+>   console.log('Name: ' + n + ', Father: ' + f);
+> }
+> 
+> // "Name: Mike Smith, Father: Harry Smith"
+> // "Name: Tom Jones, Father: Richard Jones"
 >```
 
 
