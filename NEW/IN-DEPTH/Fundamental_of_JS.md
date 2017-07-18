@@ -2470,6 +2470,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > console.log(localeTitle);  // "JavaScript-Umgebung"
 >```
 
+**_For of iteration and destructuring_**
+
 
 ### Spread Syntax
 
