@@ -2535,6 +2535,8 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 >```
 > let key = 'z';
 > let {[key]: foo} = {z: 'bar'};
+> 
+> console.log(foo); // "bar"
 >```
 
 ### Spread Syntax
