@@ -2530,6 +2530,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 
 **_Computed object property names and destructuring_**
 
+ Computed property names can be used with destructuring.
+
+
 
 ### Spread Syntax
 
