@@ -2512,6 +2512,15 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > function whois({displayName, fullName: {firstName: name}}) {
 >   console.log(displayName + ' is ' + name);
 > }
+>
+> var user = { 
+>   id: 42, 
+>   displayName: 'jdoe',
+>   fullName: { 
+>       firstName: 'John',
+>       lastName: 'Doe'
+>   }
+> };
 >```
 
 
