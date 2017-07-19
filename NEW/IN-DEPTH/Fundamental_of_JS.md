@@ -2521,6 +2521,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 >       lastName: 'Doe'
 >   }
 > };
+>
+> console.log('userId: ' + userId(user)); // "userId: 42"
+> whois(user); // "jdoe is John"
 >```
 
 
