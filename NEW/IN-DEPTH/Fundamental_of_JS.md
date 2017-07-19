@@ -2528,6 +2528,7 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 This unpacks the `id`, `displayName` and `firstName` from the user object and prints them.
 
+**_Computed object property names and destructuring_**
 
 
 ### Spread Syntax
