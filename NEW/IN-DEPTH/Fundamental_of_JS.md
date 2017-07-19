@@ -2526,6 +2526,9 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > whois(user); // "jdoe is John"
 >```
 
+This unpacks the `id`, `displayName` and `firstName` from the user object and prints them.
+
+
 
 ### Spread Syntax
 
