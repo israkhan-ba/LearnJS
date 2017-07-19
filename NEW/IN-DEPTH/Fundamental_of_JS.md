@@ -2532,7 +2532,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 
  Computed property names, like on object literals, can be used with destructuring.
 
-
+>```
+> let key = 'z';
+>```
 
 ### Spread Syntax
 
