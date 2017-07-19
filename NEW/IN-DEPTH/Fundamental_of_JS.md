@@ -2504,6 +2504,12 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 
 **_Unpacking fields from objects passed as function parameter_**
 
+>```
+> function userId({id}) {
+>   return id;
+> }
+>```
+
 
 ### Spread Syntax
 
