@@ -2508,6 +2508,10 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > function userId({id}) {
 >   return id;
 > }
+>
+> function whois({displayName, fullName: {firstName: name}}) {
+>   console.log(displayName + ' is ' + name);
+> }
 >```
 
 
