@@ -2502,6 +2502,8 @@ This syntax allows you to leave off the braces and 'return' statement - making t
 > // "Name: Tom Jones, Father: Richard Jones"
 >```
 
+**_Unpacking fields from objects passed as function parameter_**
+
 
 ### Spread Syntax
 
