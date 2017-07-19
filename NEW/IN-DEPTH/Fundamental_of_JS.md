@@ -2530,7 +2530,7 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 
 **_Computed object property names and destructuring_**
 
- Computed property names can be used with destructuring.
+ Computed property names, like on object literals, can be used with destructuring.
 
 
 
