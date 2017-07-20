@@ -2551,6 +2551,8 @@ Rest in Object Destructuring
 > rest; // { c: 30, d: 40 }
 >```
 
+Invalid JavaScript identifier as a property name
+
 
 ### Spread Syntax
 
