@@ -2553,7 +2553,7 @@ Rest in Object Destructuring
 
 Invalid JavaScript identifier as a property name
 
- Destructuring can be used with property names that are not valid JavaScript identifiers
+ Destructuring can be used with property names that are not valid JavaScript identifiers by providing an alternative identifer that is valid.
  
 
 ### Spread Syntax
