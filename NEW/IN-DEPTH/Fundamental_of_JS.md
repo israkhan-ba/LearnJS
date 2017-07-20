@@ -2539,7 +2539,7 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 > console.log(foo); // "bar"
 >```
 
-Rest in Object Destructuring
+**_Rest in Object Destructuring_**
 
  The Rest/Spread Properties for ECMAScript proposal (stage 3) adds the rest syntax to destructuring.
  Rest properties collect the remaining own enumerable property keys that are not already picked off by the destructuring pattern.
@@ -2551,7 +2551,7 @@ Rest in Object Destructuring
 > rest; // { c: 30, d: 40 }
 >```
 
-Invalid JavaScript identifier as a property name
+**_Invalid JavaScript identifier as a property name_**
 
  Destructuring can be used with property names that are not valid JavaScript identifiers by providing an alternative identifer that is valid.
 
