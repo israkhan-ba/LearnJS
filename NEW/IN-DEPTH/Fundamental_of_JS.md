@@ -2539,6 +2539,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 > console.log(foo); // "bar"
 >```
 
+Rest in Object Destructuring
+
+
 ### Spread Syntax
 
 ### Function Expression
