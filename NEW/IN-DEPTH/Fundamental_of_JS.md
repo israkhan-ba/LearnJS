@@ -2544,6 +2544,10 @@ Rest in Object Destructuring
  The Rest/Spread Properties for ECMAScript proposal (stage 3) adds the rest syntax to destructuring.
  Rest properties collect the remaining own enumerable property keys that are not already picked off by the destructuring pattern.
  
+>```
+> let {a, b, ...rest} = {a: 10, b: 20, c: 30, d: 40}
+>```
+
 
 ### Spread Syntax
 
