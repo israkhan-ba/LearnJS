@@ -2541,6 +2541,8 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 
 Rest in Object Destructuring
 
+ The Rest/Spread Properties for ECMAScript proposal (stage 3) adds the rest syntax to destructuring.
+ 
 
 ### Spread Syntax
 
