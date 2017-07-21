@@ -2569,6 +2569,7 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
  
 
 **_Syntax_**
+**For function calls:**
 
 
 ### Function Expression
