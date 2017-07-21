@@ -2576,7 +2576,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 >```
 
 **For array literals:**
-
+>```
+> [...iterableObj, 4, 5, 6];
+>```
 
 
 ### Function Expression
