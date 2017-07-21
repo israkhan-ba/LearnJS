@@ -2565,6 +2565,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 
 ### Spread Syntax
 
+ Spread syntax allows an iterable such as an array expression to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected
+ 
+
 ### Function Expression
 
 
