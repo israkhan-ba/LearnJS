@@ -2580,6 +2580,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 > [...iterableObj, 4, 5, 6];
 >```
 
+**For object literals (new in ECMAScript; stage 3 draft):**
+
+
 
 ### Function Expression
 
