@@ -2586,7 +2586,7 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 >```
 
 **_Examples_**
-
+**Spread in function calls**
 
 
 ### Function Expression
