@@ -2575,6 +2575,8 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 > myFunction(...iterableObj);
 >```
 
+**For array literals:**
+
 
 
 ### Function Expression
