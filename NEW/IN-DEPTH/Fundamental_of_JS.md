@@ -2581,7 +2581,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 >```
 
 **For object literals (new in ECMAScript; stage 3 draft):**
-
+>```
+> let objClone = { ...obj };
+>```
 
 
 ### Function Expression
