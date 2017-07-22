@@ -2609,6 +2609,7 @@ Any argument in the argument list can use spread syntax and it can be used multi
 
 >```
 > function myFunction(v, w, x, y, z) { }
+> var args = [0, 1];
 >```
 
 
