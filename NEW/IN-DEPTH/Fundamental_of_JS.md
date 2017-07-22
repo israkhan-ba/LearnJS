@@ -2587,7 +2587,9 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 
 **_Examples_**
 **Spread in function calls**
+
 *Replace apply*
+It is common to use `Function.prototype.apply`
 
 
 ### Function Expression
