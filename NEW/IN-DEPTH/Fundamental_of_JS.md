@@ -2607,6 +2607,9 @@ With spread syntax the above can be written as:
 
 Any argument in the argument list can use spread syntax and it can be used multiple times.
 
+>```
+> function myFunction(v, w, x, y, z) { }
+>```
 
 
 ### Function Expression
