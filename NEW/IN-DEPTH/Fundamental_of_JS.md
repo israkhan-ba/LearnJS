@@ -2605,6 +2605,9 @@ With spread syntax the above can be written as:
 > myFunction(...args);
 >```
 
+Any argument in the argument list can use spread syntax and it can be used multiple times.
+
+
 
 ### Function Expression
 
