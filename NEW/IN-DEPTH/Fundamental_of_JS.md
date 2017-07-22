@@ -2594,6 +2594,7 @@ It is common to use `Function.prototype.apply` in cases where you want to use th
 >```
 > function myFunction(x, y, z) { }
 > var args = [0, 1, 2];
+> myFunction.apply(null, args);
 >```
 
 
