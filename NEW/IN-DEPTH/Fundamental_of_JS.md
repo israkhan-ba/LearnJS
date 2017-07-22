@@ -2599,6 +2599,10 @@ It is common to use `Function.prototype.apply` in cases where you want to use th
 
 With spread syntax the above can be written as:
 
+>```
+> function myFunction(x, y, z) { }
+>```
+
 
 ### Function Expression
 
