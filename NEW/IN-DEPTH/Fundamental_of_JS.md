@@ -2597,6 +2597,8 @@ It is common to use `Function.prototype.apply` in cases where you want to use th
 > myFunction.apply(null, args);
 >```
 
+With spread syntax the above can be written as:
+
 
 ### Function Expression
 
