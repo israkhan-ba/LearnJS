@@ -2589,7 +2589,7 @@ This unpacks the `id`, `displayName` and `firstName` from the user object and pr
 **Spread in function calls**
 
 *Replace apply*
-It is common to use `Function.prototype.apply`
+It is common to use `Function.prototype.apply` in cases where you want to use the elements of an array as arguments to a function.
 
 
 ### Function Expression
