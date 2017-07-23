@@ -2623,6 +2623,8 @@ Any argument in the argument list can use spread syntax and it can be used multi
 > var dateFields = [1970, 0, 1];  // 1 Jan 1970
 > var d = new Date(...dateFields);
 >```
+
+To use new with an array of parameters without spread syntax
  
 
 ### Function Expression
