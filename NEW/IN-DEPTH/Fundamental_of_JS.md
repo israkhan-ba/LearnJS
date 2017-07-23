@@ -2646,6 +2646,11 @@ To use new with an array of parameters without spread syntax
 > 
 > var myArguments = ["hi", "how", "are", "you", "mr", null];
 > var myConstructorWithArguments = applyAndNew(myConstructor, myArguments);
+>
+> console.log(new myConstructorWithArguments);
+> // (internal log of myConstructor):           arguments.length: 6
+> // (internal log of myConstructor):           ["hi", "how", "are", "you", "mr", null]
+> // (log of "new myConstructorWithArguments"): {prop1: "val1", prop2: "val2"}
 >```
 
 ### Function Expression
