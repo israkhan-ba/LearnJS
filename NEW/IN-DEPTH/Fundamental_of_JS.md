@@ -2643,6 +2643,9 @@ To use new with an array of parameters without spread syntax
 >    this.prop1="val1";
 >    this.prop2="val2";
 > };
+> 
+> var myArguments = ["hi", "how", "are", "you", "mr", null];
+> var myConstructorWithArguments = applyAndNew(myConstructor, myArguments);
 >```
 
 ### Function Expression
