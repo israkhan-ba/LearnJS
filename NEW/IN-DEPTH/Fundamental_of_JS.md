@@ -2616,6 +2616,8 @@ Any argument in the argument list can use spread syntax and it can be used multi
 
 **Apply for new**
 
+ When calling a constructor with `new`
+
 
 ### Function Expression
 
