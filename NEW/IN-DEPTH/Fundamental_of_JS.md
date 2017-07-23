@@ -2616,7 +2616,7 @@ Any argument in the argument list can use spread syntax and it can be used multi
 
 **Apply for new**
 
- When calling a constructor with `new`, it's not possible to directly use an array and apply (apply does a [[Call]] 
+ When calling a constructor with `new`, it's not possible to directly use an array and apply (apply does a [[Call]] and not a [[Construct]]). 
 
 
 ### Function Expression
