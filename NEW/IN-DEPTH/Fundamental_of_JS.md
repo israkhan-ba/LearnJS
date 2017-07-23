@@ -2619,6 +2619,9 @@ Any argument in the argument list can use spread syntax and it can be used multi
  When calling a constructor with `new`, it's not possible to directly use an array and apply (apply does a [[Call]] and not a [[Construct]]). 
  However, an array can be easily used with new thanks to spread syntax:
  
+>```
+> var dateFields = [1970, 0, 1];  // 1 Jan 1970
+>```
  
 
 ### Function Expression
