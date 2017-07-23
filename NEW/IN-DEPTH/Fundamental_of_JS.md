@@ -2625,7 +2625,18 @@ Any argument in the argument list can use spread syntax and it can be used multi
 >```
 
 To use new with an array of parameters without spread syntax
- 
+
+>```
+> function applyAndNew(constructor, args) {
+>    function partial () {
+>       return constructor.apply(this, args);
+>    };
+>    if (typeof constructor.prototype === "object") {
+>       partial.prototype = Object.create(constructor.prototype);
+>    }
+>    return partial;
+> }
+>```
 
 ### Function Expression
 
