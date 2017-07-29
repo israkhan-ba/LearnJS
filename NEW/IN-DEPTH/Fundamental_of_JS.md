@@ -2670,6 +2670,10 @@ A more powerful array literal
 Just like spread for argument lists, ... can be used anywhere in the array literal and it can be used multiple times.
 
 
+Copy an array
+
+
+
 ### Function Expression
 
 
