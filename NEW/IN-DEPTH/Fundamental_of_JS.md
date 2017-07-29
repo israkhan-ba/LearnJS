@@ -2672,6 +2672,9 @@ Just like spread for argument lists, ... can be used anywhere in the array liter
 
 Copy an array
 
+>```
+> var arr = [1, 2, 3];
+>```
 
 
 ### Function Expression
