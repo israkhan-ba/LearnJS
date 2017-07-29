@@ -2656,6 +2656,8 @@ To use new with an array of parameters without spread syntax
 
 Spread in array literals
 
+A more powerful array literal
+
 
 ### Function Expression
 
