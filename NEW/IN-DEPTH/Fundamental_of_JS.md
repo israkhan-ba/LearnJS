@@ -2667,6 +2667,8 @@ A more powerful array literal
 > // ["head", "shoulders", "knees", "and", "toes"]
 >```
 
+Just like spread for argument lists, ... can be used anywhere in the array literal and it can be used multiple times.
+
 
 ### Function Expression
 
