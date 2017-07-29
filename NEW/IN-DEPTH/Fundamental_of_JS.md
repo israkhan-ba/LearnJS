@@ -2663,6 +2663,7 @@ A more powerful array literal
 
 >```
 > var parts = ['shoulders', 'knees']; 
+> var lyrics = ['head', ...parts, 'and', 'toes'];
 >```
 
 
