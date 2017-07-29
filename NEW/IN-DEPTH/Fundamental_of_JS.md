@@ -2653,6 +2653,10 @@ To use new with an array of parameters without spread syntax
 > // (log of "new myConstructorWithArguments"): {prop1: "val1", prop2: "val2"}
 >```
 
+
+Spread in array literals
+
+
 ### Function Expression
 
 
