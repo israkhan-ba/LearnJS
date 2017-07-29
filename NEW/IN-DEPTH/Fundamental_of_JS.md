@@ -2661,6 +2661,11 @@ A more powerful array literal
  Without spread syntax, to create a new array using an existing array as one part of it, the array literal syntax is no longer sufficient and imperative code must be used instead using a combination of push, splice, concat, etc.
  With spread syntax this becomes much more succinct:
 
+>```
+> var parts = ['shoulders', 'knees']; 
+>```
+
+
 ### Function Expression
 
 
