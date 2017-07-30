@@ -2686,6 +2686,7 @@ Therefore, it may be unsuitable for copying multidimensional arrays as the follo
 
 >```
 > var a = [[1], [2], [3]];
+> var b = [...a];
 >```
 
 
