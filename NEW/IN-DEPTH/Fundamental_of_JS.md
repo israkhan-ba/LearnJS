@@ -2681,6 +2681,8 @@ Copy an array
 > // arr remains unaffected
 >```
 
+*Note:* Spread syntax effectively goes one level deep while copying an array.
+
 
 ### Function Expression
 
