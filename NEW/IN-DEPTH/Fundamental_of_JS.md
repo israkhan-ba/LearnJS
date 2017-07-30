@@ -2695,7 +2695,11 @@ Therefore, it may be unsuitable for copying multidimensional arrays as the follo
 A better way to concatenate arrays
 
  Array.concat is often used to concatenate an array to the end of an existing array. Without spread syntax this is done as:
- 
+
+>```
+> var arr1 = [0, 1, 2];
+>```
+
 
 ### Function Expression
 
