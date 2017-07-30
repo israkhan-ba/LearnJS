@@ -2684,6 +2684,10 @@ Copy an array
 *Note:* Spread syntax effectively goes one level deep while copying an array.
 Therefore, it may be unsuitable for copying multidimensional arrays as the following example shows (it's the same with Object.assign() and spread syntax).
 
+>```
+> var a = [[1], [2], [3]];
+>```
+
 
 ### Function Expression
 
