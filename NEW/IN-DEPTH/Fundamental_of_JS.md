@@ -2699,6 +2699,8 @@ A better way to concatenate arrays
 >```
 > var arr1 = [0, 1, 2];
 > var arr2 = [3, 4, 5];
+> // Append all items from arr2 onto arr1
+> arr1 = arr1.concat(arr2);
 >```
 
 
