@@ -2713,6 +2713,10 @@ A better way to concatenate arrays
 
  Array.unshift is often used to insert an array of values at the start of an existing array. Without spread syntax this is done as:
  
+>```
+> var arr1 = [0, 1, 2];
+>```
+ 
 
 ### Function Expression
 
