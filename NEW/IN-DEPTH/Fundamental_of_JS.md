@@ -2721,7 +2721,13 @@ A better way to concatenate arrays
 >```
 
  With spread syntax this becomes:
- 
+
+>```
+> var arr1 = [0, 1, 2];
+> var arr2 = [3, 4, 5];
+> arr1 = [...arr2, ...arr1]; // arr1 is now [3, 4, 5, 0, 1, 2]
+>```
+
 
 ### Function Expression
 
