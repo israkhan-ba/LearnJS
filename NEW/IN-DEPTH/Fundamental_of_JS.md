@@ -2715,6 +2715,7 @@ A better way to concatenate arrays
  
 >```
 > var arr1 = [0, 1, 2];
+> var arr2 = [3, 4, 5];
 >```
  
 
