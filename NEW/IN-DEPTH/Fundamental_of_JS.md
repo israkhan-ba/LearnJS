@@ -2703,6 +2703,8 @@ A better way to concatenate arrays
 > arr1 = arr1.concat(arr2);
 >```
 
+ With spread syntax this becomes:
+ 
 
 ### Function Expression
 
