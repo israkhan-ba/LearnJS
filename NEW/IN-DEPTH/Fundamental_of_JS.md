@@ -2732,7 +2732,7 @@ A better way to concatenate arrays
 Spread in object literals
 
  The Rest/Spread Properties for ECMAScript proposal (stage 3) adds spread properties to object literals.
-
+ It copies own enumerable properties from a provided object onto a new object.
 
 
 ### Function Expression
