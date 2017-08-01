@@ -2736,6 +2736,10 @@ Spread in object literals
 
  Shallow-cloning (excluding prototype) or merging of objects is now possible using a shorter syntax than Object.assign().
  
+>```
+> var obj1 = { foo: 'bar', x: 42 };
+>```
+
 
 ### Function Expression
 
