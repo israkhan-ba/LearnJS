@@ -2742,6 +2742,8 @@ Spread in object literals
 >
 > var clonedObj = { ...obj1 };
 > // Object { foo: "bar", x: 42 }
+>
+> var mergedObj = { ...obj1, ...obj2 };
 >```
 
 
