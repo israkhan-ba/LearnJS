@@ -2738,6 +2738,7 @@ Spread in object literals
  
 >```
 > var obj1 = { foo: 'bar', x: 42 };
+> var obj2 = { foo: 'baz', y: 13 };
 >```
 
 
