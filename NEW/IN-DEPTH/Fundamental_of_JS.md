@@ -2729,6 +2729,9 @@ A better way to concatenate arrays
 >```
 
 
+Spread in object literals
+
+
 ### Function Expression
 
 
