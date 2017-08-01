@@ -2654,7 +2654,7 @@ To use new with an array of parameters without spread syntax
 >```
 
 
-Spread in array literals
+**Spread in array literals**
 
 A more powerful array literal
 
@@ -2670,7 +2670,7 @@ A more powerful array literal
 Just like spread for argument lists, ... can be used anywhere in the array literal and it can be used multiple times.
 
 
-Copy an array
+**Copy an array**
 
 >```
 > var arr = [1, 2, 3];
@@ -2692,7 +2692,7 @@ Therefore, it may be unsuitable for copying multidimensional arrays as the follo
 >```
 
 
-A better way to concatenate arrays
+**A better way to concatenate arrays**
 
  Array.concat is often used to concatenate an array to the end of an existing array. Without spread syntax this is done as:
 
@@ -2729,7 +2729,7 @@ A better way to concatenate arrays
 >```
 
 
-Spread in object literals
+**Spread in object literals**
 
  The Rest/Spread Properties for ECMAScript proposal (stage 3) adds spread properties to object literals.
  It copies own enumerable properties from a provided object onto a new object.
@@ -2747,7 +2747,7 @@ Spread in object literals
 > // Object { foo: "baz", x: 42, y: 13 }
 >```
 
-Note that Object.assign() triggers setters whereas spread syntax doesn't.
+*Note* that Object.assign() triggers setters whereas spread syntax doesn't.
 
 
 ### Function Expression
