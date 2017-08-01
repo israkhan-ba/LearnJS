@@ -2747,6 +2747,8 @@ Spread in object literals
 > // Object { foo: "baz", x: 42, y: 13 }
 >```
 
+Note that Object.assign() triggers setters whereas spread syntax doesn't.
+
 
 ### Function Expression
 
