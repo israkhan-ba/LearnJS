@@ -2744,6 +2744,7 @@ Spread in object literals
 > // Object { foo: "bar", x: 42 }
 >
 > var mergedObj = { ...obj1, ...obj2 };
+> // Object { foo: "baz", x: 42, y: 13 }
 >```
 
 
