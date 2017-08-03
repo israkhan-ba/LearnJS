@@ -2770,6 +2770,8 @@ Rest syntax (parameters)
 
  Rest syntax looks exactly like spread syntax, but is used for destructuring arrays and objects.
  
+ In a way, rest syntax is the opposite of spread syntax:
+ 
  
 ### Function Expression
 
