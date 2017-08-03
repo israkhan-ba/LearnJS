@@ -2766,6 +2766,8 @@ Spread with many values
  See apply() for more details.
  
 
+Rest syntax (parameters)
+
 ### Function Expression
 
 
