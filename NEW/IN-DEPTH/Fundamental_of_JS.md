@@ -2756,6 +2756,7 @@ Only for iterables
  
 >```
 > var obj = {'key1': 'value1'};
+> var array = [...obj]; // TypeError: obj is not iterable
 >```
 
 ### Function Expression
