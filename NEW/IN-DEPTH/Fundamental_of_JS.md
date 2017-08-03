@@ -2750,6 +2750,9 @@ Therefore, it may be unsuitable for copying multidimensional arrays as the follo
 *Note* that Object.assign() triggers setters whereas spread syntax doesn't.
 
 
+Only for iterables
+
+
 ### Function Expression
 
 
