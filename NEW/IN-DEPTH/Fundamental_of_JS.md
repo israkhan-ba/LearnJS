@@ -2759,6 +2759,11 @@ Only for iterables
 > var array = [...obj]; // TypeError: obj is not iterable
 >```
 
+
+Spread with many values
+
+
+
 ### Function Expression
 
 
