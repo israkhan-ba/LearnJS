@@ -2754,6 +2754,9 @@ Only for iterables
 
  Spread syntax (other than in the case of spread properties) can be applied only to iterable objects:
  
+>```
+> var obj = {'key1': 'value1'};
+>```
 
 ### Function Expression
 
