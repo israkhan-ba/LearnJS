@@ -2768,6 +2768,9 @@ Spread with many values
 
 Rest syntax (parameters)
 
+ Rest syntax looks exactly like spread syntax
+ 
+ 
 ### Function Expression
 
 
