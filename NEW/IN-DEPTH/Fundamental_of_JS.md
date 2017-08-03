@@ -2763,7 +2763,8 @@ Only for iterables
 Spread with many values
 
  When using spread syntax for function calls, be aware of the possibility of exceeding the JavaScript engine's argument length limit.
-
+ See apply() for more details.
+ 
 
 ### Function Expression
 
