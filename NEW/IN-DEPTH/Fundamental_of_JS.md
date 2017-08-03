@@ -2752,6 +2752,8 @@ Therefore, it may be unsuitable for copying multidimensional arrays as the follo
 
 Only for iterables
 
+ Spread syntax (other than in the case of spread properties) can be applied only to iterable objects:
+ 
 
 ### Function Expression
 
