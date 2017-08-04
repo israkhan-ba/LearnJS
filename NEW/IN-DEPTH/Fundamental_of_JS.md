@@ -2788,6 +2788,8 @@ Rest syntax (parameters)
 
  As of ES2015, you can also use arrow functions.
  
+ Parameters
+ 
 
 ### Function* Expression
 
