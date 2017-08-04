@@ -2802,7 +2802,7 @@ Rest syntax (parameters)
  The statements which comprise the body of the function.
 
  A function expression is very similar to and has almost the same syntax as a function statement
- 
+ (see function statement for details). 
 
 ### Function* Expression
 
