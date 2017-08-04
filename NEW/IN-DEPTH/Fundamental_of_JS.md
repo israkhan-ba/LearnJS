@@ -2793,6 +2793,10 @@ Rest syntax (parameters)
  name
  The function name. Can be omitted, in which case the function is anonymous. The name is only local to the function body.
 
+
+ paramN
+ The name of an argument to be passed to the function.
+
 ### Function* Expression
 
 
