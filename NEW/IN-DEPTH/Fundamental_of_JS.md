@@ -2782,6 +2782,10 @@ Rest syntax (parameters)
 
  Syntax
  
+ var myFunction = function [name]([param1[, param2[, ..., paramN]]]) {
+   statements
+};
+
 
 ### Function* Expression
 
