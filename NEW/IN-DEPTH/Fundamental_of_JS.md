@@ -2778,7 +2778,7 @@ Rest syntax (parameters)
 
  The function keyword can be used to define a function inside an expression.
 
-
+ You can also define functions using the Function constructor and a function declaration.
 
 
 ### Function* Expression
