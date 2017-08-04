@@ -2780,6 +2780,8 @@ Rest syntax (parameters)
 
  You can also define functions using the Function constructor and a function declaration.
 
+ Syntax
+ 
 
 ### Function* Expression
 
