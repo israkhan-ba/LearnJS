@@ -2776,6 +2776,10 @@ Rest syntax (parameters)
  
 ### Function Expression
 
+ The function keyword can be used to define a function inside an expression.
+
+
+
 
 ### Function* Expression
 
