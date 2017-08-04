@@ -2797,6 +2797,11 @@ Rest syntax (parameters)
  paramN
  The name of an argument to be passed to the function.
 
+
+ statements
+ The statements which comprise the body of the function.
+
+
 ### Function* Expression
 
 
