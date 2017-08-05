@@ -2823,6 +2823,7 @@ Rest syntax (parameters)
 
  If you want to refer to the current function inside the function body, you need to create a named function expression.
  This name is then local only to the function body (scope).
+ This also avoids using the non-standard arguments.callee property.
 
 
 ### Function* Expression
