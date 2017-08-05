@@ -2808,7 +2808,7 @@ Rest syntax (parameters)
  
 #### Function Expression Hoisting
  
-  Function expressions in JavaScript are not hoisted.
+  Function expressions in JavaScript are not hoisted, unlike function declarations.
   
  
 ### Function* Expression
