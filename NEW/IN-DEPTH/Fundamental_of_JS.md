@@ -2819,6 +2819,9 @@ Rest syntax (parameters)
 > };
 >```
 
+#### Named function expression
+
+
 
 ### Function* Expression
 
