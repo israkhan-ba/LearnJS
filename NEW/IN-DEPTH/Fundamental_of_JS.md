@@ -2806,6 +2806,9 @@ Rest syntax (parameters)
  A function expression can be used as a IIFE (Immediately Invoked Function Expression) which runs as soon as it is defined.
  
  
+#### Function Expression Hoisting
+ 
+ 
 ### Function* Expression
 
 
