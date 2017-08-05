@@ -2811,7 +2811,11 @@ Rest syntax (parameters)
   Function expressions in JavaScript are not hoisted, unlike function declarations.
   You can't use function expressions before you define them:
   
- 
+>```
+> notHoisted(); // TypeError: notHoisted is not a function
+>```
+
+
 ### Function* Expression
 
 
