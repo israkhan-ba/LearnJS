@@ -2809,6 +2809,7 @@ Rest syntax (parameters)
 #### Function Expression Hoisting
  
   Function expressions in JavaScript are not hoisted, unlike function declarations.
+  You can't use function expressions before you define them:
   
  
 ### Function* Expression
