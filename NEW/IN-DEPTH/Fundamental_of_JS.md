@@ -2819,8 +2819,9 @@ Rest syntax (parameters)
 > };
 >```
 
-#### Named function expression
+#### Named Function Expression
 
+ If you want to refer to the current function inside the function body, you need to create a named function expression.
 
 
 ### Function* Expression
