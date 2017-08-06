@@ -2854,6 +2854,13 @@ Rest syntax (parameters)
 
 **_Examples_**
 
+The following example defines an unnamed function and assigns it to x. The function returns the square of its argument:
+
+>```
+> var x = function(y) {
+>    return y * y;
+> };
+>```
 
 ### Function* Expression
 
