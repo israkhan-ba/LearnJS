@@ -2835,6 +2835,8 @@ Rest syntax (parameters)
 > };
 >```
 
+ The variable assigned to a function expression will have a `name` property.
+
 
 ### Function* Expression
 
