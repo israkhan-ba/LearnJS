@@ -2852,6 +2852,8 @@ Rest syntax (parameters)
 > bar.name // "baz"
 >```
 
+**_Examples_**
+
 
 ### Function* Expression
 
