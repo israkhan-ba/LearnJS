@@ -2840,7 +2840,12 @@ Rest syntax (parameters)
  If function name is ommited, it will be the variable name (implicit name).
  If function name presets, it will be the function name (explicit name).
  This also applies to `arrow functions` (arrows don't have a name so you can only give the variable an implicit name).
- 
+
+>```
+> var foo = function() {}
+> foo.name // "foo"
+>```
+
 
 ### Function* Expression
 
