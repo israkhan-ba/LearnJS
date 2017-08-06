@@ -2837,6 +2837,7 @@ Rest syntax (parameters)
 
  The variable assigned to a function expression will have a `name` property.
  The name doesn't change if it's assigned to a different variable.
+ If function name is ommited, it will be the variable name (implicit name).
  
 
 ### Function* Expression
