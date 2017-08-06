@@ -2825,6 +2825,16 @@ Rest syntax (parameters)
  This name is then local only to the function body (scope).
  This also avoids using the non-standard arguments.callee property.
 
+>```
+> var math = {
+>   'factorial': function factorial(n) {
+>     if (n <= 1)
+>       return 1;
+>     return n * factorial(n - 1);
+>   }
+> };
+>```
+
 
 ### Function* Expression
 
