@@ -2862,6 +2862,15 @@ The following example defines an unnamed function and assigns it to x. The funct
 > };
 >```
 
+More commonly it is used as a callback:
+
+>```
+> button.addEventListener('click', function(event) {
+> console.log('button is clicked!')
+> })
+>```
+
+
 ### Function* Expression
 
 
