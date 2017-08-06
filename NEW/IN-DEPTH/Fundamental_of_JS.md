@@ -2844,6 +2844,9 @@ Rest syntax (parameters)
 >```
 > var foo = function() {}
 > foo.name // "foo"
+>
+> var foo2 = foo
+> foo2.name // "foo"
 >```
 
 
