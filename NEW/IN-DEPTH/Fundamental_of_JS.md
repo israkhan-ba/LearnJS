@@ -2897,6 +2897,9 @@ The statements which comprise the body of the function.
 
 A `function*` expression is very similar to and has almost the same syntax as a `function*` statement. The main difference between a `function*` expression and a `function*` statement is the _function name_, which can be omitted in `function*` expressions to create `anonymous` functions.
 
+**_Examples_**
+The following example defines an unnamed generator function and assigns it to x. The function yields the square of its argument:
+
 
 ### Legacy Generator Function Expression
 
