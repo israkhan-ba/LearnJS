@@ -2895,7 +2895,7 @@ The name of an argument to be passed to the function. A function can have up to 
 The statements which comprise the body of the function.
 
 
-A `function*` expression is very similar to and has almost the same syntax as a `function*` statement.
+A `function*` expression is very similar to and has almost the same syntax as a `function*` statement. The main difference between a `function*` expression and a `function*` statement is the _function name_.
 
 
 
