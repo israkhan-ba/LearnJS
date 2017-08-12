@@ -2895,6 +2895,9 @@ The name of an argument to be passed to the function. A function can have up to 
 The statements which comprise the body of the function.
 
 
+A `function*` expression is very similar to and has almost the same syntax as a `function*` statement.
+
+
 
 ### Legacy Generator Function Expression
 
