@@ -2873,6 +2873,9 @@ More commonly it is used as a callback:
 
 ### Function* Expression
 
+The `function*` keyword can be used to define a generator function inside an expression.
+
+
 
 ### Legacy Generator Function Expression
 
