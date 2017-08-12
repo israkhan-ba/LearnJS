@@ -2886,6 +2886,7 @@ The `function*` keyword can be used to define a generator function inside an exp
 
 **name**
 The function name. Can be omitted, in which case the function is anonymous. 
+The name is only local to the function body.
 
 
 ### Legacy Generator Function Expression
