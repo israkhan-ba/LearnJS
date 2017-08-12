@@ -2889,7 +2889,11 @@ The function name. Can be omitted, in which case the function is anonymous.
 The name is only local to the function body.
 
 **paramN**
-The name of an argument to be passed to the function.
+The name of an argument to be passed to the function. A function can have up to 255 arguments.
+
+**statements**
+The statements which comprise the body of the function.
+
 
 
 ### Legacy Generator Function Expression
