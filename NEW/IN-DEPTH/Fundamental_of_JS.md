@@ -2882,6 +2882,11 @@ The `function*` keyword can be used to define a generator function inside an exp
 > }
 >```
 
+**_Parameters_**
+
+**name**
+The function name.
+
 
 ### Legacy Generator Function Expression
 
