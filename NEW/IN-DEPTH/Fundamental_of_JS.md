@@ -2875,6 +2875,12 @@ More commonly it is used as a callback:
 
 The `function*` keyword can be used to define a generator function inside an expression.
 
+**_Syntax_**
+>```
+> function* [name]([param1[, param2[, ..., paramN]]]) {
+>    statements
+> }
+>```
 
 
 ### Legacy Generator Function Expression
