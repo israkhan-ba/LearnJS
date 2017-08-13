@@ -2945,6 +2945,7 @@ The main difference between an `async function` expression and an `async functio
 An async function expression can be used as an IIFE (Immediately Invoked Function Expression) 
 expressions to create *anonymous* functions. 
 
+An `async function` expression can be used as an IIFE (Immediately Invoked Function Expression) which runs as soon as it is defined.
 
 
 ### Class Expression
