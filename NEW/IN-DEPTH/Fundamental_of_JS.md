@@ -2933,6 +2933,8 @@ As of ES2015, you can also use arrow functions.
 **name**
  The function name. Can be omitted, in which case the function is anonymous. The name is only local to the function body.
 
+**paramN**
+ The name of an argument to be passed to the function.
 
 ### Class Expression
 
