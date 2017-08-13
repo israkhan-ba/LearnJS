@@ -2925,6 +2925,10 @@ The following example defines an unnamed generator function and assigns it to x.
 > }
 >```
 
+
+As of ES2015, you can also use arrow functions.
+
+
 ### Class Expression
 
 
