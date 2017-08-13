@@ -2941,7 +2941,10 @@ As of ES2015, you can also use arrow functions.
 
 
 An `async function` expression is very similar to, and has almost the same syntax as, an `async function` statement.
-The main difference between an `async function` expression and an `async function` statement is the function name, which can be omitted in `async function` expressions to create *anonymous* functions. 
+The main difference between an `async function` expression and an `async function` statement is the function name, which can be omitted in `async function`
+An async function expression can be used as an IIFE (Immediately Invoked Function Expression) 
+expressions to create *anonymous* functions. 
+
 
 
 ### Class Expression
