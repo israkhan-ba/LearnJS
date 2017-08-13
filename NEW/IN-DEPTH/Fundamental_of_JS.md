@@ -2915,6 +2915,8 @@ The following example defines an unnamed generator function and assigns it to x.
 
 ### Async Function Expression
 
+ The **`async function`** keyword can be used to define `async` functions inside expressions.
+
 
 ### Class Expression
 
