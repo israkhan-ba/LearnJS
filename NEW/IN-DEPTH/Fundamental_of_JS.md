@@ -2939,6 +2939,10 @@ As of ES2015, you can also use arrow functions.
 **statements**
  The statements which comprise the body of the function.
 
+
+An `async function` expression is very similar to, and has almost the same syntax as, an `async function` statement.
+
+
 ### Class Expression
 
 
