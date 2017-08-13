@@ -2935,6 +2935,9 @@ As of ES2015, you can also use arrow functions.
 
 **paramN**
  The name of an argument to be passed to the function.
+ 
+**statements**
+ The statements which comprise the body of the function.
 
 ### Class Expression
 
