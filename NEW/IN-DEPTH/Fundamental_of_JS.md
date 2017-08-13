@@ -2935,6 +2935,13 @@ As of ES2015, you can also use arrow functions.
 
 **paramN**
  The name of an argument to be passed to the function.
+ 
+**statements**
+ The statements which comprise the body of the function.
+
+
+An `async function` expression is very similar to, and has almost the same syntax as, an `async function` statement.
+
 
 ### Class Expression
 
