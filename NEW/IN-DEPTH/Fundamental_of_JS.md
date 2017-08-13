@@ -2928,6 +2928,11 @@ The following example defines an unnamed generator function and assigns it to x.
 
 As of ES2015, you can also use arrow functions.
 
+**_Parameters_**
+
+**name**
+ The function name. Can be omitted, in which case the function is anonymous. The name is only local to the function body.
+
 
 ### Class Expression
 
