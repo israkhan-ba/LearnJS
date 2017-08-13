@@ -2941,6 +2941,7 @@ As of ES2015, you can also use arrow functions.
 
 
 An `async function` expression is very similar to, and has almost the same syntax as, an `async function` statement.
+The main difference between an `async function` expression and an `async function` statement is the function name
 
 
 ### Class Expression
