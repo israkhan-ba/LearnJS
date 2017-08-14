@@ -2969,6 +2969,10 @@ An `async function` expression can be used as an IIFE (Immediately Invoked Funct
 >   var b = await resolveAfter2Seconds(30);
 >   return x + a + b;
 > };
+>
+> add(10).then(v => {
+>   console.log(v);  // prints 60 after 4 seconds.
+> });
 >```
 
 ### Class Expression
