@@ -2978,7 +2978,7 @@ An `async function` expression can be used as an IIFE (Immediately Invoked Funct
 ### Class Expression
 
 The **class expression** is one way to define a class in ECMAScript 2015.
-
+Similar to function expressions, class expressions can be named or unnamed.
 
 ---
 
