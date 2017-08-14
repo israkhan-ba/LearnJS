@@ -2989,6 +2989,8 @@ JavaScript classes are using prototype-based inheritance.
 > };
 >```
 
+A class expression has a similar syntax to a class statement (declaration).
+
 
 ---
 
