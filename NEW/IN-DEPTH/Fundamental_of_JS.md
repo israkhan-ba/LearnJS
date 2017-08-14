@@ -2982,6 +2982,13 @@ Similar to function expressions, class expressions can be named or unnamed.
 If named, the name of the class is local to the class body only. 
 JavaScript classes are using prototype-based inheritance.
 
+**_Syntax_**
+>```
+> var MyClass = class [className] [extends] {
+>   // class body
+> };
+>```
+
 
 ---
 
