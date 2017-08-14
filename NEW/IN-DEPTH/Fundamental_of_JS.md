@@ -2944,6 +2944,19 @@ expressions to create *anonymous* functions.
 An `async function` expression can be used as an IIFE (Immediately Invoked Function Expression) which runs as soon as it is defined.
 
 
+**_Examples_**
+
+**Simple example**
+>```
+> function resolveAfter2Seconds(x) {
+>   return new Promise(resolve => {
+>     setTimeout(() => {
+>       resolve(x);
+>     }, 2000);
+>   });
+> };
+>```
+
 ### Class Expression
 
 
