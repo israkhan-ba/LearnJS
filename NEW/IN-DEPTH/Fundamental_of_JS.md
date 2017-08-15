@@ -3008,6 +3008,9 @@ Just like with class statements, the class body of class expressions is executed
 > typeof Foo; //returns "function"
 > typeof class {}; //returns "function"
 > 
+> Foo instanceof Object; // true
+> Foo instanceof Function; // true
+> class Foo {}; // Throws TypeError, doesn't allow re-declaration
 >```
 
 
