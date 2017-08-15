@@ -3033,6 +3033,9 @@ This is just a simple anonymous class expression which you can refer to using th
 >```
 
 
+**Named class expressions**
+
+
 
 ---
 
