@@ -3018,6 +3018,8 @@ Just like with class statements, the class body of class expressions is executed
 
 **A simple class expression**
 
+This is just a simple anonymous class expression which you can refer to using the variable "Foo".
+
 
 ---
 
