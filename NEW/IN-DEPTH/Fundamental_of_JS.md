@@ -3014,6 +3014,11 @@ Just like with class statements, the class body of class expressions is executed
 >```
 
 
+**_Examples_**
+
+**A simple class expression**
+
+
 ---
 
 ## Function
