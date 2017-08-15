@@ -3035,6 +3035,7 @@ This is just a simple anonymous class expression which you can refer to using th
 
 **Named class expressions**
 
+If you want to refer to the current class inside the class body, you can create a named class expression. This name is only visible in the scope of the class expression itself.
 
 
 ---
