@@ -3017,8 +3017,21 @@ Just like with class statements, the class body of class expressions is executed
 **_Examples_**
 
 **A simple class expression**
-
 This is just a simple anonymous class expression which you can refer to using the variable "Foo".
+
+>```
+> var Foo = class {
+>   constructor() {}
+>   bar() {
+>     return 'Hello World!';
+>   }
+> };
+> 
+> var instance = new Foo();
+> instance.bar(); // "Hello World!"
+> Foo.name; // "Foo"
+>```
+
 
 
 ---
