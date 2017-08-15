@@ -2995,8 +2995,10 @@ However, with class expressions, you are able to omit the class name ("binding i
 Additionally, class expressions allow you to redefine/re-declare classes and don't throw any type errors like class declaration. 
 
 The constructor property is optional.
-
 And, `typeof` the classes generated using this keyword will always be "function".
+
+
+Just like with class statements, the class body of class expressions is executed in strict mode.
 
 
 ---
