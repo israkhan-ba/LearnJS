@@ -3000,6 +3000,12 @@ And, `typeof` the classes generated using this keyword will always be "function"
 
 Just like with class statements, the class body of class expressions is executed in strict mode.
 
+>```
+> 'use strict';
+> var Foo = class {}; // constructor property is optional
+> var Foo = class {}; // Re-declaration is allowed
+>```
+
 
 ---
 
