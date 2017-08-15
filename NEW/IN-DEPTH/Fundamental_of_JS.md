@@ -3004,6 +3004,10 @@ Just like with class statements, the class body of class expressions is executed
 > 'use strict';
 > var Foo = class {}; // constructor property is optional
 > var Foo = class {}; // Re-declaration is allowed
+>
+> typeof Foo; //returns "function"
+> typeof class {}; //returns "function"
+> 
 >```
 
 
