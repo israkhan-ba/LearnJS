@@ -2992,7 +2992,12 @@ JavaScript classes are using prototype-based inheritance.
 A class expression has a similar syntax to a class statement (declaration).
 However, with class expressions, you are able to omit the class name ("binding identifier"), which you can't with class statements. 
 
-Additionally, class expressions allow you to redefine/re-declare classes and don't throw any type errors like class declaration.
+Additionally, class expressions allow you to redefine/re-declare classes and don't throw any type errors like class declaration. 
+
+
+The constructor property is optional.
+
+
 
 ---
 
