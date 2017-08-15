@@ -3037,6 +3037,18 @@ This is just a simple anonymous class expression which you can refer to using th
 
 If you want to refer to the current class inside the class body, you can create a named class expression. This name is only visible in the scope of the class expression itself.
 
+>```
+> var Foo = class NamedFoo {
+>   constructor() {}
+>   whoIsThere() {
+>     return NamedFoo.name;
+>   }
+> }
+> var bar = new Foo();
+> bar.whoIsThere(); // "NamedFoo"
+> NamedFoo.name; // ReferenceError: NamedFoo is not defined
+> Foo.name; // "NamedFoo"
+>```
 
 ---
 
