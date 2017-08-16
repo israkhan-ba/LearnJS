@@ -3892,3 +3892,6 @@ There are four ways of invoking the constructor of `Date`
 
 ## Class
 
+ JavaScript classes introduced in ECMAScript 2015.
+
+
