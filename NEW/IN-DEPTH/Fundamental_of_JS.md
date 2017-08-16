@@ -3899,3 +3899,6 @@ There are four ways of invoking the constructor of `Date`
 ### Defining Classes
 
 
+ Classes are in fact "special functions"
+ 
+ 
