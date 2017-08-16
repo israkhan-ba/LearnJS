@@ -3917,3 +3917,9 @@ To declare a class, you use the class keyword with the name of the class ("Recta
 **Hoisting**
 An important difference between __function declarations__ and __class declarations__ is that function declarations are hoisted and class declarations are not.
 You first need to declare your class and then access it, otherwise code like the following will throw a ReferenceError:
+
+>```
+> var p = new Rectangle(); // ReferenceError
+> 
+> class Rectangle {}
+>```
