@@ -3889,3 +3889,6 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
 There are four ways of invoking the constructor of `Date`
 
+
+## Class
+
