@@ -3939,7 +3939,17 @@ Class expressions can be named or unnamed. The name given to a named class expre
 >     this.width = width;
 >   }
 > };
+>
+> // named
+> var Rectangle = class Rectangle {
+>   constructor(height, width) {
+>     this.height = height;
+>     this.width = width;
+>   }
+> };
 >```
+
+Note: Class __expressions__ also suffer from the same hoisting issues mentioned for Class __declarations__.
 
 
 
