@@ -3960,5 +3960,5 @@ Note: Class __expressions__ also suffer from the same hoisting issues mentioned 
 
 ** Strict mode **
 
-The bodies of class declarations and class expressions are executed in strict mode i.e. constructor, static and prototype methods, getter and setter functions are executed in strict mode.
+The bodies of _class declarations_ and _class expressions_ are executed in strict mode i.e. constructor, static and prototype methods, getter and setter functions are executed in strict mode.
 
