@@ -3954,7 +3954,7 @@ Note: Class __expressions__ also suffer from the same hoisting issues mentioned 
 
 ### Class Body and Method Definitions
 
-
+ The body of a class is the part that is in curly brackets {}. 
 
 
 
