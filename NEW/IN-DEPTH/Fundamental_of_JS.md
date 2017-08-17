@@ -3929,3 +3929,14 @@ You first need to declare your class and then access it, otherwise code like the
 
 **Class Expressions**
 A class expression is another way to define a class.
+Class expressions can be named or unnamed.
+
+
+
+
+
+
+
+
+
+
