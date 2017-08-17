@@ -3958,7 +3958,7 @@ Note: Class __expressions__ also suffer from the same hoisting issues mentioned 
  This is where you define class members, such as methods or constructor.
 
 
-
+** Strict mode **
 
 
 
