@@ -3900,7 +3900,8 @@ There are four ways of invoking the constructor of `Date`
 
 
  Classes are in fact "special functions", and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.
- 
+
+
 **Class declarations**
 One way to define a class is using a class declaration
 To declare a class, you use the class keyword with the name of the class ("Rectangle" here).
@@ -3914,6 +3915,7 @@ To declare a class, you use the class keyword with the name of the class ("Recta
 > }
 >```
 
+
 **Hoisting**
 An important difference between __function declarations__ and __class declarations__ is that function declarations are hoisted and class declarations are not.
 You first need to declare your class and then access it, otherwise code like the following will throw a ReferenceError:
@@ -3923,3 +3925,7 @@ You first need to declare your class and then access it, otherwise code like the
 > 
 > class Rectangle {}
 >```
+
+
+**Class Expressions**
+A class expression is another way to define a class.
