@@ -3952,7 +3952,7 @@ Class expressions can be named or unnamed. The name given to a named class expre
 Note: Class __expressions__ also suffer from the same hoisting issues mentioned for Class __declarations__.
 
 
-
+### Class Body and Method Definitions
 
 
 
