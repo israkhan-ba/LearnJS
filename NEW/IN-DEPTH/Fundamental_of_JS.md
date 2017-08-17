@@ -3931,6 +3931,18 @@ You first need to declare your class and then access it, otherwise code like the
 A class expression is another way to define a class.
 Class expressions can be named or unnamed. The name given to a named class expression is local to the class's body.
 
+>```
+> // unnamed
+> var Rectangle = class {
+>   constructor(height, width) {
+>     this.height = height;
+>     this.width = width;
+>   }
+> };
+>```
+
+
+
 
 
 
