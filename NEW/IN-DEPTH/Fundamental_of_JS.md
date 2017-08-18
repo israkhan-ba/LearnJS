@@ -3974,5 +3974,9 @@ A constructor can use the super keyword to call the constructor of a parent clas
 
 ** Prototype methods **
 
-
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
 
