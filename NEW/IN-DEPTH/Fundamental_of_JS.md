@@ -3967,3 +3967,4 @@ The bodies of _class declarations_ and _class expressions_ are executed in stric
 The constructor method is a special method for creating and initializing an object created with a class.
 
 There can only be one special method with the name "constructor" in a class.
+A SyntaxError will be thrown if the class contains more than one occurrence of a constructor method.
