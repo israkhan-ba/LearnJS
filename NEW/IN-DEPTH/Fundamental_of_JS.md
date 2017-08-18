@@ -3965,3 +3965,5 @@ The bodies of _class declarations_ and _class expressions_ are executed in stric
 ** Constructor **
 
 The constructor method is a special method for creating and initializing an object created with a class.
+
+There can only be one special method with the name "constructor" in a class.
