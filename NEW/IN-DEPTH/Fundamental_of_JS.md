@@ -3972,7 +3972,7 @@ A SyntaxError will be thrown if the class contains more than one occurrence of a
 A constructor can use the super keyword to call the constructor of a parent class.
 
 
-
+** Prototype methods **
 
 
 
