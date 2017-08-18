@@ -3996,3 +3996,4 @@ console.log(square.area);
 
 ** Static methods **
 
+The static keyword defines a static method for a class. 
