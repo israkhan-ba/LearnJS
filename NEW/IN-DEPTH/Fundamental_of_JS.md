@@ -4022,3 +4022,6 @@ Static methods are often used to create utility functions for an application.
 > 
 > console.log(Point.distance(p1, p2));
 >```
+
+
+** Boxing with prototype and static methods **
