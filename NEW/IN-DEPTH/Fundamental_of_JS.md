@@ -4025,3 +4025,5 @@ Static methods are often used to create utility functions for an application.
 
 
 ** Boxing with prototype and static methods **
+
+When a static or prototype method is called without an object valued "this"
