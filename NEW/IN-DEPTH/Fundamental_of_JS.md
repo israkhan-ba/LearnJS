@@ -4026,4 +4026,4 @@ Static methods are often used to create utility functions for an application.
 
 ** Boxing with prototype and static methods **
 
-When a static or prototype method is called without an object valued "this", then the "this" value will be undefined inside the called function. Autoboxing will not happen. 
+When a static or prototype method is called without an object valued "this", then the "this" value will be undefined inside the called function. Autoboxing will not happen. The behavior will be the same even if we write the code in non-strict mode because all the functions, methods, constructor, getters or setters are executed in strict mode.
