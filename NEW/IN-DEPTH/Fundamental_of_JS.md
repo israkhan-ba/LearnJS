@@ -4000,3 +4000,4 @@ A constructor can use the super keyword to call the constructor of a parent clas
 
 The static keyword defines a static method for a class. 
 Static methods are called without instantiating their class and cannot be called through a class instance.
+Static methods are often used to create utility functions for an application.
