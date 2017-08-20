@@ -4073,3 +4073,5 @@ If we write the above code using traditional function based classes, then autobo
 
 
 **Sub classing with extends**
+
+The `extends` keyword is used in _class declarations_ or _class expressions_ to create a class as a child of another class.
