@@ -4058,4 +4058,8 @@ function Animal() { }
 Animal.prototype.speak = function() {
   return this;
 }
+
+Animal.eat = function() {
+  return this;
+}
 >```
