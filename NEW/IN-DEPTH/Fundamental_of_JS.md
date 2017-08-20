@@ -4077,13 +4077,22 @@ If we write the above code using traditional function based classes, then autobo
 The `extends` keyword is used in _class declarations_ or _class expressions_ to create a class as a child of another class.
 
 >```
-class Animal { 
-  constructor(name) {
-    this.name = name;
-  }
-  
-  speak() {
-    console.log(this.name + ' makes a noise.');
-  }
-}
+> class Animal { 
+>   constructor(name) {
+>     this.name = name;
+>   }
+>   
+>   speak() {
+>     console.log(this.name + ' makes a noise.');
+>   }
+> }
+> 
+> class Dog extends Animal {
+>   speak() {
+>     console.log(this.name + ' barks.');
+>   }
+> }
+> 
+> var d = new Dog('Mitzie');
+> d.speak(); // Mitzie barks.
 >```
