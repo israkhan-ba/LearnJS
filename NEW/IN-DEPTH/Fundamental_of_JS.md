@@ -4044,4 +4044,7 @@ So if we do not specify `this` value then the this value will be __undefined__.
 > let speak = obj.speak;
 > speak(); // undefined
 > 
+> Animal.eat() // class Animal
+> let eat = Animal.eat;
+> eat(); // undefined
 >```
