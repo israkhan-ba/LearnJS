@@ -4048,3 +4048,8 @@ So if we do not specify `this` value then the this value will be __undefined__.
 > let eat = Animal.eat;
 > eat(); // undefined
 >```
+
+If we write the above code using traditional function based classes, then autoboxing will happen based on the "this" value for which the function was called.
+
+
+
