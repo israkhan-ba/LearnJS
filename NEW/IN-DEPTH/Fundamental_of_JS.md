@@ -4070,3 +4070,6 @@ If we write the above code using traditional function based classes, then autobo
 > let eat = Animal.eat;
 > eat(); // global object
 >```
+
+
+**Sub classing with extends**
