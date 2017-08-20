@@ -4038,4 +4038,10 @@ So if we do not specify `this` value then the this value will be __undefined__.
 >     return this;
 >   }
 > }
+>
+> let obj = new Animal();
+> obj.speak(); // Animal {}
+> let speak = obj.speak;
+> speak(); // undefined
+> 
 >```
