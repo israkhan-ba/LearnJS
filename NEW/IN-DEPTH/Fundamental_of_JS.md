@@ -4139,5 +4139,8 @@ class Dog {
   }
 }
 
+Object.setPrototypeOf(Dog.prototype, Animal);// If you do not do this you will get a TypeError when you invoke speak
+
+
 >```
 
