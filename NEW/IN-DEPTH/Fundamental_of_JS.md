@@ -4125,3 +4125,13 @@ One may also extend traditional function-based "classes":
 Note that classes cannot extend regular (non-constructible) objects.
 
 If you want to inherit from a regular object, you can instead use Object.setPrototypeOf():
+
+>```
+var Animal = {
+  speak() {
+    console.log(this.name + ' makes a noise.');
+  }
+};
+
+>```
+
