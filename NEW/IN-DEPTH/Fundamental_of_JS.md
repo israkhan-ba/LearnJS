@@ -4096,3 +4096,6 @@ The `extends` keyword is used in _class declarations_ or _class expressions_ to 
 > var d = new Dog('Mitzie');
 > d.speak(); // Mitzie barks.
 >```
+
+If there is a constructor present in sub-class, it needs to first call super() before using "this".
+
