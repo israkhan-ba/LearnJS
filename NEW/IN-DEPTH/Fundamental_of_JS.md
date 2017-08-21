@@ -4099,3 +4099,6 @@ The `extends` keyword is used in _class declarations_ or _class expressions_ to 
 
 If there is a constructor present in sub-class, it needs to first call super() before using "this".
 
+One may also extend traditional function-based "classes":
+
+
