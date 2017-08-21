@@ -4120,3 +4120,6 @@ One may also extend traditional function-based "classes":
 > d.speak(); // Mitzie barks.
 > 
 >```
+
+
+Note that classes cannot extend regular (non-constructible) objects.
