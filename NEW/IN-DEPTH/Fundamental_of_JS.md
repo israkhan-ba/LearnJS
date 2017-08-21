@@ -4133,5 +4133,11 @@ var Animal = {
   }
 };
 
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
 >```
 
