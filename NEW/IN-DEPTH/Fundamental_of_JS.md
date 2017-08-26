@@ -4151,7 +4151,8 @@ If you want to inherit from a regular object, you can instead use Object.setProt
  The species pattern lets you override default constructors.
  
  
- For example, when using methods such as map() that returns the default constructor
+ For example, when using methods such as map() that returns the default constructor, 
+ you want these methods to return a parent Array object
  
  
  
