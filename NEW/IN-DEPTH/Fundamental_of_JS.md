@@ -4153,6 +4153,6 @@ If you want to inherit from a regular object, you can instead use Object.setProt
  
  For example, when using methods such as map() that returns the default constructor, 
  you want these methods to return a parent `Array` object, instead of the `MyArray` object.
- 
+ The `Symbol.species` symbol lets you do this:
  
  
