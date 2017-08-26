@@ -4155,4 +4155,10 @@ If you want to inherit from a regular object, you can instead use Object.setProt
  you want these methods to return a parent `Array` object, instead of the `MyArray` object.
  The `Symbol.species` symbol lets you do this:
  
+>```
+> class MyArray extends Array {
+>   // Overwrite species to the parent Array constructor
+>   static get [Symbol.species]() { return Array; }
+> }
+>```
  
