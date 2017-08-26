@@ -4160,5 +4160,7 @@ If you want to inherit from a regular object, you can instead use Object.setProt
 >   // Overwrite species to the parent Array constructor
 >   static get [Symbol.species]() { return Array; }
 > }
+>
+> var a = new MyArray(1,2,3);
 >```
  
