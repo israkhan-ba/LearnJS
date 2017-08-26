@@ -4163,5 +4163,8 @@ If you want to inherit from a regular object, you can instead use Object.setProt
 >
 > var a = new MyArray(1,2,3);
 > var mapped = a.map(x => x * x);
+> 
+> console.log(mapped instanceof MyArray); // false
+> console.log(mapped instanceof Array);   // true
 >```
  
