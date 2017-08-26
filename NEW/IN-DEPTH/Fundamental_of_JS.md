@@ -4149,3 +4149,9 @@ If you want to inherit from a regular object, you can instead use Object.setProt
 
  You might want to return `Array` objects in your derived array class `MyArray`.
  The species pattern lets you override default constructors.
+ 
+ 
+ For example, when using methods such as map() that returns the default constructor
+ 
+ 
+ 
