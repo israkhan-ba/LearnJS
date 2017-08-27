@@ -4171,5 +4171,5 @@ If you want to inherit from a regular object, you can instead use Object.setProt
 
 ### Super class calls with **`super`**
  
- 
+ The `super` keyword is used to call functions on an object's parent.
  
