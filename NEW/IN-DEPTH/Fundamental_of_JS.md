@@ -4201,5 +4201,5 @@ If you want to inherit from a regular object, you can instead use Object.setProt
 ### Mix-ins
 
  Abstract subclasses or `mix-ins` are templates for classes.
- 
+ An ECMAScript class can only have a single superclass, so multiple inheritance from tooling classes, for example, is not possible.
  
