@@ -4173,3 +4173,14 @@ If you want to inherit from a regular object, you can instead use Object.setProt
  
  The `super` keyword is used to call functions on an object's parent.
  
+ >```
+ class Cat { 
+  constructor(name) {
+    this.name = name;
+  }
+  
+  speak() {
+    console.log(this.name + ' makes a noise.');
+  }
+}
+>```
