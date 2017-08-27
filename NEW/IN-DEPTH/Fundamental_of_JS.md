@@ -4207,9 +4207,18 @@ If you want to inherit from a regular object, you can instead use Object.setProt
  A function with a superclass as input and a subclass extending that superclass as output can be used to implement mix-ins in ECMAScript:
  
 >```
- var calculatorMixin = Base => class extends Base {
-  calc() { }
-};
+> var calculatorMixin = Base => class extends Base {
+>   calc() { }
+> };
+> 
+> var randomizerMixin = Base => class extends Base {
+>   randomize() { }
+> };
+>```
+
+A class that uses these mix-ins can then be written like this:
 
 >```
- 
+> class Foo { }
+> class Bar extends calculatorMixin(randomizerMixin(Foo)) { }
+>```
