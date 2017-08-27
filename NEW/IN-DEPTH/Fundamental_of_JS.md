@@ -4183,4 +4183,11 @@ If you want to inherit from a regular object, you can instead use Object.setProt
     console.log(this.name + ' makes a noise.');
   }
 }
+
+class Lion extends Cat {
+  speak() {
+    super.speak();
+    console.log(this.name + ' roars.');
+  }
+}
 >```
