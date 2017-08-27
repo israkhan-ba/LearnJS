@@ -4199,3 +4199,7 @@ If you want to inherit from a regular object, you can instead use Object.setProt
 
 
 ### Mix-ins
+
+ Abstract subclasses or `mix-ins` are templates for classes.
+ 
+ 
