@@ -4239,4 +4239,7 @@ Having more than one occurrence of a `constructor` method in a class will throw 
 
 A `constructor` can use the super keyword to call the constructor of a parent class.
 
+If you do not specify a constructor method, a default constructor is used.
+
+
 
