@@ -4226,4 +4226,7 @@ A class that uses these mix-ins can then be written like this:
 
 ### Class Constructor
 
+ The `constructor` method is a special method for creating and initializing an object created within a `class`.
+ 
+ 
 
