@@ -4266,3 +4266,6 @@ Using the constructor method
 >   } 
 > }
 >```
+
+Another example
+Take a look at this code snippet
