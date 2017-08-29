@@ -4222,3 +4222,8 @@ A class that uses these mix-ins can then be written like this:
 > class Foo { }
 > class Bar extends calculatorMixin(randomizerMixin(Foo)) { }
 >```
+
+
+### Class Constructor
+
+
