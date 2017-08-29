@@ -4234,3 +4234,4 @@ A class that uses these mix-ins can then be written like this:
 > constructor([arguments]) { ... }
 >```
 
+There can be only one special method with the name "constructor" in a class.
