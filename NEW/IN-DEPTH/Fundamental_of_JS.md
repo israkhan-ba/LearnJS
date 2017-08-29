@@ -4236,3 +4236,7 @@ A class that uses these mix-ins can then be written like this:
 
 There can be only one special method with the name "constructor" in a class.
 Having more than one occurrence of a `constructor` method in a class will throw a `SyntaxError` error.
+
+A `constructor` can use the super keyword to call the constructor of a parent class.
+
+
