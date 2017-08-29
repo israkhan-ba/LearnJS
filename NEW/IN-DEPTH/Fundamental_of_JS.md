@@ -4228,5 +4228,9 @@ A class that uses these mix-ins can then be written like this:
 
  The `constructor` method is a special method for creating and initializing an object created within a `class`.
  
- 
+**_Syntax_**
+
+>```
+> constructor([arguments]) { ... }
+>```
 
