@@ -4323,3 +4323,5 @@ The __extends__ keyword is used in class declarations or class expressions to cr
 > class ChildClass extends ParentClass { ... }
 >```
 
+The extends keyword can be used to subclass custom classes as well as built-in objects.
+
