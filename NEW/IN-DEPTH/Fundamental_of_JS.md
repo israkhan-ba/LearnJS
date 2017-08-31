@@ -4325,5 +4325,5 @@ The __`extends`__ keyword is used in class declarations or class expressions to 
 
 The `extends` keyword can be used to subclass custom classes as well as built-in objects.
 
-The .prototype of the extension must be an Object or null.
+The `.prototype` of the extension must be an Object or `null`.
 
