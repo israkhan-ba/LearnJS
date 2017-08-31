@@ -4317,3 +4317,4 @@ For derived classes, the default constructor is:
 
 ### Class Extends
 
+The __extends__ keyword is used in class declarations or class expressions to create a class which is a child of another class.
