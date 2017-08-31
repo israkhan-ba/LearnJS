@@ -4305,3 +4305,5 @@ For base classes the default constructor is:
 >```
 > constructor() {}
 >```
+
+For derived classes, the default constructor is:
