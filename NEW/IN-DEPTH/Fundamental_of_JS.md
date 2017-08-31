@@ -4307,3 +4307,9 @@ For base classes the default constructor is:
 >```
 
 For derived classes, the default constructor is:
+
+>```
+> constructor(...args) {
+>   super(...args);
+> }
+>```
