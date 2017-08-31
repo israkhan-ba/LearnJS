@@ -4300,3 +4300,4 @@ Here the prototype of __Square__ class is changed but still the constructor of t
 **Default constructors**
 
 As stated, if you do not specify a constructor method a default constructor is used. 
+For base classes the default constructor is:
