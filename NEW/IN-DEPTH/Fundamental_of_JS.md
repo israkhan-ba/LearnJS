@@ -4295,3 +4295,6 @@ Take a look at this code snippet
 >```
 
 Here the prototype of __Square__ class is changed but still the constructor of the previous base class __Polygon__ is called when a new instance of a square is being created.
+
+
+**Default constructors**
