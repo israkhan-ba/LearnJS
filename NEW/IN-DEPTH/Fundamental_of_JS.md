@@ -4317,11 +4317,13 @@ For derived classes, the default constructor is:
 
 ### Class Extends
 
-The __extends__ keyword is used in class declarations or class expressions to create a class which is a child of another class.
+The __`extends`__ keyword is used in class declarations or class expressions to create a class which is a child of another class.
 
 >```
 > class ChildClass extends ParentClass { ... }
 >```
 
-The extends keyword can be used to subclass custom classes as well as built-in objects.
+The `extends` keyword can be used to subclass custom classes as well as built-in objects.
+
+The .prototype of the extension must be an Object or null.
 
