@@ -4313,3 +4313,7 @@ For derived classes, the default constructor is:
 >   super(...args);
 > }
 >```
+
+
+### Class Extends
+
