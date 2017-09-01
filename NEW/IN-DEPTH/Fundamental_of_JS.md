@@ -4379,4 +4379,5 @@ class nullExtends extends null {
   constructor() {}
 }
 
+Object.getPrototypeOf(nullExtends); // Function.prototype
 >```
