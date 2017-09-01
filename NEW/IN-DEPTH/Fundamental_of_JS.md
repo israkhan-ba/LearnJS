@@ -4368,3 +4368,7 @@ This example extends the built-in `Date` object.
 >   }
 > }
 >```
+
+
+Extending `null`
+
