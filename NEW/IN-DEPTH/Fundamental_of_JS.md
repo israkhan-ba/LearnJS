@@ -4372,3 +4372,4 @@ This example extends the built-in `Date` object.
 
 Extending `null`
 
+Extending from `null` works like with a normal class
