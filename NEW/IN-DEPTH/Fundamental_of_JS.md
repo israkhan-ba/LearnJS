@@ -4355,3 +4355,16 @@ The first example creates a class called `Square` from a class called `Polygon`.
 Using `extends` with built-in objects
 
 This example extends the built-in `Date` object.
+
+>```
+> class myDate extends Date {
+>   constructor() {
+>     super();
+>   }
+> 
+>   getFormattedDate() {
+>     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+>     return this.getDate() + '-' + months[this.getMonth()] + '-' + this.getFullYear();
+>   }
+> }
+>```
