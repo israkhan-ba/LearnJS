@@ -4372,4 +4372,6 @@ This example extends the built-in `Date` object.
 
 Extending `null`
 
-Extending from `null` works like with a normal class
+Extending from `null` works like with a normal class, except that the prototype object does not inherit from `Object.prototype`.
+
+
