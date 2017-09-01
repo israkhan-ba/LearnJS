@@ -4354,3 +4354,4 @@ The first example creates a class called `Square` from a class called `Polygon`.
 
 Using `extends` with built-in objects
 
+This example extends the built-in `Date` object.
