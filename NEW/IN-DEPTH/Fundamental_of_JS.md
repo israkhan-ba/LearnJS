@@ -4327,3 +4327,10 @@ The `extends` keyword can be used to subclass custom classes as well as built-in
 
 The `.prototype` of the extension must be an Object or `null`.
 
+
+**_Examples_**
+
+Using `extends`
+
+The first example creates a class called `Square` from a class called `Polygon`.
+
