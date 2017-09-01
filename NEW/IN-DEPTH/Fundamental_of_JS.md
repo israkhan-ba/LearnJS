@@ -4375,11 +4375,12 @@ Extending `null`
 Extending from `null` works like with a normal class, except that the prototype object does not inherit from `Object.prototype`.
 
 >```
-class nullExtends extends null {
-  constructor() {}
-}
-
-Object.getPrototypeOf(nullExtends); // Function.prototype
-Object.getPrototypeOf(nullExtends.prototype) // null
-
+> class nullExtends extends null {
+>   constructor() {}
+> }
+> 
+> Object.getPrototypeOf(nullExtends); // Function.prototype
+> Object.getPrototypeOf(nullExtends.prototype) // null
+> 
+> new nullExtends(); //ReferenceError: this is not defined
 >```
