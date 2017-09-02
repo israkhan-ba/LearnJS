@@ -4388,5 +4388,8 @@ Extending from `null` works like with a normal class, except that the prototype 
 
 ### Class `static`
 
+>```
+> static methodName() { ... }
+>```
 
 
