@@ -4419,3 +4419,5 @@ In order to call a static method within another static method of the same class,
 >```
 
 ** From class constructor and other methods **
+
+Static methods are not directly accessible using the `this` keyword from non-static methods.
