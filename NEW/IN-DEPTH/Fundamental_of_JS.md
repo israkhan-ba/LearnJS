@@ -4398,5 +4398,6 @@ Static methods are often used to create utility functions.
 
 **Calling static methods**
 
+** From another static method **
 
 
