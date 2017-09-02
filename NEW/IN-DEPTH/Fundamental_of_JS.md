@@ -4411,4 +4411,7 @@ class StaticMethodCall {
     return this.staticMethod() + ' from another static method';
   }
 }
+StaticMethodCall.staticMethod(); 
+// 'Static method has been called'
+
 >```
