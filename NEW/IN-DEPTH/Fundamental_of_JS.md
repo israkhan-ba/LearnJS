@@ -4400,4 +4400,4 @@ Static methods are often used to create utility functions.
 
 ** From another static method **
 
-
+In order to call a static method within another static method of the same class, you can use the `this` keyword.
