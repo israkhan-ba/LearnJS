@@ -4389,6 +4389,8 @@ Extending from `null` works like with a normal class, except that the prototype 
 ### Class `static`
 
 Static method calls are made directly on the class and are not callable on instances of the class.
+Static methods are often used to create utility functions.
+
 
 >```
 > static methodName() { ... }
