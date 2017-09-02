@@ -4384,3 +4384,9 @@ Extending from `null` works like with a normal class, except that the prototype 
 > 
 > new nullExtends(); //ReferenceError: this is not defined
 >```
+
+
+### Class `static`
+
+
+
