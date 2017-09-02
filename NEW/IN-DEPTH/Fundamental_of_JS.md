@@ -4396,4 +4396,7 @@ Static methods are often used to create utility functions.
 > static methodName() { ... }
 >```
 
+**Calling static methods**
+
+
 
