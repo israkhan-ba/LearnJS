@@ -4417,3 +4417,5 @@ In order to call a static method within another static method of the same class,
 > StaticMethodCall.anotherStaticMethod(); 
 > // 'Static method has been called from another static method'
 >```
+
+** From class constructor and other methods **
