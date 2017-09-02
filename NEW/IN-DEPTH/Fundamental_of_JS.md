@@ -4421,3 +4421,7 @@ In order to call a static method within another static method of the same class,
 ** From class constructor and other methods **
 
 Static methods are not directly accessible using the `this` keyword from non-static methods.
+You need to call them using the class name: 
+`CLASSNAME.STATIC_METHOD_NAME()` 
+or by calling the method as a property of the constructor:
+`this.constructor.STATIC_METHOD_NAME()`.
