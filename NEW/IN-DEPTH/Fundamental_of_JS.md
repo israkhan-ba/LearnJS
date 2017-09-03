@@ -4458,4 +4458,10 @@ class Triple {
     return n * 3;
   }
 }
+
+class BiggerTriple extends Triple {
+  static triple(n) {
+    return super.triple(n) * super.triple(n);
+  }
+}
 >```
