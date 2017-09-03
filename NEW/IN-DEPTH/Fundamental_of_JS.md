@@ -4468,4 +4468,6 @@ class BiggerTriple extends Triple {
 console.log(Triple.triple());        // 3
 console.log(Triple.triple(6));       // 18
 
+var tp = new Triple();
+
 >```
