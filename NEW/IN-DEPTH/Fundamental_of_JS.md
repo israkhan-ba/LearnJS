@@ -4445,3 +4445,4 @@ or by calling the method as a property of the constructor:
 **_Examples_**
 
 The following example demonstrates several things:
+1. How a static method is implemented on a class.
