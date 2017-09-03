@@ -4464,4 +4464,6 @@ class BiggerTriple extends Triple {
     return super.triple(n) * super.triple(n);
   }
 }
+
+console.log(Triple.triple());        // 3
 >```
