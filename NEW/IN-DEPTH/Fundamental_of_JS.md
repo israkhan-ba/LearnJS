@@ -4447,3 +4447,5 @@ or by calling the method as a property of the constructor:
 The following example demonstrates several things:
 1. How a static method is implemented on a class.
 2. That a class with a static member can be sub-classed.
+3. How a static method can and cannot be called.
+
