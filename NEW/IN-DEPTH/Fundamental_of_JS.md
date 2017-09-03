@@ -4449,3 +4449,13 @@ The following example demonstrates several things:
 2. That a class with a static member can be sub-classed.
 3. How a static method can and cannot be called.
 
+>```
+class Triple {
+  static triple(n) {
+    if (n === undefined) {
+      n = 1;
+    }
+    return n * 3;
+  }
+}
+>```
