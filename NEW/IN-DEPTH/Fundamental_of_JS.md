@@ -4470,4 +4470,7 @@ console.log(Triple.triple(6));       // 18
 
 var tp = new Triple();
 
+console.log(BiggerTriple.triple(3));
+// 81 (not affected by parent's instantiation)
+
 >```
