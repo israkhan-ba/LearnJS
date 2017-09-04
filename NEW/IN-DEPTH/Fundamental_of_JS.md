@@ -4486,3 +4486,7 @@ ECMAScript 5's strict mode is a way to _`opt in`_ to a restricted variant of Jav
 Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode.
 
 Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+
+
+Strict mode makes several changes to normal JavaScript semantics.
+
