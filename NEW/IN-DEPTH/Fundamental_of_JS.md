@@ -4489,4 +4489,4 @@ Strict mode code and non-strict mode code can coexist, so scripts can opt into s
 
 
 Strict mode makes several changes to normal JavaScript semantics.
-
+First, strict mode eliminates some JavaScript silent errors by changing them to throw errors.
