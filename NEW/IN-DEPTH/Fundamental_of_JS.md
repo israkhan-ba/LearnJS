@@ -4476,3 +4476,5 @@ The following example demonstrates several things:
 > console.log(tp.triple());
 > // 'tp.triple is not a function'.
 >```
+
+## Strict Mode
