@@ -4480,3 +4480,5 @@ The following example demonstrates several things:
 ## Strict Mode
 
 ### ECMAScript 5's strict mode 
+
+ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. 
