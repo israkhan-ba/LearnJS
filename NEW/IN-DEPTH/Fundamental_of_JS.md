@@ -4478,3 +4478,5 @@ The following example demonstrates several things:
 >```
 
 ## Strict Mode
+
+### ECMAScript 5's strict mode 
