@@ -4482,3 +4482,5 @@ The following example demonstrates several things:
 ### ECMAScript 5's strict mode 
 
 ECMAScript 5's strict mode is a way to _`opt in`_ to a restricted variant of JavaScript. Strict mode isn't just a subset: it _intentionally_ has different semantics from normal code. 
+
+Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode.
