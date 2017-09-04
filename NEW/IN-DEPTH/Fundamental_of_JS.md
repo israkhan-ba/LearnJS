@@ -4489,4 +4489,6 @@ Strict mode code and non-strict mode code can coexist, so scripts can opt into s
 
 
 Strict mode makes several changes to normal JavaScript semantics.
-First, strict mode eliminates some JavaScript silent errors by changing them to throw errors.
+ First, strict mode eliminates some JavaScript silent errors by changing them to throw errors.
+
+ Second, strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
