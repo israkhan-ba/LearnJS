@@ -4496,3 +4496,7 @@ Strict mode makes several changes to normal JavaScript semantics.
  Third, strict mode prohibits some syntax likely to be defined in future versions of ECMAScript.
  
 *Sometimes, you'll see the default, non-strict, mode referred to as "sloppy mode". This isn't an official term, but be aware of it, just in case.*
+
+
+### Invoking Strict Mode
+
