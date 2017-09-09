@@ -4501,5 +4501,5 @@ Strict mode makes several changes to normal JavaScript semantics.
 ### Invoking Strict Mode
 
  Strict mode applies to `entire scripts` or to `individual functions`.
-
+ It doesn't apply to block statements enclosed in {} braces; attempting to apply it to such contexts does nothing.
 
