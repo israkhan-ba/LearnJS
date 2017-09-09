@@ -4514,3 +4514,5 @@ Strict mode makes several changes to normal JavaScript semantics.
 > 'use strict';
 > var v = "Hi! I'm a strict mode script!";
 >```
+
+This syntax has a trap that has already bitten a major site: it isn't possible to blindly concatenate non-conflicting scripts.
