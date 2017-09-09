@@ -4508,3 +4508,9 @@ Strict mode makes several changes to normal JavaScript semantics.
 #### Strict Mode for Scripts
 
  To invoke strict mode for an entire script, put the _exact_ statement "use strict"; (or 'use strict';) before any other statements.
+ 
+>```
+> // Whole-script strict mode syntax
+> 'use strict';
+> var v = "Hi! I'm a strict mode script!";
+>```
