@@ -4500,9 +4500,11 @@ Strict mode makes several changes to normal JavaScript semantics.
 
 ### Invoking Strict Mode
 
- Strict mode applies to `entire scripts` or to `individual functions`.
+ Strict mode applies to _entire scripts_ or to _individual functions_.
  It doesn't apply to block statements enclosed in {} braces; attempting to apply it to such contexts does nothing.
  `eval` code, Function code, event handler attributes, strings passed to `WindowTimers.setTimeout()`, and the like are entire scripts, and invoking strict mode in them works as expected.
  
  
 #### Strict Mode for Scripts
+
+ To invoke strict mode for an entire script, put the _exact_ statement "use strict"; (or 'use strict';) before any other statements.
