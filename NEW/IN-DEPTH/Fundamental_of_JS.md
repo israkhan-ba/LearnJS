@@ -4519,3 +4519,7 @@ This syntax has a trap that has already bitten a major site: it isn't possible t
 Only concatenating strict and non-strict scripts is problematic. It is thus recommended that you enable strict mode on a function-by-function basis (at least during the transition period).
 
 You can also take the approach of wrapping the entire contents of a script in a function and having that outer function use strict mode. This eliminates the concatenation problem but it means that you have to explicitly export any global variables out of the function scope.
+
+
+#### Strict Mode for Functions
+
