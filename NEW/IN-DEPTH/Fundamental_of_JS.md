@@ -4546,3 +4546,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
   changes simplifying how the particular variable for a given use of a name is computed,  
   changes simplifying eval and arguments,  
   changes making it easier to write "secure" JavaScript,  
+  and changes anticipating future ECMAScript evolution.
+  
