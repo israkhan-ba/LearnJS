@@ -4532,5 +4532,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >   function nested() { return 'And so am I!'; }
 >   return "Hi!  I'm a strict mode function!  " + nested();
 > }
+>
+> function notStrict() { return "I'm not strict."; }
 >```
 
