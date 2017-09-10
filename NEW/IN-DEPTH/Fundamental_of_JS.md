@@ -4523,3 +4523,5 @@ You can also take the approach of wrapping the entire contents of a script in a 
 
 #### Strict Mode for Functions
 
+Likewise, to invoke strict mode for a function, put the _exact_ statement `"use strict";` (or `'use strict';`) in the function's body before any other statements.
+
