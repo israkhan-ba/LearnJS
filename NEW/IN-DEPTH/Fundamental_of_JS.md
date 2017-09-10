@@ -4539,3 +4539,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 ### Changes in Strict Mode
 
+ Strict mode changes both syntax and runtime behavior. 
+ 
+ 
