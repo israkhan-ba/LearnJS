@@ -4536,3 +4536,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > function notStrict() { return "I'm not strict."; }
 >```
 
+
+### Changes in Strict Mode
+
