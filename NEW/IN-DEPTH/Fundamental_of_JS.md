@@ -4541,7 +4541,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Strict mode changes both syntax and runtime behavior. 
  
- Changes generally fall into these categories: 
-  changes converting mistakes into errors (as syntax errors or at runtime),
-  changes simplifying how the particular variable for a given use of a name is computed,
-  
+ Changes generally fall into these categories:  
+  changes converting mistakes into errors (as syntax errors or at runtime),  
+  changes simplifying how the particular variable for a given use of a name is computed,  
+  changes simplifying eval and arguments,  
