@@ -4525,3 +4525,12 @@ You can also take the approach of wrapping the entire contents of a script in a 
 
 Likewise, to invoke strict mode for a function, put the _exact_ statement `"use strict";` (or `'use strict';`) in the function's body before any other statements.
 
+>```
+> function strict() {
+>   // Function-level strict mode syntax
+>   'use strict';
+>   function nested() { return 'And so am I!'; }
+>   return "Hi!  I'm a strict mode function!  " + nested();
+> }
+>```
+
