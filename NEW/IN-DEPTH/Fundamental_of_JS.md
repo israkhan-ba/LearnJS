@@ -4572,3 +4572,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  For example, NaN is a non-writable global variable.  
  In normal code assigning to NaN does nothing; the developer receives no failure feedback.  
+ In strict mode assigning to NaN throws an exception.  
