@@ -4548,3 +4548,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
   changes making it easier to write "secure" JavaScript,  
   and changes anticipating future ECMAScript evolution.
   
+
+#### Converting Mistakes into Errors
+ 
+ 
