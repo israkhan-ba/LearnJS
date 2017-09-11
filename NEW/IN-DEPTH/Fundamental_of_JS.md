@@ -4554,4 +4554,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Strict mode changes some previously-accepted mistakes into errors.  
  JavaScript was designed to be easy for novice developers, and sometimes it gives operations which should be errors non-error semantics.  
  Sometimes this fixes the immediate problem, but sometimes this creates worse problems in the future.  
+ Strict mode treats these mistakes as errors so that they're discovered and promptly fixed.  
  
