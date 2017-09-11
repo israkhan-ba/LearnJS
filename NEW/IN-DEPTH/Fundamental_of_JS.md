@@ -4569,4 +4569,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 
  Second, strict mode makes assignments which would otherwise silently fail to throw an exception.
-
+ For example, NaN is a non-writable global variable.
