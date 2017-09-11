@@ -4557,4 +4557,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Strict mode treats these mistakes as errors so that they're discovered and promptly fixed. 
  
  First, strict mode makes it impossible to accidentally create global variables.  
+ In normal JavaScript mistyping a variable in an assignment creates a new property on the global object and continues to "work" (although future failure is possible: likely, in modern JavaScript).  
+ 
  
