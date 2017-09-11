@@ -4550,5 +4550,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
   
 
 #### Converting Mistakes into Errors
+
+ Strict mode changes some previously-accepted mistakes into errors.
  
  
