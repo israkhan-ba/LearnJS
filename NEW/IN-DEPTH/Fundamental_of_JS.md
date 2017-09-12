@@ -4610,3 +4610,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Fourth, strict mode prior to Gecko 34 requires that all properties named in an object literal be unique.  
  Normal code may duplicate property names, with the last one determining the property's value.
  But since only the last one does anything, the duplication is simply a vector for bugs, if the code is modified to change the property value other than by changing the last instance.
+ 
+ Duplicate property names are a syntax error in strict mode:
+ 
+ 
