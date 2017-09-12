@@ -4576,4 +4576,11 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Any assignment that silently fails in normal code (assignment to a non-writable global or property, assignment to a getter-only property, assignment to a new property on a non-extensible object) will throw in strict mode:  
  
  
- 
+>```
+>  'use strict';
+> 
+> // Assignment to a non-writable global
+> var undefined = 5; // throws a TypeError
+> var Infinity = 5; // throws a TypeError
+>```
+
