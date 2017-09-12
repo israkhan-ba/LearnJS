@@ -4591,5 +4591,10 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > // Assignment to a getter-only property
 > var obj2 = { get x() { return 17; } };
 > obj2.x = 5; // throws a TypeError
+>
+> // Assignment to a new property on a non-extensible object
+> var fixed = {};
+> Object.preventExtensions(fixed);
+> fixed.newProp = 'ohai'; // throws a TypeError
 >```
 
