@@ -4582,5 +4582,10 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > // Assignment to a non-writable global
 > var undefined = 5; // throws a TypeError
 > var Infinity = 5; // throws a TypeError
+> 
+> // Assignment to a non-writable property
+> var obj1 = {};
+> Object.defineProperty(obj1, 'x', { value: 42, writable: false });
+> obj1.x = 9; // throws a TypeError
 >```
 
