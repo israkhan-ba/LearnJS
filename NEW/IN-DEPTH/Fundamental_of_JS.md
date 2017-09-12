@@ -4608,3 +4608,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 
  Fourth, strict mode prior to Gecko 34 requires that all properties named in an object literal be unique.  
+ Normal code may duplicate property names, with the last one determining the property's value.
