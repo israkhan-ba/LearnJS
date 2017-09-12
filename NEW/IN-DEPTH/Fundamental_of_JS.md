@@ -4605,3 +4605,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > 'use strict';
 > delete Object.prototype; // throws a TypeError
 >```
+
+
+ Fourth, strict mode prior to Gecko 34 requires that all properties named in an object literal be unique.  
