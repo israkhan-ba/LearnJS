@@ -4601,4 +4601,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Third, strict mode makes attempts to delete undeletable properties throw (where before the attempt would simply have no effect):
  
-
+>```
+> 'use strict';
+> delete Object.prototype; // throws a TypeError
+>```
