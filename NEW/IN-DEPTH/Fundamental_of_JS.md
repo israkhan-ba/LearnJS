@@ -4571,5 +4571,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Second, strict mode makes assignments which would otherwise silently fail to throw an exception.
  
  For example, NaN is a non-writable global variable.  
- In normal code assigning to NaN does nothing; the developer receives no failure feedback.  
- In strict mode assigning to NaN throws an exception.  
+ In normal code assigning to `NaN` does nothing; the developer receives no failure feedback.  
+ In strict mode assigning to `NaN` throws an exception.  
+ Any assignment that silently fails in normal code (assignment to a non-writable global or property, 
+ 
