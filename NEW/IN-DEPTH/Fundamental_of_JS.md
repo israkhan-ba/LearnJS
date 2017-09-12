@@ -4598,3 +4598,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > fixed.newProp = 'ohai'; // throws a TypeError
 >```
 
+
+ Third, strict mode makes attempts to delete undeletable properties throw (where before the attempt would simply have no effect):
+ 
+
