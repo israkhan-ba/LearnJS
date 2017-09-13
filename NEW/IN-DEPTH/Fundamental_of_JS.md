@@ -4639,5 +4639,9 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  In ECMAScript 2015 Octal number is supported by prefixing a number with `"0o"`. i.e. 
  
+ >```
+ > var a = 0o10; // ES2015: Octal
+ >```
+ 
  
  
