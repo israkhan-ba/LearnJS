@@ -4644,4 +4644,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  >```
  
  
+ Novice developers sometimes believe a leading zero prefix has no semantic meaning, so they use it as an alignment device — but this changes the number's meaning!
+ 
+ 
  
