@@ -4624,3 +4624,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  In normal code the last duplicated argument hides previous identically-named arguments.
  
  Those previous arguments remain available through `arguments[i]`, so they're not completely inaccessible.
+ Still, this hiding makes little sense and is probably undesirable (it might hide a typo, for example), so in strict mode duplicate argument names are a syntax error:
