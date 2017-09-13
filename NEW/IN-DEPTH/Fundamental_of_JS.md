@@ -4617,3 +4617,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > 'use strict';
 > var o = { p: 1, p: 2 }; // !!! syntax error
 >```
+
+
+
+ Fifth, strict mode requires that function parameter names be unique.
