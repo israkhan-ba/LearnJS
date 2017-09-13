@@ -4622,3 +4622,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Fifth, strict mode requires that function parameter names be unique.
  In normal code the last duplicated argument hides previous identically-named arguments.
+ 
+ Those previous arguments remain available through `arguments[i]`, so they're not completely inaccessible.
