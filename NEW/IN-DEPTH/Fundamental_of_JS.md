@@ -4613,4 +4613,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Duplicate property names are a syntax error in strict mode:
  
- 
+>```
+> 'use strict';
+> var o = { p: 1, p: 2 }; // !!! syntax error
+>```
