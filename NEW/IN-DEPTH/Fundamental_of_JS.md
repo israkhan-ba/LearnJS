@@ -4619,7 +4619,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >```
 
 
-
  Fifth, strict mode requires that function parameter names be unique.
  In normal code the last duplicated argument hides previous identically-named arguments.
  
@@ -4632,3 +4631,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >   return a + b + c; // wrong if this code ran
 > }
 >```
+
+
+ Sixth, strict mode in ECMAScript 5 forbids octal syntax.
