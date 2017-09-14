@@ -4671,3 +4671,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > 
 > })();
 >```
+
+
+#### Simplifying variable uses
+
