@@ -4682,6 +4682,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Strict mode removes most cases where this happens, so the compiler can better optimize strict mode code.
  
  
-  First, strict mode prohibits with. The problem with with is that any name inside the block might map either to a property of the object passed to it
+  First, strict mode prohibits with. The problem with with is that any name inside the block might map either to a property of the object passed to it, or to a variable in surrounding (or even global) scope, at runtime: it's impossible to know which beforehand.
   
   
