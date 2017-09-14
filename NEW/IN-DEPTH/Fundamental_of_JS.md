@@ -4675,3 +4675,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 #### Simplifying variable uses
 
+ Strict mode simplifies how variable names map to particular variable definitions in the code.
