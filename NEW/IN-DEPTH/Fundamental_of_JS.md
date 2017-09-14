@@ -4679,3 +4679,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Many compiler optimizations rely on the ability to say that variable _X_ is stored in _that_ location: this is critical to fully optimizing JavaScript code.
  
  JavaScript sometimes makes this basic mapping of name to variable definition in the code impossible to perform until runtime.
+ Strict mode removes most cases where this happens, so the compiler can better optimize strict mode code.
