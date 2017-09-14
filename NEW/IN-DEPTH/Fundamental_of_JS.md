@@ -4680,3 +4680,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  JavaScript sometimes makes this basic mapping of name to variable definition in the code impossible to perform until runtime.
  Strict mode removes most cases where this happens, so the compiler can better optimize strict mode code.
+ 
+ 
+  First, strict mode prohibits with. The problem with with is that any name inside the block might map either to a property of the object passed to it
+  
+  
