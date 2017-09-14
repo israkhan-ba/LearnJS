@@ -4659,6 +4659,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  
  Seventh, strict mode in ECMAScript 2015 forbids setting properties on primitive values.
- 
+ Without strict mode, setting properties is simply ignored (no-op), with strict mode, however, a `TypeError` is thrown.
  
  
