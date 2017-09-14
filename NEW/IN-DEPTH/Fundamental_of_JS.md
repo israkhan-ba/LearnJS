@@ -4639,12 +4639,22 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  In ECMAScript 2015 Octal number is supported by prefixing a number with `"0o"`. i.e. 
  
- >```
- > var a = 0o10; // ES2015: Octal
- >```
+>```
+> var a = 0o10; // ES2015: Octal
+>```
  
  
  Novice developers sometimes believe a leading zero prefix has no semantic meaning, so they use it as an alignment device — but this changes the number's meaning!
  The leading zero syntax for octals is rarely useful and can be mistakenly used, so strict mode makes it a syntax error:
+ 
+>```
+> 'use strict';
+> var sum = 015 + // !!! syntax error
+>           197 +
+>           142;
+> 
+> var sumWithOctal = 0o10 + 8;
+> console.log(sumWithOctal); // 16
+>```
  
  
