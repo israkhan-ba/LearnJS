@@ -4675,4 +4675,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 #### Simplifying variable uses
 
- Strict mode simplifies how variable names map to particular variable definitions in the code.
+ Strict mode simplifies how variable names map to particular variable definitions in the code. 
+ Many compiler optimizations rely on the ability to say that variable _X_ is stored in _that_ location: this is critical to fully optimizing JavaScript code.
