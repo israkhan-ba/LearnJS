@@ -4712,3 +4712,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > console.assert(x === 17);
 > console.assert(evalX === 42);
 >```
+
+ Relatedly, if the function `eval` is invoked by an expression of the form `eval(...)` in strict mode code, the code will be evaluated as strict mode code.
+ 
+ 
