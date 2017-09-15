@@ -4702,4 +4702,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Second, `eval` of strict mode code does not introduce new variables into the surrounding scope.
  In normal code `eval("var x;")` introduces a variable x into the surrounding function or the global scope.
+ This means that, in general, in a function containing a call to `eval` every name not referring to an argument or local variable must be mapped to a particular definition at runtime (because that `eval` might have introduced a new variable that would hide the outer variable).
  
