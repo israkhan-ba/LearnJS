@@ -4686,3 +4686,14 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
   
   Strict mode makes with a syntax error, so there's no chance for a name in a with to refer to an unknown location at runtime:
   
+>```
+> 'use strict';
+> var x = 17;
+> with (obj) { // !!! syntax error
+>   // If this weren't strict mode, would this be var x, or
+>   // would it instead be obj.x?  It's impossible in general
+>   // to say without running the code, so the name can't be
+>   // optimized.
+>   x;
+> }
+>```
