@@ -4738,4 +4738,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > strict1("'use strict'; 'Strict mode code!'");
 > strict2(eval, "'Non-strict code.'");
 > strict2(eval, "'use strict'; 'Strict mode code!'");
+> nonstrict("'Non-strict code.'");
+> nonstrict("'use strict'; 'Strict mode code!'");
 >```
