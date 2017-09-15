@@ -4697,3 +4697,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >   x;
 > }
 >```
+
+ The simple alternative of assigning the object to a short name variable, then accessing the corresponding property on that variable, stands ready to replace `with`.
