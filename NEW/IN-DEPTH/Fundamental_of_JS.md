@@ -4701,5 +4701,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  The simple alternative of assigning the object to a short name variable, then accessing the corresponding property on that variable, stands ready to replace `with`.
  
  Second, `eval` of strict mode code does not introduce new variables into the surrounding scope.
- 
+ In normal code `eval("var x;")` introduces a variable x into the surrounding function or the global scope.
  
