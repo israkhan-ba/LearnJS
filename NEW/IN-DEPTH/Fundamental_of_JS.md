@@ -4706,4 +4706,9 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  In strict mode `eval` creates variables only for the code being evaluated, so `eval` can't affect whether a name refers to an outer variable or some local variable:
  
- 
+>```
+> var x = 17;
+> var evalX = eval("'use strict'; var x = 42; x;");
+> console.assert(x === 17);
+> console.assert(evalX === 42);
+>```
