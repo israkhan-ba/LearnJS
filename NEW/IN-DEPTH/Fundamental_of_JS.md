@@ -4715,4 +4715,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Relatedly, if the function `eval` is invoked by an expression of the form `eval(...)` in strict mode code, the code will be evaluated as strict mode code.
  
- 
+ The code may explicitly invoke strict mode, but it's unnecessary to do so.
