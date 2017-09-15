@@ -4733,4 +4733,9 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >   return eval(str); // str is strict if and only 
 >                     // if it invokes strict mode
 > }
+>
+> strict1("'Strict mode code!'");
+> strict1("'use strict'; 'Strict mode code!'");
+> strict2(eval, "'Non-strict code.'");
+> strict2(eval, "'use strict'; 'Strict mode code!'");
 >```
