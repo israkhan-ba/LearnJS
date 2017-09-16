@@ -4761,3 +4761,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 #### Making `eval` and `arguments` simpler
 
+ Strict mode makes `arguments` and `eval` less bizarrely magical.
+ 
+ 
