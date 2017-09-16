@@ -4787,3 +4787,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >```
 
 Second, strict mode code doesn't alias properties of `arguments` objects created within it. 
+
+In normal code within a function whose first argument is `arg`, setting `arg` also sets `arguments[0]`, and vice versa (unless no arguments were provided or `arguments[0]` is deleted). `arguments` objects for strict mode functions store the original arguments when the function was invoked.
