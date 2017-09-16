@@ -4772,3 +4772,17 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  All these attempts to do so are syntax errors:
  
  
+>```
+> 'use strict';
+> eval = 17;
+> arguments++;
+> ++eval;
+> var obj = { set p(arguments) { } };
+> var eval;
+> try { } catch (arguments) { }
+> function x(eval) { }
+> function arguments() { }
+> var y = function eval() { };
+> var f = new Function('arguments', "'use strict'; return 17;");
+>```
+
