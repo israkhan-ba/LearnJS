@@ -4764,3 +4764,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Strict mode makes `arguments` and `eval` less bizarrely magical.
  
  Both involve a considerable amount of magical behavior in normal code: `eval` to add or remove bindings and to change binding values, and `arguments` by its indexed properties aliasing named arguments.
+
+ Strict mode makes great strides toward treating `eval` and `arguments` as keywords, although full fixes will not come until a future edition of ECMAScript.
