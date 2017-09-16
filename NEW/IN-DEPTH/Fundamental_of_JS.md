@@ -4748,3 +4748,12 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Third, strict mode forbids deleting plain names. `delete name` in strict mode is a syntax error:
 
+
+>```
+> 'use strict';
+> 
+> var x;
+> delete x; // !!! syntax error
+> 
+> eval('var y; delete y;'); // !!! syntax error
+>```
