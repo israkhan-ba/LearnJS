@@ -4757,3 +4757,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > 
 > eval('var y; delete y;'); // !!! syntax error
 >```
+
+
+#### Making `eval` and `arguments` simpler
+
