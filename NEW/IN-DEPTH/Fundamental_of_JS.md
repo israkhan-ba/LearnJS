@@ -4786,3 +4786,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > var f = new Function('arguments', "'use strict'; return 17;");
 >```
 
+Second, strict mode code doesn't alias properties of `arguments` objects created within it. 
