@@ -4769,3 +4769,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  
  First, the names `eval` and `arguments` can't be bound or assigned in language syntax.
+ All these attempts to do so are syntax errors:
+ 
+ 
