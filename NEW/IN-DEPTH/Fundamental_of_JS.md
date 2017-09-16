@@ -4741,3 +4741,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > nonstrict("'Non-strict code.'");
 > nonstrict("'use strict'; 'Strict mode code!'");
 >```
+
+
+ Thus names in strict mode `eval` code behave identically to names in strict mode code not being evaluated as the result of `eval`.
+ 
+ 
