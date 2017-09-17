@@ -4817,5 +4817,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 #### "Securing" JavaScript
 
+
  Strict mode makes it easier to write "secure" JavaScript.
  Some websites now provide ways for users to write JavaScript which will be run by the website on _behalf of other users_.
