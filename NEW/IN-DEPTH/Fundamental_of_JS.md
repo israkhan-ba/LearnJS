@@ -4824,3 +4824,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  JavaScript in browsers can access the user's private information, so such JavaScript must be partially transformed before it is run, to censor access to forbidden functionality.
  JavaScript's flexibility makes it effectively impossible to do this without many runtime checks.
  
+ Certain language functions are so pervasive that performing runtime checks has considerable performance cost. 
+ A few strict mode tweaks, plus requiring that user-submitted JavaScript be strict mode code and that it be invoked in a certain manner, substantially reduce the need for those runtime checks.
