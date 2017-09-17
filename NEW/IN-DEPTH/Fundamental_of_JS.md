@@ -4801,3 +4801,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > console.assert(pair[0] === 42);
 > console.assert(pair[1] === 17);
 >```
+
+ Third, `arguments.callee` is no longer supported. 
+ In normal code `arguments.callee` refers to the enclosing function.
+ 
+ 
