@@ -4822,4 +4822,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Some websites now provide ways for users to write JavaScript which will be run by the website on _behalf of other users_.
  
  JavaScript in browsers can access the user's private information, so such JavaScript must be partially transformed before it is run, to censor access to forbidden functionality.
- 
+
