@@ -4805,4 +4805,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Third, `arguments.callee` is no longer supported. 
  In normal code `arguments.callee` refers to the enclosing function.
  
- 
+ This use case is weak: simply name the enclosing function! Moreover, `arguments.callee` substantially hinders optimizations like inlining functions, because it must be made possible to provide a reference to the un-inlined function if `arguments.callee` is accessed. 
