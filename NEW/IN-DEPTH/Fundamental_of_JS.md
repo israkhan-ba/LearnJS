@@ -4813,3 +4813,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > var f = function() { return arguments.callee; };
 > f(); // throws a TypeError
 >```
+
+
+#### "Securing" JavaScript
