@@ -4816,3 +4816,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 
 #### "Securing" JavaScript
+
+ Strict mode makes it easier to write "secure" JavaScript.
