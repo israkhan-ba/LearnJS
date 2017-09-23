@@ -4854,3 +4854,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Second, in strict mode it's no longer possible to "walk" the JavaScript stack via commonly-implemented extensions to ECMAScript.
  
+ In normal code with these extensions, when a function `fun` is in the middle of being called, `fun.caller` is the function that most recently called `fun`, and `fun.arguments` is the `arguments` for that invocation of `fun`.
+ 
