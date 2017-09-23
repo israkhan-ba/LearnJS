@@ -4829,3 +4829,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
 
  First, the value passed as `this` to a function in strict mode is not forced into being an object (a.k.a. "boxed").
+ 
+ For a normal function, `this` is always an object: either the provided object if called with an object-valued `this`;
