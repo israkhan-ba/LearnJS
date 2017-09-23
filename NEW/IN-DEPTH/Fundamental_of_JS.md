@@ -4848,3 +4848,7 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > console.assert(fun.call(undefined) === undefined);
 > console.assert(fun.bind(true)() === true);
 >```
+
+ That means, among other things, that in browsers it's no longer possible to reference the window object through `this` inside a strict mode function.
+ 
+ 
