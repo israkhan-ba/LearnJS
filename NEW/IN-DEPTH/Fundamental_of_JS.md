@@ -4826,3 +4826,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Certain language functions are so pervasive that performing runtime checks has considerable performance cost. 
  A few strict mode tweaks, plus requiring that user-submitted JavaScript be strict mode code and that it be invoked in a certain manner, substantially reduce the need for those runtime checks.
+
+
+ First, the value passed as `this` to a function in strict mode is not forced into being an object (a.k.a. "boxed").
