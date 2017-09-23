@@ -4833,3 +4833,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  For a normal function, `this` is always an object: either the provided object if called with an object-valued `this`;
  the value, boxed, if called with a Boolean, string, or number `this`;
  or the global object if called with an `undefined` or `null` `this`.
+(Use `call`, `apply`, or `bind` to specify a particular `this`.)
