@@ -4838,3 +4838,13 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  Not only is automatic boxing a performance cost, but exposing the global object in browsers is a security hazard, because the global object provides access to functionality that "secure" JavaScript environments must restrict.
  
  Thus for a strict mode function, the specified `this` is not boxed into an object, and if unspecified, `this` will be `undefined`:
+ 
+>```
+> 'use strict';
+> function fun() { return this; }
+> console.assert(fun() === undefined);
+> console.assert(fun.call(2) === 2);
+> console.assert(fun.apply(null) === null);
+> console.assert(fun.call(undefined) === undefined);
+> console.assert(fun.bind(true)() === true);
+>```
