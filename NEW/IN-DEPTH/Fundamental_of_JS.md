@@ -4893,3 +4893,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 #### Paving the way for future ECMAScript versions
 
 
+ Future ECMAScript versions will likely introduce new syntax, and strict mode in ECMAScript 5 applies some restrictions to ease the transition.
