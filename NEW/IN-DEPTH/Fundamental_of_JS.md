@@ -4888,4 +4888,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > }
 > fun(1, 2); // doesn't expose v (or a or b)
 >```
- 
+
+
+#### Paving the way for future ECMAScript versions
+
+
