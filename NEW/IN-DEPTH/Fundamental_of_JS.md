@@ -4873,4 +4873,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Third, `arguments` for strict mode functions no longer provide access to the corresponding function call's variables. 
  
+ In some old ECMAScript implementations `arguments.caller` was an object whose properties aliased variables in that function.
+ 
+ 
+ 
  
