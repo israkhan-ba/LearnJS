@@ -4875,6 +4875,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  In some old ECMAScript implementations `arguments.caller` was an object whose properties aliased variables in that function.
  
- 
+ This is a security hazard because it breaks the ability to hide privileged values via function abstraction; it also precludes most optimizations.
  
  
