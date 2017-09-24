@@ -4895,3 +4895,6 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Future ECMAScript versions will likely introduce new syntax, and strict mode in ECMAScript 5 applies some restrictions to ease the transition.
  It will be easier to make some changes if the foundations of those changes are prohibited in strict mode.
+ 
+ 
+ First, in strict mode a short list of identifiers become reserved keywords. These words are `implements`, `interface`, `let`, `package`, `private`, `protected`, `public`, `static`, and `yield`.
