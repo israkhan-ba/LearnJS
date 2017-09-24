@@ -4869,3 +4869,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > }
 > privilegedInvoker();
 >```
+
+
+ Third, `arguments` for strict mode functions no longer provide access to the corresponding function call's variables. 
+ 
+ 
