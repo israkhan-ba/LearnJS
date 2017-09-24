@@ -4864,4 +4864,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 >   restricted.caller;    // throws a TypeError
 >   restricted.arguments; // throws a TypeError
 > }
+> function privilegedInvoker() {
+>   return restricted();
+> }
+> privilegedInvoker();
 >```
