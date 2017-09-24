@@ -4877,4 +4877,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  This is a security hazard because it breaks the ability to hide privileged values via function abstraction; it also precludes most optimizations.
  
+ For these reasons no recent browsers implement it. Yet because of its historical functionality, `arguments.caller` for a strict mode function is also a non-deletable property which throws when set or retrieved:
  
