@@ -4858,4 +4858,10 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Both extensions are problematic for "secure" JavaScript, because they allow "secured" code to access "privileged" functions and their (potentially unsecured) arguments. If `fun` is in strict mode, both `fun.caller` and `fun.arguments` are non-deletable properties which throw when set or retrieved:
  
- 
+>```
+> function restricted() {
+>   'use strict';
+>   restricted.caller;    // throws a TypeError
+>   restricted.arguments; // throws a TypeError
+> }
+>```
