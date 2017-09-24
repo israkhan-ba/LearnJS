@@ -4898,3 +4898,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  
  First, in strict mode a short list of identifiers become reserved keywords. These words are `implements`, `interface`, `let`, `package`, `private`, `protected`, `public`, `static`, and `yield`.
+ 
+ In strict mode, then, you can't name or use variables or arguments with these names.
