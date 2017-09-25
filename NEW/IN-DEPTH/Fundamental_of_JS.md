@@ -4926,3 +4926,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Second, strict mode prohibits function statements not at the top level of a script or function. 
  In normal code in browsers, function statements are permitted "everywhere".
+ 
+ _This is not part of ES5 (or even ES3)!_ It's an extension with incompatible semantics in different browsers.
