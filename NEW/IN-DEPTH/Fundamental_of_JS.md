@@ -4953,3 +4953,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 This prohibition isn't strict mode proper, because such function statements are an extension of basic ES5. 
 But it is the recommendation of the ECMAScript committee, and browsers will implement it.
 
+
+### Strict Mode in Browsers
