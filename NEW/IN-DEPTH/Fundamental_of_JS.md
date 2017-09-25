@@ -4916,3 +4916,8 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 > function fun(static) { 'use strict'; } // !!!
 >```
 
+
+ Two Mozilla-specific caveats: First, if your code is JavaScript 1.7 or greater (for example in chrome code or when using the right `<script type="">`) and is strict mode code, `let` and `yield` have the functionality they've had since those keywords were first introduced. 
+ 
+ 
+ 
