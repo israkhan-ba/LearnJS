@@ -4933,3 +4933,19 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  Prohibiting such function statements in strict mode "clears the deck" for specification in a future ECMAScript release:
  
+>```
+> 'use strict';
+> if (true) {
+>   function f() { } // !!! syntax error
+>   f();
+> }
+> 
+> for (var i = 0; i < 5; i++) {
+>   function f2() { } // !!! syntax error
+>   f2();
+> }
+> 
+> function baz() { // kosher
+>   function eit() { } // also kosher
+> }
+>```
