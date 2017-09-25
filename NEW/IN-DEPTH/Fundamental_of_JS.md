@@ -4955,3 +4955,13 @@ But it is the recommendation of the ECMAScript committee, and browsers will impl
 
 
 ### Strict Mode in Browsers
+
+The major browsers now implement strict mode. 
+However, don't blindly depend on it since there still are numerous Browser versions used in the wild that only have partial support for strict mode or do not support it at all (e.g. Internet Explorer below version 10!). 
+
+_Strict mode changes semantics_. Relying on those changes will cause mistakes and errors in browsers which don't implement strict mode. 
+Exercise caution in using strict mode, and back up reliance on strict mode with feature tests that check whether relevant parts of strict mode are implemented. 
+
+Finally, make sure to _test your code in browsers that do and don't support strict mode_. 
+If you test only in browsers that don't support strict mode, you're very likely to have problems in browsers that do, and vice versa.
+
