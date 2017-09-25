@@ -4925,3 +4925,4 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
  
  
  Second, strict mode prohibits function statements not at the top level of a script or function. 
+ In normal code in browsers, function statements are permitted "everywhere".
