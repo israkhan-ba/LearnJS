@@ -4919,5 +4919,5 @@ Likewise, to invoke strict mode for a function, put the _exact_ statement `"use 
 
  Two Mozilla-specific caveats: First, if your code is JavaScript 1.7 or greater (for example in chrome code or when using the right `<script type="">`) and is strict mode code, `let` and `yield` have the functionality they've had since those keywords were first introduced. 
  
- 
+ But strict mode code on the web, loaded with `<script src="">` or `<script>...</script>`, won't be able to use `let/yield` as identifiers. Second, while ES5 unconditionally reserves the words `class`, `enum`, `export`, `extends`, `import`, and `super`, before Firefox 5 Mozilla reserved them only in strict mode.
  
