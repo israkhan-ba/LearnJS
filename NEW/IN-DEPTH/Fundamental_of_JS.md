@@ -99,6 +99,21 @@ You can use multi-line strings and string interpolation features with them.
 They were called "template strings" in prior editions of the ES2015 specification.
 
 
+**_Syntax_**
+
+>```
+> `string text`
+> 
+> `string text line 1
+>  string text line 2`
+> 
+> `string text ${expression} string text`
+> 
+> tag `string text ${expression} string text`
+>```
+
+
+
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
 
