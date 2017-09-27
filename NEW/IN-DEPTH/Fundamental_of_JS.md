@@ -117,7 +117,7 @@ Template literals are enclosed by the back-tick (` `) (grave accent) character i
 These are indicated by the Dollar sign and curly braces (`${expression}`).
 
 The expressions in the place holders and the text between them get passed to a function.
-
+The default function just concatenates the parts into a single string.
 
 
 ### Comments
