@@ -121,7 +121,10 @@ The default function just concatenates the parts into a single string.
 
 If there is an expression preceding the template literal (`tag` here),  the template string is called "tagged template literal".
  
- 
+In that case, the tag expression (usually a function) gets called with the processed template literal, which you can then manipulate before outputting.
+
+
+
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
 
