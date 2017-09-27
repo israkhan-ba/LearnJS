@@ -113,6 +113,8 @@ They were called "template strings" in prior editions of the ES2015 specificatio
 >```
 
 
+Template literals are enclosed by the back-tick (` `) (grave accent) character instead of double or single quotes. Template literals can contain place holders.
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
