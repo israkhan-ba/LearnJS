@@ -119,7 +119,9 @@ These are indicated by the Dollar sign and curly braces (`${expression}`).
 The expressions in the place holders and the text between them get passed to a function.
 The default function just concatenates the parts into a single string.
 
-
+If there is an expression preceding the template literal (`tag` here),  the template string is called "tagged template literal".
+ 
+ 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
 
