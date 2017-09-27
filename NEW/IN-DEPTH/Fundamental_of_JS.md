@@ -95,7 +95,7 @@ ASI dictates that a statement also ends if:
 
 ### Template Literals
 Template literals are string literals allowing embedded expressions.
-
+You can use multi-line strings and string interpolation features with them.
 
 
 ### Comments
