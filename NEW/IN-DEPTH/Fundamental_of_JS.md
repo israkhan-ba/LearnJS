@@ -131,6 +131,7 @@ To escape a back-tick in a template literal, put a backslash __\__ before the ba
 
 #### Multi-line Strings
 
+Any new line characters inserted in the source are part of the template literal.
 
 
 
