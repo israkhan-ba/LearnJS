@@ -155,6 +155,11 @@ Expression interpolation
 
 In order to embed expressions within normal strings, you would use the following syntax:
 
+var a = 5;
+var b = 10;
+console.log('Fifteen is ' + (a + b) + ' and\nnot ' + (2 * a + b) + '.');
+// "Fifteen is 15 and
+// not 20."
 
 
 ### Comments
