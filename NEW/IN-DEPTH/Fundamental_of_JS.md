@@ -141,6 +141,9 @@ Using normal strings, you would have to use the following syntax in order to get
 > // string text line 2"
 >```
 
+To get the same effect with multi-line strings, you can now write:
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
