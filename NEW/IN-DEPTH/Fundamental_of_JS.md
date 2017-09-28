@@ -124,6 +124,10 @@ If there is an expression preceding the template literal (`tag` here),  the temp
 In that case, the tag expression (usually a function) gets called with the processed template literal, which you can then manipulate before outputting.
 To escape a back-tick in a template literal, put a backslash __\__ before the back-tick.
 
+>```
+> `\`` === '`' // --> true
+>```
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
