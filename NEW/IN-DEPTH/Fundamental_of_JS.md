@@ -151,6 +151,9 @@ To get the same effect with multi-line strings, you can now write:
 >```
 
 
+Expression interpolation
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
