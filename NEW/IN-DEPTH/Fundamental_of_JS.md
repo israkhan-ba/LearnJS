@@ -153,6 +153,8 @@ To get the same effect with multi-line strings, you can now write:
 
 Expression interpolation
 
+In order to embed expressions within normal strings, you would use the following syntax:
+
 
 
 ### Comments
