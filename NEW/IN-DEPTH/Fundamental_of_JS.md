@@ -177,6 +177,8 @@ Now, with template literals, you are able to make use of the syntactic sugar mak
 
 #### Nesting Templates
 
+In certain times, nesting a template is the easiest and perhaps more readable way to have configurable strings. 
+
 
 
 ### Comments
