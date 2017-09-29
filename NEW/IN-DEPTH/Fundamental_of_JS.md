@@ -184,6 +184,14 @@ For instance, if condition a is true: then return this templated literal.
 
 In ES5:
 
+>```
+> var classes = 'header'
+> classes += (isLargeScreen() ?
+>    '' : item.isCollapsed ?
+>      ' icon-expander' : ' icon-collapser');
+>```
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
