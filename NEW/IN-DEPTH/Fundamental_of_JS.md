@@ -165,6 +165,16 @@ In order to embed expressions within normal strings, you would use the following
 
 Now, with template literals, you are able to make use of the syntactic sugar making substitutions like this more readable:
 
+>```
+> var a = 5;
+> var b = 10;
+> console.log(`Fifteen is ${a + b} and
+> not ${2 * a + b}.`);
+> // "Fifteen is 15 and
+> // not 20."
+>```
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
