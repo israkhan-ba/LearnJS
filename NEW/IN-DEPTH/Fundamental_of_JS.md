@@ -151,15 +151,17 @@ To get the same effect with multi-line strings, you can now write:
 >```
 
 
-Expression interpolation
+#### Expression Interpolation
 
 In order to embed expressions within normal strings, you would use the following syntax:
 
-var a = 5;
-var b = 10;
-console.log('Fifteen is ' + (a + b) + ' and\nnot ' + (2 * a + b) + '.');
-// "Fifteen is 15 and
-// not 20."
+>```
+> var a = 5;
+> var b = 10;
+> console.log('Fifteen is ' + (a + b) + ' and\nnot ' + (2 * a + b) + '.');
+> // "Fifteen is 15 and
+> // not 20."
+>```
 
 Now, with template literals, you are able to make use of the syntactic sugar making substitutions like this more readable:
 
