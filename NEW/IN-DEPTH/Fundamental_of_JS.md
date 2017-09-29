@@ -180,6 +180,10 @@ Now, with template literals, you are able to make use of the syntactic sugar mak
 In certain times, nesting a template is the easiest and perhaps more readable way to have configurable strings. 
 Within a backticked template it is simple to allow inner backticks simply by adding parenthesis ${( )} within the template.
 
+For instance, if condition a is true: then return this templated literal.
+
+In ES5:
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
