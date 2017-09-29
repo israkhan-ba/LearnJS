@@ -191,6 +191,8 @@ In ES5:
 >      ' icon-expander' : ' icon-collapser');
 >```
 
+n ES2015 with template literals and without nesting:
+
 
 
 ### Comments
