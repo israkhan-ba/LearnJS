@@ -210,6 +210,8 @@ In ES2015 with nested template literals:
 
 A more advanced form of template literals are _tagged_ template literals.
 
+Tags allow you to parse template literals with a function.
+
 
 
 ### Comments
