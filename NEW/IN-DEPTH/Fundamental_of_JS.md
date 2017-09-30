@@ -264,6 +264,8 @@ Tag functions don't need to return a string, as shown in the following example.
 >
 > var t1Closure = template`${0}${1}${0}!`;
 > t1Closure('Y', 'A');  // "YAY!"
+> var t2Closure = template`${0} ${'foo'}!`;
+> t2Closure('Hello', {foo: 'World'});  // "Hello World!"
 >```
 
 
