@@ -209,8 +209,8 @@ In ES2015 with nested template literals:
 #### Tagged Template Literals
 
 A more advanced form of template literals are _tagged_ template literals.
-
 Tags allow you to parse template literals with a function.
+The first argument of a tag function contains an array of string values.
 
 
 
