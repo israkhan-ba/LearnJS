@@ -216,6 +216,33 @@ In the end, your function can return your manipulated string (or it can return s
 
 The name of the function used for the tag can be named whatever you want.
 
+>```
+> var person = 'Mike';
+> var age = 28;
+> 
+> function myTag(strings, personExp, ageExp) {
+> 
+>   var str0 = strings[0]; // "that "
+>   var str1 = strings[1]; // " is a "
+> 
+>   // There is technically a string after
+>   // the final expression (in our example),
+>   // but it is empty (""), so disregard.
+>   // var str2 = strings[2];
+> 
+>   var ageStr;
+>   if (ageExp > 99){
+>     ageStr = 'centenarian';
+>   } else {
+>     ageStr = 'youngster';
+>   }
+> 
+>   return str0 + personExp + str1 + ageStr;
+> 
+> }
+>```
+
+
 
 
 ### Comments
