@@ -200,6 +200,10 @@ In ES2015 with template literals and without nesting:
 
 In ES2015 with nested template literals:
 
+>```
+> const classes = `header ${( isLargeScreen() &&
+>  `icon-${item.isCollapsed ? 'expander' : 'collapser'}` )}`;
+>```
 
 
 ### Comments
