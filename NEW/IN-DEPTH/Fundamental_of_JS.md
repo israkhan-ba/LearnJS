@@ -240,8 +240,14 @@ The name of the function used for the tag can be named whatever you want.
 >   return str0 + personExp + str1 + ageStr;
 > 
 > }
+> 
+> var output = myTag`that ${ person } is a ${ age }`;
+> 
+> console.log(output);
+> // that Mike is a youngster
 >```
 
+Tag functions don't need to return a string, as shown in the following example.
 
 
 
