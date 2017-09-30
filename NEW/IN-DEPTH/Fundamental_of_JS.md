@@ -212,6 +212,8 @@ A more advanced form of template literals are _tagged_ template literals.
 Tags allow you to parse template literals with a function.
 The first argument of a tag function contains an array of string values.
 
+In the end, your function can return your manipulated string (or it can return something completely different as described in the next example). 
+
 
 
 ### Comments
