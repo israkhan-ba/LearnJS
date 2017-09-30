@@ -214,6 +214,8 @@ The first argument of a tag function contains an array of string values.
 
 In the end, your function can return your manipulated string (or it can return something completely different as described in the next example). 
 
+The name of the function used for the tag can be named whatever you want.
+
 
 
 ### Comments
