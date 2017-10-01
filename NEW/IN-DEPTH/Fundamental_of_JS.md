@@ -301,6 +301,12 @@ In addition, the `String.raw()` method exists to create raw strings just like th
 
  As of ES2016, tagged template literals conform to the rules of the following escape sequences:
  
+ - Unicode escapes started by "\u", for example \u00A9
+ - Unicode code point escapes indicated by "\u{}", for example \u{2F804}
+ - Hexadecimal escapes started by "\x", for example \xA9
+ - Octal literal escapes started by "\" and (a) digit(s), for example \251
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
