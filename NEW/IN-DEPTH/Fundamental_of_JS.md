@@ -299,6 +299,8 @@ In addition, the `String.raw()` method exists to create raw strings just like th
 
 #### Tagged Template Literals and Escape Sequences
 
+ As of ES2016, tagged template literals conform to the rules of the following escape sequences:
+ 
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
