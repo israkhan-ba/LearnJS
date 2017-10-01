@@ -271,6 +271,8 @@ Tag functions don't need to return a string, as shown in the following example.
 
 #### Raw Strings
 
+The special `raw` property, available on the first function argument of tagged template literals, allows you to access the raw strings as they were entered, without processing escape sequences.
+
 
 
 ### Comments
