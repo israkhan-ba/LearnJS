@@ -273,6 +273,15 @@ Tag functions don't need to return a string, as shown in the following example.
 
 The special `raw` property, available on the first function argument of tagged template literals, allows you to access the raw strings as they were entered, without processing escape sequences.
 
+>```
+> function tag(strings, ...values) {
+>   console.log(strings.raw[0]);
+> }
+> 
+> tag`string text line 1 \n string text line 2`;
+> // logs "string text line 1 \n string text line 2" ,
+> // including the two characters '\' and 'n'
+>```
 
 
 ### Comments
