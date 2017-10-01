@@ -306,7 +306,9 @@ In addition, the `String.raw()` method exists to create raw strings just like th
  - Hexadecimal escapes started by "\x", for example \xA9
  - Octal literal escapes started by "\" and (a) digit(s), for example \251
 
-
+This means that a tagged template like the following is problematic, because, per ECMAScript grammar, a parser looks for valid Unicode escape sequences, but finds malformed syntax:
+ 
+ 
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
