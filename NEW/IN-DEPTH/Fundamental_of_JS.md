@@ -314,6 +314,8 @@ This means that a tagged template like the following is problematic, because, pe
 > // SyntaxError: malformed Unicode character escape sequence
 >```
 
+Tagged template literals should allow the embedding of languages (for example DSLs, or LaTeX), where other escapes sequences are common. The ECMAScript proposal Template Literal Revision (stage 4, to be integrated in the ECMAScript 2018 standard) removes the syntax restriction of ECMAScript escape sequences from tagged template literals.
+
 
 
 ### Comments
