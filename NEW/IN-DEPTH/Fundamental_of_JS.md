@@ -308,7 +308,13 @@ In addition, the `String.raw()` method exists to create raw strings just like th
 
 This means that a tagged template like the following is problematic, because, per ECMAScript grammar, a parser looks for valid Unicode escape sequences, but finds malformed syntax:
  
- 
+>```
+> latex`\unicode`
+> // Throws in older ECMAScript versions (ES2016 and earlier)
+> // SyntaxError: malformed Unicode character escape sequence
+>```
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
