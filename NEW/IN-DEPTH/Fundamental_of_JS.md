@@ -291,6 +291,9 @@ In addition, the `String.raw()` method exists to create raw strings just like th
 >
 > str.length;
 > // 6
+>
+> str.split('').join(',');
+> // "H,i,\,n,5,!"
 >```
 
 
