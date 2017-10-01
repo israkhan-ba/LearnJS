@@ -285,6 +285,10 @@ The special `raw` property, available on the first function argument of tagged t
 
 In addition, the `String.raw()` method exists to create raw strings just like the default template function and string concatenation would create.
 
+>```
+> var str = String.raw`Hi\n${2+3}!`;
+> // "Hi\n5!"
+>```
 
 
 ### Comments
