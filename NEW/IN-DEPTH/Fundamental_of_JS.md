@@ -283,6 +283,9 @@ The special `raw` property, available on the first function argument of tagged t
 > // including the two characters '\' and 'n'
 >```
 
+In addition, the `String.raw()` method exists to create raw strings just like the default template function and string concatenation would create.
+
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
