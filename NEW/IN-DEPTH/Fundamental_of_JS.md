@@ -288,6 +288,9 @@ In addition, the `String.raw()` method exists to create raw strings just like th
 >```
 > var str = String.raw`Hi\n${2+3}!`;
 > // "Hi\n5!"
+>
+> str.length;
+> // 6
 >```
 
 
