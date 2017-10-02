@@ -318,6 +318,7 @@ Tagged template literals should allow the embedding of languages (for example DS
 
 However, illegal escape sequence must still be represented in the "cooked" representation. 
 
+They will show up as `undefined` element in the "cooked" array:
 
 
 ### Comments
