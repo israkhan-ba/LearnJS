@@ -4115,6 +4115,9 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
 Strings can also be created using the String global object directly:
 
+>```
+> String(thing)
+>```
 
 
 ### Math
