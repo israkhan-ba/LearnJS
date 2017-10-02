@@ -324,6 +324,10 @@ They will show up as `undefined` element in the "cooked" array:
 > function latex(str) { 
 >  return { "cooked": str[0], "raw": str.raw[0] }
 > } 
+> 
+> latex`\unicode`
+> 
+> // { cooked: undefined, raw: "\\unicode" }
 >```
 
 
