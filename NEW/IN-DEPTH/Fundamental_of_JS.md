@@ -332,6 +332,10 @@ They will show up as `undefined` element in the "cooked" array:
 
 Note that the escape sequence restriction is only dropped from `tagged` template literals and not from `untagged` template literals:
 
+>```
+> let bad = `bad escape sequence: \unicode`;
+>```
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
