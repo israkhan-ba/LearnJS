@@ -4104,6 +4104,10 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
  The `String` global object is a constructor for strings, or a sequence of characters.
  
+**_Syntax_**
+ String literals take the forms:
+
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
