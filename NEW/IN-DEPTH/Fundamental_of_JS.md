@@ -4099,6 +4099,10 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
 ## Standard built-in objects
 
+
+### String
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
