@@ -4102,6 +4102,8 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 
 ### String
 
+ The `String` global object is a constructor for strings, or a sequence of characters.
+ 
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
