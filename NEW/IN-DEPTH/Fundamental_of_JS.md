@@ -320,6 +320,12 @@ However, illegal escape sequence must still be represented in the "cooked" repre
 
 They will show up as `undefined` element in the "cooked" array:
 
+>```
+> function latex(str) { 
+>  return { "cooked": str[0], "raw": str.raw[0] }
+> } 
+>```
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
