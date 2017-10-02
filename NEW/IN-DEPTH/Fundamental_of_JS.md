@@ -330,6 +330,8 @@ They will show up as `undefined` element in the "cooked" array:
 > // { cooked: undefined, raw: "\\unicode" }
 >```
 
+Note that the escape sequence restriction is only dropped from `tagged` template literals and not from `untagged` template literals:
+
 
 ### Comments
 JavaScript has two kinds of comments: single-line comments and multiline comments.
