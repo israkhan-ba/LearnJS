@@ -4107,7 +4107,11 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 **_Syntax_**
  String literals take the forms:
 
-
+>```
+> 'string text'
+> "string text"
+> "中文 español deutsch English हिन्दी العربية português বাংলা русский 日本語 ਪੰਜਾਬੀ 한국어 தமிழ் עברית"
+>```
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
