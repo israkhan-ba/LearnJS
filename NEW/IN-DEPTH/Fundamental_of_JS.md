@@ -4113,6 +4113,10 @@ The first parameter of replace must be a regular expression with a /g flag; othe
 > "中文 español deutsch English हिन्दी العربية português বাংলা русский 日本語 ਪੰਜਾਬੀ 한국어 தமிழ் עברית"
 >```
 
+Strings can also be created using the String global object directly:
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
