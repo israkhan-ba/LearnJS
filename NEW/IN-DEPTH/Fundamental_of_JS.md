@@ -4133,6 +4133,9 @@ checking for the existence or location of substrings with the indexOf() method,
 or extracting substrings with the substring() method.
 
 
+#### Character Access
+
+
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
