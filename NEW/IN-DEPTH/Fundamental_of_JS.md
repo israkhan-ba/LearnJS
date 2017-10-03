@@ -4137,6 +4137,8 @@ or extracting substrings with the substring() method.
 
  There are two ways to access an individual character in a string.
  
+  The first is the charAt() method:
+  
  
 #### Template Literals
 
