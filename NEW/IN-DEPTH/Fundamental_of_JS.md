@@ -4122,7 +4122,8 @@ Strings can also be created using the String global object directly:
 
 **_Parameters_**
 
-
+**`thing`**
+ Anything to be converted to a string. 
 
 
 ### Math
