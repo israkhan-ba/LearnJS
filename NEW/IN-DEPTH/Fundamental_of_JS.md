@@ -4126,6 +4126,9 @@ Strings can also be created using the String global object directly:
  Anything to be converted to a string. 
 
 
+Strings are useful for holding data that can be represented in text form.
+
+
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
