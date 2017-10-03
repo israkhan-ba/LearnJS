@@ -4120,6 +4120,11 @@ Strings can also be created using the String global object directly:
 >```
 
 
+**_Parameters_**
+
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
