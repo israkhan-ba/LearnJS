@@ -4127,6 +4127,7 @@ Strings can also be created using the String global object directly:
 
 
 Strings are useful for holding data that can be represented in text form.
+Some of the most-used operations on strings are to check their `length`,  
 
 
 #### Template Literals
