@@ -4130,7 +4130,13 @@ Strings can also be created using the String global object directly:
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
 
-
+>```
+> `hello world`
+> `hello!
+>  world!`
+> `hello ${who}`
+> escape `<a>${who}</a>`
+>```
 
 
 ### Math
