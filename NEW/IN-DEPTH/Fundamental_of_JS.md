@@ -4126,9 +4126,11 @@ Strings can also be created using the String global object directly:
  Anything to be converted to a string. 
 
 
-Strings are useful for holding data that can be represented in text form.
+Strings are useful for holding data that can be represented in text form.  
 Some of the most-used operations on strings are to check their `length`,  
 to build and concatenate them using the + and += string operators,  
+checking for the existence or location of substrings with the indexOf() method,   
+or extracting substrings with the substring() method.
 
 
 #### Template Literals
