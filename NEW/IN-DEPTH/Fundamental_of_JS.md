@@ -4135,7 +4135,9 @@ or extracting substrings with the substring() method.
 
 #### Character Access
 
-
+ There are two ways to access an individual character in a string.
+ 
+ 
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
