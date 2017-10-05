@@ -4156,6 +4156,8 @@ or extracting substrings with the substring() method.
 #### Comparing Strings
 
  C developers have the strcmp() function for comparing strings.
+ In JavaScript, you just use the less-than and greater-than operators:
+ 
  
  
 #### Template Literals
