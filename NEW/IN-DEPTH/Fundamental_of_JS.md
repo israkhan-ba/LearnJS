@@ -4152,6 +4152,10 @@ or extracting substrings with the substring() method.
  For character access using bracket notation, attempting to delete or assign a value to these properties will not succeed.
  The properties involved are neither writable nor configurable.
  
+
+#### Comparing Strings
+
+
  
 #### Template Literals
 
