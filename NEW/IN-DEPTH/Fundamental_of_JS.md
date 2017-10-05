@@ -4155,7 +4155,8 @@ or extracting substrings with the substring() method.
 
 #### Comparing Strings
 
-
+ C developers have the strcmp() function for comparing strings.
+ 
  
 #### Template Literals
 
