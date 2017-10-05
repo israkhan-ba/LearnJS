@@ -4158,11 +4158,7 @@ or extracting substrings with the substring() method.
  C developers have the strcmp() function for comparing strings.
  In JavaScript, you just use the less-than and greater-than operators:
  
->```
-> var a = 'a';
-> var b = 'b';
->```
-
+ 
  
 #### Template Literals
 
