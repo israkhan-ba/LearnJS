@@ -4160,7 +4160,11 @@ or extracting substrings with the substring() method.
  
 >```
 var a = 'a';
-var b = 'b'; 
+var b = 'b';
+
+if (a < b) { // true
+  console.log(a + ' is less than ' + b);
+}
 >```
  
  
