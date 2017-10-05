@@ -4170,7 +4170,8 @@ or extracting substrings with the substring() method.
 >   console.log(a + ' and ' + b + ' are equal.');
 > }
 >```
- 
+
+A similar result can be achieved using the `localeCompare()` method inherited by `String` instances.
  
  
 #### Template Literals
