@@ -4149,6 +4149,7 @@ or extracting substrings with the substring() method.
 > return 'cat'[1]; // returns "a"
 >```
 
+ For character access using bracket notation, attempting to delete or assign a value to these properties will not succeed.
 
  
 #### Template Literals
