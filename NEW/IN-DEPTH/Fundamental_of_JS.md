@@ -4143,6 +4143,9 @@ or extracting substrings with the substring() method.
 > return 'cat'.charAt(1); // returns "a"
 >```
 
+ The other way (introduced in ECMAScript 5) is to treat the string as an array-like object, where individual characters correspond to a numerical index:
+ 
+ 
 
  
 #### Template Literals
