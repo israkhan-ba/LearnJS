@@ -4187,7 +4187,7 @@ A similar result can be achieved using the `localeCompare()` method inherited by
  
 >```
 > var s_prim = 'foo';
-> 
+>
 > console.log(typeof s_prim); // Logs "string"
 >```
 
