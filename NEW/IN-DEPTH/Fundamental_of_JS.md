@@ -4211,6 +4211,9 @@ For these reasons, code may break when it encounters `String` objects when it ex
 
 A `String` object can always be converted to its primitive counterpart with the `valueOf()` method.
 
+>```
+> console.log(eval(s2.valueOf())); // returns the number 4
+>```
 
  
 #### Template Literals
