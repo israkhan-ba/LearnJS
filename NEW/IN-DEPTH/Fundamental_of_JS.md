@@ -4174,6 +4174,10 @@ or extracting substrings with the substring() method.
 A similar result can be achieved using the `localeCompare()` method inherited by `String` instances.
  
  
+#### Distinction between String Primitives and `String` Objects
+
+
+
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
