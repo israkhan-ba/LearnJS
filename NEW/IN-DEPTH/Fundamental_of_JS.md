@@ -4187,8 +4187,10 @@ A similar result can be achieved using the `localeCompare()` method inherited by
  
 >```
 > var s_prim = 'foo';
->
 > console.log(typeof s_prim); // Logs "string"
+>
+> var s_obj = new String(s_prim);
+> console.log(typeof s_obj);  // Logs "object"
 >```
 
 #### Template Literals
