@@ -4193,6 +4193,11 @@ A similar result can be achieved using the `localeCompare()` method inherited by
 > console.log(typeof s_obj);  // Logs "object"
 >```
 
+
+ String primitives and `String` objects also give different results when using `eval()`.
+ 
+ 
+ 
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
