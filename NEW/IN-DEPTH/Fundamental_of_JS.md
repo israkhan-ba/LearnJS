@@ -4198,7 +4198,12 @@ A similar result can be achieved using the `localeCompare()` method inherited by
  Primitives passed to `eval` are treated as source code;
  `String` objects are treated as all other objects are, by returning the object
  
- 
+**For example:**
+>``` 
+> var s1 = '2 + 2';             // creates a string primitive
+> console.log(eval(s1));        // returns the number 4
+>```
+
  
 #### Template Literals
 
