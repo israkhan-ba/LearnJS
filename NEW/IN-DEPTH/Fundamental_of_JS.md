@@ -4176,6 +4176,8 @@ A similar result can be achieved using the `localeCompare()` method inherited by
  
 #### Distinction between String Primitives and `String` Objects
 
+ Note that JavaScript distinguishes between `String` objects and primitive string values. 
+ (The same is true of `Boolean` and `Numbers`.)
 
 
 #### Template Literals
