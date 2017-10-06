@@ -4207,6 +4207,8 @@ A similar result can be achieved using the `localeCompare()` method inherited by
 > console.log(eval(s2));        // returns the string "2 + 2"
 >```
 
+For these reasons, code may break when it encounters `String` objects when it expects a primitive string instead, although generally authors need not worry about the distinction.
+
  
 #### Template Literals
 
