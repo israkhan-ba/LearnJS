@@ -4195,7 +4195,7 @@ A similar result can be achieved using the `localeCompare()` method inherited by
 
 
  String primitives and `String` objects also give different results when using `eval()`.
- 
+ Primitives passed to `eval` are treated as source code;
  
  
 #### Template Literals
