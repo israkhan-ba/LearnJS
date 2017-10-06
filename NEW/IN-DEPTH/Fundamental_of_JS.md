@@ -4209,6 +4209,9 @@ A similar result can be achieved using the `localeCompare()` method inherited by
 
 For these reasons, code may break when it encounters `String` objects when it expects a primitive string instead, although generally authors need not worry about the distinction.
 
+A `String` object can always be converted to its primitive counterpart with the `valueOf()` method.
+
+
  
 #### Template Literals
 
