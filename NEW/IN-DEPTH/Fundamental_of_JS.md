@@ -4180,6 +4180,8 @@ A similar result can be achieved using the `localeCompare()` method inherited by
  (The same is true of `Boolean` and `Numbers`.)
 
  String literals (denoted by double or single quotes) and strings returned from `String` calls in a non-constructor context (i.e., without using the `new` keyword) are primitive strings.
+ JavaScript automatically converts primitives to `String` objects, so that it's possible to use `String` object methods for primitive strings.
+ 
  
 
 #### Template Literals
