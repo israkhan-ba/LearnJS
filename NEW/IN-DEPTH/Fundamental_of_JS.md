@@ -4235,6 +4235,13 @@ A `String` object can always be converted to its primitive counterpart with the 
  Make sure there is no space or any other character after the backslash (except for a line break), or as an indent; 
  otherwise it will not work. That form looks like this:
  
+>```
+> let longString = "This is a very long string which needs \
+>                   to wrap across multiple lines because \
+>                   otherwise my code is unreadable.";
+>```
+
+ 
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
