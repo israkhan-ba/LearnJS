@@ -4215,7 +4215,11 @@ A `String` object can always be converted to its primitive counterpart with the 
 > console.log(eval(s2.valueOf())); // returns the number 4
 >```
 
- 
+#### Long Literal Strings
+
+
+
+
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
