@@ -4241,6 +4241,8 @@ A `String` object can always be converted to its primitive counterpart with the 
 >                   otherwise my code is unreadable.";
 >```
 
+ Both of these result in identical strings being created.
+ 
  
 #### Template Literals
 
