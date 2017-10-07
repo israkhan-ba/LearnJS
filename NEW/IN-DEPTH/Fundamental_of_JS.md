@@ -4224,6 +4224,11 @@ A `String` object can always be converted to its primitive counterpart with the 
  
  You can use the + operator to append multiple strings together, like this:
 
+>```
+> let longString = "This is a very long string which needs " +
+>                 "to wrap across multiple lines because " +
+>                 "otherwise my code is unreadable.";
+>```
 
 #### Template Literals
 
