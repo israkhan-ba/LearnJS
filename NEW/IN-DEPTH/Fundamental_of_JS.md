@@ -4230,6 +4230,9 @@ A `String` object can always be converted to its primitive counterpart with the 
 >                 "otherwise my code is unreadable.";
 >```
 
+ Or you can use the backslash character ("\") at the end of each line to indicate that the string will continue on the next line.
+ 
+ 
 #### Template Literals
 
 Starting with ECMAScript 2015, string literals can also be so-called Template literals:
