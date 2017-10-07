@@ -4233,8 +4233,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  Or you can use the backslash character ("\") at the end of each line to indicate that the string will continue on the next line.
  
  Make sure there is no space or any other character after the backslash (except for a line break), or as an indent; 
- 
- 
+ otherwise it will not work. That form looks like this:
  
 #### Template Literals
 
