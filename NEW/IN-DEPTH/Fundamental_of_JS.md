@@ -4218,7 +4218,7 @@ A `String` object can always be converted to its primitive counterpart with the 
 #### Long Literal Strings
 
  Sometimes, your code will include strings which are very long.
- 
+ Rather than having lines that go on endlessly, or wrap at the whim of your editor, you may wish to specifically break the string into multiple lines in the source code without affecting the actual string contents.
 
 
 #### Template Literals
