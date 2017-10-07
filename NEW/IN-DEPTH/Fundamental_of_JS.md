@@ -4217,7 +4217,8 @@ A `String` object can always be converted to its primitive counterpart with the 
 
 #### Long Literal Strings
 
-
+ Sometimes, your code will include strings which are very long.
+ 
 
 
 #### Template Literals
