@@ -4222,6 +4222,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  
  There are two ways you can do this.
  
+ You can use the + operator to append multiple strings together, like this:
 
 
 #### Template Literals
