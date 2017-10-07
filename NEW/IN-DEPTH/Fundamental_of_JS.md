@@ -4246,6 +4246,9 @@ A `String` object can always be converted to its primitive counterpart with the 
 
 #### Escape Notation
  
+ Beside regular, printable characters, special characters can be encoded using escape notation:
+ 
+ 
 
 #### Template Literals
 
