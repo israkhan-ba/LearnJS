@@ -4254,6 +4254,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  \" 	double quote
  \\ 	backslash
  \n 	new line
+ \r 	carriage return
  
  
 
