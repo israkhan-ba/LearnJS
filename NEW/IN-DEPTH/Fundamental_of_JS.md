@@ -4251,6 +4251,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  Code 	Output
  \0 	the NULL character
  \' 	single quote
+ \" 	double quote
  
  
 
