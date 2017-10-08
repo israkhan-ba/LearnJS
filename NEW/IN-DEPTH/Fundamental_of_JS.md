@@ -4255,6 +4255,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  \\ 	backslash
  \n 	new line
  \r 	carriage return
+ \v 	vertical tab
  
  
 
