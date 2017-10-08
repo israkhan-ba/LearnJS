@@ -4248,6 +4248,10 @@ A `String` object can always be converted to its primitive counterpart with the 
  
  Beside regular, printable characters, special characters can be encoded using escape notation:
  
+ Code 	Output
+ \0 	the NULL character
+ 
+ 
  
 
 #### Template Literals
