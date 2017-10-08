@@ -4253,6 +4253,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  \' 	single quote
  \" 	double quote
  \\ 	backslash
+ \n 	new line
  
  
 
