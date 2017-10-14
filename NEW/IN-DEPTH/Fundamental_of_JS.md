@@ -4257,6 +4257,8 @@ A `String` object can always be converted to its primitive counterpart with the 
  \r 	carriage return
  \v 	vertical tab
  \t 	tab
+ \b 	backspace
+ 
  
 
 #### Template Literals
