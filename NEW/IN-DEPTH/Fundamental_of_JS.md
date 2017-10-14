@@ -4259,6 +4259,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  \t 	tab
  \b 	backspace
  \f 	form feed
+ \uXXXX 	unicode codepoint
  
  
 
