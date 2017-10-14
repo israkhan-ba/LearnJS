@@ -4263,6 +4263,9 @@ A `String` object can always be converted to its primitive counterpart with the 
  \u{X} ... unicode codepoint
  \u{XXXXXX} 	
  \xXX 	the Latin-1 character
+ 
+ Unlike some other languages, JavaScript makes no distinction between single-quoted strings and double-quoted strings
+ 
 
 #### Template Literals
 
