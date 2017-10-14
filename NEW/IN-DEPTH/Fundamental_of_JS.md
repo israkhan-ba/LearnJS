@@ -4132,12 +4132,19 @@ to build and concatenate them using the + and += string operators,
 checking for the existence or location of substrings with the indexOf() method,   
 or extracting substrings with the substring() method.
 
+
 **_Properties_**
 
 ** `String.prototype` **
     Allows the addition of properties to a String object. 
 
 
+**_Methods_**
+
+** `String.fromCharCode()` **
+    Returns a string created by using the specified sequence of Unicode values.
+    
+    
 #### Character Access
 
  There are two ways to access an individual character in a string.
