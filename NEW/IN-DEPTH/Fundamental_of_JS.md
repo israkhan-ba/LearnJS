@@ -4260,7 +4260,8 @@ A `String` object can always be converted to its primitive counterpart with the 
  \b 	backspace
  \f 	form feed
  \uXXXX 	unicode codepoint
- 
+ \u{X} ... unicode codepoint
+ \u{XXXXXX} 	
  
 
 #### Template Literals
