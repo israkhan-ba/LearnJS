@@ -4144,6 +4144,10 @@ or extracting substrings with the substring() method.
 ** `String.fromCharCode()` **
     Returns a string created by using the specified sequence of Unicode values.
     
+** `String.fromCodePoint()` **
+    Returns a string created by using the specified sequence of code points.    
+    
+    
     
 #### Character Access
 
