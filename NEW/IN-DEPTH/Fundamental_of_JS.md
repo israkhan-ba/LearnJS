@@ -4258,6 +4258,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  \v 	vertical tab
  \t 	tab
  \b 	backspace
+ \f 	form feed
  
  
 
