@@ -4262,7 +4262,7 @@ A `String` object can always be converted to its primitive counterpart with the 
  \uXXXX 	unicode codepoint
  \u{X} ... unicode codepoint
  \u{XXXXXX} 	
- 
+ \xXX 	the Latin-1 character
 
 #### Template Literals
 
