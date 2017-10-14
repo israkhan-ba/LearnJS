@@ -4132,6 +4132,11 @@ to build and concatenate them using the + and += string operators,
 checking for the existence or location of substrings with the indexOf() method,   
 or extracting substrings with the substring() method.
 
+**_Properties_**
+
+** `String.prototype` **
+    Allows the addition of properties to a String object. 
+
 
 #### Character Access
 
