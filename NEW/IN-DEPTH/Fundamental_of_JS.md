@@ -4247,22 +4247,23 @@ A `String` object can always be converted to its primitive counterpart with the 
 #### Escape Notation
  
  Beside regular, printable characters, special characters can be encoded using escape notation:
- 
- Code 	Output
- \0 	the NULL character
- \' 	single quote
- \" 	double quote
- \\ 	backslash
- \n 	new line
- \r 	carriage return
- \v 	vertical tab
- \t 	tab
- \b 	backspace
- \f 	form feed
- \uXXXX 	unicode codepoint
- \u{X} ... unicode codepoint
- \u{XXXXXX} 	
- \xXX 	the Latin-1 character
+
+|   Code        |	  Output                  |
+|  :---:        | --------------------------- |
+|   \0 	        |   the NULL character        |
+|   \' 	        |   single quote              |
+|   \" 	        |   double quote              |
+|   \\ 	        |   backslash                 |
+|   \n 	        |   new line                  |
+|   \r 	        |   carriage return           |
+|   \v 	        |   vertical tab              |
+|   \t 	        |   tab                       |
+|   \b 	        |   backspace                 |
+|   \f 	        |   form feed                 |
+|   \uXXXX 	    |   unicode codepoint         |
+|   \u{X} ...   |   unicode codepoint         |
+|   \u{XXXXXX}  | 	                          |
+|   \xXX 	    |   the Latin-1 character     |
  
  Unlike some other languages, JavaScript makes no distinction between single-quoted strings and double-quoted strings; therefore, the escape sequences above work in strings created with either single or double quotes.
  
