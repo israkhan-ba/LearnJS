@@ -4147,8 +4147,10 @@ or extracting substrings with the substring() method.
 ** `String.fromCodePoint()` **
     Returns a string created by using the specified sequence of code points.    
     
-    
-    
+** `String.raw()` **
+    Returns a string created from a raw template string.   
+
+
 #### Character Access
 
  There are two ways to access an individual character in a string.
