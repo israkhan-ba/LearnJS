@@ -4306,6 +4306,12 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  Every JavaScript function is actually a `Function` object.
 
+**_Syntax_**
+
+>```
+> new Function ([arg1[, arg2[, ...argN]],] functionBody)
+>```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
