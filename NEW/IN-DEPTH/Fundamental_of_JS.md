@@ -4304,6 +4304,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  The __`Function` constructor__ creates a new `Function` object. 
  Calling the constructor directly can create functions dynamically, but suffers from security and performance issues similar to `eval`.
 
+ Every JavaScript function is actually a `Function` object.
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
