@@ -4314,7 +4314,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  **Parameters**
     `arg1, arg2, ... argN`
-
+    Names to be used by the function as formal argument names.
+    
+    
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
