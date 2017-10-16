@@ -4342,7 +4342,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  **Properties**
 
     `Function.arguments`
-    
+        An array corresponding to the arguments passed to a function. This is deprecated as property of `Function`. Use the `arguments` object available within the function instead.
+ 
+ 
  
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
