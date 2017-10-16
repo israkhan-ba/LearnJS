@@ -4332,7 +4332,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  
  
  **_Properties and Methods of `Function`_**
- 
+ The global `Function` object has no methods or properties of its own.
  
  
 ### Math
