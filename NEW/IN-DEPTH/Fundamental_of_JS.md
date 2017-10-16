@@ -4331,6 +4331,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  Invoking the `Function` constructor as a function (without using the new operator) has the same effect as invoking it as a constructor.
  
  
+ **_Properties and Methods of `Function`_**
+ 
+ 
  
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
