@@ -4328,6 +4328,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  
  All arguments passed to the function are treated as the names of the identifiers of the parameters in the function to be created, in the order in which they are passed.
  
+ Invoking the `Function` constructor as a function (without using the new operator) has the same effect as invoking it as a constructor.
+ 
+ 
  
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
