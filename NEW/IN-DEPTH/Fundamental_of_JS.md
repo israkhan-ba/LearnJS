@@ -4324,6 +4324,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 
  `Function` objects created with the `Function` constructor are parsed when the function is created.
+ This is less efficient than declaring a function with a function expression or function statement and calling it within your code
+ 
  
  
 ### Math
