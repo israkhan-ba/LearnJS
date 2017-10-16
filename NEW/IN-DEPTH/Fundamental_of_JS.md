@@ -4334,6 +4334,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  **_Properties and Methods of `Function`_**
  The global `Function` object has no methods or properties of its own.
  
+ However, since it is a function itself, it does inherit some methods and properties through the prototype chain from `Function.prototype`.
+ 
  
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
