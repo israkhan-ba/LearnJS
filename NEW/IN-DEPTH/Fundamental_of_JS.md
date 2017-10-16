@@ -4337,6 +4337,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  However, since it is a function itself, it does inherit some methods and properties through the prototype chain from `Function.prototype`.
  
  
+ **_`Function` prototype object_**
+ 
+ 
+ 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
