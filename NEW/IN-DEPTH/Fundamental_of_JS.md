@@ -4322,6 +4322,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `functionBody`
         A string containing the JavaScript statements comprising the function definition.
 
+
+ `Function` objects created with the `Function` constructor are parsed when the function is created.
+ 
+ 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
