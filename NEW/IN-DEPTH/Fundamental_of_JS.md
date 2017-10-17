@@ -4359,6 +4359,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Calls a function and sets its this to the provided value, arguments can be passed as an  `Array` object.
 
     `Function.prototype.bind()`
+        Creates a new function which, when called, has its this set to the provided value, with a given sequence of arguments preceding any provided when the new function was called.
     
     
 ### Math
