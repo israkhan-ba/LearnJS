@@ -4356,7 +4356,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  **Methods**
 
     `Function.prototype.apply()`
-    
+        Calls a function and sets its this to the provided value, arguments can be passed as an  `Array` object.
 
 
 ### Math
