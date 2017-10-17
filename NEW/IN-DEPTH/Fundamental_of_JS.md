@@ -4348,6 +4348,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Specifies the number of arguments expected by the function.
  
     `Function.name`
+        The name of the function.
         
 
 
