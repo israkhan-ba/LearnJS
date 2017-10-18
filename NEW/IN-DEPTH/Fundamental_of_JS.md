@@ -4389,7 +4389,11 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  The arguments "`a`" and "`b`" are formal argument names that are used in the function body, "`return a + b`".
         
-        
+    
+    Difference between Function constructor and function declaration
+    
+    
+    
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
