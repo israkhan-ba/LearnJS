@@ -4376,7 +4376,16 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
     Specifying arguments with the `Function` constructor
         The following code creates a `Function` object that takes two arguments.
-        
+>```
+> // Example can be run directly in your JavaScript console
+> 
+> // Create a function that takes two arguments and returns the sum of those arguments
+> var adder = new Function('a', 'b', 'return a + b');
+> 
+> // Call the function
+> adder(2, 6);
+> // > 8
+>```
         
         
 ### Math
