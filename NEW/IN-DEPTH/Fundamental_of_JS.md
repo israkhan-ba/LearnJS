@@ -4365,7 +4365,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Calls (executes) a function and sets its this to the provided value, arguments can be passed as they are.
         
     `Function.prototype.toString()`
-        
+        Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
         
         
 ### Math
