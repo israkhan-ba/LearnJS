@@ -4369,7 +4369,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
      
  **_`Function` instances_**
-
+    `Function` instances inherit methods and properties from `Function.prototype`.
         
         
 ### Math
