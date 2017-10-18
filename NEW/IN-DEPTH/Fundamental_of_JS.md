@@ -4367,6 +4367,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Function.prototype.toString()`
         Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
         
+     
+ **_`Function` instances_**
+
+        
         
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
