@@ -4364,6 +4364,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Function.prototype.call()`
         Calls (executes) a function and sets its this to the provided value, arguments can be passed as they are.
         
+    `Function.prototype.toString()`
+        
+        
         
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
