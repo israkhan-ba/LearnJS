@@ -4391,7 +4391,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
     
     Difference between Function constructor and function declaration
-    
+        Functions created with the `Function` constructor do not create closures to their creation contexts; they always are created in the global scope. 
+        When running them, they will only be able to access their own local variables and global ones, not the ones from the scope in which the `Function` constructor was called. 
+        This is different from using `eval` with code for a function expression.
     
     
 ### Math
