@@ -4372,7 +4372,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Function` instances inherit methods and properties from `Function.prototype`.
     As with all constructors, you can change the constructor's prototype object to make changes to all `Function` instances.
     
-    
+    **Examples**
+        
+    Specifying arguments with the `Function` constructor
+        
         
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
