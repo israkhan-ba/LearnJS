@@ -4386,6 +4386,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > adder(2, 6);
 > // > 8
 >```
+
+ The arguments "`a`" and "`b`" are formal argument names that are used in the function body, "`return a + b`".
         
         
 ### Math
