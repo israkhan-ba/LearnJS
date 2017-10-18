@@ -4375,6 +4375,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     **Examples**
         
     Specifying arguments with the `Function` constructor
+        The following code creates a `Function` object that takes two arguments.
+        
         
         
 ### Math
