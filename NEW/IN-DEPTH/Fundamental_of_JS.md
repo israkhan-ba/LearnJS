@@ -4441,7 +4441,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 
  The `Object` constructor creates an object wrapper for the given value.
-
+ If the value is null or undefined, it will create and return an empty object
+ 
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
