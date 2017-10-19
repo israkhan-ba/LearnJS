@@ -4426,6 +4426,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 >```
 > // Object initialiser or literal
 > { [ nameValuePair1[, nameValuePair2[, ...nameValuePairN] ] ] }
+> 
+> // Called as a constructor
+> new Object([value])
 >```
 
 ### Math
