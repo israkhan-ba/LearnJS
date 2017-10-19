@@ -4442,6 +4442,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  The `Object` constructor creates an object wrapper for the given value.
  If the value is null or undefined, it will create and return an empty object, otherwise, it will return an object of a Type that corresponds to the given value.
+ If the value is an object already, it will return the value.
  
 
 ### Math
