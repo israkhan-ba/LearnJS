@@ -4421,7 +4421,12 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  The `Object` constructor creates an object wrapper.
  
- 
+ **_Syntax_**
+
+>```
+> // Object initialiser or literal
+> { [ nameValuePair1[, nameValuePair2[, ...nameValuePairN] ] ] }
+>```
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
