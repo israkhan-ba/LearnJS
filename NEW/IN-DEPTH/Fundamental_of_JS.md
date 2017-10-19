@@ -4436,6 +4436,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  `nameValuePair1, nameValuePair2, ... nameValuePairN`
     Pairs of names (strings) and values (any value) where the name is separated from the value by a colon.
 
+ `value`
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
