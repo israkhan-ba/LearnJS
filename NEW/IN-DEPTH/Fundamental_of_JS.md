@@ -4450,7 +4450,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  **_Properties of the `Object` constructor_**
  
     `Object.length`
-
+        Has a value of 1.
+        
+        
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
