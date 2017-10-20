@@ -4447,6 +4447,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  When called in a non-constructor context, `Object` behaves identically to `new Object()`.
 
 
+ **_Properties of the `Object` constructor_**
+
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
