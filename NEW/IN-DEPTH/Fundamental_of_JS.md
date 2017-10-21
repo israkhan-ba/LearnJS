@@ -4479,7 +4479,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Object.getOwnPropertyDescriptor()`
         Returns a property descriptor for a named property on an object.
         
-        
+    `Object.getOwnPropertyDescriptors()`
     
     
     
