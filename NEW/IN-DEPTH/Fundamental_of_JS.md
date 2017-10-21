@@ -4467,6 +4467,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Object.defineProperty()`
         Adds the named property described by a given descriptor to an object.
     
+    `Object.defineProperties()`
+        
     
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
