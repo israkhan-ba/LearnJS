@@ -4471,7 +4471,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Adds the named properties described by the given descriptors to an object.
     
     `Object.entries()`
-    
+        Returns an array of a given object's own enumerable property `[key, value]` pairs.
     
     
 ### Math
