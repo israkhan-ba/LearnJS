@@ -4492,7 +4492,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Returns the prototype of the specified object.
     
     `Object.is()`
-    
+        Compares if two values are the same value. 
+        Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison).
     
     
 ### Math
