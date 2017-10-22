@@ -4496,7 +4496,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison).
     
     `Object.isExtensible()`
-    
+        Determines if extending of an object is allowed.
+        
+        
     
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
