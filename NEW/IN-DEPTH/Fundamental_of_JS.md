@@ -4504,6 +4504,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Object.isSealed()`
         Determines if an object is sealed.
         
+    `Object.keys()`
+    
     
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
