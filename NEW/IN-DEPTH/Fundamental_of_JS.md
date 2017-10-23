@@ -4513,6 +4513,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Object.seal()`
         Prevents other code from deleting properties of an object.
     
+    `Object.setPrototypeOf()`
+    
+    
     
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
