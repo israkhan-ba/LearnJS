@@ -4505,7 +4505,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Determines if an object is sealed.
         
     `Object.keys()`
-        Returns an array containing the names of all of the given object's own enumerable properties.
+        Returns an array containing the names of all of the given object's __own__ enumerable properties.
         
     `Object.preventExtensions()`
         Prevents any extensions of an object.
@@ -4514,7 +4514,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Prevents other code from deleting properties of an object.
     
     `Object.setPrototypeOf()`
-        Sets the prototype (i.e., the internal [[Prototype]] property)
+        Sets the prototype (i.e., the internal `[[Prototype]]` property)
     
     `Object.values()`
         Returns an array of a given object's own enumerable values.
