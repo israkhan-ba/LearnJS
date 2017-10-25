@@ -4526,6 +4526,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  all objects inherit methods and properties from `Object.prototype`, 
  although they may be overridden.
  
+ For example, other constructors' prototypes override the `constructor` property and provide their own `toString()` methods.
+ 
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
