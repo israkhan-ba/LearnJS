@@ -4536,6 +4536,11 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Specifies the function that creates an object's prototype.
 
 
+**Methods**
+    
+    `Object.prototype.hasOwnProperty()`
+        
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
