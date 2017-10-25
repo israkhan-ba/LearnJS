@@ -4529,6 +4529,12 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  For example, other constructors' prototypes override the `constructor` property and provide their own `toString()` methods.
  Changes to the `Object` prototype object are propagated to all objects unless the properties and methods subject to those changes are overridden further along the prototype chain.
 
+
+**Properties**
+
+    `Object.prototype.constructor`
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
