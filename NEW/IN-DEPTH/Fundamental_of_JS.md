@@ -4518,8 +4518,12 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
     `Object.values()`
         Returns an array of a given object's own enumerable values.
-        
-    
+
+
+**_Object `instances` and Object `prototype` object_**
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
