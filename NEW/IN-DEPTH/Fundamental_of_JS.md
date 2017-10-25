@@ -4523,7 +4523,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 **_`Object` instances and `Object` prototype object_**
 
  All objects in JavaScript are descended from `Object`;
- 
+ all objects inherit methods and properties from `Object.prototype`, 
+ although they may be overridden.
  
 
 ### Math
