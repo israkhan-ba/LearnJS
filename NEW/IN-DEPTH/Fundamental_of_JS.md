@@ -4543,6 +4543,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     `Object.prototype.isPrototypeOf()`
         Returns a boolean indicating whether the object this method is called upon is in the prototype chain of the specified object.
+        
+    `Object.prototype.propertyIsEnumerable()`
+    
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
