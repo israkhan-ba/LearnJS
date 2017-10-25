@@ -4541,6 +4541,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Object.prototype.hasOwnProperty()`
         Returns a boolean indicating whether an object contains the specified property as a direct property of that object and not inherited through the prototype chain.
 
+    `Object.prototype.isPrototypeOf()`
+        
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
