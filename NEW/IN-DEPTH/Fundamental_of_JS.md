@@ -4574,7 +4574,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     >```
     
     Using `Object` to create `Boolean` objects
-
+        The following examples store `Boolean` objects in `o`:
 
 
 ### Math
