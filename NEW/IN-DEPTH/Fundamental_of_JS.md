@@ -4556,6 +4556,11 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `Object.prototype.valueOf()`
 
 
+**_Examples_**
+    
+    Using `Object` given `undefined` and `null` types
+        The following examples store an empty `Object` object in `o`:
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
