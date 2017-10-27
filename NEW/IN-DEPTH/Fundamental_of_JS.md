@@ -4573,6 +4573,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     > var o = new Object(null);
     >```
     
+    Using `Object` to create `Boolean` objects
+
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
