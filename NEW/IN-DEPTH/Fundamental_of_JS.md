@@ -4576,6 +4576,16 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     Using `Object` to create `Boolean` objects
         The following examples store `Boolean` objects in `o`:
 
+    >```
+    > // equivalent to o = new Boolean(true);
+    > var o = new Object(true);
+    >```
+    
+    >```
+    > // equivalent to o = new Boolean(false);
+    > var o = new Object(Boolean());
+    >```
+    
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
