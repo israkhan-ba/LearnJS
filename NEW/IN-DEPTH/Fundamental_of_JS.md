@@ -4657,7 +4657,9 @@ E.g.:
 > renderer.3d.setTexture(model, 'character.png');     // a syntax error
 > renderer['3d'].setTexture(model, 'character.png');  // works properly
 >```
-    
+
+Note that in the `3d` example, `'3d'` had to be quoted.
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
