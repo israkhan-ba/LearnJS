@@ -4655,6 +4655,7 @@ E.g.:
 
 >```
 > renderer.3d.setTexture(model, 'character.png');     // a syntax error
+> renderer['3d'].setTexture(model, 'character.png');  // works properly
 >```
     
 
