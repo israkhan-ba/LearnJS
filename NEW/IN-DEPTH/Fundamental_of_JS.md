@@ -4615,7 +4615,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  Neither the length of a JavaScript array nor the types of its elements are fixed.
  Since an array's length can change at any time, and data can be stored at non-contiguous locations in the array, JavaScript arrays are not guaranteed to be dense; this depends on how the programmer chooses to use them.
  
- In general, these are convenient characteristics.
+ In general, these are convenient characteristics; but if these features are not desirable for your particular use.
 
 
 ### Math
