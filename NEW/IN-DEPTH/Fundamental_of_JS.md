@@ -4623,6 +4623,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  The array's object properties and list of array elements are separate, and the array's traversal and mutation operations cannot be applied to these named properties.
  
 
+ ** Accessing array elements **
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
