@@ -4631,6 +4631,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > var arr = ['this is the first element', 'this is the second element'];
 > console.log(arr[0]);              // logs 'this is the first element'
 > console.log(arr[1]);              // logs 'this is the second element'
+> console.log(arr[arr.length - 1]); // logs 'this is the last element'
 >```
 
 
