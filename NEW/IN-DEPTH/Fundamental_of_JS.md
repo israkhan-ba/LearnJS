@@ -4652,6 +4652,10 @@ E.g.:
 > console.log(years.0);   // a syntax error
 > console.log(years[0]);  // works properly
 >```
+
+>```
+> renderer.3d.setTexture(model, 'character.png');     // a syntax error
+>```
     
 
 ### Math
