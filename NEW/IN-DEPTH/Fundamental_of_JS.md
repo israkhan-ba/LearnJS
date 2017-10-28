@@ -4606,8 +4606,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         Note that this special case only applies to JavaScript arrays created with the `Array` constructor, not array literals created with the bracket syntax.
 
     `arrayLength`
-        If the only argument passed to the Array constructor is an integer between 0 and 232-1 (inclusive), this returns a new JavaScript array with its length property set to that number
-    
+        If the only argument passed to the `Array` constructor is an integer between 0 and 232-1 (inclusive), this returns a new JavaScript array with its `length` property set to that number
+        (Note: this implies an array of `arrayLength` empty slots, not slots with actual `undefined` values).
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
