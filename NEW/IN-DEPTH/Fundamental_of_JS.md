@@ -4613,7 +4613,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
  Neither the length of a JavaScript array nor the types of its elements are fixed.
- Since an array's length can change at any time, and data can be stored at non-contiguous locations in the array.
+ Since an array's length can change at any time, and data can be stored at non-contiguous locations in the array, JavaScript arrays are not guaranteed to be dense
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
