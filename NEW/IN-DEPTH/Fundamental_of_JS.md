@@ -4659,7 +4659,8 @@ E.g.:
 >```
 
 Note that in the `3d` example, `'3d'` had to be quoted.
-It's possible to quote the JavaScript array indexes as well
+It's possible to quote the JavaScript array indexes as well (e.g., years['2'] instead of years[2]).
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
