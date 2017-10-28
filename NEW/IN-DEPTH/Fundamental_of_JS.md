@@ -4662,6 +4662,7 @@ Note that in the `3d` example, `'3d'` had to be quoted.
 It's possible to quote the JavaScript array indexes as well (e.g., years['2'] instead of years[2]), although it's not necessary. 
 
 The 2 in `years[2]` is coerced into a string by the JavaScript engine through an implicit `toString` conversion.
+It is for this reason that `'2'` and `'02'` would refer to two different slots on the `years` object and the following example could be `true`:
 
 
 ### Math
