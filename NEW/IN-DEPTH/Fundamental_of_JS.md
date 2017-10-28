@@ -4625,7 +4625,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  ** Accessing array elements **
  
-    JavaScript arrays are zero-indexed: the first element of an array is at index `0`
+    JavaScript arrays are zero-indexed: the first element of an array is at index `0`, and the last element is at the index equal to the value of the array's `length` property minus 1.
 
 
 ### Math
