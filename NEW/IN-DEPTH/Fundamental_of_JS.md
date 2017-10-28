@@ -4627,6 +4627,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  
     JavaScript arrays are zero-indexed: the first element of an array is at index `0`, and the last element is at the index equal to the value of the array's `length` property minus 1.
 
+>```
+> var arr = ['this is the first element', 'this is the second element'];
+>```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
