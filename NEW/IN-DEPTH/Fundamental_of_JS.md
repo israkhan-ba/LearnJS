@@ -4601,8 +4601,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 **Parameters**
 
     `elementN`
-        A JavaScript array is initialized with the given elements
-        
+        A JavaScript array is initialized with the given elements, 
+        except in the case where a single argument is passed to the `Array` constructor and that argument is a number (see the arrayLength parameter below).
         
 
 ### Math
