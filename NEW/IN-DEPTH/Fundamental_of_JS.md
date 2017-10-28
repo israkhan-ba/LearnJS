@@ -4675,6 +4675,8 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
 >   'var'  : 'text',
 >   'array': [1, 2, 3, 4]
 > };
+>
+> console.log(promise['var']);
 >```
 
 
