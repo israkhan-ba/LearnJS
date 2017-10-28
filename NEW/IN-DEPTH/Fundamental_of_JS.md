@@ -4620,7 +4620,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  
  Arrays cannot use strings as element indexes, but must use integers.
  Setting or accessing via non-integers using bracket notation (or dot notation) will not set or retrieve an element from the array list itself, but will set or access a variable associated with that array's object property collection.
- The array's object properties and list of array elements are separate.
+ The array's object properties and list of array elements are separate, and the array's traversal and mutation operations cannot be applied to these named properties.
  
 
 ### Math
