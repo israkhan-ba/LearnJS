@@ -4623,6 +4623,37 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  The array's object properties and list of array elements are separate, and the array's traversal and mutation operations cannot be applied to these named properties.
  
 
+ ** Accessing array elements **
+ 
+    JavaScript arrays are zero-indexed: the first element of an array is at index `0`, and the last element is at the index equal to the value of the array's `length` property minus 1.
+
+>```
+> var arr = ['this is the first element', 'this is the second element'];
+> console.log(arr[0]);              // logs 'this is the first element'
+> console.log(arr[1]);              // logs 'this is the second element'
+> console.log(arr[arr.length - 1]); // logs 'this is the last element'
+>```
+
+    Array elements are object properties in the same way that `toString` is a property, but trying to access an element of an array as follows throws a syntax error
+    because the property name is not valid:
+    
+>```
+> console.log(arr.0); // a syntax error
+>```
+    
+    There is nothing special about JavaScript arrays and the properties that cause this.
+    JavaScript properties that begin with a digit cannot be referenced with dot notation; and must be accessed using bracket notation.
+    
+For example, if you had an object with a property named '3d', it can only be referenced using bracket notation.
+
+E.g.:
+>```
+> var years = [1950, 1960, 1970, 1980, 1990, 2000, 2010];
+> console.log(years.0);   // a syntax error
+> console.log(years[0]);  // works properly
+>```
+    
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
