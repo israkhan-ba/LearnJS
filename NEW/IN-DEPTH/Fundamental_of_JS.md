@@ -4588,6 +4588,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
    
    
 ### Array
+ The JavaScript `Array` object is a global object that is used in the construction of arrays; which are high-level, list-like objects.
 
 
 ### Math
