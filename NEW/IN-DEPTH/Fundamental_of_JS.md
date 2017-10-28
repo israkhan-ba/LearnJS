@@ -4645,6 +4645,11 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     JavaScript properties that begin with a digit cannot be referenced with dot notation; and must be accessed using bracket notation.
     
 For example, if you had an object with a property named '3d', it can only be referenced using bracket notation.
+
+E.g.:
+>```
+> var years = [1950, 1960, 1970, 1980, 1990, 2000, 2010];
+>```
     
 
 ### Math
