@@ -4618,7 +4618,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  In general, these are convenient characteristics; but if these features are not desirable for your particular use, you might consider using typed arrays.
  
  
- Arrays cannot use strings as element indexes.
+ Arrays cannot use strings as element indexes, but must use integers.
  
  
 
