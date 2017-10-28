@@ -4585,7 +4585,31 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     > // equivalent to o = new Boolean(false);
     > var o = new Object(Boolean());
     >```
-    
+   
+   
+### Array
+ The JavaScript `Array` object is a global object that is used in the construction of arrays; which are high-level, list-like objects.
+
+**_Syntax_**
+
+>```
+> [element0, element1, ..., elementN]
+> new Array(element0, element1[, ...[, elementN]])
+> new Array(arrayLength)
+>```
+
+**Parameters**
+
+    `elementN`
+        A JavaScript array is initialized with the given elements, 
+        except in the case where a single argument is passed to the `Array` constructor and that argument is a number (see the arrayLength parameter below).
+        Note that this special case only applies to JavaScript arrays created with the `Array` constructor, not array literals created with the bracket syntax.
+
+    `arrayLength`
+        If the only argument passed to the `Array` constructor is an integer between 0 and 232-1 (inclusive), this returns a new JavaScript array with its `length` property set to that number
+        (Note: this implies an array of `arrayLength` empty slots, not slots with actual `undefined` values).
+        If the argument is any other number, a `RangeError` exception is thrown.
+        
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
