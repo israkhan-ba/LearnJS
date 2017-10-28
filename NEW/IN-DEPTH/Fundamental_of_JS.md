@@ -4670,6 +4670,13 @@ It is for this reason that `'2'` and `'02'` would refer to two different slots o
 
 Similarly, object properties which happen to be reserved words(!) can only be accessed as string literals in bracket notation(but it can be accessed by dot notation in firefox 40.0a2 at least):
 
+>```
+> var promise = {
+>   'var'  : 'text',
+>   'array': [1, 2, 3, 4]
+> };
+>```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
