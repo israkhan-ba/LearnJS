@@ -4616,7 +4616,11 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  Since an array's length can change at any time, and data can be stored at non-contiguous locations in the array, JavaScript arrays are not guaranteed to be dense; this depends on how the programmer chooses to use them.
  
  In general, these are convenient characteristics; but if these features are not desirable for your particular use, you might consider using typed arrays.
-
+ 
+ 
+ Arrays cannot use strings as element indexes.
+ 
+ 
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
