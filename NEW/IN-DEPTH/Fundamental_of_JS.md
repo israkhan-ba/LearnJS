@@ -4634,6 +4634,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > console.log(arr[arr.length - 1]); // logs 'this is the last element'
 >```
 
+    Array elements are object properties in the same way that `toString` is a property
+    
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
