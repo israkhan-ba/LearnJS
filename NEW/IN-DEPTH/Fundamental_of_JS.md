@@ -4603,7 +4603,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     `elementN`
         A JavaScript array is initialized with the given elements, 
         except in the case where a single argument is passed to the `Array` constructor and that argument is a number (see the arrayLength parameter below).
-        
+        Note that this special case only applies to JavaScript arrays created with the `Array` constructor, not array literals created with the bracket syntax.
+
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
