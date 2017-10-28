@@ -4640,7 +4640,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 >```
 > console.log(arr.0); // a syntax error
 >```
-
+    
+    There is nothing special about JavaScript arrays and the properties that cause this.
+    
+    
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
