@@ -4664,6 +4664,10 @@ It's possible to quote the JavaScript array indexes as well (e.g., years['2'] in
 The 2 in `years[2]` is coerced into a string by the JavaScript engine through an implicit `toString` conversion.
 It is for this reason that `'2'` and `'02'` would refer to two different slots on the `years` object and the following example could be `true`:
 
+>``
+> console.log(years['2'] != years['02']);
+>```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
