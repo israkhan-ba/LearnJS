@@ -4635,7 +4635,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 >```
 
     Array elements are object properties in the same way that `toString` is a property, but trying to access an element of an array as follows throws a syntax error
-
+    because the property name is not valid:
+    
+    
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
