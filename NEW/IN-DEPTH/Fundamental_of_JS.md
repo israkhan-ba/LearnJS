@@ -4642,7 +4642,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 >```
     
     There is nothing special about JavaScript arrays and the properties that cause this.
-    JavaScript properties that begin with a digit cannot be referenced with dot notation
+    JavaScript properties that begin with a digit cannot be referenced with dot notation; and must be accessed using bracket notation.
     
 
 ### Math
