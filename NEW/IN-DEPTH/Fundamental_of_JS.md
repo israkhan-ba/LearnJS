@@ -4695,6 +4695,9 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
 
 When setting a property on a JavaScript array when the property is a valid array index and that index is outside the current bounds of the array, the engine will update the array's length property accordingly:
 
+>```
+> fruits[5] = 'mango';
+>```
 
 
 ### Math
