@@ -4710,6 +4710,10 @@ Increasing the `length`.
 > console.log(fruits.length); // 10
 >```
 
+Decreasing the `length` property does, however, delete elements.
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
