@@ -4686,6 +4686,10 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
     Several of the built-in array methods (e.g., `join`, `slice`, `indexOf`, etc.) take into account the value of an array's `length` property when they're called.
     Other methods (e.g., `push`, `splice`, etc.) also result in updates to an array's `length` property.
 
+>```
+> var fruits = [];
+>```
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
