@@ -4718,6 +4718,8 @@ Decreasing the `length` property does, however, delete elements.
 > console.log(fruits.length); // 2
 >```
 
+This is explained further on the `Array.length`.
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
