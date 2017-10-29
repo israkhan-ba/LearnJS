@@ -4697,6 +4697,7 @@ When setting a property on a JavaScript array when the property is a valid array
 
 >```
 > fruits[5] = 'mango';
+> console.log(fruits[5]); // 'mango'
 >```
 
 
