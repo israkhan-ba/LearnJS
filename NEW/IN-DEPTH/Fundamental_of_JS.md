@@ -4702,6 +4702,13 @@ When setting a property on a JavaScript array when the property is a valid array
 > console.log(fruits.length); // 6
 >```
 
+Increasing the `length`. 
+
+>```
+> fruits.length = 10;
+> console.log(Object.keys(fruits)); // ['0', '1', '2', '5']
+> console.log(fruits.length); // 10
+>```
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
