@@ -4689,6 +4689,8 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
 >```
 > var fruits = [];
 > fruits.push('banana', 'apple', 'peach');
+> 
+> console.log(fruits.length); // 3
 >```
 
 ### Math
