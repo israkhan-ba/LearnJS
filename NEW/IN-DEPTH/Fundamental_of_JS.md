@@ -4683,7 +4683,7 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
  ** Relationship between `length` and numerical properties ** 
 
     A JavaScript array's `length` property and numerical properties are connected.
-
+    Several of the built-in array methods take into account the value of an array's length property when they're called.
 
 
 ### Math
