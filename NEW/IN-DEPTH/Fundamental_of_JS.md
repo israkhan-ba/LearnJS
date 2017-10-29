@@ -4712,6 +4712,9 @@ Increasing the `length`.
 
 Decreasing the `length` property does, however, delete elements.
 
+>```
+> fruits.length = 2;
+>```
 
 
 ### Math
