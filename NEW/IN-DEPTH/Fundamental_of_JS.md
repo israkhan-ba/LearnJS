@@ -4702,7 +4702,7 @@ When setting a property on a JavaScript array when the property is a valid array
 > console.log(fruits.length); // 6
 >```
 
-Increasing the `length`.
+Increasing the `length`. 
 
 >```
 > fruits.length = 10;
