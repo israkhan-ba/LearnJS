@@ -4693,6 +4693,8 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
 > console.log(fruits.length); // 3
 >```
 
+When setting a property on a JavaScript array when the property is a valid array index and that index is outside the current bounds of the array,
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
