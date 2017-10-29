@@ -4652,7 +4652,33 @@ E.g.:
 > console.log(years.0);   // a syntax error
 > console.log(years[0]);  // works properly
 >```
-    
+
+>```
+> renderer.3d.setTexture(model, 'character.png');     // a syntax error
+> renderer['3d'].setTexture(model, 'character.png');  // works properly
+>```
+
+Note that in the `3d` example, `'3d'` had to be quoted.
+It's possible to quote the JavaScript array indexes as well (e.g., years['2'] instead of years[2]), although it's not necessary. 
+
+The 2 in `years[2]` is coerced into a string by the JavaScript engine through an implicit `toString` conversion.
+It is for this reason that `'2'` and `'02'` would refer to two different slots on the `years` object and the following example could be `true`:
+
+>```
+> console.log(years['2'] != years['02']);
+>```
+
+Similarly, object properties which happen to be reserved words(!) can only be accessed as string literals in bracket notation(but it can be accessed by dot notation in firefox 40.0a2 at least):
+
+>```
+> var promise = {
+>   'var'  : 'text',
+>   'array': [1, 2, 3, 4]
+> };
+>
+> console.log(promise['var']);
+>```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
