@@ -4680,6 +4680,10 @@ Similarly, object properties which happen to be reserved words(!) can only be ac
 >```
 
 
+ ** Relationship between `length` and numerical properties ** 
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
