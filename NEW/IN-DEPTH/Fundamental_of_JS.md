@@ -4739,6 +4739,9 @@ Creating an array using the result of a match
 
  The properties and elements returned from this match are as follows:
  
+ Property/Element 	Description 	                    Example
+ `input` 	        A read-only property that reflects the original string against which the regular expression was matched. 	                    cdbBdbsbz
+
  
  
 ### Math
