@@ -4743,7 +4743,9 @@ Creating an array using the result of a match
  `input` 	        A read-only property that reflects the original string against which the regular expression was matched. 	                    cdbBdbsbz
  `index` 	        A read-only property that is the zero-based index of the match in the string. 	1
  `[0]` 	            A read-only element that specifies the last matched characters. 	dbBd
- 
+ `[1], ...[n]` 	    Read-only elements that specify the parenthesized substring matches, if included in the regular expression. The number of possible parenthesized substrings is unlimited. 	[1]: bB [2]: d
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
