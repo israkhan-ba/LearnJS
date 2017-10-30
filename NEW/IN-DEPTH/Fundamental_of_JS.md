@@ -4774,6 +4774,7 @@ Creating an array using the result of a match
 **_`Array` instances_**
 
     All `Array` instances inherit from `Array.prototype`. 
+    The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
 
 ### Math
