@@ -4724,7 +4724,7 @@ Creating an array using the result of a match
  
  The result of a match between a regular expression and a string can create a JavaScript array.
  This array has properties and elements which provide information about the match.
- Such an array is returned by `RegExp.exec`.
+ Such an array is returned by `RegExp.exec`, `String.match`, and `String.replace`.
  
  
 
