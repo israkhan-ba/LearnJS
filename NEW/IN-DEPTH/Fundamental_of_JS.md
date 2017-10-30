@@ -4726,6 +4726,7 @@ Creating an array using the result of a match
  This array has properties and elements which provide information about the match.
  Such an array is returned by `RegExp.exec`, `String.match`, and `String.replace`.
  
+ To help explain these properties and elements, look at the following example and then refer to the table below:
  
 
 ### Math
