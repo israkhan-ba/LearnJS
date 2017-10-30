@@ -4762,6 +4762,7 @@ Creating an array using the result of a match
 **_Methods_**
 
     `Array.from()`
+        Creates a new Array instance from an array-like or iterable object.
 
 
 ### Math
