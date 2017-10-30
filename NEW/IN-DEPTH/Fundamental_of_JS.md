@@ -4721,6 +4721,9 @@ Decreasing the `length` property does, however, delete elements.
  This is explained further on the `Array.length`.
 
 Creating an array using the result of a match
+ 
+ The result of a match between a regular expression and a string can create a JavaScript array.
+
 
 
 ### Math
