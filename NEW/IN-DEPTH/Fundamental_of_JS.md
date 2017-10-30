@@ -4756,7 +4756,7 @@ Creating an array using the result of a match
         The constructor function that is used to create derived objects.
         
     `Array.prototype`
-
+        Allows the addition of properties to all array objects.
 
 
 
