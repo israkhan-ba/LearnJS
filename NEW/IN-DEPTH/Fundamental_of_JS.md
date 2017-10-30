@@ -4773,6 +4773,7 @@ Creating an array using the result of a match
 
 **_`Array` instances_**
 
+    All `Array` instances inherit from `Array.prototype`. 
 
 
 ### Math
