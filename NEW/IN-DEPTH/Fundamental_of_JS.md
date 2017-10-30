@@ -4754,6 +4754,8 @@ Creating an array using the result of a match
 
     `get Array[@@species]`
         The constructor function that is used to create derived objects.
+        
+    `Array.prototype`
 
 
 
