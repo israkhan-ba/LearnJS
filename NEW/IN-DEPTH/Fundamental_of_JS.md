@@ -4741,12 +4741,23 @@ Creating an array using the result of a match
 
 |   Property/Element    |   Description                     |   Example         |
 |  :-----------------:  | --------------------------------- |  ---------------- |
-|
 |   `input`             |   A read-only property that reflects the original string against which the regular expression was matched.    |   cdbBdbsbz       |
 |   `index`             |   A read-only property that is the zero-based index of the match in the string.   |   1       |
 |   `[0]`               |   A read-only element that specifies the last matched characters. |   dbBd       |
 |   `[1], ...[n]`       |   Read-only elements that specify the parenthesized substring matches, if included in the regular expression. The number of possible parenthesized substrings is unlimited.   |   [1]: bB         |
 |                       |                                    |   [2]: d      |
+
+**_Properties_**
+
+    `Array.length`
+        The Array constructor's length property whose value is 1.
+
+    `get Array[@@species]`
+        The constructor function that is used to create derived objects.
+        
+    `Array.prototype`
+        Allows the addition of properties to all array objects.
+
 
 
 ### Math
