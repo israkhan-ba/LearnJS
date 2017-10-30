@@ -4723,7 +4723,7 @@ Decreasing the `length` property does, however, delete elements.
 Creating an array using the result of a match
  
  The result of a match between a regular expression and a string can create a JavaScript array.
-
+ This array has properties and elements which provide information about the match.
 
 
 ### Math
