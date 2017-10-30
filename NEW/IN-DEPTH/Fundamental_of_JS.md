@@ -4718,8 +4718,16 @@ Decreasing the `length` property does, however, delete elements.
 > console.log(fruits.length); // 2
 >```
 
-This is explained further on the `Array.length`.
+ This is explained further on the `Array.length`.
 
+Creating an array using the result of a match
+ 
+ The result of a match between a regular expression and a string can create a JavaScript array.
+ This array has properties and elements which provide information about the match.
+ Such an array is returned by `RegExp.exec`, `String.match`, and `String.replace`.
+ 
+ To help explain these properties and elements, look at the following example and then refer to the table below:
+ 
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
