@@ -4776,6 +4776,11 @@ Creating an array using the result of a match
     All `Array` instances inherit from `Array.prototype`. 
     The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
+**Properties**
+
+    `Array.prototype.constructor`
+        Specifies the function that creates an object's prototype.
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
