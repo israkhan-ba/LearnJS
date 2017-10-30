@@ -4737,6 +4737,10 @@ Creating an array using the result of a match
 > var myArray = myRe.exec('cdbBdbsbz');
 >```
 
+ The properties and elements returned from this match are as follows:
+ 
+ 
+ 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
