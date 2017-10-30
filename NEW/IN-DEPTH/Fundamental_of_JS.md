@@ -4771,6 +4771,10 @@ Creating an array using the result of a match
         Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
 
 
+**_`Array` instances_**
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
