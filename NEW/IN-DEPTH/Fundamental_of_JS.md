@@ -4750,6 +4750,9 @@ Creating an array using the result of a match
 **_Properties_**
 
     `Array.length`
+        The Array constructor's length property whose value is 1.
+
+
 
 
 ### Math
