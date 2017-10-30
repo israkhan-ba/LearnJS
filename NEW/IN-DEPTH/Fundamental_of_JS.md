@@ -4766,6 +4766,8 @@ Creating an array using the result of a match
         
     `Array.isArray()`
         Returns true if a variable is an array, if not false.
+        
+    `Array.of()`
 
 
 ### Math
