@@ -4780,6 +4780,9 @@ Creating an array using the result of a match
 
     `Array.prototype.constructor`
         Specifies the function that creates an object's prototype.
+    
+    `Array.prototype.length`
+        Reflects the number of elements in an array.
 
 
 ### Math
