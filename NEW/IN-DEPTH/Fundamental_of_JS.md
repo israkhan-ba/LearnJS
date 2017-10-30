@@ -4734,6 +4734,7 @@ Creating an array using the result of a match
 > // Ignore case
 > 
 > var myRe = /d(b+)(d)/i;
+> var myArray = myRe.exec('cdbBdbsbz');
 >```
 
 ### Math
