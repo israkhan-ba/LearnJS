@@ -4757,7 +4757,18 @@ Creating an array using the result of a match
         
     `Array.prototype`
         Allows the addition of properties to all array objects.
+        
+        
+**_Methods_**
 
+    `Array.from()`
+        Creates a new Array instance from an array-like or iterable object.
+        
+    `Array.isArray()`
+        Returns true if a variable is an array, if not false.
+        
+    `Array.of()`
+        Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
 
 
 ### Math
