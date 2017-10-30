@@ -4728,6 +4728,9 @@ Creating an array using the result of a match
  
  To help explain these properties and elements, look at the following example and then refer to the table below:
  
+>```
+> // Match one d followed by one or more b's followed by one d
+>```
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
