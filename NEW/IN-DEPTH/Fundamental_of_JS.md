@@ -4768,6 +4768,7 @@ Creating an array using the result of a match
         Returns true if a variable is an array, if not false.
         
     `Array.of()`
+        Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
 
 
 ### Math
