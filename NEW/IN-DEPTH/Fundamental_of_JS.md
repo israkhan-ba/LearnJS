@@ -4783,6 +4783,9 @@ Creating an array using the result of a match
     
     `Array.prototype.length`
         Reflects the number of elements in an array.
+    
+    `Array.prototype[@@unscopables]`
+        A symbol containing property names to exclude from a with binding scope. 
 
 
 ### Math
