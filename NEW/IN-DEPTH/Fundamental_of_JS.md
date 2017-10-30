@@ -4741,7 +4741,7 @@ Creating an array using the result of a match
  
  Property/Element 	Description 	                    Example
  `input` 	        A read-only property that reflects the original string against which the regular expression was matched. 	                    cdbBdbsbz
-
+ `index` 	        A read-only property that is the zero-based index of the match in the string. 	1
  
  
 ### Math
