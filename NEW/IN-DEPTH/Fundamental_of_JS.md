@@ -4718,7 +4718,9 @@ Decreasing the `length` property does, however, delete elements.
 > console.log(fruits.length); // 2
 >```
 
-This is explained further on the `Array.length`.
+ This is explained further on the `Array.length`.
+
+Creating an array using the result of a match
 
 
 ### Math
