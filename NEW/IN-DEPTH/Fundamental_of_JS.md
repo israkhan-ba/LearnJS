@@ -4841,6 +4841,8 @@ Creating an array using the result of a match
     
     `Array.prototype.slice()`
         Extracts a section of an array and returns a new array.
+    
+    `Array.prototype.toSource()`
 
 
 
