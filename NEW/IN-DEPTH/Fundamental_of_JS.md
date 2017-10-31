@@ -4835,6 +4835,8 @@ Creating an array using the result of a match
     
     `Array.prototype.join()`
         Joins all elements of an array into a string.
+    
+    `Array.prototype.lastIndexOf()`
 
 
 
