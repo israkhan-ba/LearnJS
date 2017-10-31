@@ -4849,6 +4849,9 @@ Creating an array using the result of a match
         Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
+    Iteration methods
+
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
