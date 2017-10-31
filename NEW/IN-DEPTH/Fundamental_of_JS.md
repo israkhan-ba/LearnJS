@@ -4852,6 +4852,7 @@ Creating an array using the result of a match
     Iteration methods
 
     Several methods take as arguments functions to be called back while processing the array. 
+    When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited. 
 
 
 
