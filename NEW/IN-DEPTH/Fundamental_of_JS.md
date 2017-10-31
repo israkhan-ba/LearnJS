@@ -4842,14 +4842,22 @@ Creating an array using the result of a match
     `Array.prototype.slice()`
         Extracts a section of an array and returns a new array.
     
-    `Array.prototype.toSource()`
-        Returns an array literal representing the specified array; you can use this value to create a new array. Overrides the Object.prototype.toSource() method.
-    
     `Array.prototype.toString()`
         Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
     
     `Array.prototype.toLocaleString()`
         Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
+
+
+    Iteration methods
+
+    Several methods take as arguments functions to be called back while processing the array. 
+    When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited. 
+    
+    Other changes to the array (setting the value of or deleting an element) may affect the results of the operation if the method visits the changed element afterwards. 
+    
+    While the specific behavior of these methods in such cases is well-defined, you should not rely upon it so as not to confuse others who might read your code. 
+    If you must mutate the array, copy into a new array instead.
 
 
 
