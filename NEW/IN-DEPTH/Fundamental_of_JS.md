@@ -4812,6 +4812,8 @@ Creating an array using the result of a match
     
     `Array.prototype.sort()`
         Sorts the elements of an array in place and returns the array.
+    
+    `Array.prototype.splice()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
