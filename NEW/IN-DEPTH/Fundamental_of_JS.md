@@ -4794,6 +4794,8 @@ Creating an array using the result of a match
 
     `Array.prototype.copyWithin()`
         Copies a sequence of array elements within the array.
+    
+    `Array.prototype.fill()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
