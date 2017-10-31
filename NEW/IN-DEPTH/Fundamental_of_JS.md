@@ -4851,6 +4851,8 @@ Creating an array using the result of a match
 
     Iteration methods
 
+    Several methods take as arguments functions to be called back while processing the array. 
+
 
 
 ### Math
