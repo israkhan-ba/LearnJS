@@ -4849,6 +4849,7 @@ Creating an array using the result of a match
         Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
     
     `Array.prototype.toLocaleString()`
+        Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
 
