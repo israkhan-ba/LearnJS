@@ -4857,6 +4857,7 @@ Creating an array using the result of a match
     Other changes to the array (setting the value of or deleting an element) may affect the results of the operation if the method visits the changed element afterwards. 
     
     While the specific behavior of these methods in such cases is well-defined, you should not rely upon it so as not to confuse others who might read your code. 
+    If you must mutate the array, copy into a new array instead.
 
 
 
