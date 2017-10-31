@@ -4811,6 +4811,7 @@ Creating an array using the result of a match
         Removes the first element from an array and returns that element.
     
     `Array.prototype.sort()`
+        Sorts the elements of an array in place and returns the array.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
