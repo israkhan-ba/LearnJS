@@ -4789,7 +4789,7 @@ Creating an array using the result of a match
 
     **Methods**
 
-
+    Mutator methods
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
