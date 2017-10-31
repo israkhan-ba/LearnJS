@@ -4797,6 +4797,8 @@ Creating an array using the result of a match
     
     `Array.prototype.fill()`
         Fills all the elements of an array from a start index to an end index with a static value.
+    
+    `Array.prototype.pop()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
