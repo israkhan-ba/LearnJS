@@ -4806,6 +4806,8 @@ Creating an array using the result of a match
     
     `Array.prototype.reverse()`
         Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
+    
+    `Array.prototype.shift()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
