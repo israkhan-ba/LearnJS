@@ -4776,7 +4776,7 @@ Creating an array using the result of a match
     All `Array` instances inherit from `Array.prototype`. 
     The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
-**Properties**
+    **Properties**
 
     `Array.prototype.constructor`
         Specifies the function that creates an object's prototype.
@@ -4786,6 +4786,9 @@ Creating an array using the result of a match
     
     `Array.prototype[@@unscopables]`
         A symbol containing property names to exclude from a with binding scope. 
+
+    **Methods**
+
 
 
 ### Math
