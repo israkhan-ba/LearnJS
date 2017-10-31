@@ -4802,6 +4802,7 @@ Creating an array using the result of a match
         Removes the last element from an array and returns that element.
     
     `Array.prototype.push()`
+        Adds one or more elements to the end of an array and returns the new length of the array.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
