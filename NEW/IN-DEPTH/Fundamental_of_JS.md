@@ -4799,6 +4799,7 @@ Creating an array using the result of a match
         Fills all the elements of an array from a start index to an end index with a static value.
     
     `Array.prototype.pop()`
+        Removes the last element from an array and returns that element.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
