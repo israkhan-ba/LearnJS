@@ -4792,6 +4792,8 @@ Creating an array using the result of a match
     Mutator methods
         These methods modify the array:
 
+    `Array.prototype.copyWithin()`
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
