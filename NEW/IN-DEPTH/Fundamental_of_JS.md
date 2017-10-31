@@ -4825,6 +4825,7 @@ Creating an array using the result of a match
         These methods do not modify the array and return some representation of the array.
 
     `Array.prototype.concat()`
+        Returns a new array comprised of this array joined with other array(s) and/or value(s).
 
 
 
