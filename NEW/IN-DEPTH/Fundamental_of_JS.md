@@ -4838,6 +4838,8 @@ Creating an array using the result of a match
     
     `Array.prototype.lastIndexOf()`
         Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+    
+    `Array.prototype.slice()`
 
 
 
