@@ -4819,6 +4819,40 @@ Creating an array using the result of a match
     `Array.prototype.unshift()`
         Adds one or more elements to the front of an array and returns the new length of the array. 
 
+
+    Accessor methods
+
+        These methods do not modify the array and return some representation of the array.
+
+    `Array.prototype.concat()`
+        Returns a new array comprised of this array joined with other array(s) and/or value(s).
+    
+    `Array.prototype.includes()`
+        Determines whether an array contains a certain element, returning true or false as appropriate.
+    
+    `Array.prototype.indexOf()`
+        Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+    
+    `Array.prototype.join()`
+        Joins all elements of an array into a string.
+    
+    `Array.prototype.lastIndexOf()`
+        Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+    
+    `Array.prototype.slice()`
+        Extracts a section of an array and returns a new array.
+    
+    `Array.prototype.toSource()`
+        Returns an array literal representing the specified array; you can use this value to create a new array. Overrides the Object.prototype.toSource() method.
+    
+    `Array.prototype.toString()`
+        Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+    
+    `Array.prototype.toLocaleString()`
+        Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
