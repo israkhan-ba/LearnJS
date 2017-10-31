@@ -4776,7 +4776,7 @@ Creating an array using the result of a match
     All `Array` instances inherit from `Array.prototype`. 
     The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
-**Properties**
+    **Properties**
 
     `Array.prototype.constructor`
         Specifies the function that creates an object's prototype.
@@ -4787,6 +4787,37 @@ Creating an array using the result of a match
     `Array.prototype[@@unscopables]`
         A symbol containing property names to exclude from a with binding scope. 
 
+    **Methods**
+
+    Mutator methods
+        These methods modify the array:
+
+    `Array.prototype.copyWithin()`
+        Copies a sequence of array elements within the array.
+    
+    `Array.prototype.fill()`
+        Fills all the elements of an array from a start index to an end index with a static value.
+    
+    `Array.prototype.pop()`
+        Removes the last element from an array and returns that element.
+    
+    `Array.prototype.push()`
+        Adds one or more elements to the end of an array and returns the new length of the array.
+    
+    `Array.prototype.reverse()`
+        Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
+    
+    `Array.prototype.shift()`
+        Removes the first element from an array and returns that element.
+    
+    `Array.prototype.sort()`
+        Sorts the elements of an array in place and returns the array.
+    
+    `Array.prototype.splice()`
+        Adds and/or removes elements from an array.
+    
+    `Array.prototype.unshift()`
+        Adds one or more elements to the front of an array and returns the new length of the array. 
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
