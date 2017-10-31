@@ -4805,6 +4805,7 @@ Creating an array using the result of a match
         Adds one or more elements to the end of an array and returns the new length of the array.
     
     `Array.prototype.reverse()`
+        Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
