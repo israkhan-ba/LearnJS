@@ -4800,6 +4800,8 @@ Creating an array using the result of a match
     
     `Array.prototype.pop()`
         Removes the last element from an array and returns that element.
+    
+    `Array.prototype.push()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
