@@ -4793,6 +4793,7 @@ Creating an array using the result of a match
         These methods modify the array:
 
     `Array.prototype.copyWithin()`
+        Copies a sequence of array elements within the array.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
