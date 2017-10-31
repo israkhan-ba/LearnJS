@@ -4828,6 +4828,7 @@ Creating an array using the result of a match
         Returns a new array comprised of this array joined with other array(s) and/or value(s).
     
     `Array.prototype.includes()`
+        Determines whether an array contains a certain element, returning true or false as appropriate.
 
 
 
