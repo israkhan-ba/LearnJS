@@ -4824,6 +4824,8 @@ Creating an array using the result of a match
 
         These methods do not modify the array and return some representation of the array.
 
+    `Array.prototype.concat()`
+
 
 
 ### Math
