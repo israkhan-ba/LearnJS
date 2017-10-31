@@ -4808,6 +4808,7 @@ Creating an array using the result of a match
         Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
     
     `Array.prototype.shift()`
+        Removes the first element from an array and returns that element.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
