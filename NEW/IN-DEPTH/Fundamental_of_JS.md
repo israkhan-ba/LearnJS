@@ -4826,6 +4826,8 @@ Creating an array using the result of a match
 
     `Array.prototype.concat()`
         Returns a new array comprised of this array joined with other array(s) and/or value(s).
+    
+    `Array.prototype.includes()`
 
 
 
