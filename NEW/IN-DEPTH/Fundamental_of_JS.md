@@ -4829,6 +4829,8 @@ Creating an array using the result of a match
     
     `Array.prototype.includes()`
         Determines whether an array contains a certain element, returning true or false as appropriate.
+    
+    `Array.prototype.indexOf()`
 
 
 
