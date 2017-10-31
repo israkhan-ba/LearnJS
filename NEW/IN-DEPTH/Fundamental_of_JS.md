@@ -4809,6 +4809,8 @@ Creating an array using the result of a match
     
     `Array.prototype.shift()`
         Removes the first element from an array and returns that element.
+    
+    `Array.prototype.sort()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
