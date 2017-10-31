@@ -4846,6 +4846,7 @@ Creating an array using the result of a match
         Returns an array literal representing the specified array; you can use this value to create a new array. Overrides the Object.prototype.toSource() method.
     
     `Array.prototype.toString()`
+        Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
 
 
 
