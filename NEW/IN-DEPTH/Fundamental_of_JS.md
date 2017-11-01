@@ -4917,7 +4917,7 @@ Creating an array using the result of a match
 
 **Creating a two-dimensional array**
     The following creates a chess board as a two dimensional array of strings.
-
+    The first move is made by copying the 'p' in (6,4) to (4,4).
 
 
 ### Math
