@@ -4874,6 +4874,8 @@ Creating an array using the result of a match
         
     `Array.prototype.findIndex()`
         Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
+        
+    `Array.prototype.forEach()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
