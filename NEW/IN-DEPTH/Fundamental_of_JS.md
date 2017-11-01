@@ -4867,6 +4867,7 @@ Creating an array using the result of a match
         Returns true if every element in this array satisfies the provided testing function.
         
     `Array.prototype.filter()`
+        Creates a new array with all of the elements of this array for which the provided filtering function returns true.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
