@@ -4930,6 +4930,8 @@ Creating an array using the result of a match
 >   [' ',' ',' ',' ',' ',' ',' ',' '],
 >   ['p','p','p','p','p','p','p','p'],
 >   ['r','n','b','q','k','b','n','r'] ];
+>
+> console.log(board.join('\n') + '\n\n');
 >```
 
 
