@@ -4865,6 +4865,8 @@ Creating an array using the result of a match
         
     `Array.prototype.every()`
         Returns true if every element in this array satisfies the provided testing function.
+        
+    `Array.prototype.filter()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
