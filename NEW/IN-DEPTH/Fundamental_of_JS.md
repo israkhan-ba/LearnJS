@@ -4859,7 +4859,8 @@ Creating an array using the result of a match
     While the specific behavior of these methods in such cases is well-defined, you should not rely upon it so as not to confuse others who might read your code. 
     If you must mutate the array, copy into a new array instead.
 
-
+    
+    `Array.prototype.entries()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
