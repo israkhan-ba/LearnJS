@@ -4894,6 +4894,7 @@ Creating an array using the result of a match
         Returns true if at least one element in this array satisfies the provided testing function.
     
     `Array.prototype.values()`
+        Returns a new Array Iterator object that contains the values for each index in the array.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
