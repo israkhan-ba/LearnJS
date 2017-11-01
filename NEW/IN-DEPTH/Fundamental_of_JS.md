@@ -4883,6 +4883,8 @@ Creating an array using the result of a match
     
     `Array.prototype.map()`
         Creates a new array with the results of calling a provided function on every element in this array.
+    
+    `Array.prototype.reduce()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
