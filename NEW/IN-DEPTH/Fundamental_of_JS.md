@@ -4935,6 +4935,7 @@ Creating an array using the result of a match
 > 
 > // Move King's Pawn forward 2
 > board[4][4] = board[6][4];
+> board[6][4] = ' ';
 >```
 
 
