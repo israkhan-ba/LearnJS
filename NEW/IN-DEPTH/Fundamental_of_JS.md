@@ -4889,6 +4889,8 @@ Creating an array using the result of a match
     
     `Array.prototype.reduceRight()`
         Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
+    
+    `Array.prototype.some()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
