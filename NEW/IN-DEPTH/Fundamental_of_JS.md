@@ -4879,6 +4879,8 @@ Creating an array using the result of a match
         Calls a function for each element in the array.
         
     `Array.prototype.keys()`
+        Returns a new Array Iterator that contains the keys for each index in the array.
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
