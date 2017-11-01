@@ -4877,6 +4877,8 @@ Creating an array using the result of a match
         
     `Array.prototype.forEach()`
         Calls a function for each element in the array.
+        
+    `Array.prototype.keys()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
