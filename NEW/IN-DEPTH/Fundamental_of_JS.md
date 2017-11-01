@@ -4902,7 +4902,7 @@ Creating an array using the result of a match
 **_Examples_**
 
 **Creating an array**
-    The following example creates an array, `msgArray`
+    The following example creates an array, `msgArray`, with a length of 0
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
