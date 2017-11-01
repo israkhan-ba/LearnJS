@@ -4939,6 +4939,7 @@ Creating an array using the result of a match
 > console.log(board.join('\n'));
 >```
 
+Here is the output:
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
