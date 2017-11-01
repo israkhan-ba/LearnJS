@@ -4899,6 +4899,24 @@ Creating an array using the result of a match
     `Array.prototype[@@iterator]()`
         Returns a new Array Iterator object that contains the values for each index in the array. 
 
+**_Examples_**
+
+**Creating an array**
+    The following example creates an array, `msgArray`, with a length of 0, then assigns values to `msgArray[0]` and `msgArray[99]`, changing the length of the array to 100.
+
+>```
+> var msgArray = [];
+> msgArray[0] = 'Hello';
+> msgArray[99] = 'world';
+>
+> if (msgArray.length === 100) {
+>   console.log('The length is 100.');
+> }
+>```
+
+
+
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
