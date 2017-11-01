@@ -4868,6 +4868,8 @@ Creating an array using the result of a match
         
     `Array.prototype.filter()`
         Creates a new array with all of the elements of this array for which the provided filtering function returns true.
+        
+    `Array.prototype.find()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
