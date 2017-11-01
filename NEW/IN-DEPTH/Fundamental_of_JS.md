@@ -4920,6 +4920,18 @@ Creating an array using the result of a match
     The first move is made by copying the 'p' in (6,4) to (4,4).
     The old position (6,4) is made blank.
     
+>```
+> var board = [ 
+>   ['R','N','B','Q','K','B','N','R'],
+>   ['P','P','P','P','P','P','P','P'],
+>   [' ',' ',' ',' ',' ',' ',' ',' '],
+>   [' ',' ',' ',' ',' ',' ',' ',' '],
+>   [' ',' ',' ',' ',' ',' ',' ',' '],
+>   [' ',' ',' ',' ',' ',' ',' ',' '],
+>   ['p','p','p','p','p','p','p','p'],
+>   ['r','n','b','q','k','b','n','r'] ];
+>```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
