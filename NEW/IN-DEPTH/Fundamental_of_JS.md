@@ -4891,6 +4891,7 @@ Creating an array using the result of a match
         Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
     
     `Array.prototype.some()`
+        Returns true if at least one element in this array satisfies the provided testing function.
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
