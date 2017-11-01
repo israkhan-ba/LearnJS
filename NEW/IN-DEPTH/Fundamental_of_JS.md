@@ -4916,7 +4916,7 @@ Creating an array using the result of a match
 
 
 **Creating a two-dimensional array**
-
+    The following creates a chess board as a two dimensional array of strings.
 
 
 
