@@ -4895,6 +4895,8 @@ Creating an array using the result of a match
     
     `Array.prototype.values()`
         Returns a new Array Iterator object that contains the values for each index in the array.
+    
+    `Array.prototype[@@iterator]()`
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
