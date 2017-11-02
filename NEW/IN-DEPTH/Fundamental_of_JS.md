@@ -4962,6 +4962,35 @@ Here is the output:
 >```
 
 
+**Using an array to tabulate a set of values**
+
+>```
+> values = [];
+> for (var x = 0; x < 10; x++){
+>  values.push([
+>   2 ** x,
+>   2 * x ** 2
+>  ])
+> };
+> console.table(values)
+>```
+
+Results in
+(First column is the (index))
+
+>```
+> 0	    1	  0
+> 1	    2	  2
+> 2	    4	  8
+> 3	    8	  18
+> 4	    16	  32
+> 5	    32	  50
+> 6	    64    72
+> 7	    128	  98
+> 8	    256	  128
+> 9	    512	  162
+>```
+
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
  
