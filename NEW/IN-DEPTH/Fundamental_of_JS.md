@@ -4610,7 +4610,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         (Note: this implies an array of `arrayLength` empty slots, not slots with actual `undefined` values).
         If the argument is any other number, a `RangeError` exception is thrown.
 
-**_Examples_**
+**_Using_**
 
     Create an Array
     
@@ -4630,6 +4630,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > var last = fruits[fruits.length - 1];
 > // Banana
 >```
+
+    Loop over an Array
+
 
 
  Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
