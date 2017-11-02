@@ -4628,6 +4628,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > // Apple
 > 
 > var last = fruits[fruits.length - 1];
+> // Banana
 >```
 
 
