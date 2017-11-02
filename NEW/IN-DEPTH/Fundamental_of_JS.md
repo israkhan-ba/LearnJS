@@ -4972,6 +4972,7 @@ Here is the output:
 >   2 * x ** 2
 >  ])
 > };
+> console.table(values)
 >```
 
 
