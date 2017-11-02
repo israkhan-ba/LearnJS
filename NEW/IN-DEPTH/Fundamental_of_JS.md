@@ -4977,7 +4977,9 @@ Here is the output:
 
 Results in
 
-
+>```
+> 0	    1	  0
+>```
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
