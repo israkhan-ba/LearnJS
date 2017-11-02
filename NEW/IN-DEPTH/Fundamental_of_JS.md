@@ -4966,6 +4966,12 @@ Here is the output:
 
 >```
 > values = [];
+> for (var x = 0; x < 10; x++){
+>  values.push([
+>   2 ** x,
+>   2 * x ** 2
+>  ])
+> };
 >```
 
 
