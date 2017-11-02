@@ -4964,6 +4964,9 @@ Here is the output:
 
 **Using an array to tabulate a set of values**
 
+>```
+> values = [];
+>```
 
 
 ### Math
