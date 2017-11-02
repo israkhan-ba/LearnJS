@@ -4633,6 +4633,10 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Loop over an Array
 
+>```
+> fruits.forEach(function(item, index, array) {
+>   console.log(item, index);
+>```
 
 
  Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
