@@ -4638,6 +4638,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 >   console.log(item, index);
 > });
 > // Apple 0
+> // Banana 1
 >```
 
 
