@@ -4976,6 +4976,7 @@ Here is the output:
 >```
 
 Results in
+(First column is the (index))
 
 >```
 > 0	    1	  0
