@@ -4975,6 +4975,9 @@ Here is the output:
 > console.table(values)
 >```
 
+Results in
+
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
