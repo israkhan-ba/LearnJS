@@ -4676,6 +4676,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > // ["Strawberry", "Banana", "Mango"]
 > 
 > var pos = fruits.indexOf('Banana');
+> // 1
 >```
 
  Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
