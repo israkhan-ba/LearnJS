@@ -4699,6 +4699,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > var removedItems = vegetables.splice(pos, n); 
 > // this is how to remove items, n defines the number of items to be removed,
 > // from that position(pos) onward to the end of array.
+> 
+> console.log(vegetables); 
 >```
 
 
