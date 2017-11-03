@@ -4896,22 +4896,27 @@ Reflects the number of elements in an array.
 
 A symbol containing property names to exclude from a with binding scope. 
 
-    **Methods**
+**Methods**
 
-    Mutator methods
-        These methods modify the array:
+**_Mutator methods_**
 
-    `Array.prototype.copyWithin()`
-        Copies a sequence of array elements within the array.
+These methods modify the array:
+
+**`Array.prototype.copyWithin()`**
+        
+Copies a sequence of array elements within the array.
     
-    `Array.prototype.fill()`
-        Fills all the elements of an array from a start index to an end index with a static value.
+**`Array.prototype.fill()`**
+
+Fills all the elements of an array from a start index to an end index with a static value.
     
-    `Array.prototype.pop()`
-        Removes the last element from an array and returns that element.
+**`Array.prototype.pop()`**
+
+Removes the last element from an array and returns that element.
     
-    `Array.prototype.push()`
-        Adds one or more elements to the end of an array and returns the new length of the array.
+**`Array.prototype.push()`**
+
+Adds one or more elements to the end of an array and returns the new length of the array.
     
     `Array.prototype.reverse()`
         Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
