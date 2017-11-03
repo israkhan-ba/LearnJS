@@ -4711,6 +4711,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 >```
 > var shallowCopy = fruits.slice(); // this is how to make a copy
+> // ["Strawberry"]
 >```
 
 
