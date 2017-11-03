@@ -4683,6 +4683,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 >```
 > var removedItem = fruits.splice(pos, 1); // this is how to remove an item
+>                                         
+> // ["Strawberry", "Mango"]
 >```
 
 
