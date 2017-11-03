@@ -4681,6 +4681,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Remove an item by index position
 
+>```
+> var removedItem = fruits.splice(pos, 1); // this is how to remove an item
+>```
 
 
  Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
