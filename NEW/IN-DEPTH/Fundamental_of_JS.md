@@ -5118,6 +5118,7 @@ Results in
 > 9	    512	    162
 >```
 
+----------------------------------------------
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
