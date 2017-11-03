@@ -4880,77 +4880,100 @@ Creating an array using the result of a match
     All `Array` instances inherit from `Array.prototype`. 
     The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
-    **Properties**
+**Properties**
 
-    `Array.prototype.constructor`
-        Specifies the function that creates an object's prototype.
-    
-    `Array.prototype.length`
-        Reflects the number of elements in an array.
-    
-    `Array.prototype[@@unscopables]`
-        A symbol containing property names to exclude from a with binding scope. 
+**`Array.prototype.constructor`**
 
-    **Methods**
-
-    Mutator methods
-        These methods modify the array:
-
-    `Array.prototype.copyWithin()`
-        Copies a sequence of array elements within the array.
-    
-    `Array.prototype.fill()`
-        Fills all the elements of an array from a start index to an end index with a static value.
-    
-    `Array.prototype.pop()`
-        Removes the last element from an array and returns that element.
-    
-    `Array.prototype.push()`
-        Adds one or more elements to the end of an array and returns the new length of the array.
-    
-    `Array.prototype.reverse()`
-        Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
-    
-    `Array.prototype.shift()`
-        Removes the first element from an array and returns that element.
-    
-    `Array.prototype.sort()`
-        Sorts the elements of an array in place and returns the array.
-    
-    `Array.prototype.splice()`
-        Adds and/or removes elements from an array.
-    
-    `Array.prototype.unshift()`
-        Adds one or more elements to the front of an array and returns the new length of the array. 
+Specifies the function that creates an object's prototype.
 
 
-    Accessor methods
+**`Array.prototype.length`**
 
-        These methods do not modify the array and return some representation of the array.
+Reflects the number of elements in an array.
 
-    `Array.prototype.concat()`
-        Returns a new array comprised of this array joined with other array(s) and/or value(s).
+
+**`Array.prototype[@@unscopables]`**
+
+A symbol containing property names to exclude from a with binding scope. 
+
+**Methods**
+
+**_Mutator methods_**
+
+These methods modify the array:
+
+**`Array.prototype.copyWithin()`**
+        
+Copies a sequence of array elements within the array.
     
-    `Array.prototype.includes()`
-        Determines whether an array contains a certain element, returning true or false as appropriate.
+**`Array.prototype.fill()`**
+
+Fills all the elements of an array from a start index to an end index with a static value.
     
-    `Array.prototype.indexOf()`
-        Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+**`Array.prototype.pop()`**
+
+Removes the last element from an array and returns that element.
     
-    `Array.prototype.join()`
-        Joins all elements of an array into a string.
+**`Array.prototype.push()`**
+
+Adds one or more elements to the end of an array and returns the new length of the array.
     
-    `Array.prototype.lastIndexOf()`
-        Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+**`Array.prototype.reverse()`**
     
-    `Array.prototype.slice()`
-        Extracts a section of an array and returns a new array.
+Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
     
-    `Array.prototype.toString()`
-        Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+**`Array.prototype.shift()`**
     
-    `Array.prototype.toLocaleString()`
-        Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
+Removes the first element from an array and returns that element.
+    
+**`Array.prototype.sort()`**
+
+Sorts the elements of an array in place and returns the array.
+    
+**`Array.prototype.splice()`**
+
+Adds and/or removes elements from an array.
+    
+**`Array.prototype.unshift()`**
+
+Adds one or more elements to the front of an array and returns the new length of the array. 
+
+
+**_Accessor methods_**
+
+These methods do not modify the array and return some representation of the array.
+
+**`Array.prototype.concat()`**
+    
+Returns a new array comprised of this array joined with other array(s) and/or value(s).
+    
+**`Array.prototype.includes()`**
+
+Determines whether an array contains a certain element, returning true or false as appropriate.
+    
+**`Array.prototype.indexOf()`**
+
+Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+    
+**`Array.prototype.join()`**
+
+Joins all elements of an array into a string.
+    
+**`Array.prototype.lastIndexOf()`**
+
+Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+    
+**`Array.prototype.slice()`**
+
+Extracts a section of an array and returns a new array.
+    
+**`Array.prototype.toString()`**
+
+Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+    
+**`Array.prototype.toLocaleString()`**
+
+Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
     Iteration methods
@@ -5083,17 +5106,18 @@ Results in
 (First column is the (index))
 
 >```
-> 0	    1	  0
-> 1	    2	  2
-> 2	    4	  8
-> 3	    8	  18
-> 4	    16	  32
-> 5	    32	  50
-> 6	    64    72
-> 7	    128	  98
-> 8	    256	  128
-> 9	    512	  162
+> 0	    1	      0
+> 1	    2	      2
+> 2	    4	      8
+> 3	    8	      18
+> 4	    16	     32
+> 5	    32	     50
+> 6	    64         72
+> 7	    128	    98
+> 8	    256	    128
+> 9	    512	    162
 >```
+
 
 ### Math
  Math is an object with arithmetic functions to perform mathematical tasks.
