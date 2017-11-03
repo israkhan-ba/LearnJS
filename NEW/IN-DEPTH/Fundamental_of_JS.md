@@ -4701,6 +4701,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > // from that position(pos) onward to the end of array.
 > 
 > console.log(vegetables); 
+> // ["Cabbage", "Carrot"] (the original array is changed)
 >```
 
 
