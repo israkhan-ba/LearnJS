@@ -4939,33 +4939,41 @@ Adds and/or removes elements from an array.
 Adds one or more elements to the front of an array and returns the new length of the array. 
 
 
-    Accessor methods
+**_Accessor methods_**
 
-        These methods do not modify the array and return some representation of the array.
+These methods do not modify the array and return some representation of the array.
 
-    `Array.prototype.concat()`
-        Returns a new array comprised of this array joined with other array(s) and/or value(s).
+**`Array.prototype.concat()`**
     
-    `Array.prototype.includes()`
-        Determines whether an array contains a certain element, returning true or false as appropriate.
+Returns a new array comprised of this array joined with other array(s) and/or value(s).
     
-    `Array.prototype.indexOf()`
-        Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+**`Array.prototype.includes()`**
+
+Determines whether an array contains a certain element, returning true or false as appropriate.
     
-    `Array.prototype.join()`
-        Joins all elements of an array into a string.
+**`Array.prototype.indexOf()`**
+
+Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
     
-    `Array.prototype.lastIndexOf()`
-        Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+**`Array.prototype.join()`**
+
+Joins all elements of an array into a string.
     
-    `Array.prototype.slice()`
-        Extracts a section of an array and returns a new array.
+**`Array.prototype.lastIndexOf()`**
+
+Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
     
-    `Array.prototype.toString()`
-        Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+**`Array.prototype.slice()`**
+
+Extracts a section of an array and returns a new array.
     
-    `Array.prototype.toLocaleString()`
-        Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
+**`Array.prototype.toString()`**
+
+Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+    
+**`Array.prototype.toLocaleString()`**
+
+Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
     Iteration methods
