@@ -4687,6 +4687,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 > // ["Strawberry", "Mango"]
 >```
 
+    Remove items from an index position
+
 
  Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
  Neither the length of a JavaScript array nor the types of its elements are fixed.
