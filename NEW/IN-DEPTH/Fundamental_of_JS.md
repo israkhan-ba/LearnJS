@@ -4869,7 +4869,8 @@ Creating an array using the result of a match
 
 Creates a new Array instance from an array-like or iterable object.
         
-    `Array.isArray()`
+**`Array.isArray()`**
+
         Returns true if a variable is an array, if not false.
         
     `Array.of()`
