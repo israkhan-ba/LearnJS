@@ -4857,7 +4857,8 @@ Creating an array using the result of a match
 
 The Array constructor's length property whose value is 1.
 
-    `get Array[@@species]`
+**`get Array[@@species]`**
+
         The constructor function that is used to create derived objects.
         
     `Array.prototype`
