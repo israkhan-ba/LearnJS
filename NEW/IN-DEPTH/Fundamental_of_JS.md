@@ -4992,7 +4992,8 @@ Returns a localized string representing the array and its elements. Overrides th
 Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
         
 **`Array.prototype.every()`**
-        Returns true if every element in this array satisfies the provided testing function.
+    
+Returns true if every element in this array satisfies the provided testing function.
         
     `Array.prototype.filter()`
         Creates a new array with all of the elements of this array for which the provided filtering function returns true.
