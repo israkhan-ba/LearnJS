@@ -5019,7 +5019,8 @@ Returns a new Array Iterator that contains the keys for each index in the array.
 
 Creates a new array with the results of calling a provided function on every element in this array.
     
-    `Array.prototype.reduce()`
+**`Array.prototype.reduce()`**
+
         Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
     
     `Array.prototype.reduceRight()`
