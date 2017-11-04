@@ -4863,7 +4863,7 @@ The constructor function that is used to create derived objects.
         
 **`Array.prototype`**
 
-        Allows the addition of properties to all array objects.
+Allows the addition of properties to all array objects.
         
         
 **_Methods_**
