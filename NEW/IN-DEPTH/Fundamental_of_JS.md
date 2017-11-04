@@ -5037,7 +5037,9 @@ Returns a new Array Iterator object that contains the values for each index in t
     
 **`Array.prototype[@@iterator]()`**
 
-        Returns a new Array Iterator object that contains the values for each index in the array. 
+Returns a new Array Iterator object that contains the values for each index in the array. 
+
+
 
 **_Examples_**
 
