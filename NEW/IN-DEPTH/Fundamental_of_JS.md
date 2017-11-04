@@ -4976,7 +4976,7 @@ Returns a string representing the array and its elements. Overrides the Object.p
 Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
-    Iteration methods
+**_Iteration methods_**
 
     Several methods take as arguments functions to be called back while processing the array. 
     When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited. 
@@ -4987,44 +4987,59 @@ Returns a localized string representing the array and its elements. Overrides th
     If you must mutate the array, copy into a new array instead.
 
     
-    `Array.prototype.entries()`
-        Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
+**`Array.prototype.entries()`**
         
-    `Array.prototype.every()`
-        Returns true if every element in this array satisfies the provided testing function.
+Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
         
-    `Array.prototype.filter()`
-        Creates a new array with all of the elements of this array for which the provided filtering function returns true.
+**`Array.prototype.every()`**
+    
+Returns true if every element in this array satisfies the provided testing function.
         
-    `Array.prototype.find()`
-        Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
+**`Array.prototype.filter()`**
+
+Creates a new array with all of the elements of this array for which the provided filtering function returns true.
         
-    `Array.prototype.findIndex()`
-        Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
+**`Array.prototype.find()`**
         
-    `Array.prototype.forEach()`
-        Calls a function for each element in the array.
+Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
         
-    `Array.prototype.keys()`
-        Returns a new Array Iterator that contains the keys for each index in the array.
+**`Array.prototype.findIndex()`**
+
+Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
+        
+**`Array.prototype.forEach()`**
+
+Calls a function for each element in the array.
+        
+**`Array.prototype.keys()`**
+
+Returns a new Array Iterator that contains the keys for each index in the array.
     
-    `Array.prototype.map()`
-        Creates a new array with the results of calling a provided function on every element in this array.
+**`Array.prototype.map()`**
+
+Creates a new array with the results of calling a provided function on every element in this array.
     
-    `Array.prototype.reduce()`
-        Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
+**`Array.prototype.reduce()`**
+
+Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
     
-    `Array.prototype.reduceRight()`
-        Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
+**`Array.prototype.reduceRight()`**
+
+Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
     
-    `Array.prototype.some()`
-        Returns true if at least one element in this array satisfies the provided testing function.
+**`Array.prototype.some()`**
+
+Returns true if at least one element in this array satisfies the provided testing function.
     
-    `Array.prototype.values()`
-        Returns a new Array Iterator object that contains the values for each index in the array.
+**`Array.prototype.values()`**
+
+Returns a new Array Iterator object that contains the values for each index in the array.
     
-    `Array.prototype[@@iterator]()`
-        Returns a new Array Iterator object that contains the values for each index in the array. 
+**`Array.prototype[@@iterator]()`**
+
+Returns a new Array Iterator object that contains the values for each index in the array. 
+
+
 
 **_Examples_**
 
