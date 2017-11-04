@@ -5031,7 +5031,8 @@ Apply a function against an accumulator and each value of the array (from right-
 
 Returns true if at least one element in this array satisfies the provided testing function.
     
-    `Array.prototype.values()`
+**`Array.prototype.values()`**
+
         Returns a new Array Iterator object that contains the values for each index in the array.
     
     `Array.prototype[@@iterator]()`
