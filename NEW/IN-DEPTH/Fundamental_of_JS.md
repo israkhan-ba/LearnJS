@@ -5027,7 +5027,8 @@ Apply a function against an accumulator and each value of the array (from left-t
 
 Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
     
-    `Array.prototype.some()`
+**`Array.prototype.some()`**
+
         Returns true if at least one element in this array satisfies the provided testing function.
     
     `Array.prototype.values()`
