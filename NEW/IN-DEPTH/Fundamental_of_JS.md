@@ -5033,7 +5033,7 @@ Returns true if at least one element in this array satisfies the provided testin
     
 **`Array.prototype.values()`**
 
-        Returns a new Array Iterator object that contains the values for each index in the array.
+Returns a new Array Iterator object that contains the values for each index in the array.
     
     `Array.prototype[@@iterator]()`
         Returns a new Array Iterator object that contains the values for each index in the array. 
