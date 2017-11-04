@@ -5005,7 +5005,7 @@ Returns the found value in the array, if an element in the array satisfies the p
         
 **`Array.prototype.findIndex()`**
 
-        Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
+Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
         
     `Array.prototype.forEach()`
         Calls a function for each element in the array.
