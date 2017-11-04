@@ -5015,7 +5015,8 @@ Calls a function for each element in the array.
 
 Returns a new Array Iterator that contains the keys for each index in the array.
     
-    `Array.prototype.map()`
+**`Array.prototype.map()`**
+
         Creates a new array with the results of calling a provided function on every element in this array.
     
     `Array.prototype.reduce()`
