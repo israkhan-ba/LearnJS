@@ -4880,8 +4880,8 @@ Creates a new Array instance with a variable number of arguments, regardless of 
 
 **_`Array` instances_**
 
-    All `Array` instances inherit from `Array.prototype`. 
-    The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
+All `Array` instances inherit from `Array.prototype`.  
+The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
 **Properties**
 
