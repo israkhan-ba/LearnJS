@@ -4865,20 +4865,23 @@ Creating an array using the result of a match
         
 **_Methods_**
 
-    `Array.from()`
-        Creates a new Array instance from an array-like or iterable object.
+**`Array.from()`**
+
+Creates a new Array instance from an array-like or iterable object.
         
-    `Array.isArray()`
-        Returns true if a variable is an array, if not false.
+**`Array.isArray()`**
+
+Returns true if a variable is an array, if not false.
         
-    `Array.of()`
-        Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
+**`Array.of()`**
+
+Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
 
 
 **_`Array` instances_**
 
-    All `Array` instances inherit from `Array.prototype`. 
-    The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
+All `Array` instances inherit from `Array.prototype`.  
+The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
 **Properties**
 
