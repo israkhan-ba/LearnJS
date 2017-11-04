@@ -4999,7 +4999,8 @@ Returns true if every element in this array satisfies the provided testing funct
 
 Creates a new array with all of the elements of this array for which the provided filtering function returns true.
         
-    `Array.prototype.find()`
+**`Array.prototype.find()`**
+        
         Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
         
     `Array.prototype.findIndex()`
