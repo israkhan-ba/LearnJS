@@ -4995,7 +4995,8 @@ Returns a new Array Iterator object that contains the key/value pairs for each i
     
 Returns true if every element in this array satisfies the provided testing function.
         
-    `Array.prototype.filter()`
+**`Array.prototype.filter()`**
+
         Creates a new array with all of the elements of this array for which the provided filtering function returns true.
         
     `Array.prototype.find()`
