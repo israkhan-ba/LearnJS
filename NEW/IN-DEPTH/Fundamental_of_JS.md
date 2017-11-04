@@ -5023,7 +5023,8 @@ Creates a new array with the results of calling a provided function on every ele
 
 Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
     
-    `Array.prototype.reduceRight()`
+**`Array.prototype.reduceRight()`**
+
         Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
     
     `Array.prototype.some()`
