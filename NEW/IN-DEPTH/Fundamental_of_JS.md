@@ -5003,7 +5003,8 @@ Creates a new array with all of the elements of this array for which the provide
         
 Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
         
-    `Array.prototype.findIndex()`
+**`Array.prototype.findIndex()`**
+
         Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
         
     `Array.prototype.forEach()`
