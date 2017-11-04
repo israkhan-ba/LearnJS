@@ -5009,7 +5009,7 @@ Returns the found index in the array, if an element in the array satisfies the p
         
 **`Array.prototype.forEach()`**
 
-        Calls a function for each element in the array.
+Calls a function for each element in the array.
         
     `Array.prototype.keys()`
         Returns a new Array Iterator that contains the keys for each index in the array.
