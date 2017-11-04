@@ -4987,7 +4987,8 @@ Returns a localized string representing the array and its elements. Overrides th
     If you must mutate the array, copy into a new array instead.
 
     
-    `Array.prototype.entries()`
+**`Array.prototype.entries()`**
+        
         Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
         
     `Array.prototype.every()`
