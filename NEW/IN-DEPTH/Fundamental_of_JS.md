@@ -4859,7 +4859,7 @@ The Array constructor's length property whose value is 1.
 
 **`get Array[@@species]`**
 
-        The constructor function that is used to create derived objects.
+The constructor function that is used to create derived objects.
         
     `Array.prototype`
         Allows the addition of properties to all array objects.
