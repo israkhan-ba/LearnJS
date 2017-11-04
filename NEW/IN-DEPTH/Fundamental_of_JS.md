@@ -4976,7 +4976,7 @@ Returns a string representing the array and its elements. Overrides the Object.p
 Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
-    Iteration methods
+**_Iteration methods_**
 
     Several methods take as arguments functions to be called back while processing the array. 
     When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited. 
