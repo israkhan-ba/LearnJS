@@ -4462,7 +4462,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  **_Methods of the `Object` constructor_**
  
-    `Object.assign()`
+**`Object.assign()`**
+
         Copies the values of all enumerable own properties from one or more source objects to a target object.
     
     `Object.create()`
