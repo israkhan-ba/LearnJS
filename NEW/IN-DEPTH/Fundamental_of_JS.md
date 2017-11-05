@@ -4527,8 +4527,9 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Returns an array containing the names of all of the given object's __own__ enumerable properties.
         
-    `Object.preventExtensions()`
-        Prevents any extensions of an object.
+**`Object.preventExtensions()`**
+    
+    Prevents any extensions of an object.
         
     `Object.seal()`
         Prevents other code from deleting properties of an object.
