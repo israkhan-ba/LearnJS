@@ -4496,7 +4496,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
 **`Object.getOwnPropertyNames()`**
 
-        Returns an array containing the names of all of the given object's __own__ enumerable and non-enumerable properties.
+    Returns an array containing the names of all of the given object's __own__ enumerable and non-enumerable properties.
     
     `Object.getOwnPropertySymbols()`
         Returns an array of all symbol properties found directly upon a given object.
