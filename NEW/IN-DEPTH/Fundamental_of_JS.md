@@ -4462,26 +4462,33 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  **_Methods of the `Object` constructor_**
  
-    `Object.assign()`
-        Copies the values of all enumerable own properties from one or more source objects to a target object.
-    
-    `Object.create()`
-        Creates a new object with the specified prototype object and properties.
+**`Object.assign()`**
 
-    `Object.defineProperty()`
-        Adds the named property described by a given descriptor to an object.
+    Copies the values of all enumerable own properties from one or more source objects to a target object.
     
-    `Object.defineProperties()`
-        Adds the named properties described by the given descriptors to an object.
+**`Object.create()`**
+
+    Creates a new object with the specified prototype object and properties.
+
+**`Object.defineProperty()`**
+
+    Adds the named property described by a given descriptor to an object.
     
-    `Object.entries()`
-        Returns an array of a given object's own enumerable property `[key, value]` pairs.
+**`Object.defineProperties()`**
+
+    Adds the named properties described by the given descriptors to an object.
     
-    `Object.freeze()`
-        Freezes an object: other code can't delete or change any properties.
+**`Object.entries()`**
+
+    Returns an array of a given object's own enumerable property `[key, value]` pairs.
+    
+**`Object.freeze()`**
+
+    Freezes an object: other code can't delete or change any properties.
         
-    `Object.getOwnPropertyDescriptor()`
-        Returns a property descriptor for a named property on an object.
+**`Object.getOwnPropertyDescriptor()`**
+
+    Returns a property descriptor for a named property on an object.
         
     `Object.getOwnPropertyDescriptors()`
         Returns an object containing all own property descriptors for an object.
