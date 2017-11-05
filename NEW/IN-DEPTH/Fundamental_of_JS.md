@@ -4451,11 +4451,13 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
  **_Properties of the `Object` constructor_**
  
-    `Object.length`
-        Has a value of 1.
+**`Object.length`**
+
+    Has a value of 1.
         
-    `Object.prototype`
-        Allows the addition of properties to all objects of type Object.
+**`Object.prototype`**
+
+    Allows the addition of properties to all objects of type Object.
 
 
  **_Methods of the `Object` constructor_**
