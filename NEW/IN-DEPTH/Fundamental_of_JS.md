@@ -4470,7 +4470,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Creates a new object with the specified prototype object and properties.
 
-    `Object.defineProperty()`
+**`Object.defineProperty()`**
+
         Adds the named property described by a given descriptor to an object.
     
     `Object.defineProperties()`
