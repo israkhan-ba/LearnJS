@@ -4490,21 +4490,26 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Returns a property descriptor for a named property on an object.
         
-    `Object.getOwnPropertyDescriptors()`
-        Returns an object containing all own property descriptors for an object.
+**`Object.getOwnPropertyDescriptors()`**
+
+    Returns an object containing all own property descriptors for an object.
         
-    `Object.getOwnPropertyNames()`
-        Returns an array containing the names of all of the given object's __own__ enumerable and non-enumerable properties.
+**`Object.getOwnPropertyNames()`**
+
+    Returns an array containing the names of all of the given object's __own__ enumerable and non-enumerable properties.
     
-    `Object.getOwnPropertySymbols()`
-        Returns an array of all symbol properties found directly upon a given object.
+**`Object.getOwnPropertySymbols()`**
+
+    Returns an array of all symbol properties found directly upon a given object.
         
-    `Object.getPrototypeOf()`
-        Returns the prototype of the specified object.
+**`Object.getPrototypeOf()`**
+
+    Returns the prototype of the specified object.
     
-    `Object.is()`
-        Compares if two values are the same value. 
-        Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison).
+**`Object.is()`**
+
+    Compares if two values are the same value. 
+    Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison).
     
     `Object.isExtensible()`
         Determines if extending of an object is allowed.
