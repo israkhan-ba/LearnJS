@@ -4513,7 +4513,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
 **`Object.isExtensible()`**
 
-        Determines if extending of an object is allowed.
+    Determines if extending of an object is allowed.
         
     `Object.isFrozen()`
         Determines if an object was frozen
