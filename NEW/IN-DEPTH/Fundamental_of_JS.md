@@ -4482,7 +4482,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Returns an array of a given object's own enumerable property `[key, value]` pairs.
     
-    `Object.freeze()`
+**`Object.freeze()`**
+
         Freezes an object: other code can't delete or change any properties.
         
     `Object.getOwnPropertyDescriptor()`
