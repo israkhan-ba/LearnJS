@@ -4500,7 +4500,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
 **`Object.getOwnPropertySymbols()`**
 
-        Returns an array of all symbol properties found directly upon a given object.
+    Returns an array of all symbol properties found directly upon a given object.
         
     `Object.getPrototypeOf()`
         Returns the prototype of the specified object.
