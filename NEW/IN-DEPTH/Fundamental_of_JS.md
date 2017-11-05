@@ -4508,8 +4508,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
 **`Object.is()`**
 
-        Compares if two values are the same value. 
-        Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison).
+    Compares if two values are the same value. 
+    Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison).
     
     `Object.isExtensible()`
         Determines if extending of an object is allowed.
