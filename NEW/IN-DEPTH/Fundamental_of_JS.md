@@ -4523,7 +4523,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Determines if an object is sealed.
         
-    `Object.keys()`
+**`Object.keys()`**
+
         Returns an array containing the names of all of the given object's __own__ enumerable properties.
         
     `Object.preventExtensions()`
