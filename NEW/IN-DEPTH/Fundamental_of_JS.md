@@ -4529,7 +4529,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
 **`Object.preventExtensions()`**
     
-    Prevents any extensions of an object.
+    Prevents any extensions of an object. 
         
     `Object.seal()`
         Prevents other code from deleting properties of an object.
