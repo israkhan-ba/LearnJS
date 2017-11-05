@@ -4486,7 +4486,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Freezes an object: other code can't delete or change any properties.
         
-    `Object.getOwnPropertyDescriptor()`
+**`Object.getOwnPropertyDescriptor()`**
+
         Returns a property descriptor for a named property on an object.
         
     `Object.getOwnPropertyDescriptors()`
