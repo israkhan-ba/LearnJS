@@ -4504,7 +4504,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
 **`Object.getPrototypeOf()`**
 
-        Returns the prototype of the specified object.
+    Returns the prototype of the specified object.
     
     `Object.is()`
         Compares if two values are the same value. 
