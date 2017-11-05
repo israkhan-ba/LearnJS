@@ -4434,6 +4434,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
  **Parameters**
 
  `nameValuePair1, nameValuePair2, ... nameValuePairN`
+ 
     Pairs of names (strings) and values (any value) where the name is separated from the value by a colon.
 
  `value`
