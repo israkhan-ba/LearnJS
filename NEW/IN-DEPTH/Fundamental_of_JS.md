@@ -4570,7 +4570,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Returns a boolean indicating whether the object this method is called upon is in the prototype chain of the specified object.
         
-    `Object.prototype.propertyIsEnumerable()`
+**`Object.prototype.propertyIsEnumerable()`**
+
         Returns a boolean indicating if the internal ECMAScript [[Enumerable]] attribute is set.
         
     `Object.prototype.toLocaleString()`
