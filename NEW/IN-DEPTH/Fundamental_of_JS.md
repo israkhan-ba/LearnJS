@@ -4562,7 +4562,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 **Methods**
     
-    `Object.prototype.hasOwnProperty()`
+**`Object.prototype.hasOwnProperty()`**
+
         Returns a boolean indicating whether an object contains the specified property as a direct property of that object and not inherited through the prototype chain.
 
     `Object.prototype.isPrototypeOf()`
