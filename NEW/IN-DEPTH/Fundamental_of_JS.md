@@ -4535,7 +4535,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Prevents other code from deleting properties of an object.
     
-    `Object.setPrototypeOf()`
+**`Object.setPrototypeOf()`**
+
         Sets the prototype (i.e., the internal `[[Prototype]]` property)
     
     `Object.values()`
