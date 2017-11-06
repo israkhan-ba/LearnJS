@@ -4531,7 +4531,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
     Prevents any extensions of an object. 
         
-    `Object.seal()`
+**`Object.seal()`**
+
         Prevents other code from deleting properties of an object.
     
     `Object.setPrototypeOf()`
