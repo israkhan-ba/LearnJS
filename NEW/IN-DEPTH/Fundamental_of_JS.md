@@ -4594,10 +4594,11 @@ The following examples store an empty `Object` object in `o`:
 >```
 > var o = new Object();
 >```
-        
-    >```
-    > var o = new Object(undefined);
-    >```
+
+
+>```
+> var o = new Object(undefined);
+>```
         
     >```
     > var o = new Object(null);
