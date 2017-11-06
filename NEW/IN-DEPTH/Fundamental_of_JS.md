@@ -4588,33 +4588,36 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 **_Examples_**
     
-    Using `Object` given `undefined` and `null` types
-        The following examples store an empty `Object` object in `o`:
+Using `Object` given `undefined` and `null` types  
+The following examples store an empty `Object` object in `o`:
         
-    >```
-    > var o = new Object();
-    >```
-        
-    >```
-    > var o = new Object(undefined);
-    >```
-        
-    >```
-    > var o = new Object(null);
-    >```
-    
-    Using `Object` to create `Boolean` objects
-        The following examples store `Boolean` objects in `o`:
+>```
+> var o = new Object();
+>```
 
-    >```
-    > // equivalent to o = new Boolean(true);
-    > var o = new Object(true);
-    >```
+
+>```
+> var o = new Object(undefined);
+>```
+
+
+>```
+> var o = new Object(null);
+>```
     
-    >```
-    > // equivalent to o = new Boolean(false);
-    > var o = new Object(Boolean());
-    >```
+Using `Object` to create `Boolean` objects
+The following examples store `Boolean` objects in `o`:
+
+>```
+> // equivalent to o = new Boolean(true);
+> var o = new Object(true);
+>```
+
+
+>```
+> // equivalent to o = new Boolean(false);
+> var o = new Object(Boolean());
+>```
    
    
 ### Array
