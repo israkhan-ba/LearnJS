@@ -4582,7 +4582,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Returns a string representation of the object.
         
-    `Object.prototype.valueOf()`
+**`Object.prototype.valueOf()`**
 
 
 **_Examples_**
