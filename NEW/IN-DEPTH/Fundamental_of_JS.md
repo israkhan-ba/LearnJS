@@ -4576,7 +4576,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
 **`Object.prototype.toLocaleString()`**
 
-        Calls toString().
+    Calls toString().
 
     `Object.prototype.toString()`
         Returns a string representation of the object.
