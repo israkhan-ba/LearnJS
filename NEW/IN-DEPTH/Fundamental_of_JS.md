@@ -4318,7 +4318,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 Names to be used by the function as formal argument names.
     
-        Each must be a string that corresponds to a valid JavaScript identifier or a list of such strings separated with a comma; for example "`x`", "`theValue`", or "`a,b`".
+Each must be a string that corresponds to a valid JavaScript identifier or a list of such strings separated with a comma; for example "`x`", "`theValue`", or "`a,b`".
     
     
     `functionBody`
