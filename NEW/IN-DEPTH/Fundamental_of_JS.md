@@ -4566,7 +4566,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
     Returns a boolean indicating whether an object contains the specified property as a direct property of that object and not inherited through the prototype chain.
 
-    `Object.prototype.isPrototypeOf()`
+**`Object.prototype.isPrototypeOf()`**
+
         Returns a boolean indicating whether the object this method is called upon is in the prototype chain of the specified object.
         
     `Object.prototype.propertyIsEnumerable()`
