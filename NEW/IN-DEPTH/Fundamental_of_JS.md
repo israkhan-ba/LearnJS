@@ -4323,7 +4323,7 @@ Each must be a string that corresponds to a valid JavaScript identifier or a lis
     
 **`functionBody`**
 
-        A string containing the JavaScript statements comprising the function definition.
+A string containing the JavaScript statements comprising the function definition.
 
 
  `Function` objects created with the `Function` constructor are parsed when the function is created.
