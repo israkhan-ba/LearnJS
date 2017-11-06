@@ -4537,7 +4537,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
 **`Object.setPrototypeOf()`**
 
-        Sets the prototype (i.e., the internal `[[Prototype]]` property)
+    Sets the prototype (i.e., the internal `[[Prototype]]` property)
     
     `Object.values()`
         Returns an array of a given object's own enumerable values.
