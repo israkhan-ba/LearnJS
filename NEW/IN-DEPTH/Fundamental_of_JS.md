@@ -4558,7 +4558,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 **`Object.prototype.constructor`**
 
-        Specifies the function that creates an object's prototype.
+    Specifies the function that creates an object's prototype.
 
 
 **Methods**
