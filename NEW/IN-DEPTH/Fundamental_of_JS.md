@@ -4541,7 +4541,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
     
 **`Object.values()`**
 
-        Returns an array of a given object's own enumerable values.
+    Returns an array of a given object's own enumerable values.
 
 
 **_`Object` instances and `Object` prototype object_**
