@@ -4584,6 +4584,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
         
 **`Object.prototype.valueOf()`**
 
+    Returns the primitive value of the specified object.
 
 **_Examples_**
     
