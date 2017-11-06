@@ -4605,8 +4605,8 @@ The following examples store an empty `Object` object in `o`:
 > var o = new Object(null);
 >```
     
-    Using `Object` to create `Boolean` objects
-        The following examples store `Boolean` objects in `o`:
+Using `Object` to create `Boolean` objects
+The following examples store `Boolean` objects in `o`:
 
     >```
     > // equivalent to o = new Boolean(true);
