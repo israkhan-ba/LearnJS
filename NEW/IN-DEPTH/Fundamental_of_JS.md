@@ -4562,23 +4562,29 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 **Methods**
     
-    `Object.prototype.hasOwnProperty()`
-        Returns a boolean indicating whether an object contains the specified property as a direct property of that object and not inherited through the prototype chain.
+**`Object.prototype.hasOwnProperty()`**
 
-    `Object.prototype.isPrototypeOf()`
-        Returns a boolean indicating whether the object this method is called upon is in the prototype chain of the specified object.
-        
-    `Object.prototype.propertyIsEnumerable()`
-        Returns a boolean indicating if the internal ECMAScript [[Enumerable]] attribute is set.
-        
-    `Object.prototype.toLocaleString()`
-        Calls toString().
+    Returns a boolean indicating whether an object contains the specified property as a direct property of that object and not inherited through the prototype chain.
 
-    `Object.prototype.toString()`
-        Returns a string representation of the object.
-        
-    `Object.prototype.valueOf()`
+**`Object.prototype.isPrototypeOf()`**
 
+    Returns a boolean indicating whether the object this method is called upon is in the prototype chain of the specified object.
+        
+**`Object.prototype.propertyIsEnumerable()`**
+
+    Returns a boolean indicating if the internal ECMAScript [[Enumerable]] attribute is set.
+        
+**`Object.prototype.toLocaleString()`**
+
+    Calls toString().
+
+**`Object.prototype.toString()`**
+
+    Returns a string representation of the object.
+        
+**`Object.prototype.valueOf()`**
+
+    Returns the primitive value of the specified object.
 
 **_Examples_**
     
