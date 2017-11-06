@@ -4599,10 +4599,11 @@ The following examples store an empty `Object` object in `o`:
 >```
 > var o = new Object(undefined);
 >```
-        
-    >```
-    > var o = new Object(null);
-    >```
+
+
+>```
+> var o = new Object(null);
+>```
     
     Using `Object` to create `Boolean` objects
         The following examples store `Boolean` objects in `o`:
