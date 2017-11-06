@@ -4588,8 +4588,8 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 **_Examples_**
     
-    Using `Object` given `undefined` and `null` types
-        The following examples store an empty `Object` object in `o`:
+Using `Object` given `undefined` and `null` types  
+The following examples store an empty `Object` object in `o`:
         
     >```
     > var o = new Object();
