@@ -4376,7 +4376,7 @@ A string containing the JavaScript statements comprising the function definition
         
 **`Function.prototype.toString()`**
 
-        Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
+    Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
         
      
  **_`Function` instances_**
