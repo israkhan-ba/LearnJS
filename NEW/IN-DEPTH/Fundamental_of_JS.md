@@ -4379,14 +4379,18 @@ A string containing the JavaScript statements comprising the function definition
     Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
         
      
- **_`Function` instances_**
-    `Function` instances inherit methods and properties from `Function.prototype`.
-    As with all constructors, you can change the constructor's prototype object to make changes to all `Function` instances.
+**_`Function` instances_**
+
+`Function` instances inherit methods and properties from `Function.prototype`.
+
+As with all constructors, you can change the constructor's prototype object to make changes to all `Function` instances.
     
-    **Examples**
+
+**Examples**
         
-    Specifying arguments with the `Function` constructor
-        The following code creates a `Function` object that takes two arguments.
+Specifying arguments with the `Function` constructor
+The following code creates a `Function` object that takes two arguments.
+
 >```
 > // Example can be run directly in your JavaScript console
 > 
@@ -4401,10 +4405,13 @@ A string containing the JavaScript statements comprising the function definition
  The arguments "`a`" and "`b`" are formal argument names that are used in the function body, "`return a + b`".
         
     
-    Difference between Function constructor and function declaration
-        Functions created with the `Function` constructor do not create closures to their creation contexts; they always are created in the global scope. 
-        When running them, they will only be able to access their own local variables and global ones, not the ones from the scope in which the `Function` constructor was called. 
-        This is different from using `eval` with code for a function expression.
+Difference between Function constructor and function declaration
+
+Functions created with the `Function` constructor do not create closures to their creation contexts; they always are created in the global scope. 
+
+When running them, they will only be able to access their own local variables and global ones, not the ones from the scope in which the `Function` constructor was called. 
+
+This is different from using `eval` with code for a function expression.
     
 >```
 > var x = 10;
