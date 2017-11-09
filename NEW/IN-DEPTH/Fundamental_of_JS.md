@@ -5206,6 +5206,8 @@ Results in
 Unlike the other global objects, `Math` is not a constructor. 
 All properties/methods of `Math` are static and can be called by using Math as an object, without creating it.
 
+You refer to the constant pi as `Math.PI`
+
 **_Code Examples_**
 >```
 > > Math.abs(-2)
