@@ -5246,6 +5246,8 @@ Constants are defined with the full precision of real numbers in JavaScript.
 **`Math.LN10`**
 
     Natural logarithm of 10, approximately 2.303.
+    
+**`Math.LOG2E`**
 
 ### Date
  Work with dates and times in JavaScript.   
