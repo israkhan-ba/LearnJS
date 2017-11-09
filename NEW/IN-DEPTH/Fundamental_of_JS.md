@@ -4358,7 +4358,7 @@ A string containing the JavaScript statements comprising the function definition
         
 **`Function.prototype.constructor`**
 
-        Specifies the function that creates an object's prototype.
+    Specifies the function that creates an object's prototype.
 
  **Methods**
 
