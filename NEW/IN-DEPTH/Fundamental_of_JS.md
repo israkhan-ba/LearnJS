@@ -4354,7 +4354,7 @@ A string containing the JavaScript statements comprising the function definition
  
 **`Function.name`**
 
-        The name of the function.
+    The name of the function.
         
     `Function.prototype.constructor`
         Specifies the function that creates an object's prototype.
