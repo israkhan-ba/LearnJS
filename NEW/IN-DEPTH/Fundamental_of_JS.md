@@ -4350,7 +4350,7 @@ A string containing the JavaScript statements comprising the function definition
  
 **`Function.length`**
 
-        Specifies the number of arguments expected by the function.
+    Specifies the number of arguments expected by the function.
  
     `Function.name`
         The name of the function.
