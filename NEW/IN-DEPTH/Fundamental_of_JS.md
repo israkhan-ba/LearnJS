@@ -4379,7 +4379,7 @@ A string containing the JavaScript statements comprising the function definition
     Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
         
      
- **_`Function` instances_**
+**_`Function` instances_**
     `Function` instances inherit methods and properties from `Function.prototype`.
     As with all constructors, you can change the constructor's prototype object to make changes to all `Function` instances.
     
