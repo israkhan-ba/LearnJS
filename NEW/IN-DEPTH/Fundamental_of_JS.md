@@ -4054,6 +4054,7 @@ Note that the function in line (1) is free to ignore arguments.
 It could, for example, only have the parameter `elem`.
 
 - `map` creates a new array by applying a function to each element of an existing array:
+
 **_Code Examples_**
  >```
  > > [1,2,3].map(function (x) { return x*x })
@@ -5199,9 +5200,16 @@ Results in
 ----------------------------------------------
 
 ### Math
- Math is an object with arithmetic functions to perform mathematical tasks.
+
+`Math` is an object with arithmetic functions to perform mathematical tasks, it has properties and methods for mathematical constants and functions. Not a function object.
  
- _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
+Unlike the other global objects, `Math` is not a constructor. 
+All properties/methods of `Math` are static and can be called by using Math as an object, without creating it.
+
+You refer to the constant pi as `Math.PI` and you call the sine function as `Math.sin(x)`, where `x` is the method's argument.
+
+Constants are defined with the full precision of real numbers in JavaScript.
+
 
 **_Code Examples_**
 >```
