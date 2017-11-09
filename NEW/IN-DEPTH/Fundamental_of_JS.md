@@ -5203,7 +5203,7 @@ Results in
 
 `Math` is an object with arithmetic functions to perform mathematical tasks, it has properties and methods for mathematical constants and functions. Not a function object.
  
- _Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
+Unlike the other global objects, `Math` is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it._
 
 **_Code Examples_**
 >```
