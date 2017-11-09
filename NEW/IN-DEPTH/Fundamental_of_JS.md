@@ -4344,17 +4344,21 @@ A string containing the JavaScript statements comprising the function definition
  
  **Properties**
 
-    `Function.arguments`
-        An array corresponding to the arguments passed to a function. This is deprecated as property of `Function`. Use the `arguments` object available within the function instead.
- 
-    `Function.length`
-        Specifies the number of arguments expected by the function.
- 
-    `Function.name`
-        The name of the function.
+**`Function.arguments`**
         
-    `Function.prototype.constructor`
-        Specifies the function that creates an object's prototype.
+    An array corresponding to the arguments passed to a function. This is deprecated as property of `Function`. Use the `arguments` object available within the function instead.
+ 
+**`Function.length`**
+
+    Specifies the number of arguments expected by the function.
+ 
+**`Function.name`**
+
+    The name of the function.
+        
+**`Function.prototype.constructor`**
+
+    Specifies the function that creates an object's prototype.
 
  **Methods**
 
