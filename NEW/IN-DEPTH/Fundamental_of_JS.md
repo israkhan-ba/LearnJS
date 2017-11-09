@@ -4380,9 +4380,12 @@ A string containing the JavaScript statements comprising the function definition
         
      
 **_`Function` instances_**
-    `Function` instances inherit methods and properties from `Function.prototype`.
-    As with all constructors, you can change the constructor's prototype object to make changes to all `Function` instances.
+
+`Function` instances inherit methods and properties from `Function.prototype`.
+
+As with all constructors, you can change the constructor's prototype object to make changes to all `Function` instances.
     
+
 **Examples**
         
 Specifying arguments with the `Function` constructor
