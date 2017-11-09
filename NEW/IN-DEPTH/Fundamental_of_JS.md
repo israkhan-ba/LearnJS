@@ -4352,7 +4352,8 @@ A string containing the JavaScript statements comprising the function definition
 
     Specifies the number of arguments expected by the function.
  
-    `Function.name`
+**`Function.name`**
+
         The name of the function.
         
     `Function.prototype.constructor`
