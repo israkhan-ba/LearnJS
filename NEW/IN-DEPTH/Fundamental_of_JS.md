@@ -5237,6 +5237,8 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.E`**
 
+    Euler's constant and the base of natural logarithms, approximately 2.718.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
