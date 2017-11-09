@@ -4385,8 +4385,9 @@ A string containing the JavaScript statements comprising the function definition
     
 **Examples**
         
-    Specifying arguments with the `Function` constructor
-        The following code creates a `Function` object that takes two arguments.
+Specifying arguments with the `Function` constructor
+The following code creates a `Function` object that takes two arguments.
+
 >```
 > // Example can be run directly in your JavaScript console
 > 
