@@ -4374,7 +4374,8 @@ A string containing the JavaScript statements comprising the function definition
 
     Calls (executes) a function and sets its this to the provided value, arguments can be passed as they are.
         
-    `Function.prototype.toString()`
+**`Function.prototype.toString()`**
+
         Returns a string representing the source code of the function. Overrides the `Object.prototype.toString` method.
         
      
