@@ -4362,7 +4362,8 @@ A string containing the JavaScript statements comprising the function definition
 
  **Methods**
 
-    `Function.prototype.apply()`
+**`Function.prototype.apply()`**
+
         Calls a function and sets its this to the provided value, arguments can be passed as an  `Array` object.
 
     `Function.prototype.bind()`
