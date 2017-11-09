@@ -5208,6 +5208,9 @@ All properties/methods of `Math` are static and can be called by using Math as a
 
 You refer to the constant pi as `Math.PI` and you call the sine function as `Math.sin(x)`, where `x` is the method's argument.
 
+Constants are defined with the full precision of real numbers in JavaScript.
+
+
 **_Code Examples_**
 >```
 > > Math.abs(-2)
