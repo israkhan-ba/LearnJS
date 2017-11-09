@@ -4348,7 +4348,8 @@ A string containing the JavaScript statements comprising the function definition
         
     An array corresponding to the arguments passed to a function. This is deprecated as property of `Function`. Use the `arguments` object available within the function instead.
  
-    `Function.length`
+**`Function.length`**
+
         Specifies the number of arguments expected by the function.
  
     `Function.name`
