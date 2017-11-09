@@ -5235,6 +5235,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **_Properties_**
 
+**`Math.E`**
 
 ### Date
  Work with dates and times in JavaScript.   
