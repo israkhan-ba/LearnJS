@@ -5302,6 +5302,8 @@ Math.atanh(x)
 Math.atan2(y, x)
 
     Returns the arctangent of the quotient of its arguments.
+
+Math.cbrt(x)
     
 
 ### Date
