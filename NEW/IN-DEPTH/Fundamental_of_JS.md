@@ -5378,6 +5378,8 @@ Math.pow(x, y)
 Math.random()
 
     Returns a pseudo-random number between 0 and 1.
+    
+Math.round(x)
 
 ### Date
  Work with dates and times in JavaScript.   
