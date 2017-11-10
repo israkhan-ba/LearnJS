@@ -5283,7 +5283,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the hyperbolic arccosine of a number.
 
-Math.asin(x)
+**`Math.asin(x)`**
 
     Returns the arcsine of a number.
 
