@@ -5291,7 +5291,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the hyperbolic arcsine of a number.
 
-Math.atan(x)
+**`Math.atan(x)`**
 
     Returns the arctangent of a number.
 
