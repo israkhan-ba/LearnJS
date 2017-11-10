@@ -5369,6 +5369,8 @@ Math.max([x[, y[, …]]])
     
 Math.min([x[, y[, …]]])
 
+    Returns the smallest of zero or more numbers.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
