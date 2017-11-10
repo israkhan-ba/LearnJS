@@ -5366,6 +5366,8 @@ Math.log2(x)
 Math.max([x[, y[, …]]])
 
     Returns the largest of zero or more numbers.
+    
+Math.min([x[, y[, …]]])
 
 ### Date
  Work with dates and times in JavaScript.   
