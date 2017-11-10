@@ -5276,6 +5276,8 @@ Math.abs(x)
     Returns the absolute value of a number.
 
 Math.acos(x)
+
+    Returns the arccosine of a number.
     
 
 ### Date
