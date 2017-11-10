@@ -5267,7 +5267,11 @@ Math.SQRT2
 
     Square root of 2, approximately 1.414.
     
+
+**_Methods_**
+
     
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
