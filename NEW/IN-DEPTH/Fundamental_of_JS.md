@@ -5300,6 +5300,8 @@ Math.atanh(x)
     Returns the hyperbolic arctangent of a number.
 
 Math.atan2(y, x)
+
+    Returns the arctangent of the quotient of its arguments.
     
 
 ### Date
