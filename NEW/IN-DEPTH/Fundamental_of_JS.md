@@ -5286,6 +5286,8 @@ Math.acosh(x)
 Math.asin(x)
 
     Returns the arcsine of a number.
+
+Math.asinh(x)
     
 
 ### Date
