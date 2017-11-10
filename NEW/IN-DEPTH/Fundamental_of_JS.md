@@ -5390,6 +5390,8 @@ Math.sign(x)
 Math.sin(x)
 
     Returns the sine of a number.
+    
+Math.sinh(x)
 
 ### Date
  Work with dates and times in JavaScript.   
