@@ -5326,7 +5326,10 @@ Math.cosh(x)
 Math.exp(x)
 
     Returns Ex, where x is the argument, and E is Euler's constant (2.718…), the base of the natural logarithm.
-    
+
+Math.expm1(x)
+
+    Returns subtracting 1 from exp(x).
 
 ### Date
  Work with dates and times in JavaScript.   
