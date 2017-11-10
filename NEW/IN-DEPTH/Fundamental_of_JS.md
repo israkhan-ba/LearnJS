@@ -5377,6 +5377,8 @@ Math.pow(x, y)
     
 Math.random()
 
+    Returns a pseudo-random number between 0 and 1.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
