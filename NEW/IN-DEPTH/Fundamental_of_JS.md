@@ -5347,6 +5347,8 @@ Math.imul(x, y)
 
     Returns the result of a 32-bit integer multiplication.
 
+Math.log(x)
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
