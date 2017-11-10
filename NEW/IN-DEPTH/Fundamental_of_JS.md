@@ -5358,6 +5358,8 @@ Math.log1p(x)
 Math.log10(x)
 
     Returns the base 10 logarithm of a number.
+    
+Math.log2(x)
 
 ### Date
  Work with dates and times in JavaScript.   
