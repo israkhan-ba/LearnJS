@@ -5409,6 +5409,8 @@ Math.tanh(x)
     
 Math.trunc(x)
 
+    Returns the integral part of the number x, removing any fractional digits. 
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
