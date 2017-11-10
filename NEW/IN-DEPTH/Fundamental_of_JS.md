@@ -5398,6 +5398,8 @@ Math.sinh(x)
 Math.sqrt(x)
 
     Returns the positive square root of a number.
+    
+Math.tan(x)
 
 ### Date
  Work with dates and times in JavaScript.   
