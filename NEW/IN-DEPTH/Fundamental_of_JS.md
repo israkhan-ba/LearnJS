@@ -5308,6 +5308,8 @@ Math.cbrt(x)
     Returns the cube root of a number.
 
 Math.ceil(x)
+
+    Returns the smallest integer greater than or equal to a number.
     
 
 ### Date
