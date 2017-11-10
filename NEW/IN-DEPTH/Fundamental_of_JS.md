@@ -5389,6 +5389,8 @@ Math.sign(x)
     
 Math.sin(x)
 
+    Returns the sine of a number.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
