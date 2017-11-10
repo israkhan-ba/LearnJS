@@ -5394,6 +5394,8 @@ Math.sin(x)
 Math.sinh(x)
 
     Returns the hyperbolic sine of a number.
+    
+Math.sqrt(x)
 
 ### Date
  Work with dates and times in JavaScript.   
