@@ -5272,6 +5272,8 @@ Math.SQRT2
 
 
 Math.abs(x)
+
+    Returns the absolute value of a number.
     
 
 ### Date
