@@ -5370,6 +5370,26 @@ Math.max([x[, y[, …]]])
 Math.min([x[, y[, …]]])
 
     Returns the smallest of zero or more numbers.
+    
+Math.pow(x, y)
+
+    Returns base to the exponent power, that is, baseexponent.
+    
+Math.random()
+
+    Returns a pseudo-random number between 0 and 1.
+    
+Math.round(x)
+
+    Returns the value of a number rounded to the nearest integer.
+    
+Math.sign(x)
+
+    Returns the sign of the x, indicating whether x is positive, negative or zero.
+    
+Math.sin(x)
+
+    Returns the sine of a number.
 
 ### Date
  Work with dates and times in JavaScript.   
