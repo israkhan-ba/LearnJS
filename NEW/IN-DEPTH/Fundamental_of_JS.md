@@ -5390,6 +5390,26 @@ Math.sign(x)
 Math.sin(x)
 
     Returns the sine of a number.
+    
+Math.sinh(x)
+
+    Returns the hyperbolic sine of a number.
+    
+Math.sqrt(x)
+
+    Returns the positive square root of a number.
+    
+Math.tan(x)
+
+    Returns the tangent of a number.
+    
+Math.tanh(x)
+
+    Returns the hyperbolic tangent of a number.
+    
+Math.trunc(x)
+
+    Returns the integral part of the number x, removing any fractional digits. 
 
 ### Date
  Work with dates and times in JavaScript.   
