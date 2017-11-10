@@ -5298,6 +5298,8 @@ Math.atan(x)
 Math.atanh(x)
 
     Returns the hyperbolic arctangent of a number.
+
+Math.atan2(y, x)
     
 
 ### Date
