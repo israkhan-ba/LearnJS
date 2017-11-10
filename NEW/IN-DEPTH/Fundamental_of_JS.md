@@ -5270,6 +5270,8 @@ Math.SQRT2
 
 **_Methods_**
 
+
+Math.abs(x)
     
 
 ### Date
