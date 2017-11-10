@@ -5337,6 +5337,8 @@ Math.floor(x)
 
 Math.fround(x)
 
+    Returns the nearest single precision float representation of a number.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
