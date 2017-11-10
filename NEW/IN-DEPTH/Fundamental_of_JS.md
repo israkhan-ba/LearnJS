@@ -5314,6 +5314,8 @@ Math.ceil(x)
 Math.clz32(x)
 
     Returns the number of leading zeroes of a 32-bit integer.
+
+Math.cos(x)
     
 
 ### Date
