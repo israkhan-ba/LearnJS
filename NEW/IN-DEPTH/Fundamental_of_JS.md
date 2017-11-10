@@ -5310,6 +5310,8 @@ Math.cbrt(x)
 Math.ceil(x)
 
     Returns the smallest integer greater than or equal to a number.
+
+Math.clz32(x)
     
 
 ### Date
