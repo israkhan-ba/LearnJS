@@ -5251,7 +5251,9 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Base 2 logarithm of E, approximately 1.443.
 
-
+Math.LOG10E
+    
+    
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
