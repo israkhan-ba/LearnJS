@@ -5267,7 +5267,55 @@ Math.SQRT2
 
     Square root of 2, approximately 1.414.
     
+
+**_Methods_**
+
+
+Math.abs(x)
+
+    Returns the absolute value of a number.
+
+Math.acos(x)
+
+    Returns the arccosine of a number.
+
+Math.acosh(x)
+
+    Returns the hyperbolic arccosine of a number.
+
+Math.asin(x)
+
+    Returns the arcsine of a number.
+
+Math.asinh(x)
+
+    Returns the hyperbolic arcsine of a number.
+
+Math.atan(x)
+
+    Returns the arctangent of a number.
+
+Math.atanh(x)
+
+    Returns the hyperbolic arctangent of a number.
+
+Math.atan2(y, x)
+
+    Returns the arctangent of the quotient of its arguments.
+
+Math.cbrt(x)
+
+    Returns the cube root of a number.
+
+Math.ceil(x)
+
+    Returns the smallest integer greater than or equal to a number.
+
+Math.clz32(x)
+
+    Returns the number of leading zeroes of a 32-bit integer.
     
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
