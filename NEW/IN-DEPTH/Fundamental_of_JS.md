@@ -5251,7 +5251,23 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Base 2 logarithm of E, approximately 1.443.
 
+Math.LOG10E
 
+    Base 10 logarithm of E, approximately 0.434.
+
+Math.PI
+
+    Ratio of the circumference of a circle to its diameter, approximately 3.14159.
+
+Math.SQRT1_2
+
+    Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
+
+Math.SQRT2
+
+    Square root of 2, approximately 1.414.
+    
+    
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
