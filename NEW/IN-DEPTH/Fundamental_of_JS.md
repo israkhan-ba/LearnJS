@@ -5370,6 +5370,8 @@ Math.max([x[, y[, …]]])
 Math.min([x[, y[, …]]])
 
     Returns the smallest of zero or more numbers.
+    
+Math.pow(x, y)
 
 ### Date
  Work with dates and times in JavaScript.   
