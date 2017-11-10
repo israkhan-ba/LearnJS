@@ -5361,6 +5361,8 @@ Math.log10(x)
     
 Math.log2(x)
 
+    Returns the base 2 logarithm of a number.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
