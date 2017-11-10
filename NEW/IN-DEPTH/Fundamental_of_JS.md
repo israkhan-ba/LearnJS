@@ -5382,6 +5382,8 @@ Math.random()
 Math.round(x)
 
     Returns the value of a number rounded to the nearest integer.
+    
+Math.sign(x)
 
 ### Date
  Work with dates and times in JavaScript.   
