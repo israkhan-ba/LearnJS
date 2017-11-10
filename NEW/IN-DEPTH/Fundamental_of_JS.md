@@ -5306,6 +5306,8 @@ Math.atan2(y, x)
 Math.cbrt(x)
 
     Returns the cube root of a number.
+
+Math.ceil(x)
     
 
 ### Date
