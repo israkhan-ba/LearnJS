@@ -5354,6 +5354,8 @@ Math.log(x)
 Math.log1p(x)
 
     Returns the natural logarithm (loge, also ln) of 1 + x for a number x.
+    
+Math.log10(x)
 
 ### Date
  Work with dates and times in JavaScript.   
