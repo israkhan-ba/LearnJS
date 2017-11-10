@@ -5292,6 +5292,8 @@ Math.asinh(x)
     Returns the hyperbolic arcsine of a number.
 
 Math.atan(x)
+
+    Returns the arctangent of a number.
     
 
 ### Date
