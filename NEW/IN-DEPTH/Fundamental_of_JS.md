@@ -5362,6 +5362,8 @@ Math.log10(x)
 Math.log2(x)
 
     Returns the base 2 logarithm of a number.
+    
+Math.max([x[, y[, …]]])
 
 ### Date
  Work with dates and times in JavaScript.   
