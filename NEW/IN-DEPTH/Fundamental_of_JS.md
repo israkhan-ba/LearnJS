@@ -5335,6 +5335,8 @@ Math.floor(x)
 
     Returns the largest integer less than or equal to a number.
 
+Math.fround(x)
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
