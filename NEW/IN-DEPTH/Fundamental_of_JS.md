@@ -5314,7 +5314,42 @@ Math.ceil(x)
 Math.clz32(x)
 
     Returns the number of leading zeroes of a 32-bit integer.
-    
+
+Math.cos(x)
+
+    Returns the cosine of a number.
+
+Math.cosh(x)
+
+    Returns the hyperbolic cosine of a number.
+
+Math.exp(x)
+
+    Returns Ex, where x is the argument, and E is Euler's constant (2.718…), the base of the natural logarithm.
+
+Math.expm1(x)
+
+    Returns subtracting 1 from exp(x).
+
+Math.floor(x)
+
+    Returns the largest integer less than or equal to a number.
+
+Math.fround(x)
+
+    Returns the nearest single precision float representation of a number.
+
+Math.hypot([x[, y[, …]]])
+
+    Returns the square root of the sum of squares of its arguments.
+
+Math.imul(x, y)
+
+    Returns the result of a 32-bit integer multiplication.
+
+Math.log(x)
+
+    Returns the natural logarithm (loge, also ln) of a number.
 
 ### Date
  Work with dates and times in JavaScript.   
