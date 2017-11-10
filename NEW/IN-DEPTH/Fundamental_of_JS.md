@@ -5264,6 +5264,8 @@ Math.SQRT1_2
     Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
 
 Math.SQRT2
+
+    Square root of 2, approximately 1.414.
     
     
 ### Date
