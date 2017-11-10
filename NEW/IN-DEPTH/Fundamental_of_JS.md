@@ -5402,6 +5402,8 @@ Math.sqrt(x)
 Math.tan(x)
 
     Returns the tangent of a number.
+    
+Math.tanh(x)
 
 ### Date
  Work with dates and times in JavaScript.   
