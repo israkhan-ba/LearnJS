@@ -5320,6 +5320,8 @@ Math.cos(x)
     Returns the cosine of a number.
 
 Math.cosh(x)
+
+    Returns the hyperbolic cosine of a number.
     
 
 ### Date
