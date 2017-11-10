@@ -5271,7 +5271,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 **_Methods_**
 
 
-Math.abs(x)
+**`Math.abs(x)`**
 
     Returns the absolute value of a number.
 
