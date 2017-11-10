@@ -5374,6 +5374,8 @@ Math.min([x[, y[, …]]])
 Math.pow(x, y)
 
     Returns base to the exponent power, that is, baseexponent.
+    
+Math.random()
 
 ### Date
  Work with dates and times in JavaScript.   
