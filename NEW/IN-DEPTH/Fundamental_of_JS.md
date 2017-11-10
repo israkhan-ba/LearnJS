@@ -5304,6 +5304,8 @@ Math.atan2(y, x)
     Returns the arctangent of the quotient of its arguments.
 
 Math.cbrt(x)
+
+    Returns the cube root of a number.
     
 
 ### Date
