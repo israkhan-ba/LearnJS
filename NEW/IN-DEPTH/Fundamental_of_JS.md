@@ -5312,6 +5312,8 @@ Math.ceil(x)
     Returns the smallest integer greater than or equal to a number.
 
 Math.clz32(x)
+
+    Returns the number of leading zeroes of a 32-bit integer.
     
 
 ### Date
