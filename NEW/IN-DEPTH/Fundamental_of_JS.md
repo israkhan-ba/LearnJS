@@ -5282,6 +5282,8 @@ Math.acos(x)
 Math.acosh(x)
 
     Returns the hyperbolic arccosine of a number.
+
+Math.asin(x)
     
 
 ### Date
