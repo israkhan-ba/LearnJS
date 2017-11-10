@@ -5294,6 +5294,8 @@ Math.asinh(x)
 Math.atan(x)
 
     Returns the arctangent of a number.
+
+Math.atanh(x)
     
 
 ### Date
