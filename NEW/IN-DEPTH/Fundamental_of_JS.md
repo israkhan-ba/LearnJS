@@ -5256,6 +5256,8 @@ Math.LOG10E
     Base 10 logarithm of E, approximately 0.434.
 
 Math.PI
+
+    Ratio of the circumference of a circle to its diameter, approximately 3.14159.
     
     
 ### Date
