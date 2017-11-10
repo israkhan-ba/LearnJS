@@ -5318,6 +5318,8 @@ Math.clz32(x)
 Math.cos(x)
 
     Returns the cosine of a number.
+
+Math.cosh(x)
     
 
 ### Date
