@@ -5397,6 +5397,8 @@ Math.sinh(x)
     
 Math.sqrt(x)
 
+    Returns the positive square root of a number.
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
