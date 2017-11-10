@@ -5279,7 +5279,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the arccosine of a number.
 
-Math.acosh(x)
+**`Math.acosh(x)`**
 
     Returns the hyperbolic arccosine of a number.
 
