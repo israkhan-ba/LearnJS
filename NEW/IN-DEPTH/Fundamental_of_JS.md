@@ -5343,6 +5343,8 @@ Math.hypot([x[, y[, …]]])
 
     Returns the square root of the sum of squares of its arguments.
 
+Math.imul(x, y)
+
 ### Date
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
