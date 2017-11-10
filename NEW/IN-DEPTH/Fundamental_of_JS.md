@@ -5386,6 +5386,8 @@ Math.round(x)
 Math.sign(x)
 
     Returns the sign of the x, indicating whether x is positive, negative or zero.
+    
+Math.sin(x)
 
 ### Date
  Work with dates and times in JavaScript.   
