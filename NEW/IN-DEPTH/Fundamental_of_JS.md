@@ -5324,6 +5324,8 @@ Math.cosh(x)
     Returns the hyperbolic cosine of a number.
 
 Math.exp(x)
+
+    Returns Ex, where x is the argument, and E is Euler's constant (2.718…), the base of the natural logarithm.
     
 
 ### Date
