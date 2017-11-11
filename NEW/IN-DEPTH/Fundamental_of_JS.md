@@ -5295,7 +5295,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the arctangent of a number.
 
-Math.atanh(x)
+**`Math.atanh(x)`**
 
     Returns the hyperbolic arctangent of a number.
 
