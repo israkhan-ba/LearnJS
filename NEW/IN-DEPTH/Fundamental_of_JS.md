@@ -5343,7 +5343,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the square root of the sum of squares of its arguments.
 
-Math.imul(x, y)
+**`Math.imul(x, y)`**
 
     Returns the result of a 32-bit integer multiplication.
 
