@@ -5371,7 +5371,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the smallest of zero or more numbers.
     
-Math.pow(x, y)
+**`Math.pow(x, y)`**
 
     Returns base to the exponent power, that is, baseexponent.
     
