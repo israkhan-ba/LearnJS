@@ -5303,7 +5303,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the arctangent of the quotient of its arguments.
 
-Math.cbrt(x)
+**`Math.cbrt(x)`**
 
     Returns the cube root of a number.
 
