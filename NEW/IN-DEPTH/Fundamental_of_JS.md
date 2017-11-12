@@ -5335,23 +5335,23 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the largest integer less than or equal to a number.
 
-Math.fround(x)
+**`Math.fround(x)`**
 
     Returns the nearest single precision float representation of a number.
 
-Math.hypot([x[, y[, …]]])
+**`Math.hypot([x[, y[, …]]])`**
 
     Returns the square root of the sum of squares of its arguments.
 
-Math.imul(x, y)
+**`Math.imul(x, y)`**
 
     Returns the result of a 32-bit integer multiplication.
 
-Math.log(x)
+**`Math.log(x)`**
 
     Returns the natural logarithm (loge, also ln) of a number.
 
-Math.log1p(x)
+**`Math.log1p(x)`**
 
     Returns the natural logarithm (loge, also ln) of 1 + x for a number x.
     
