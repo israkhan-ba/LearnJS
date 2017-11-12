@@ -5371,19 +5371,19 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the smallest of zero or more numbers.
     
-Math.pow(x, y)
+**`Math.pow(x, y)`**
 
     Returns base to the exponent power, that is, baseexponent.
     
-Math.random()
+**`Math.random()`**
 
     Returns a pseudo-random number between 0 and 1.
     
-Math.round(x)
+**`Math.round(x)`**
 
     Returns the value of a number rounded to the nearest integer.
     
-Math.sign(x)
+**`Math.sign(x)`**
 
     Returns the sign of the x, indicating whether x is positive, negative or zero.
     
