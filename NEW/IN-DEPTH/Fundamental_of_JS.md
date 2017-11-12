@@ -5407,7 +5407,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the hyperbolic tangent of a number.
     
-Math.trunc(x)
+**`Math.trunc(x)`**
 
     Returns the integral part of the number x, removing any fractional digits. 
 
