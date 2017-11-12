@@ -5299,7 +5299,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the hyperbolic arctangent of a number.
 
-Math.atan2(y, x)
+**`Math.atan2(y, x)`**
 
     Returns the arctangent of the quotient of its arguments.
 
