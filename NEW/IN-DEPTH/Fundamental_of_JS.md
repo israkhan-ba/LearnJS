@@ -5311,7 +5311,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the smallest integer greater than or equal to a number.
 
-Math.clz32(x)
+**`Math.clz32(x)`**
 
     Returns the number of leading zeroes of a 32-bit integer.
 
