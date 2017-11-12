@@ -5395,7 +5395,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the hyperbolic sine of a number.
     
-Math.sqrt(x)
+**`Math.sqrt(x)`**
 
     Returns the positive square root of a number.
     
