@@ -5355,19 +5355,19 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the natural logarithm (loge, also ln) of 1 + x for a number x.
     
-Math.log10(x)
+**`Math.log10(x)`**
 
     Returns the base 10 logarithm of a number.
     
-Math.log2(x)
+**`Math.log2(x)`**
 
     Returns the base 2 logarithm of a number.
     
-Math.max([x[, y[, …]]])
+**`Math.max([x[, y[, …]]])`**
 
     Returns the largest of zero or more numbers.
     
-Math.min([x[, y[, …]]])
+**`Math.min([x[, y[, …]]])`**
 
     Returns the smallest of zero or more numbers.
     
