@@ -5331,7 +5331,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns subtracting 1 from exp(x).
 
-Math.floor(x)
+**`Math.floor(x)`**
 
     Returns the largest integer less than or equal to a number.
 
