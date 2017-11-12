@@ -5315,7 +5315,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the number of leading zeroes of a 32-bit integer.
 
-Math.cos(x)
+**`Math.cos(x)`**
 
     Returns the cosine of a number.
 
