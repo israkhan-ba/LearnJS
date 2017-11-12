@@ -5339,7 +5339,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the nearest single precision float representation of a number.
 
-Math.hypot([x[, y[, …]]])
+**`Math.hypot([x[, y[, …]]])`**
 
     Returns the square root of the sum of squares of its arguments.
 
