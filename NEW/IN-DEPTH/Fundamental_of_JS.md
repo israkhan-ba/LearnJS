@@ -5387,15 +5387,15 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the sign of the x, indicating whether x is positive, negative or zero.
     
-Math.sin(x)
+**`Math.sin(x)`**
 
     Returns the sine of a number.
     
-Math.sinh(x)
+**`Math.sinh(x)`**
 
     Returns the hyperbolic sine of a number.
     
-Math.sqrt(x)
+**`Math.sqrt(x)`**
 
     Returns the positive square root of a number.
     
