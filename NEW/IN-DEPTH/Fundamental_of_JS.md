@@ -5399,7 +5399,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the positive square root of a number.
     
-Math.tan(x)
+**`Math.tan(x)`**
 
     Returns the tangent of a number.
     
