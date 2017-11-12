@@ -5335,7 +5335,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the largest integer less than or equal to a number.
 
-Math.fround(x)
+**`Math.fround(x)`**
 
     Returns the nearest single precision float representation of a number.
 
