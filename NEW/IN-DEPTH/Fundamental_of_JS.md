@@ -5379,7 +5379,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns a pseudo-random number between 0 and 1.
     
-Math.round(x)
+**`Math.round(x)`**
 
     Returns the value of a number rounded to the nearest integer.
     
