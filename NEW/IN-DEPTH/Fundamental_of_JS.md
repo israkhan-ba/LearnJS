@@ -5347,7 +5347,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the result of a 32-bit integer multiplication.
 
-Math.log(x)
+**`Math.log(x)`**
 
     Returns the natural logarithm (loge, also ln) of a number.
 
