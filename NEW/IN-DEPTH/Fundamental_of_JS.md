@@ -5307,7 +5307,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
     Returns the cube root of a number.
 
-Math.ceil(x)
+**`Math.ceil(x)`**
 
     Returns the smallest integer greater than or equal to a number.
 
