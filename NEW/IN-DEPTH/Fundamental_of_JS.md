@@ -5438,6 +5438,7 @@ Syntax
 new Date();
 new Date(value);
 new Date(dateString);
+new Date(year, month, date, hours, minutes, seconds, milliseconds);
 
 
 #### The Date Constructor
