@@ -5428,6 +5428,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
  
 - The JavaScript `Date` object supports a number of UTC (universal) methods, as well as local time methods. 
 UTC, also known as Greenwich Mean Time (GMT), refers to the time as set by the World Time Standard.
+The local time is the time known to the computer where JavaScript is executed.
 
 
 #### The Date Constructor
