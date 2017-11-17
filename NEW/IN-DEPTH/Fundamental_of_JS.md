@@ -5443,7 +5443,7 @@ new Date(year, month, date, hours, minutes, seconds, milliseconds);
 Parameters
 
 value
-    Integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC
+    Integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC, with leap seconds ignored (Unix Epoch
     
 #### The Date Constructor
 
