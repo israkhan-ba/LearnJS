@@ -5464,6 +5464,7 @@ minutes
     Optional. Integer value representing the minute segment of a time.
     
 seconds
+    Optional. 
     
 #### The Date Constructor
 
