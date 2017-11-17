@@ -5444,12 +5444,11 @@ Parameters
 
 value
     Integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC, with leap seconds ignored (Unix Epoch; but consider that most Unix time stamp functions count in seconds).
-
 dateString
     String value representing a date. The string should be in a format recognized by the Date.parse() method (IETF-compliant RFC 2822 timestamps and also a version of ISO8601). 
 
 year
-    Integer value representing the year. Values from 0 to 99 map to the years 1900 to 1999. See the example below.
+    Integer value representing the year. Values from 0 to 99 map to the years 1900 to 1999.
 
 month
     Integer value representing the month, beginning with 0 for January to 11 for December.
