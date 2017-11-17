@@ -5463,6 +5463,8 @@ hours
 minutes
     Optional. Integer value representing the minute segment of a time.
     
+seconds
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
