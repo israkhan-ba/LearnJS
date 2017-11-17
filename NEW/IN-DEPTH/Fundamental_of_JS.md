@@ -5441,6 +5441,8 @@ new Date(dateString);
 new Date(year, month, date, hours, minutes, seconds, milliseconds);
 
 Parameters
+
+value
     
 #### The Date Constructor
 
