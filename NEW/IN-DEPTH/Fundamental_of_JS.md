@@ -5424,7 +5424,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 - The JavaScript date is based on a time value that is milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript `Date` object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
 
-- The JavaScript `Date` object provides uniform behavior across platforms.
+- The JavaScript `Date` object provides uniform behavior across platforms. The time value can be passed between systems to create a date that represents the same moment in time.
  
 #### The Date Constructor
 
