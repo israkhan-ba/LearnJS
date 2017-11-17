@@ -5457,6 +5457,8 @@ month
 date
     Optional. Integer value representing the day of the month.
     
+hours
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
