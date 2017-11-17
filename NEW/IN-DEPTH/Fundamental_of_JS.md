@@ -5435,6 +5435,9 @@ The local time is the time known to the computer where JavaScript is executed.
 
 Syntax
 
+new Date();
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
