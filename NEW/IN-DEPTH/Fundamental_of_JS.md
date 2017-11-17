@@ -5453,6 +5453,8 @@ year
 
 month
     Integer value representing the month, beginning with 0 for January to 11 for December.
+
+date
     
 #### The Date Constructor
 
