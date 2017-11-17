@@ -5458,6 +5458,7 @@ date
     Optional. Integer value representing the day of the month.
     
 hours
+    Optional.
     
 #### The Date Constructor
 
