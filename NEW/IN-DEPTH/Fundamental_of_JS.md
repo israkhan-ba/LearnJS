@@ -5466,6 +5466,8 @@ minutes
 seconds
     Optional. Integer value representing the second segment of a time.
     
+milliseconds
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
