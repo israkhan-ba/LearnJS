@@ -5415,6 +5415,9 @@ Constants are defined with the full precision of real numbers in JavaScript.
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
  
+ Creates a JavaScript **`Date`** instance that represents a single moment in time. 
+ 
+ 
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
