@@ -5415,6 +5415,24 @@ Constants are defined with the full precision of real numbers in JavaScript.
  Work with dates and times in JavaScript.   
  by Date constructor so you can parsing, managing, and displaying dates.
  
+ Creates a JavaScript **`Date`** instance that represents a single moment in time. 
+ `Date` objects are based on a time value that is the number of milliseconds since 1 January, 1970 UTC.
+ 
+- If no arguments are provided, the constructor creates a JavaScript `Date` object for the current date and time according to system settings.
+ 
+- If at least two arguments are supplied, missing arguments are either set to 1 (if day is missing) or 0 for all others.
+
+- The JavaScript date is based on a time value that is milliseconds since midnight 01 January, 1970 UTC. A day holds 86,400,000 milliseconds. The JavaScript `Date` object range is -100,000,000 days to 100,000,000 days relative to 01 January, 1970 UTC.
+
+- The JavaScript `Date` object provides uniform behavior across platforms. The time value can be passed between systems to create a date that represents the same moment in time.
+ 
+- The JavaScript `Date` object supports a number of UTC (universal) methods, as well as local time methods. 
+UTC, also known as Greenwich Mean Time (GMT), refers to the time as set by the World Time Standard.
+The local time is the time known to the computer where JavaScript is executed.
+
+- Invoking JavaScript `Date` as a function (i.e., without the `new` operator) will return a string representing the current date and time.
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
