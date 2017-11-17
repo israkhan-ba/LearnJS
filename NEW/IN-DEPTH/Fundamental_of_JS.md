@@ -5461,7 +5461,7 @@ hours
     Optional. Integer value representing the hour of the day.
     
 minutes
-    Optional. 
+    Optional. Integer value representing the minute segment of a time.
     
 #### The Date Constructor
 
