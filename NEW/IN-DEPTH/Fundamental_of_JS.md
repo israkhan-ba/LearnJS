@@ -5449,6 +5449,7 @@ dateString
     String value representing a date. The string should be in a format recognized by the Date.parse() method (IETF-compliant RFC 2822 timestamps and also a version of ISO8601). 
 
 year
+    Integer value representing the year.
     
 #### The Date Constructor
 
