@@ -5460,6 +5460,8 @@ date
 hours
     Optional. Integer value representing the hour of the day.
     
+minutes
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
