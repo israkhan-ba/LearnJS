@@ -5437,6 +5437,7 @@ Syntax
 
 new Date();
 new Date(value);
+new Date(dateString);
 
 
 #### The Date Constructor
