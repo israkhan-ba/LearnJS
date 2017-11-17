@@ -5420,6 +5420,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
  
 - If no arguments are provided, the constructor creates a JavaScript `Date` object for the current date and time according to system settings.
  
+- If at least two arguments are supplied, missing arguments are either set to 1 (if day is missing) or 0 for all others.
  
 #### The Date Constructor
 
