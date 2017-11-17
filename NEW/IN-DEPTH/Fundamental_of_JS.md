@@ -5426,6 +5426,8 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 - The JavaScript `Date` object provides uniform behavior across platforms. The time value can be passed between systems to create a date that represents the same moment in time.
  
+- The JavaScript `Date` object supports a number of UTC (universal) methods, as well as local time methods. 
+ 
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
