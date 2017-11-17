@@ -5467,6 +5467,7 @@ seconds
     Optional. Integer value representing the second segment of a time.
     
 milliseconds
+    Optional. 
     
 #### The Date Constructor
 
