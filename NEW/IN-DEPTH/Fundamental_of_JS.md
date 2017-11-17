@@ -5433,6 +5433,41 @@ The local time is the time known to the computer where JavaScript is executed.
 - Invoking JavaScript `Date` as a function (i.e., without the `new` operator) will return a string representing the current date and time.
 
 
+Syntax
+
+new Date();
+new Date(value);
+new Date(dateString);
+new Date(year, month, date, hours, minutes, seconds, milliseconds);
+
+Parameters
+
+value
+    Integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC, with leap seconds ignored (Unix Epoch; but consider that most Unix time stamp functions count in seconds).
+dateString
+    String value representing a date. The string should be in a format recognized by the Date.parse() method (IETF-compliant RFC 2822 timestamps and also a version of ISO8601). 
+
+year
+    Integer value representing the year. Values from 0 to 99 map to the years 1900 to 1999.
+
+month
+    Integer value representing the month, beginning with 0 for January to 11 for December.
+
+date
+    Optional. Integer value representing the day of the month.
+    
+hours
+    Optional. Integer value representing the hour of the day.
+    
+minutes
+    Optional. Integer value representing the minute segment of a time.
+    
+seconds
+    Optional. Integer value representing the second segment of a time.
+    
+milliseconds
+    Optional. Integer value representing the millisecond segment of a time.
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
