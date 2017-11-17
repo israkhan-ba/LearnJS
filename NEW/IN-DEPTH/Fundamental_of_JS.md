@@ -5416,6 +5416,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
  by Date constructor so you can parsing, managing, and displaying dates.
  
  Creates a JavaScript **`Date`** instance that represents a single moment in time. 
+ `Date` objects are based on a time value that is the number of milliseconds since 1 January, 1970 UTC.
  
  
 #### The Date Constructor
