@@ -5459,7 +5459,7 @@ Parameters
 `hours`
     Optional. Integer value representing the hour of the day.
     
-minutes
+`minutes`
     Optional. Integer value representing the minute segment of a time.
     
 seconds
