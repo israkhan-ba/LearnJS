@@ -5433,7 +5433,7 @@ The local time is the time known to the computer where JavaScript is executed.
 - Invoking JavaScript `Date` as a function (i.e., without the `new` operator) will return a string representing the current date and time.
 
 
-Syntax
+**_Syntax_**
 
 new Date();
 new Date(value);
