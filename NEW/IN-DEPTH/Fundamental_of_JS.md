@@ -5482,6 +5482,8 @@ The local time is the time known to the computer where JavaScript is executed.
 
 **_Properties_**
 
+Date.prototype
+
 
 #### The Date Constructor
 
