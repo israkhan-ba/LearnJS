@@ -5479,7 +5479,15 @@ The local time is the time known to the computer where JavaScript is executed.
 **`milliseconds`**
 
         Optional. Integer value representing the millisecond segment of a time.
-    
+
+**_Properties_**
+
+Date.prototype
+    Allows the addition of properties to a JavaScript Date object.
+
+Date.length
+    The value of Date.length is 7. This is the number of arguments handled by the constructor.
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
