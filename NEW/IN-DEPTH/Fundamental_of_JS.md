@@ -5465,7 +5465,7 @@ Parameters
 `seconds`
     Optional. Integer value representing the second segment of a time.
     
-milliseconds
+`milliseconds`
     Optional. Integer value representing the millisecond segment of a time.
     
 #### The Date Constructor
