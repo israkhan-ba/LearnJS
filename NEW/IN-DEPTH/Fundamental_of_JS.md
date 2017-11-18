@@ -5453,7 +5453,7 @@ Parameters
 **`month`**
     Integer value representing the month, beginning with 0 for January to 11 for December.
 
-`Date`
+**`Date`**
     Optional. Integer value representing the day of the month.
     
 `hours`
