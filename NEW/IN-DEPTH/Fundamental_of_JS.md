@@ -5472,7 +5472,7 @@ Parameters
     
 **`seconds`**
 
-    Optional. Integer value representing the second segment of a time.
+        Optional. Integer value representing the second segment of a time.
     
 **`milliseconds`**
 
