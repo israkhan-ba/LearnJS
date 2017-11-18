@@ -5479,7 +5479,10 @@ The local time is the time known to the computer where JavaScript is executed.
 **`milliseconds`**
 
         Optional. Integer value representing the millisecond segment of a time.
-    
+
+**_Properties_**
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
