@@ -5435,10 +5435,12 @@ The local time is the time known to the computer where JavaScript is executed.
 
 **_Syntax_**
 
-new Date();
-new Date(value);
-new Date(dateString);
-new Date(year, month, date, hours, minutes, seconds, milliseconds);
+>```
+> new Date();
+> new Date(value);
+> new Date(dateString);
+> new Date(year, month, date, hours, minutes, seconds, milliseconds);
+>```
 
 **_Parameters_**
 
