@@ -5485,6 +5485,8 @@ The local time is the time known to the computer where JavaScript is executed.
 Date.prototype
     Allows the addition of properties to a JavaScript Date object.
 
+Date.length
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
