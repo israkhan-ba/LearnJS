@@ -5462,7 +5462,7 @@ Parameters
 **`minutes`**
     Optional. Integer value representing the minute segment of a time.
     
-`seconds`
+**`seconds`**
     Optional. Integer value representing the second segment of a time.
     
 `milliseconds`
