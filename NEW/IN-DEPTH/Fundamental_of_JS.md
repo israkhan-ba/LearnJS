@@ -5442,30 +5442,30 @@ new Date(year, month, date, hours, minutes, seconds, milliseconds);
 
 Parameters
 
-value
+**`value`**
     Integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC, with leap seconds ignored (Unix Epoch; but consider that most Unix time stamp functions count in seconds).
-dateString
+**`dateString`**
     String value representing a date. The string should be in a format recognized by the Date.parse() method (IETF-compliant RFC 2822 timestamps and also a version of ISO8601). 
 
-year
+**`year`**
     Integer value representing the year. Values from 0 to 99 map to the years 1900 to 1999.
 
-month
+**`month`**
     Integer value representing the month, beginning with 0 for January to 11 for December.
 
-date
+**`Date`**
     Optional. Integer value representing the day of the month.
     
-hours
+**`hours`**
     Optional. Integer value representing the hour of the day.
     
-minutes
+**`minutes`**
     Optional. Integer value representing the minute segment of a time.
     
-seconds
+**`seconds`**
     Optional. Integer value representing the second segment of a time.
     
-milliseconds
+**`milliseconds`**
     Optional. Integer value representing the millisecond segment of a time.
     
 #### The Date Constructor
