@@ -5488,6 +5488,19 @@ Date.prototype
 Date.length
     The value of Date.length is 7. This is the number of arguments handled by the constructor.
 
+
+Methods
+
+Date.now()
+    Returns the numeric value corresponding to the current time - the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC, with leap seconds ignored.
+    
+Date.parse()
+    Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00, UTC, with leap seconds ignored. 
+
+Date.UTC()
+    Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored
+    
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
