@@ -5527,6 +5527,7 @@ Date.prototype.getMinutes()
     Returns the minutes (0-59) in the specified date according to local time.
     
 Date.prototype.getMonth()
+    Returns the month (0-11) in the specified date according to local time.
     
 
 #### The Date Constructor
