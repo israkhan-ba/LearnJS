@@ -5499,8 +5499,11 @@ Date.parse()
 
 Date.UTC()
     Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored
-    
-    
+
+
+JavaScript Date instances
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
