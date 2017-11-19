@@ -5503,6 +5503,8 @@ Date.UTC()
 
 JavaScript Date instances
 
+    All Date instances inherit from Date.prototype.
+    
 
 #### The Date Constructor
 
