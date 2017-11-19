@@ -5492,6 +5492,7 @@ Date.length
 Methods
 
 Date.now()
+    Returns the numeric value corresponding to the current time - the number of milliseconds
     
     
 #### The Date Constructor
