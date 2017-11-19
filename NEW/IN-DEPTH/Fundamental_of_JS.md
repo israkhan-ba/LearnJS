@@ -5544,6 +5544,8 @@ Date.prototype.getUTCDate()
 Date.prototype.getUTCDay()
     Returns the day of the week (0-6) in the specified date according to universal time.
     
+Date.prototype.getUTCFullYear()
+    
 
 #### The Date Constructor
 
