@@ -5491,6 +5491,9 @@ Date.length
 
 Methods
 
+Date.now()
+    
+    
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
