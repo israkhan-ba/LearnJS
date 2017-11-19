@@ -5523,6 +5523,8 @@ Date.prototype.getHours()
 Date.prototype.getMilliseconds()
     Returns the milliseconds (0-999) in the specified date according to local time.
     
+Date.prototype.getMinutes()
+    
 
 #### The Date Constructor
 
