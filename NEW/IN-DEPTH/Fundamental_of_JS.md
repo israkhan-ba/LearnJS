@@ -5545,6 +5545,7 @@ Date.prototype.getUTCDay()
     Returns the day of the week (0-6) in the specified date according to universal time.
     
 Date.prototype.getUTCFullYear()
+    Returns the year (4 digits for 4-digit years) in the specified date according to universal time.
     
 
 #### The Date Constructor
