@@ -5488,6 +5488,9 @@ Date.prototype
 Date.length
     The value of Date.length is 7. This is the number of arguments handled by the constructor.
 
+
+Methods
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
