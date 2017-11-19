@@ -5538,6 +5538,8 @@ Date.prototype.getTime()
 Date.prototype.getTimezoneOffset()
     Returns the time-zone offset in minutes for the current locale.
     
+Date.prototype.getUTCDate()
+    
 
 #### The Date Constructor
 
