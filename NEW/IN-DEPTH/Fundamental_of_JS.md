@@ -5529,6 +5529,8 @@ Date.prototype.getMinutes()
 Date.prototype.getMonth()
     Returns the month (0-11) in the specified date according to local time.
     
+Date.prototype.getSeconds()
+    
 
 #### The Date Constructor
 
