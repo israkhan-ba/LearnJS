@@ -5550,6 +5550,8 @@ Date.prototype.getUTCFullYear()
 Date.prototype.getUTCHours()
     Returns the hours (0-23) in the specified date according to universal time.
     
+Date.prototype.getUTCMilliseconds()
+    
 
 #### The Date Constructor
 
