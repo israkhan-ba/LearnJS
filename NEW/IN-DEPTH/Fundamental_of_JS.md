@@ -5507,6 +5507,8 @@ JavaScript Date instances
 
 Date.prototype Methods
 Getter
+
+Date.prototype.getDate()
     
 
 #### The Date Constructor
