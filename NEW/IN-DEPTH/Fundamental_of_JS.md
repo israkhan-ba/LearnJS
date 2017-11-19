@@ -5539,6 +5539,7 @@ Date.prototype.getTimezoneOffset()
     Returns the time-zone offset in minutes for the current locale.
     
 Date.prototype.getUTCDate()
+    Returns the day (date) of the month (1-31) in the specified date according to universal time.
     
 
 #### The Date Constructor
