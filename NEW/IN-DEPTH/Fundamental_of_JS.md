@@ -5495,7 +5495,7 @@ Date.now()
     Returns the numeric value corresponding to the current time - the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC, with leap seconds ignored.
     
 Date.parse()
-    Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00, UTC
+    Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00, UTC, with leap seconds ignored.
     
     
 #### The Date Constructor
