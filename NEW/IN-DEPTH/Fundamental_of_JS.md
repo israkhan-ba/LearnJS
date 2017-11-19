@@ -5518,6 +5518,7 @@ Date.prototype.getFullYear()
     Returns the year (4 digits for 4-digit years) of the specified date according to local time.
     
 Date.prototype.getHours()
+    Returns the hour (0-23) in the specified date according to local time.
     
 
 #### The Date Constructor
