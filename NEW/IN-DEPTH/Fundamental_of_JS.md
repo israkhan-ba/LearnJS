@@ -5492,7 +5492,7 @@ Date.length
 Methods
 
 Date.now()
-    Returns the numeric value corresponding to the current time - the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC
+    Returns the numeric value corresponding to the current time - the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC, with leap seconds ignored.
     
     
 #### The Date Constructor
