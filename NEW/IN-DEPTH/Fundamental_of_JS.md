@@ -5504,6 +5504,8 @@ Date.UTC()
 JavaScript Date instances
 
     All Date instances inherit from Date.prototype. The prototype object of the Date constructor can be modified to affect all Date instances.
+
+Date.prototype Methods
     
 
 #### The Date Constructor
