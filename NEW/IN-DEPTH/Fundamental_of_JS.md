@@ -5520,7 +5520,7 @@ JavaScript `Date` instances
 **`Date.prototype.getDay()`**
     Returns the day of the week (0-6) for the specified date according to local time.
     
-`Date.prototype.getFullYear()`
+**`Date.prototype.getFullYear()`**
     Returns the year (4 digits for 4-digit years) of the specified date according to local time.
     
 `Date.prototype.getHours()`
