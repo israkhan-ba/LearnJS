@@ -5556,7 +5556,7 @@ JavaScript `Date` instances
 **`Date.prototype.getUTCHours()`**
     Returns the hours (0-23) in the specified date according to universal time.
     
-`Date.prototype.getUTCMilliseconds()`
+**`Date.prototype.getUTCMilliseconds()`**
     Returns the milliseconds (0-999) in the specified date according to universal time.
     
 
