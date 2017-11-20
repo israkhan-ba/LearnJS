@@ -5526,7 +5526,7 @@ JavaScript `Date` instances
 **`Date.prototype.getHours()`**
     Returns the hour (0-23) in the specified date according to local time.
     
-`Date.prototype.getMilliseconds()`
+**`Date.prototype.getMilliseconds()`**
     Returns the milliseconds (0-999) in the specified date according to local time.
     
 `Date.prototype.getMinutes()`
