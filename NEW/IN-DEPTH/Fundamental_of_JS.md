@@ -5506,56 +5506,57 @@ The local time is the time known to the computer where JavaScript is executed.
         Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored
 
 
-JavaScript Date instances
+JavaScript `Date` instances
 
     All Date instances inherit from Date.prototype. The prototype object of the Date constructor can be modified to affect all Date instances.
 
-Date.prototype Methods
-Getter
+**Date.prototype** Methods
 
-Date.prototype.getDate()
+**Getter**
+
+**`Date.prototype.getDate()`**
     Returns the day of the month (1-31) for the specified date according to local time.
     
-Date.prototype.getDay()
+**`Date.prototype.getDay()`**
     Returns the day of the week (0-6) for the specified date according to local time.
     
-Date.prototype.getFullYear()
+**`Date.prototype.getFullYear()`**
     Returns the year (4 digits for 4-digit years) of the specified date according to local time.
     
-Date.prototype.getHours()
+**`Date.prototype.getHours()`**
     Returns the hour (0-23) in the specified date according to local time.
     
-Date.prototype.getMilliseconds()
+**`Date.prototype.getMilliseconds()`**
     Returns the milliseconds (0-999) in the specified date according to local time.
     
-Date.prototype.getMinutes()
+**`Date.prototype.getMinutes()`**
     Returns the minutes (0-59) in the specified date according to local time.
     
-Date.prototype.getMonth()
+**`Date.prototype.getMonth()`**
     Returns the month (0-11) in the specified date according to local time.
     
-Date.prototype.getSeconds()
+**`Date.prototype.getSeconds()`**
     Returns the seconds (0-59) in the specified date according to local time.
     
-Date.prototype.getTime()
+**`Date.prototype.getTime()`**
     Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC (negative for prior times).
     
-Date.prototype.getTimezoneOffset()
+**`Date.prototype.getTimezoneOffset()`**
     Returns the time-zone offset in minutes for the current locale.
     
-Date.prototype.getUTCDate()
+**`Date.prototype.getUTCDate()`**
     Returns the day (date) of the month (1-31) in the specified date according to universal time.
     
-Date.prototype.getUTCDay()
+**`Date.prototype.getUTCDay()`**
     Returns the day of the week (0-6) in the specified date according to universal time.
     
-Date.prototype.getUTCFullYear()
+**`Date.prototype.getUTCFullYear()`**
     Returns the year (4 digits for 4-digit years) in the specified date according to universal time.
     
-Date.prototype.getUTCHours()
+**`Date.prototype.getUTCHours()`**
     Returns the hours (0-23) in the specified date according to universal time.
     
-Date.prototype.getUTCMilliseconds()
+**`Date.prototype.getUTCMilliseconds()`**
     Returns the milliseconds (0-999) in the specified date according to universal time.
     
 
