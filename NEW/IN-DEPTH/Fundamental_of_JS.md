@@ -5496,7 +5496,7 @@ The local time is the time known to the computer where JavaScript is executed.
 `Date.now()`
     Returns the numeric value corresponding to the current time - the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC, with leap seconds ignored.
     
-Date.parse()
+`Date.parse()`
     Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00, UTC, with leap seconds ignored. 
 
 Date.UTC()
