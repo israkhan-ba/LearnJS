@@ -5483,7 +5483,8 @@ The local time is the time known to the computer where JavaScript is executed.
 **_Properties_**
 
 **`Date.prototype`**
-    Allows the addition of properties to a JavaScript Date object.
+    
+        Allows the addition of properties to a JavaScript Date object.
 
 **`Date.length`**
     The value of Date.length is 7. This is the number of arguments handled by the constructor.
@@ -5491,7 +5492,7 @@ The local time is the time known to the computer where JavaScript is executed.
 
 **_Methods_**
 
-`Date.now()`
+Date.now()
     Returns the numeric value corresponding to the current time - the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC, with leap seconds ignored.
     
 Date.parse()
