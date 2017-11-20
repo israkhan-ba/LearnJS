@@ -5547,7 +5547,7 @@ JavaScript `Date` instances
 **`Date.prototype.getUTCDate()`**
     Returns the day (date) of the month (1-31) in the specified date according to universal time.
     
-`Date.prototype.getUTCDay()`
+**`Date.prototype.getUTCDay()`**
     Returns the day of the week (0-6) in the specified date according to universal time.
     
 `Date.prototype.getUTCFullYear()`
