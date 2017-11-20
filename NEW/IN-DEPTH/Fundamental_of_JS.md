@@ -5506,7 +5506,7 @@ The local time is the time known to the computer where JavaScript is executed.
         Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored
 
 
-JavaScript Date instances
+JavaScript `Date` instances
 
     All Date instances inherit from Date.prototype. The prototype object of the Date constructor can be modified to affect all Date instances.
 
