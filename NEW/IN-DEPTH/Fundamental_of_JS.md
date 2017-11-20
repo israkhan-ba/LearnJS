@@ -5482,7 +5482,7 @@ The local time is the time known to the computer where JavaScript is executed.
 
 **_Properties_**
 
-Date.prototype
+**`Date.prototype`**
     Allows the addition of properties to a JavaScript Date object.
 
 Date.length
