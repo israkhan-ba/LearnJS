@@ -5502,7 +5502,8 @@ The local time is the time known to the computer where JavaScript is executed.
         Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00, UTC, with leap seconds ignored. 
 
 **`Date.UTC()`**
-    Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored
+    
+        Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored
 
 
 JavaScript Date instances
