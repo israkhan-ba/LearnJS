@@ -5510,7 +5510,8 @@ JavaScript `Date` instances
 
     All Date instances inherit from Date.prototype. The prototype object of the Date constructor can be modified to affect all Date instances.
 
-Date.prototype Methods
+**Date.prototype** Methods
+
 Getter
 
 Date.prototype.getDate()
