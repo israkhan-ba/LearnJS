@@ -5590,6 +5590,21 @@ JavaScript `Date` instances
     
         Returns the year (usually 2-3 digits) in the specified date according to local time. Use getFullYear() instead.
 
+Setter
+
+
+Date.prototype.setDate()
+    Sets the day of the month for a specified date according to local time.
+    
+Date.prototype.setFullYear()
+    Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to local time.
+    
+Date.prototype.setHours()
+    Sets the hours for a specified date according to local time.
+    
+Date.prototype.setMilliseconds()
+    Sets the milliseconds for a specified date according to local time.
+
 
 #### The Date Constructor
 
