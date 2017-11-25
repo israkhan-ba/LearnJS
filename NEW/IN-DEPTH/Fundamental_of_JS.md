@@ -5601,6 +5601,8 @@ Date.prototype.setFullYear()
     
 Date.prototype.setHours()
     Sets the hours for a specified date according to local time.
+    
+Date.prototype.setMilliseconds()
 
 
 #### The Date Constructor
