@@ -5551,7 +5551,8 @@ JavaScript `Date` instances
         Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC (negative for prior times).
     
 **`Date.prototype.getTimezoneOffset()`**
-    Returns the time-zone offset in minutes for the current locale.
+    
+        Returns the time-zone offset in minutes for the current locale.
     
 **`Date.prototype.getUTCDate()`**
     Returns the day (date) of the month (1-31) in the specified date according to universal time.
