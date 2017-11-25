@@ -5603,6 +5603,7 @@ Date.prototype.setHours()
     Sets the hours for a specified date according to local time.
     
 Date.prototype.setMilliseconds()
+    Sets the milliseconds for a specified date according to local time.
 
 
 #### The Date Constructor
