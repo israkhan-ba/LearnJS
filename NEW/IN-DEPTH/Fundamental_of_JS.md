@@ -5579,6 +5579,8 @@ Date.prototype.getUTCMinutes()
     
 Date.prototype.getUTCMonth()
     Returns the month (0-11) in the specified date according to universal time.
+    
+Date.prototype.getUTCSeconds()
 
 #### The Date Constructor
 
