@@ -5563,7 +5563,8 @@ JavaScript `Date` instances
         Returns the day of the week (0-6) in the specified date according to universal time.
     
 **`Date.prototype.getUTCFullYear()`**
-    Returns the year (4 digits for 4-digit years) in the specified date according to universal time.
+    
+        Returns the year (4 digits for 4-digit years) in the specified date according to universal time.
     
 **`Date.prototype.getUTCHours()`**
     Returns the hours (0-23) in the specified date according to universal time.
