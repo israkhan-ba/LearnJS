@@ -5593,6 +5593,9 @@ JavaScript `Date` instances
 Setter
 
 
+Date.prototype.setDate()
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
