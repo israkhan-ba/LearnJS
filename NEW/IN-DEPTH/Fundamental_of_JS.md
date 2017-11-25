@@ -5582,6 +5582,8 @@ Date.prototype.getUTCMonth()
     
 Date.prototype.getUTCSeconds()
     Returns the seconds (0-59) in the specified date according to universal time.
+    
+Date.prototype.getYear()
 
 #### The Date Constructor
 
