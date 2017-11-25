@@ -5594,6 +5594,7 @@ Setter
 
 
 Date.prototype.setDate()
+    Sets the day of the month for a specified date according to local time.
 
 
 #### The Date Constructor
