@@ -5547,7 +5547,8 @@ JavaScript `Date` instances
         Returns the seconds (0-59) in the specified date according to local time.
     
 **`Date.prototype.getTime()`**
-    Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC (negative for prior times).
+    
+        Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC (negative for prior times).
     
 **`Date.prototype.getTimezoneOffset()`**
     Returns the time-zone offset in minutes for the current locale.
