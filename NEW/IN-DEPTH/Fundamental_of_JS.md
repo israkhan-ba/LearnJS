@@ -5515,7 +5515,8 @@ JavaScript `Date` instances
 **Getter**
 
 **`Date.prototype.getDate()`**
-    Returns the day of the month (1-31) for the specified date according to local time.
+
+        Returns the day of the month (1-31) for the specified date according to local time.
     
 **`Date.prototype.getDay()`**
     Returns the day of the week (0-6) for the specified date according to local time.
