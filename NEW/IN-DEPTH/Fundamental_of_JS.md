@@ -5574,6 +5574,7 @@ JavaScript `Date` instances
     
         Returns the milliseconds (0-999) in the specified date according to universal time.
     
+Date.prototype.getUTCMinutes()
 
 #### The Date Constructor
 
