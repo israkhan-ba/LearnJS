@@ -5574,7 +5574,7 @@ JavaScript `Date` instances
     
         Returns the milliseconds (0-999) in the specified date according to universal time.
     
-`Date.prototype.getUTCMinutes()`
+**`Date.prototype.getUTCMinutes()`**
     Returns the minutes (0-59) in the specified date according to universal time.
     
 `Date.prototype.getUTCMonth()`
