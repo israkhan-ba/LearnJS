@@ -5598,6 +5598,8 @@ Date.prototype.setDate()
     
 Date.prototype.setFullYear()
     Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to local time.
+    
+Date.prototype.setHours()
 
 
 #### The Date Constructor
