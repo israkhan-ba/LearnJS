@@ -5608,6 +5608,8 @@ Date.prototype.setMilliseconds()
 Date.prototype.setMinutes()
     Sets the minutes for a specified date according to local time.
     
+Date.prototype.setMonth()
+    
     
 #### The Date Constructor
 
