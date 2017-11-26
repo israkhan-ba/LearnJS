@@ -5605,7 +5605,8 @@ Setter
 
     Sets the hours for a specified date according to local time.
     
-`Date.prototype.setMilliseconds()`
+**`Date.prototype.setMilliseconds()`**
+
     Sets the milliseconds for a specified date according to local time.
 
 `Date.prototype.setMinutes()`
