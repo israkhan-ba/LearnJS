@@ -5638,6 +5638,8 @@ Date.prototype.setUTCMonth()
 Date.prototype.setUTCSeconds()
     Sets the seconds for a specified date according to universal time.
     
+Date.prototype.setYear()
+    
     
 #### The Date Constructor
 
