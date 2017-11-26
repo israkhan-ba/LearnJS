@@ -5611,7 +5611,7 @@ Setter
 `Date.prototype.setMonth()`
     Sets the month for a specified date according to local time.
     
-Date.prototype.setSeconds()
+`Date.prototype.setSeconds()`
     Sets the seconds for a specified date according to local time.
     
 Date.prototype.setTime()
