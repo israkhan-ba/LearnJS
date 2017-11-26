@@ -5614,7 +5614,7 @@ Setter
 `Date.prototype.setSeconds()`
     Sets the seconds for a specified date according to local time.
     
-Date.prototype.setTime()
+`Date.prototype.setTime()`
     Sets the Date object to the time represented by a number of milliseconds since January 1, 1970, 00:00:00 UTC, allowing for negative numbers for times prior.
     
 Date.prototype.setUTCDate()
