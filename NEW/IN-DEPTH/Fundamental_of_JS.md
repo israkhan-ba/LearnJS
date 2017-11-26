@@ -5613,7 +5613,8 @@ Setter
 
     Sets the minutes for a specified date according to local time.
     
-`Date.prototype.setMonth()`
+**`Date.prototype.setMonth()`**
+
     Sets the month for a specified date according to local time.
     
 `Date.prototype.setSeconds()`
