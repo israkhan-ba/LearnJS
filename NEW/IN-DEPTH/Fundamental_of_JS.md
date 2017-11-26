@@ -5626,6 +5626,8 @@ Date.prototype.setUTCFullYear()
 Date.prototype.setUTCHours()
     Sets the hour for a specified date according to universal time.
     
+Date.prototype.setUTCMilliseconds()
+    
     
 #### The Date Constructor
 
