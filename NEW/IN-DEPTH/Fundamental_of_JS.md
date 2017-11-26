@@ -5629,7 +5629,7 @@ Setter
 `Date.prototype.setUTCMilliseconds()`
     Sets the milliseconds for a specified date according to universal time.
     
-Date.prototype.setUTCMinutes()
+`Date.prototype.setUTCMinutes()`
     Sets the minutes for a specified date according to universal time.
     
 Date.prototype.setUTCMonth()
