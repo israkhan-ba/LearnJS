@@ -5632,6 +5632,8 @@ Date.prototype.setUTCMilliseconds()
 Date.prototype.setUTCMinutes()
     Sets the minutes for a specified date according to universal time.
     
+Date.prototype.setUTCMonth()
+    
     
 #### The Date Constructor
 
