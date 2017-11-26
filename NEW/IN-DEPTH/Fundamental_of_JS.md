@@ -5620,7 +5620,7 @@ Setter
 `Date.prototype.setUTCDate()`
     Sets the day of the month for a specified date according to universal time.
     
-Date.prototype.setUTCFullYear()
+`Date.prototype.setUTCFullYear()`
     Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to universal time.
     
 Date.prototype.setUTCHours()
