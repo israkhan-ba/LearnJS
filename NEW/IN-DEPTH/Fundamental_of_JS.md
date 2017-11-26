@@ -5639,6 +5639,7 @@ Date.prototype.setUTCSeconds()
     Sets the seconds for a specified date according to universal time.
     
 Date.prototype.setYear()
+    Sets the year (usually 2-3 digits) for a specified date according to local time. Use setFullYear() instead.
     
     
 #### The Date Constructor
