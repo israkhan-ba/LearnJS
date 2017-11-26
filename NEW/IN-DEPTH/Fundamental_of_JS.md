@@ -5612,6 +5612,7 @@ Date.prototype.setMonth()
     Sets the month for a specified date according to local time.
     
 Date.prototype.setSeconds()
+    Sets the seconds for a specified date according to local time.
     
     
 #### The Date Constructor
