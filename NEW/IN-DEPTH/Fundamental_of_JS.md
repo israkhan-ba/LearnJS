@@ -5712,6 +5712,8 @@ Date.prototype.toUTCString()
     
 Date.prototype.valueOf()
 
+    Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
