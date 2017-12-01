@@ -5705,6 +5705,8 @@ Date.prototype.toString()
 Date.prototype.toTimeString()
 
     Returns the "time" portion of the Date as a human-readable string.
+    
+Date.prototype.toUTCString()
 
 #### The Date Constructor
 
