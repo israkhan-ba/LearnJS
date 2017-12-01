@@ -5671,6 +5671,8 @@ Date.prototype.toISOString()
     
 Date.prototype.toJSON()
 
+    Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
