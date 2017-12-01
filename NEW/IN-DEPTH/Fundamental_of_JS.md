@@ -5651,7 +5651,7 @@ Setter
     
 **`Date.prototype.setUTCSeconds()`**
 
-    Sets the seconds for a specified date according to universal time.
+        Sets the seconds for a specified date according to universal time.
     
 **`Date.prototype.setYear()`**
 
