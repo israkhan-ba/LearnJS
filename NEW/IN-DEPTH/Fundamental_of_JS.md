@@ -5681,10 +5681,6 @@ Date.prototype.toLocaleDateString()
 
     Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
     
-Date.prototype.toLocaleFormat()
-
-    Converts a date to a string, using a format string.
-    
 Date.prototype.toLocaleString()
 
     Returns a string with a locality sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method.
@@ -5692,10 +5688,6 @@ Date.prototype.toLocaleString()
 Date.prototype.toLocaleTimeString()
 
     Returns a string with a locality sensitive representation of the time portion of this date based on system settings.
-    
-Date.prototype.toSource()
-
-    Returns a string representing the source for an equivalent Date object; you can use this value to create a new object. Overrides the Object.prototype.toSource() method.
     
 Date.prototype.toString()
 
@@ -5713,6 +5705,7 @@ Date.prototype.toUTCString()
 Date.prototype.valueOf()
 
     Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
+
 
 #### The Date Constructor
 
