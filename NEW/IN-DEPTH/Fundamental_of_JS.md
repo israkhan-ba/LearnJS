@@ -5684,6 +5684,8 @@ Date.prototype.toLocaleDateString()
 Date.prototype.toLocaleFormat()
 
     Converts a date to a string, using a format string.
+    
+Date.prototype.toLocaleString()
 
 #### The Date Constructor
 
