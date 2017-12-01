@@ -5675,6 +5675,8 @@ Date.prototype.toJSON()
     
 Date.prototype.toGMTString()
 
+    Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
