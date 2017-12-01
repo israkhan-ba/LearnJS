@@ -5688,6 +5688,8 @@ Date.prototype.toLocaleFormat()
 Date.prototype.toLocaleString()
 
     Returns a string with a locality sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method.
+    
+Date.prototype.toLocaleTimeString()
 
 #### The Date Constructor
 
