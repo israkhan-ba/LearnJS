@@ -5642,6 +5642,7 @@ Setter
     Sets the milliseconds for a specified date according to universal time.
     
 `Date.prototype.setUTCMinutes()`
+
     Sets the minutes for a specified date according to universal time.
     
 `Date.prototype.setUTCMonth()`
