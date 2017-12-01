@@ -5664,6 +5664,8 @@ Conversion getter
 Date.prototype.toDateString()
 
     Returns the "date" portion of the Date as a human-readable string.
+    
+Date.prototype.toISOString()
 
 #### The Date Constructor
 
