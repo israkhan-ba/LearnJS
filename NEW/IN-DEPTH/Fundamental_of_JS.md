@@ -5607,7 +5607,7 @@ Setter
     
 **`Date.prototype.setMilliseconds()`**
 
-    Sets the milliseconds for a specified date according to local time.
+        Sets the milliseconds for a specified date according to local time.
 
 **`Date.prototype.setMinutes()`**
 
