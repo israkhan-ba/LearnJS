@@ -5679,6 +5679,8 @@ Date.prototype.toGMTString()
     
 Date.prototype.toLocaleDateString()
 
+    Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
