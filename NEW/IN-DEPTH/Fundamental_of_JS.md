@@ -5709,6 +5709,8 @@ Date.prototype.toTimeString()
 Date.prototype.toUTCString()
 
     Converts a date to a string using the UTC timezone.
+    
+Date.prototype.valueOf()
 
 #### The Date Constructor
 
