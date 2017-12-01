@@ -5699,6 +5699,9 @@ Date.prototype.toSource()
     
 Date.prototype.toString()
 
+    Returns a string representing the specified Date object. 
+    Overrides the Object.prototype.toString() method.
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
