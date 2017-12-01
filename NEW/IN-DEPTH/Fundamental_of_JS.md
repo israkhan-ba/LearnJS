@@ -5647,7 +5647,7 @@ Setter
     
 **`Date.prototype.setUTCMonth()`**
 
-    Sets the month for a specified date according to universal time.
+        Sets the month for a specified date according to universal time.
     
 **`Date.prototype.setUTCSeconds()`**
 
