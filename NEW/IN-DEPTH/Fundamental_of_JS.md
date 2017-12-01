@@ -5667,6 +5667,8 @@ Date.prototype.toDateString()
     
 Date.prototype.toISOString()
 
+    Converts a date to a string following the ISO 8601 Extended Format.
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
