@@ -5663,6 +5663,8 @@ Conversion getter
 
 Date.prototype.toDateString()
 
+    Returns the "date" portion of the Date as a human-readable string.
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
