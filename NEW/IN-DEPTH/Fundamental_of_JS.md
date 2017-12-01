@@ -5619,7 +5619,7 @@ Setter
     
 **`Date.prototype.setSeconds()`**
 
-    Sets the seconds for a specified date according to local time.
+        Sets the seconds for a specified date according to local time.
     
 **`Date.prototype.setTime()`**
 
