@@ -5635,7 +5635,7 @@ Setter
     
 **`Date.prototype.setUTCHours()`**
 
-    Sets the hour for a specified date according to universal time.
+        Sets the hour for a specified date according to universal time.
     
 **`Date.prototype.setUTCMilliseconds()`**
 
