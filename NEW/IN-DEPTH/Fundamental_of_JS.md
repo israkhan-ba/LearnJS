@@ -5692,6 +5692,8 @@ Date.prototype.toLocaleString()
 Date.prototype.toLocaleTimeString()
 
     Returns a string with a locality sensitive representation of the time portion of this date based on system settings.
+    
+Date.prototype.toSource()
 
 #### The Date Constructor
 
