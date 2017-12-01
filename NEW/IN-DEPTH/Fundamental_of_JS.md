@@ -5696,6 +5696,8 @@ Date.prototype.toLocaleTimeString()
 Date.prototype.toSource()
 
     Returns a string representing the source for an equivalent Date object; you can use this value to create a new object. Overrides the Object.prototype.toSource() method.
+    
+Date.prototype.toString()
 
 #### The Date Constructor
 
