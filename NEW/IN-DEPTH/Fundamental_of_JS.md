@@ -5674,7 +5674,7 @@ JavaScript `Date` instances
 
     Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
     
-Date.prototype.toGMTString()
+`Date.prototype.toGMTString()`
 
     Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
     
