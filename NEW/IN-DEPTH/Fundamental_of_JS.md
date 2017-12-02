@@ -5672,7 +5672,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toJSON()`**
 
-    Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
+        Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
     
 **`Date.prototype.toGMTString()`**
 
