@@ -5662,7 +5662,7 @@ JavaScript `Date` instances
 **Conversion getter**
 
 
-Date.prototype.toDateString()
+`Date.prototype.toDateString()`
 
     Returns the "date" portion of the Date as a human-readable string.
     
