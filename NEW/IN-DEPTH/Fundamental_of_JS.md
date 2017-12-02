@@ -5703,7 +5703,7 @@ JavaScript `Date` instances
 
     Converts a date to a string using the UTC timezone.
     
-`Date.prototype.valueOf()`
+**`Date.prototype.valueOf()`**
 
     Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
 
