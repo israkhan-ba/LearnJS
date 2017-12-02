@@ -5695,7 +5695,7 @@ JavaScript `Date` instances
     Returns a string representing the specified Date object. 
     Overrides the Object.prototype.toString() method.
     
-Date.prototype.toTimeString()
+`Date.prototype.toTimeString()`
 
     Returns the "time" portion of the Date as a human-readable string.
     
