@@ -5716,6 +5716,7 @@ Several ways to create a `Date` object
 
 >```
 > var today = new Date();
+> var birthday = new Date('December 17, 1995 03:24:00');
 >```
 
 
