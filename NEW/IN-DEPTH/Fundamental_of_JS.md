@@ -5590,7 +5590,8 @@ JavaScript `Date` instances
     
         Returns the year (usually 2-3 digits) in the specified date according to local time. Use getFullYear() instead.
 
-Setter
+
+**Setter**
 
 
 **`Date.prototype.setDate()`**
