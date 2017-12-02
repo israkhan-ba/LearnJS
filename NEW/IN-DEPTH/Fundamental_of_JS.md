@@ -5692,7 +5692,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toString()`**
 
-    Returns a string representing the specified Date object. 
+        Returns a string representing the specified Date object. 
     Overrides the Object.prototype.toString() method.
     
 **`Date.prototype.toTimeString()`**
