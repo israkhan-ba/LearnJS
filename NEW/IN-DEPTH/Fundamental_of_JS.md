@@ -5705,7 +5705,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.valueOf()`**
 
-    Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
+        Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
 
 
 #### The Date Constructor
