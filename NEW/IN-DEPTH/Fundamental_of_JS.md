@@ -5664,7 +5664,7 @@ JavaScript `Date` instances
 
 **`Date.prototype.toDateString()`**
 
-    Returns the "date" portion of the Date as a human-readable string.
+        Returns the "date" portion of the Date as a human-readable string.
     
 **`Date.prototype.toISOString()`**
 
