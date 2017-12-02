@@ -5708,6 +5708,9 @@ JavaScript `Date` instances
         Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
 
 
+** Examples **
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
