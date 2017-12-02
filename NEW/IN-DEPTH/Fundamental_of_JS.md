@@ -5690,7 +5690,7 @@ JavaScript `Date` instances
 
     Returns a string with a locality sensitive representation of the time portion of this date based on system settings.
     
-`Date.prototype.toString()`
+**`Date.prototype.toString()`**
 
     Returns a string representing the specified Date object. 
     Overrides the Object.prototype.toString() method.
