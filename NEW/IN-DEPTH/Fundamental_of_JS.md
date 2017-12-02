@@ -5659,7 +5659,7 @@ JavaScript `Date` instances
         Sets the year (usually 2-3 digits) for a specified date according to local time. Use setFullYear() instead.
     
 
-Conversion getter
+**Conversion getter**
 
 
 Date.prototype.toDateString()
