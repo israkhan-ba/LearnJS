@@ -5701,7 +5701,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toUTCString()`**
 
-    Converts a date to a string using the UTC timezone.
+        Converts a date to a string using the UTC timezone.
     
 **`Date.prototype.valueOf()`**
 
