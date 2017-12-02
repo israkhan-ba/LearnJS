@@ -5668,7 +5668,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toISOString()`**
 
-    Converts a date to a string following the ISO 8601 Extended Format.
+        Converts a date to a string following the ISO 8601 Extended Format.
     
 **`Date.prototype.toJSON()`**
 
