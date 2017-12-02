@@ -5664,48 +5664,48 @@ JavaScript `Date` instances
 
 **`Date.prototype.toDateString()`**
 
-    Returns the "date" portion of the Date as a human-readable string.
+        Returns the "date" portion of the Date as a human-readable string.
     
 **`Date.prototype.toISOString()`**
 
-    Converts a date to a string following the ISO 8601 Extended Format.
+        Converts a date to a string following the ISO 8601 Extended Format.
     
 **`Date.prototype.toJSON()`**
 
-    Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
+        Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
     
 **`Date.prototype.toGMTString()`**
 
-    Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
+        Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
     
 **`Date.prototype.toLocaleDateString()`**
 
-    Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
+        Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
     
 **`Date.prototype.toLocaleString()`**
 
-    Returns a string with a locality sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method.
+        Returns a string with a locality sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method.
     
 **`Date.prototype.toLocaleTimeString()`**
 
-    Returns a string with a locality sensitive representation of the time portion of this date based on system settings.
+        Returns a string with a locality sensitive representation of the time portion of this date based on system settings.
     
 **`Date.prototype.toString()`**
 
-    Returns a string representing the specified Date object. 
-    Overrides the Object.prototype.toString() method.
+        Returns a string representing the specified Date object. 
+        Overrides the Object.prototype.toString() method.
     
 **`Date.prototype.toTimeString()`**
 
-    Returns the "time" portion of the Date as a human-readable string.
+        Returns the "time" portion of the Date as a human-readable string.
     
 **`Date.prototype.toUTCString()`**
 
-    Converts a date to a string using the UTC timezone.
+        Converts a date to a string using the UTC timezone.
     
 **`Date.prototype.valueOf()`**
 
-    Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
+        Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method. 
 
 
 #### The Date Constructor
