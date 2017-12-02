@@ -5678,7 +5678,7 @@ JavaScript `Date` instances
 
     Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
     
-Date.prototype.toLocaleDateString()
+`Date.prototype.toLocaleDateString()`
 
     Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
     
