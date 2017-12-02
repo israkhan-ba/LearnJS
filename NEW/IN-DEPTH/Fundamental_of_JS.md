@@ -5676,7 +5676,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toGMTString()`**
 
-    Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
+        Returns a string representing the Date based on the GMT (UT) time zone. Use toUTCString() instead.
     
 **`Date.prototype.toLocaleDateString()`**
 
