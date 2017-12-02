@@ -5697,7 +5697,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toTimeString()`**
 
-    Returns the "time" portion of the Date as a human-readable string.
+        Returns the "time" portion of the Date as a human-readable string.
     
 **`Date.prototype.toUTCString()`**
 
