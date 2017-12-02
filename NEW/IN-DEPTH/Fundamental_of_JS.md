@@ -5670,7 +5670,7 @@ JavaScript `Date` instances
 
     Converts a date to a string following the ISO 8601 Extended Format.
     
-`Date.prototype.toJSON()`
+**`Date.prototype.toJSON()`**
 
     Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify().
     
