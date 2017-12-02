@@ -5710,6 +5710,8 @@ JavaScript `Date` instances
 
 ** Examples **
 
+Several ways to create a `Date` object
+
 
 #### The Date Constructor
 
