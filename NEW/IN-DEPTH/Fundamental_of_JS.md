@@ -5699,7 +5699,7 @@ JavaScript `Date` instances
 
     Returns the "time" portion of the Date as a human-readable string.
     
-`Date.prototype.toUTCString()`
+**`Date.prototype.toUTCString()`**
 
     Converts a date to a string using the UTC timezone.
     
