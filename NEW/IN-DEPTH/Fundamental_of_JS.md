@@ -5680,7 +5680,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toLocaleDateString()`**
 
-    Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
+        Returns a string with a locality sensitive representation of the date portion of this date based on system settings.
     
 **`Date.prototype.toLocaleString()`**
 
