@@ -5684,7 +5684,7 @@ JavaScript `Date` instances
     
 **`Date.prototype.toLocaleString()`**
 
-    Returns a string with a locality sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method.
+        Returns a string with a locality sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method.
     
 **`Date.prototype.toLocaleTimeString()`**
 
