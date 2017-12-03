@@ -5397,7 +5397,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.sqrt(x)`**
 
-    Returns the positive square root of a number.
+        Returns the positive square root of a number.
     
 **`Math.tan(x)`**
 
