@@ -5727,6 +5727,7 @@ Two digit years map to 1900 - 1999
 
 In order to create and get dates between the years 0 and 99 the `Date.prototype.setFullYear()` and `Date.prototype.getFullYear()` methods should be used.
 
+var date = new Date(98, 1); // Sun Feb 01 1998 00:00:00 GMT+0000 (GMT)
 
 
 
