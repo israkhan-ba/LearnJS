@@ -5748,6 +5748,7 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 > var start = Date.now();
 > 
 > // the event to time goes here:
+> doSomethingForALongTime();
 >```
 
 
