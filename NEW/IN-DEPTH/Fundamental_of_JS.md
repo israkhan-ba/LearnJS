@@ -5773,6 +5773,8 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 >   console.log('Elapsed time: ' + String(nEndTime - nStartTime) + ' milliseconds');
 >   return vReturn;
 > }
+> 
+> var yourFunctionReturn = printElapsedTime(yourFunction);
 >```
 
 #### The Date Constructor
