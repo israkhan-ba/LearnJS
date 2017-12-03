@@ -5730,6 +5730,9 @@ In order to create and get dates between the years 0 and 99 the `Date.prototype.
 >```
 > var date = new Date(98, 1); // Sun Feb 01 1998 00:00:00 GMT+0000 (GMT)
 > 
+> // Deprecated method, 98 maps to 1998 here as well
+> date.setYear(98);           // Sun Feb 01 1998 00:00:00 GMT+0000 (GMT)
+>
 >```
 
 
