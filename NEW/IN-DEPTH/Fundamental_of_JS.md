@@ -5401,7 +5401,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.tan(x)`**
 
-    Returns the tangent of a number.
+        Returns the tangent of a number.
     
 **`Math.tanh(x)`**
 
