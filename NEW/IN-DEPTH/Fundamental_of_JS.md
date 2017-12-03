@@ -5737,6 +5737,10 @@ In order to create and get dates between the years 0 and 99 the `Date.prototype.
 >```
 
 
+Calculating elapsed time
+
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
