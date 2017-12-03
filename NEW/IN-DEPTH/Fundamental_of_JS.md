@@ -5755,6 +5755,7 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 
 >```
 > // using built-in methods
+> var start = new Date();
 >```
 
 
