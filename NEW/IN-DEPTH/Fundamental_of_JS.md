@@ -5739,6 +5739,8 @@ In order to create and get dates between the years 0 and 99 the `Date.prototype.
 
 Calculating elapsed time
 
+The following examples show how to determine the elapsed time between two JavaScript dates in milliseconds.
+
 
 
 #### The Date Constructor
