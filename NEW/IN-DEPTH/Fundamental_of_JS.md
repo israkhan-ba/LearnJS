@@ -5725,7 +5725,7 @@ Several ways to create a `Date` object
 
 Two digit years map to 1900 - 1999
 
-In order to create and get dates between the years 0 and 99 the `Date.prototype.setFullYear()` methods should be used.
+In order to create and get dates between the years 0 and 99 the `Date.prototype.setFullYear()` and `Date.prototype.getFullYear()` methods should be used.
 
 
 
