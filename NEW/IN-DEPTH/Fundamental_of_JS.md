@@ -5723,6 +5723,11 @@ Several ways to create a `Date` object
 >```
 
 
+Two digit years map to 1900 - 1999
+
+
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
