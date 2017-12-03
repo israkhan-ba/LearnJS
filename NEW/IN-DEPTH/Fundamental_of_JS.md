@@ -5725,6 +5725,8 @@ Several ways to create a `Date` object
 
 Two digit years map to 1900 - 1999
 
+In order to create and get dates between the years 0 and 99
+
 
 
 
