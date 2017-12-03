@@ -5409,7 +5409,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.trunc(x)`**
 
-    Returns the integral part of the number x, removing any fractional digits. 
+        Returns the integral part of the number x, removing any fractional digits. 
 
 ### Date
  Work with dates and times in JavaScript.   
