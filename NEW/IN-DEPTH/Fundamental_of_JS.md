@@ -5737,6 +5737,46 @@ In order to create and get dates between the years 0 and 99 the `Date.prototype.
 >```
 
 
+Calculating elapsed time
+
+The following examples show how to determine the elapsed time between two JavaScript dates in milliseconds.
+
+Due to the differing lengths of days (due to daylight saving changeover), months and years, expressing elapsed time in units greater than hours, minutes and seconds requires addressing a number of issues and should be thoroughly researched before being attempted.
+
+>```
+> // using Date objects
+> var start = Date.now();
+> 
+> // the event to time goes here:
+> doSomethingForALongTime();
+> var end = Date.now();
+> var elapsed = end - start; // elapsed time in milliseconds
+>```
+
+>```
+> // using built-in methods
+> var start = new Date();
+>
+> // the event to time goes here:
+> doSomethingForALongTime();
+> var end = new Date();
+> var elapsed = end.getTime() - start.getTime(); // elapsed time in milliseconds
+>```
+
+>```
+> // to test a function and get back its return
+> function printElapsedTime(fTest) {
+>   var nStartTime = Date.now(),
+>       vReturn = fTest(),
+>       nEndTime = Date.now();
+> 
+>   console.log('Elapsed time: ' + String(nEndTime - nStartTime) + ' milliseconds');
+>   return vReturn;
+> }
+> 
+> var yourFunctionReturn = printElapsedTime(yourFunction);
+>```
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
