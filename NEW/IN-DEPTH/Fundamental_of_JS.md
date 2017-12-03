@@ -5710,9 +5710,9 @@ JavaScript `Date` instances
 
 ** Examples **
 
-Several ways to create a `Date` object
+**Several ways to create a `Date` object**
 
-    The following examples show several ways to create JavaScript dates:
+The following examples show several ways to create JavaScript dates:
 
 >```
 > var today = new Date();
@@ -5723,7 +5723,7 @@ Several ways to create a `Date` object
 >```
 
 
-Two digit years map to 1900 - 1999
+**Two digit years map to 1900 - 1999**
 
 In order to create and get dates between the years 0 and 99 the `Date.prototype.setFullYear()` and `Date.prototype.getFullYear()` methods should be used.
 
@@ -5737,7 +5737,7 @@ In order to create and get dates between the years 0 and 99 the `Date.prototype.
 >```
 
 
-Calculating elapsed time
+**Calculating elapsed time**
 
 The following examples show how to determine the elapsed time between two JavaScript dates in milliseconds.
 
