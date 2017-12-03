@@ -5405,7 +5405,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.tanh(x)`**
 
-    Returns the hyperbolic tangent of a number.
+        Returns the hyperbolic tangent of a number.
     
 **`Math.trunc(x)`**
 
