@@ -5767,7 +5767,8 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 > // to test a function and get back its return
 > function printElapsedTime(fTest) {
 >   var nStartTime = Date.now(),
->       vReturn = fTest()
+>       vReturn = fTest(),
+>       nEndTime = Date.now();
 > }
 >```
 
