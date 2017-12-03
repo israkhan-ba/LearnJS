@@ -5741,7 +5741,7 @@ Calculating elapsed time
 
 The following examples show how to determine the elapsed time between two JavaScript dates in milliseconds.
 
-Due to the differing lengths of days (due to daylight saving changeover), months and years, expressing elapsed time in units greater than hours, minutes and seconds requires addressing a number of issues.
+Due to the differing lengths of days (due to daylight saving changeover), months and years, expressing elapsed time in units greater than hours, minutes and seconds requires addressing a number of issues and should be thoroughly researched before being attempted.
 
 
 
