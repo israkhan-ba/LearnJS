@@ -5753,6 +5753,8 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 > var elapsed = end - start; // elapsed time in milliseconds
 >```
 
+// using built-in methods
+
 
 
 #### The Date Constructor
