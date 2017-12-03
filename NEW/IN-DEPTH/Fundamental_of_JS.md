@@ -5723,6 +5723,20 @@ Several ways to create a `Date` object
 >```
 
 
+Two digit years map to 1900 - 1999
+
+In order to create and get dates between the years 0 and 99 the `Date.prototype.setFullYear()` and `Date.prototype.getFullYear()` methods should be used.
+
+>```
+> var date = new Date(98, 1); // Sun Feb 01 1998 00:00:00 GMT+0000 (GMT)
+> 
+> // Deprecated method, 98 maps to 1998 here as well
+> date.setYear(98);           // Sun Feb 01 1998 00:00:00 GMT+0000 (GMT)
+> 
+> date.setFullYear(98);       // Sat Feb 01 0098 00:00:00 GMT+0000 (BST)
+>```
+
+
 #### The Date Constructor
 
 There are four ways of invoking the constructor of `Date`
