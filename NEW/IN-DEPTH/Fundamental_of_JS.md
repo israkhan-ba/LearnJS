@@ -5750,6 +5750,7 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 > // the event to time goes here:
 > doSomethingForALongTime();
 > var end = Date.now();
+> var elapsed = end - start; // elapsed time in milliseconds
 >```
 
 
