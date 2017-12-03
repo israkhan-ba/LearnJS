@@ -5712,7 +5712,7 @@ JavaScript `Date` instances
 
 **Several ways to create a `Date` object**
 
-    The following examples show several ways to create JavaScript dates:
+The following examples show several ways to create JavaScript dates:
 
 >```
 > var today = new Date();
