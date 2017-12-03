@@ -5763,6 +5763,7 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 > var elapsed = end.getTime() - start.getTime(); // elapsed time in milliseconds
 >```
 
+// to test a function and get back its return
 
 
 #### The Date Constructor
