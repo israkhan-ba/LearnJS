@@ -5771,6 +5771,7 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 >       nEndTime = Date.now();
 > 
 >   console.log('Elapsed time: ' + String(nEndTime - nStartTime) + ' milliseconds');
+>   return vReturn;
 > }
 >```
 
