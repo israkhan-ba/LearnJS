@@ -4936,7 +4936,7 @@ Creating an array using the result of a match
         
 **`Array.of()`**
 
-Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
+        Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
 
 
 **_`Array` instances_**
