@@ -5329,7 +5329,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.expm1(x)`**
 
-    Returns subtracting 1 from exp(x).
+        Returns subtracting 1 from exp(x).
 
 **`Math.floor(x)`**
 
