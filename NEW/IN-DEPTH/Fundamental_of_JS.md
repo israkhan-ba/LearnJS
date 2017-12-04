@@ -5305,7 +5305,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.cbrt(x)`**
 
-    Returns the cube root of a number.
+        Returns the cube root of a number.
 
 **`Math.ceil(x)`**
 
