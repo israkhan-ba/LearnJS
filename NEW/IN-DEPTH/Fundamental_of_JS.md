@@ -5265,7 +5265,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.SQRT2`**
 
-    Square root of 2, approximately 1.414.
+        Square root of 2, approximately 1.414.
     
 
 **_Methods_**
