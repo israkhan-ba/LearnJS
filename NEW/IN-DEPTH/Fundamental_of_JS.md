@@ -4913,52 +4913,52 @@ Creating an array using the result of a match
 
 **`Array.length`**
 
-The Array constructor's length property whose value is 1.
+        The Array constructor's length property whose value is 1.
 
 **`get Array[@@species]`**
 
-The constructor function that is used to create derived objects.
+        The constructor function that is used to create derived objects.
         
 **`Array.prototype`**
 
-Allows the addition of properties to all array objects.
+        Allows the addition of properties to all array objects.
         
         
 **_Methods_**
 
 **`Array.from()`**
 
-Creates a new Array instance from an array-like or iterable object.
+        Creates a new Array instance from an array-like or iterable object.
         
 **`Array.isArray()`**
 
-Returns true if a variable is an array, if not false.
+        Returns true if a variable is an array, if not false.
         
 **`Array.of()`**
 
-Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
+        Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments. 
 
 
 **_`Array` instances_**
 
-All `Array` instances inherit from `Array.prototype`.  
-The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
+        All `Array` instances inherit from `Array.prototype`.  
+        The prototype object of the `Array` constructor can be modified to affect all `Array` instances.
 
 **Properties**
 
 **`Array.prototype.constructor`**
 
-Specifies the function that creates an object's prototype.
+        Specifies the function that creates an object's prototype.
 
 
 **`Array.prototype.length`**
 
-Reflects the number of elements in an array.
+        Reflects the number of elements in an array.
 
 
 **`Array.prototype[@@unscopables]`**
 
-A symbol containing property names to exclude from a with binding scope. 
+        A symbol containing property names to exclude from a with binding scope. 
 
 **Methods**
 
@@ -4968,11 +4968,11 @@ These methods modify the array:
 
 **`Array.prototype.copyWithin()`**
         
-Copies a sequence of array elements within the array.
+        Copies a sequence of array elements within the array.
     
 **`Array.prototype.fill()`**
 
-Fills all the elements of an array from a start index to an end index with a static value.
+        Fills all the elements of an array from a start index to an end index with a static value.
     
 **`Array.prototype.pop()`**
 
