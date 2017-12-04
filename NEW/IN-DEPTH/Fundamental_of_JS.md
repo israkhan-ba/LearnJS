@@ -5281,7 +5281,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.acosh(x)`**
 
-    Returns the hyperbolic arccosine of a number.
+        Returns the hyperbolic arccosine of a number.
 
 **`Math.asin(x)`**
 
