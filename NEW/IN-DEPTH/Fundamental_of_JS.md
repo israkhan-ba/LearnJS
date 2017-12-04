@@ -5373,7 +5373,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.pow(x, y)`**
 
-    Returns base to the exponent power, that is, baseexponent.
+        Returns base to the exponent power, that is, baseexponent.
     
 **`Math.random()`**
 
