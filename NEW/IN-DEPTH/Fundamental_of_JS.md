@@ -5261,7 +5261,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.SQRT1_2`**
 
-    Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
+        Square root of 1/2; equivalently, 1 over the square root of 2, approximately 0.707.
 
 **`Math.SQRT2`**
 
