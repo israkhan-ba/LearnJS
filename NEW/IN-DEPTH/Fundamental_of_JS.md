@@ -4958,7 +4958,7 @@ Creating an array using the result of a match
 
 **`Array.prototype[@@unscopables]`**
 
-A symbol containing property names to exclude from a with binding scope. 
+        A symbol containing property names to exclude from a with binding scope. 
 
 **Methods**
 
