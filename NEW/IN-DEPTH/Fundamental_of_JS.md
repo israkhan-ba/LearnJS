@@ -5321,7 +5321,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.cosh(x)`**
 
-    Returns the hyperbolic cosine of a number.
+        Returns the hyperbolic cosine of a number.
 
 **`Math.exp(x)`**
 
