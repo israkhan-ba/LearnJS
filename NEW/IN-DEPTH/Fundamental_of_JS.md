@@ -5345,7 +5345,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.imul(x, y)`**
 
-    Returns the result of a 32-bit integer multiplication.
+        Returns the result of a 32-bit integer multiplication.
 
 **`Math.log(x)`**
 
