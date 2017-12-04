@@ -5317,7 +5317,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.cos(x)`**
 
-    Returns the cosine of a number.
+        Returns the cosine of a number.
 
 **`Math.cosh(x)`**
 
