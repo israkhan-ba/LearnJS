@@ -4913,7 +4913,7 @@ Creating an array using the result of a match
 
 **`Array.length`**
 
-The Array constructor's length property whose value is 1.
+        The Array constructor's length property whose value is 1.
 
 **`get Array[@@species]`**
 
