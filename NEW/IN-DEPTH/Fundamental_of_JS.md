@@ -5349,7 +5349,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.log(x)`**
 
-    Returns the natural logarithm (loge, also ln) of a number.
+        Returns the natural logarithm (loge, also ln) of a number.
 
 **`Math.log1p(x)`**
 
