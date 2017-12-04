@@ -5325,7 +5325,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.exp(x)`**
 
-    Returns Ex, where x is the argument, and E is Euler's constant (2.718…), the base of the natural logarithm.
+        Returns Ex, where x is the argument, and E is Euler's constant (2.718…), the base of the natural logarithm.
 
 **`Math.expm1(x)`**
 
