@@ -4953,7 +4953,7 @@ Creating an array using the result of a match
 
 **`Array.prototype.length`**
 
-Reflects the number of elements in an array.
+        Reflects the number of elements in an array.
 
 
 **`Array.prototype[@@unscopables]`**
