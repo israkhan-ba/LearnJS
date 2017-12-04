@@ -5289,7 +5289,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.asinh(x)`**
 
-    Returns the hyperbolic arcsine of a number.
+        Returns the hyperbolic arcsine of a number.
 
 **`Math.atan(x)`**
 
