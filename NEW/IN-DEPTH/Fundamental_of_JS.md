@@ -5357,7 +5357,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.log10(x)`**
 
-    Returns the base 10 logarithm of a number.
+        Returns the base 10 logarithm of a number.
     
 **`Math.log2(x)`**
 
