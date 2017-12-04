@@ -4928,7 +4928,7 @@ Creating an array using the result of a match
 
 **`Array.from()`**
 
-Creates a new Array instance from an array-like or iterable object.
+        Creates a new Array instance from an array-like or iterable object.
         
 **`Array.isArray()`**
 
