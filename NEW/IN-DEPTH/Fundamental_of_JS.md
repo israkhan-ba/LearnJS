@@ -5361,7 +5361,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.log2(x)`**
 
-    Returns the base 2 logarithm of a number.
+        Returns the base 2 logarithm of a number.
     
 **`Math.max([x[, y[, …]]])`**
 
