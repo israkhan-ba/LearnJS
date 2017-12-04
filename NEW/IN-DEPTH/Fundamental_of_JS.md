@@ -4968,7 +4968,7 @@ These methods modify the array:
 
 **`Array.prototype.copyWithin()`**
         
-Copies a sequence of array elements within the array.
+        Copies a sequence of array elements within the array.
     
 **`Array.prototype.fill()`**
 
