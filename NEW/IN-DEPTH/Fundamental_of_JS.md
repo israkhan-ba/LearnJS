@@ -5377,7 +5377,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.random()`**
 
-    Returns a pseudo-random number between 0 and 1.
+        Returns a pseudo-random number between 0 and 1.
     
 **`Math.round(x)`**
 
