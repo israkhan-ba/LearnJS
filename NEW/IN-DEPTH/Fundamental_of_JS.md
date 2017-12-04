@@ -4921,7 +4921,7 @@ Creating an array using the result of a match
         
 **`Array.prototype`**
 
-Allows the addition of properties to all array objects.
+        Allows the addition of properties to all array objects.
         
         
 **_Methods_**
