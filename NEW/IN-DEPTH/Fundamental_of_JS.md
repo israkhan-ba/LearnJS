@@ -5385,7 +5385,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.sign(x)`**
 
-    Returns the sign of the x, indicating whether x is positive, negative or zero.
+        Returns the sign of the x, indicating whether x is positive, negative or zero.
     
 **`Math.sin(x)`**
 
