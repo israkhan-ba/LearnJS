@@ -5341,7 +5341,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.hypot([x[, y[, …]]])`**
 
-    Returns the square root of the sum of squares of its arguments.
+        Returns the square root of the sum of squares of its arguments.
 
 **`Math.imul(x, y)`**
 
