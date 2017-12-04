@@ -5293,7 +5293,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.atan(x)`**
 
-    Returns the arctangent of a number.
+        Returns the arctangent of a number.
 
 **`Math.atanh(x)`**
 
