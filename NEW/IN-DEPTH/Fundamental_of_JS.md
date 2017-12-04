@@ -5365,7 +5365,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.max([x[, y[, …]]])`**
 
-    Returns the largest of zero or more numbers.
+        Returns the largest of zero or more numbers.
     
 **`Math.min([x[, y[, …]]])`**
 
