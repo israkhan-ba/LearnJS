@@ -5277,7 +5277,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.acos(x)`**
 
-    Returns the arccosine of a number.
+        Returns the arccosine of a number.
 
 **`Math.acosh(x)`**
 
