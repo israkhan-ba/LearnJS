@@ -5393,7 +5393,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.sinh(x)`**
 
-    Returns the hyperbolic sine of a number.
+        Returns the hyperbolic sine of a number.
     
 **`Math.sqrt(x)`**
 
