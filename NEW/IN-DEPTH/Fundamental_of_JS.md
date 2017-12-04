@@ -5333,7 +5333,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.floor(x)`**
 
-    Returns the largest integer less than or equal to a number.
+        Returns the largest integer less than or equal to a number.
 
 **`Math.fround(x)`**
 
