@@ -5301,7 +5301,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.atan2(y, x)`**
 
-    Returns the arctangent of the quotient of its arguments.
+        Returns the arctangent of the quotient of its arguments.
 
 **`Math.cbrt(x)`**
 
