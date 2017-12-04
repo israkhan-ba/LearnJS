@@ -5253,7 +5253,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.LOG10E`**
 
-    Base 10 logarithm of E, approximately 0.434.
+        Base 10 logarithm of E, approximately 0.434.
 
 **`Math.PI`**
 
