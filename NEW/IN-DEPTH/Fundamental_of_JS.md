@@ -5337,7 +5337,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.fround(x)`**
 
-    Returns the nearest single precision float representation of a number.
+        Returns the nearest single precision float representation of a number.
 
 **`Math.hypot([x[, y[, …]]])`**
 
