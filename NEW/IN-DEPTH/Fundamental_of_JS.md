@@ -5285,7 +5285,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.asin(x)`**
 
-    Returns the arcsine of a number.
+        Returns the arcsine of a number.
 
 **`Math.asinh(x)`**
 
