@@ -5389,7 +5389,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.sin(x)`**
 
-    Returns the sine of a number.
+        Returns the sine of a number.
     
 **`Math.sinh(x)`**
 
