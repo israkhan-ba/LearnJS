@@ -5313,7 +5313,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
 
 **`Math.clz32(x)`**
 
-    Returns the number of leading zeroes of a 32-bit integer.
+        Returns the number of leading zeroes of a 32-bit integer.
 
 **`Math.cos(x)`**
 
