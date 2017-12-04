@@ -5369,7 +5369,7 @@ Constants are defined with the full precision of real numbers in JavaScript.
     
 **`Math.min([x[, y[, …]]])`**
 
-    Returns the smallest of zero or more numbers.
+        Returns the smallest of zero or more numbers.
     
 **`Math.pow(x, y)`**
 
