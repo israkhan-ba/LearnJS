@@ -5009,35 +5009,35 @@ These methods do not modify the array and return some representation of the arra
 
 **`Array.prototype.concat()`**
     
-Returns a new array comprised of this array joined with other array(s) and/or value(s).
+        Returns a new array comprised of this array joined with other array(s) and/or value(s).
     
 **`Array.prototype.includes()`**
 
-Determines whether an array contains a certain element, returning true or false as appropriate.
+        Determines whether an array contains a certain element, returning true or false as appropriate.
     
 **`Array.prototype.indexOf()`**
 
-Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+        Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
     
 **`Array.prototype.join()`**
 
-Joins all elements of an array into a string.
+        Joins all elements of an array into a string.
     
 **`Array.prototype.lastIndexOf()`**
 
-Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+        Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
     
 **`Array.prototype.slice()`**
 
-Extracts a section of an array and returns a new array.
+        Extracts a section of an array and returns a new array.
     
 **`Array.prototype.toString()`**
 
-Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+        Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
     
 **`Array.prototype.toLocaleString()`**
 
-Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
+        Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
 **_Iteration methods_**
