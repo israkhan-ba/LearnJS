@@ -5033,7 +5033,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.toString()`**
 
-Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+        Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
     
 **`Array.prototype.toLocaleString()`**
 
