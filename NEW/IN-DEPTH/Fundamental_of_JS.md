@@ -5782,6 +5782,9 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 There are four ways of invoking the constructor of `Date`
 
 
+### Error
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
