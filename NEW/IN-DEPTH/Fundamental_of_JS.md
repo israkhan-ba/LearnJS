@@ -5791,6 +5791,8 @@ There are four ways of invoking the constructor of `Date`
 
     Runtime errors result in new Error objects being created and thrown.
 
+    This page documents the use of the Error object itself and its use as a constructor function. 
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
