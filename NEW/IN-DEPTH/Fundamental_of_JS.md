@@ -4980,7 +4980,7 @@ These methods modify the array:
     
 **`Array.prototype.push()`**
 
-Adds one or more elements to the end of an array and returns the new length of the array.
+        Adds one or more elements to the end of an array and returns the new length of the array.
     
 **`Array.prototype.reverse()`**
     
