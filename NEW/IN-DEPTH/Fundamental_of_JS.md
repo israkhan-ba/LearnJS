@@ -5053,7 +5053,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.entries()`**
         
-Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
+            Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
         
 **`Array.prototype.every()`**
     
