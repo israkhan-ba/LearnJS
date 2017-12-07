@@ -5093,7 +5093,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.some()`**
 
-Returns true if at least one element in this array satisfies the provided testing function.
+        Returns true if at least one element in this array satisfies the provided testing function.
     
 **`Array.prototype.values()`**
 
