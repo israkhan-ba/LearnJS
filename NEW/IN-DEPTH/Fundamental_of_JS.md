@@ -5021,7 +5021,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.join()`**
 
-Joins all elements of an array into a string.
+        Joins all elements of an array into a string.
     
 **`Array.prototype.lastIndexOf()`**
 
