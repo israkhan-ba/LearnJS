@@ -5789,6 +5789,7 @@ There are four ways of invoking the constructor of `Date`
     The Error object can also be used as a base object for user-defined exceptions. 
     See below for standard built-in error types.
 
+    Runtime errors result in new Error objects being created and thrown.
 
 ## Classes
 
