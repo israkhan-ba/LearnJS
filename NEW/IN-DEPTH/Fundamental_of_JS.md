@@ -5081,7 +5081,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.map()`**
 
-Creates a new array with the results of calling a provided function on every element in this array.
+        Creates a new array with the results of calling a provided function on every element in this array.
     
 **`Array.prototype.reduce()`**
 
