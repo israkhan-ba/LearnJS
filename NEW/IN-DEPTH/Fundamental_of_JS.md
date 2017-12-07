@@ -4984,7 +4984,7 @@ These methods modify the array:
     
 **`Array.prototype.reverse()`**
     
-Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
+        Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
     
 **`Array.prototype.shift()`**
     
