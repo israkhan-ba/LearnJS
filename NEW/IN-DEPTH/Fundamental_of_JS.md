@@ -5782,6 +5782,14 @@ Due to the differing lengths of days (due to daylight saving changeover), months
 There are four ways of invoking the constructor of `Date`
 
 
+### Error
+
+    The `Error` constructor creates an error object.
+    Instances of Error objects are thrown when runtime errors occur. 
+    The Error object can also be used as a base object for user-defined exceptions. 
+    See below for standard built-in error types.
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
