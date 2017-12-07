@@ -5073,7 +5073,7 @@ These methods do not modify the array and return some representation of the arra
         
 **`Array.prototype.forEach()`**
 
-Calls a function for each element in the array.
+        Calls a function for each element in the array.
         
 **`Array.prototype.keys()`**
 
