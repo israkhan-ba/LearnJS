@@ -5785,10 +5785,14 @@ There are four ways of invoking the constructor of `Date`
 ### Error
 
     The `Error` constructor creates an error object.
-    Instances of Error objects are thrown when runtime errors occur. 
-    The Error object can also be used as a base object for user-defined exceptions. 
+    Instances of `Error` objects are thrown when runtime errors occur. 
+    The `Error` object can also be used as a base object for user-defined exceptions. 
     See below for standard built-in error types.
 
+    Runtime errors result in new `Error` objects being created and thrown.
+
+    This page documents the use of the `Error` object itself and its use as a constructor function. 
+    For a list of properties and methods inherited by Error instances, see Error.prototype.
 
 ## Classes
 
