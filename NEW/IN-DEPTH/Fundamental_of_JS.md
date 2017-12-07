@@ -5784,6 +5784,8 @@ There are four ways of invoking the constructor of `Date`
 
 ### Error
 
+    The `Error` constructor creates an error object.
+
 
 ## Classes
 
