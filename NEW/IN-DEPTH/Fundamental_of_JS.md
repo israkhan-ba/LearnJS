@@ -5077,7 +5077,7 @@ These methods do not modify the array and return some representation of the arra
         
 **`Array.prototype.keys()`**
 
-Returns a new Array Iterator that contains the keys for each index in the array.
+        Returns a new Array Iterator that contains the keys for each index in the array.
     
 **`Array.prototype.map()`**
 
