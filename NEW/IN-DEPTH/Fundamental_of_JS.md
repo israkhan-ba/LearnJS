@@ -5101,7 +5101,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype[@@iterator]()`**
 
-Returns a new Array Iterator object that contains the values for each index in the array. 
+        Returns a new Array Iterator object that contains the values for each index in the array. 
 
 
 
