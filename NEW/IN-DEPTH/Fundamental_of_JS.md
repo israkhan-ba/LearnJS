@@ -5069,7 +5069,7 @@ These methods do not modify the array and return some representation of the arra
         
 **`Array.prototype.findIndex()`**
 
-Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
+        Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.
         
 **`Array.prototype.forEach()`**
 
