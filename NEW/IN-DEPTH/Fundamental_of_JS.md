@@ -5037,7 +5037,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.toLocaleString()`**
 
-Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
+        Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method. 
 
 
 **_Iteration methods_**
