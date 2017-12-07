@@ -5057,7 +5057,7 @@ These methods do not modify the array and return some representation of the arra
         
 **`Array.prototype.every()`**
     
-Returns true if every element in this array satisfies the provided testing function.
+        Returns true if every element in this array satisfies the provided testing function.
         
 **`Array.prototype.filter()`**
 
