@@ -4996,7 +4996,7 @@ These methods modify the array:
     
 **`Array.prototype.splice()`**
 
-Adds and/or removes elements from an array.
+        Adds and/or removes elements from an array.
     
 **`Array.prototype.unshift()`**
 
