@@ -4988,7 +4988,7 @@ These methods modify the array:
     
 **`Array.prototype.shift()`**
     
-Removes the first element from an array and returns that element.
+        Removes the first element from an array and returns that element.
     
 **`Array.prototype.sort()`**
 
