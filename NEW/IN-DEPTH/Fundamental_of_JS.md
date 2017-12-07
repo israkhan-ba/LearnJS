@@ -5085,7 +5085,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.reduce()`**
 
-Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
+        Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
     
 **`Array.prototype.reduceRight()`**
 
