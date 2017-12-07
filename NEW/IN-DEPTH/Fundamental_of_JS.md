@@ -4976,7 +4976,7 @@ These methods modify the array:
     
 **`Array.prototype.pop()`**
 
-Removes the last element from an array and returns that element.
+        Removes the last element from an array and returns that element.
     
 **`Array.prototype.push()`**
 
