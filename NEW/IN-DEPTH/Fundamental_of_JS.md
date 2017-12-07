@@ -5029,7 +5029,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.slice()`**
 
-Extracts a section of an array and returns a new array.
+        Extracts a section of an array and returns a new array.
     
 **`Array.prototype.toString()`**
 
