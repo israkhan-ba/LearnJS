@@ -5013,7 +5013,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.includes()`**
 
-Determines whether an array contains a certain element, returning true or false as appropriate.
+        Determines whether an array contains a certain element, returning true or false as appropriate.
     
 **`Array.prototype.indexOf()`**
 
