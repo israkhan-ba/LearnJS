@@ -4992,7 +4992,7 @@ These methods modify the array:
     
 **`Array.prototype.sort()`**
 
-Sorts the elements of an array in place and returns the array.
+        Sorts the elements of an array in place and returns the array.
     
 **`Array.prototype.splice()`**
 
