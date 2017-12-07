@@ -5017,7 +5017,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.indexOf()`**
 
-Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+        Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
     
 **`Array.prototype.join()`**
 
