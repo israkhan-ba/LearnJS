@@ -5025,7 +5025,7 @@ These methods do not modify the array and return some representation of the arra
     
 **`Array.prototype.lastIndexOf()`**
 
-Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+        Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
     
 **`Array.prototype.slice()`**
 
