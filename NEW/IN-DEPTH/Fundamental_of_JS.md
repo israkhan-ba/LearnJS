@@ -5810,6 +5810,8 @@ RangeError
     
 ReferenceError
     Creates an instance representing an error that occurs when de-referencing an invalid reference.
+    
+SyntaxError
 
 
 ## Classes
