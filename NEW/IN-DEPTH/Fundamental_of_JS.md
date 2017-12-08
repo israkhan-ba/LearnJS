@@ -5813,6 +5813,8 @@ ReferenceError
     
 SyntaxError
     Creates an instance representing a syntax error that occurs while parsing code in eval().
+    
+TypeError
 
 
 ## Classes
