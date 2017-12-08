@@ -5804,6 +5804,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
     Creates an instance representing an error that occurs regarding the global function `eval()`.
     
 `InternalError`
+    
     Creates an instance representing an error that occurs when an internal error in the JavaScript engine is thrown. E.g. "too much recursion".
     
 `RangeError`
