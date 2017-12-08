@@ -5813,7 +5813,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
     
 `ReferenceError`
     
-    Creates an instance representing an error that occurs when de-referencing an invalid reference.
+        Creates an instance representing an error that occurs when de-referencing an invalid reference.
     
 `SyntaxError`
     
