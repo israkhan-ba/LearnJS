@@ -5825,7 +5825,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
     
 `URIError`
     
-    Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters. 
+        Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters. 
 
 
 ## Classes
