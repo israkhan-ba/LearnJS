@@ -5793,6 +5793,10 @@ There are four ways of invoking the constructor of `Date`
 
     This page documents the use of the `Error` object itself and its use as a constructor function. 
     For a list of properties and methods inherited by `Error` instances, see `Error.prototype`.
+    
+    
+    Error types
+
 
 ## Classes
 
