@@ -5797,7 +5797,7 @@ There are four ways of invoking the constructor of `Date`
     
     Error types
 
-Besides the generic Error constructor, there are seven other core error constructors in JavaScript.
+Besides the generic Error constructor, there are seven other core error constructors in JavaScript. For client-side exceptions, see Exception Handling Statements.
 
 
 ## Classes
