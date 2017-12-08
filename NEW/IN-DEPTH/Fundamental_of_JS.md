@@ -5815,6 +5815,7 @@ SyntaxError
     Creates an instance representing a syntax error that occurs while parsing code in eval().
     
 TypeError
+    Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
 
 
 ## Classes
