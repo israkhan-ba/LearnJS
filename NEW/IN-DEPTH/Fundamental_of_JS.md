@@ -5795,29 +5795,29 @@ There are four ways of invoking the constructor of `Date`
     For a list of properties and methods inherited by `Error` instances, see `Error.prototype`.
     
     
-    Error types
+    **Error types**
 
-Besides the generic Error constructor, there are seven other core error constructors in JavaScript. For client-side exceptions, see Exception Handling Statements.
+Besides the generic `Error` constructor, there are seven other core error constructors in JavaScript. For client-side exceptions, see `Exception Handling Statements`.
 
-EvalError
-    Creates an instance representing an error that occurs regarding the global function eval().
+`EvalError`
+    Creates an instance representing an error that occurs regarding the global function `eval()`.
     
-InternalError
+`InternalError`
     Creates an instance representing an error that occurs when an internal error in the JavaScript engine is thrown. E.g. "too much recursion".
     
-RangeError
+`RangeError`
     Creates an instance representing an error that occurs when a numeric variable or parameter is outside of its valid range.
     
-ReferenceError
+`ReferenceError`
     Creates an instance representing an error that occurs when de-referencing an invalid reference.
     
-SyntaxError
+`SyntaxError`
     Creates an instance representing a syntax error that occurs while parsing code in eval().
     
-TypeError
+`TypeError`
     Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
     
-URIError
+`URIError`
     Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters. 
 
 
