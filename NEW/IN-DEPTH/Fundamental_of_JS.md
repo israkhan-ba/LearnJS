@@ -5816,6 +5816,8 @@ SyntaxError
     
 TypeError
     Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
+    
+URIError
 
 
 ## Classes
