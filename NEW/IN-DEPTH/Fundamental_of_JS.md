@@ -5809,7 +5809,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
     
 `RangeError`
     
-    Creates an instance representing an error that occurs when a numeric variable or parameter is outside of its valid range.
+        Creates an instance representing an error that occurs when a numeric variable or parameter is outside of its valid range.
     
 `ReferenceError`
     
