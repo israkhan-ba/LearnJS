@@ -5821,7 +5821,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
     
 `TypeError`
     
-    Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
+        Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
     
 `URIError`
     
