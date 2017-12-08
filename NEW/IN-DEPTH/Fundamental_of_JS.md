@@ -5801,6 +5801,8 @@ Besides the generic Error constructor, there are seven other core error construc
 
 EvalError
     Creates an instance representing an error that occurs regarding the global function eval().
+    
+InternalError
 
 
 ## Classes
