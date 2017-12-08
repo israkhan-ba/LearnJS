@@ -5801,7 +5801,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
 
 `EvalError`
     
-    Creates an instance representing an error that occurs regarding the global function `eval()`.
+        Creates an instance representing an error that occurs regarding the global function `eval()`.
     
 `InternalError`
     
