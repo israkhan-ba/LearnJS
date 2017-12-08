@@ -5792,7 +5792,7 @@ There are four ways of invoking the constructor of `Date`
     Runtime errors result in new `Error` objects being created and thrown.
 
     This page documents the use of the `Error` object itself and its use as a constructor function. 
-    For a list of properties and methods inherited by Error instances, see Error.prototype.
+    For a list of properties and methods inherited by `Error` instances, see Error.prototype.
 
 ## Classes
 
