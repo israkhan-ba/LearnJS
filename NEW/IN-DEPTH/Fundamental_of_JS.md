@@ -5828,6 +5828,9 @@ Besides the generic `Error` constructor, there are seven other core error constr
         Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters. 
 
 
+Properties
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
