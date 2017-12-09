@@ -5853,7 +5853,7 @@ Standard properties
 `Error.prototype.constructor`
     Specifies the function that created an instance's prototype.
     
-Error.prototype.message
+`Error.prototype.message`
     Error message.
     
 Error.prototype.name
