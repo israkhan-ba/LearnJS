@@ -5836,6 +5836,8 @@ Error.prototype
 
 Methods
 
+The global Error object contains no methods of its own.
+
 
 ## Classes
 
