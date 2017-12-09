@@ -5855,6 +5855,8 @@ Error.prototype.constructor
     
 Error.prototype.message
     Error message.
+    
+Error.prototype.name
 
 
 ## Classes
