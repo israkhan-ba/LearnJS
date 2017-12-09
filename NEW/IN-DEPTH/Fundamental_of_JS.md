@@ -5843,7 +5843,7 @@ The global Error object contains no methods of its own, however, it does inherit
 
 Error instances
 
-All Error instances and instances of non-generic errors inherit from Error.prototype.
+All Error instances and instances of non-generic errors inherit from Error.prototype. As with all constructor functions, you can use the prototype of the constructor to add properties.
 
 
 ## Classes
