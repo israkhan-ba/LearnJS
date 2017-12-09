@@ -5834,9 +5834,14 @@ Error.prototype
     Allows the addition of properties to Error instances. 
 
 
+
 Methods
 
 The global Error object contains no methods of its own, however, it does inherit some methods through the prototype chain.
+
+
+
+Error instances
 
 
 ## Classes
