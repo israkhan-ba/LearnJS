@@ -5799,7 +5799,7 @@ For a list of properties and methods inherited by `Error` instances, see `Error.
 
 Besides the generic `Error` constructor, there are seven other core error constructors in JavaScript. For client-side exceptions, see `Exception Handling Statements`.
 
-`EvalError`
+**`EvalError`**
     
         Creates an instance representing an error that occurs regarding the global function `eval()`.
     
