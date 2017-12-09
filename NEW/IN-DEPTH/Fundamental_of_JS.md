@@ -5815,7 +5815,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
     
         Creates an instance representing an error that occurs when de-referencing an invalid reference.
     
-`SyntaxError`
+**`SyntaxError`**
     
         Creates an instance representing a syntax error that occurs while parsing code in eval().
     
