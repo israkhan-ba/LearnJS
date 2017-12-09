@@ -5850,13 +5850,14 @@ Properties
 Standard properties
 
 
-Error.prototype.constructor
-    Specifies the function that created an instance's prototype.
+**`Error.prototype.constructor`**
     
-Error.prototype.message
+        Specifies the function that created an instance's prototype.
+    
+**`Error.prototype.message`**
     Error message.
     
-Error.prototype.name
+**`Error.prototype.name`**
     Error name. 
 
 
