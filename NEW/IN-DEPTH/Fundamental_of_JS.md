@@ -5793,9 +5793,9 @@ Runtime errors result in new `Error` objects being created and thrown.
 
 This page documents the use of the `Error` object itself and its use as a constructor function. 
 For a list of properties and methods inherited by `Error` instances, see `Error.prototype`.
+
     
-    
-    **Error types**
+**Error types**
 
 Besides the generic `Error` constructor, there are seven other core error constructors in JavaScript. For client-side exceptions, see `Exception Handling Statements`.
 
