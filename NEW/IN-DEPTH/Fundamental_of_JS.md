@@ -5834,6 +5834,18 @@ Error.prototype
     Allows the addition of properties to Error instances. 
 
 
+
+Methods
+
+The global Error object contains no methods of its own, however, it does inherit some methods through the prototype chain.
+
+
+
+Error instances
+
+All Error instances and instances of non-generic errors inherit from Error.prototype. As with all constructor functions, you can use the prototype of the constructor to add properties or methods to all instances created with that constructor.
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
