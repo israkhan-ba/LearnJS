@@ -5847,6 +5847,7 @@ All Error instances and instances of non-generic errors inherit from Error.proto
 
 
 Properties
+Standard properties
 
 
 ## Classes
