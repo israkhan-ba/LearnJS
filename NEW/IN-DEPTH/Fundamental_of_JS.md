@@ -5856,7 +5856,7 @@ Standard properties
 `Error.prototype.message`
     Error message.
     
-Error.prototype.name
+`Error.prototype.name`
     Error name. 
 
 
