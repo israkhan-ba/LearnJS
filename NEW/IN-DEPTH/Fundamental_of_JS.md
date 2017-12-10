@@ -5846,8 +5846,9 @@ Error instances
 All Error instances and instances of non-generic errors inherit from Error.prototype. As with all constructor functions, you can use the prototype of the constructor to add properties or methods to all instances created with that constructor.
 
 
-Properties
-Standard properties
+**Properties**
+
+**Standard properties**
 
 
 **`Error.prototype.constructor`**
@@ -5855,10 +5856,12 @@ Standard properties
         Specifies the function that created an instance's prototype.
     
 **`Error.prototype.message`**
-    Error message.
+    
+        Error message.
     
 **`Error.prototype.name`**
-    Error name. 
+    
+        Error name. 
 
 
 ## Classes
