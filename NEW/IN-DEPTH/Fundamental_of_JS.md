@@ -5875,7 +5875,7 @@ As with all constructor functions, you can use the prototype of the constructor 
 `Error.prototype.toString()`
 
     Returns a string representing the specified object. 
-    Overrides the Object.prototype.toString() method. 
+    Overrides the `Object.prototype.toString()` method. 
 
 
 ## Classes
