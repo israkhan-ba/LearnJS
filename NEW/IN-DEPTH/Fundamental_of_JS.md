@@ -5848,7 +5848,7 @@ All Error instances and instances of non-generic errors inherit from Error.proto
 
 **Properties**
 
-Standard properties
+**Standard properties**
 
 
 **`Error.prototype.constructor`**
