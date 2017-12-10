@@ -5868,6 +5868,8 @@ As with all constructor functions, you can use the prototype of the constructor 
         
 Methods
 
+Error.prototype.toSource()
+
 
 ## Classes
 
