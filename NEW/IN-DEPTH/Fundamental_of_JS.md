@@ -5828,20 +5828,21 @@ Besides the generic `Error` constructor, there are seven other core error constr
         Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters. 
 
 
-Properties
+**Properties**
 
-Error.prototype
-    Allows the addition of properties to Error instances. 
-
-
-
-Methods
-
-The global Error object contains no methods of its own, however, it does inherit some methods through the prototype chain.
+**`Error.prototype`**
+    
+        Allows the addition of properties to `Error` instances. 
 
 
 
-Error instances
+**Methods**
+
+The global `Error` object contains no methods of its own, however, it does inherit some methods through the prototype chain.
+
+
+
+**Error instances**
 
 All `Error` instances and instances of non-generic errors inherit from `Error.prototype`.  
 As with all constructor functions, you can use the prototype of the constructor to add properties or methods to all instances created with that constructor.
