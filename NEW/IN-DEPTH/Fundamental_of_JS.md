@@ -5883,6 +5883,11 @@ Throwing a generic error
 
 Usually you create an Error object with the intention of raising it using the throw keyword. You can handle the error using the try...catch construct:
 
+try {
+  throw new Error('Whoops!');
+} catch (e) {
+  console.log(e.name + ': ' + e.message);
+}
 
 
 ## Classes
