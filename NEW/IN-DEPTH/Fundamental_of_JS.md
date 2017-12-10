@@ -5872,6 +5872,7 @@ Error.prototype.toSource()
     Returns a string containing the source of the specified Error object; you can use this value to create a new object. Overrides the Object.prototype.toSource() method.
     
 Error.prototype.toString()
+    Returns a string representing the specified object. 
 
 
 ## Classes
