@@ -5878,6 +5878,10 @@ As with all constructor functions, you can use the prototype of the constructor 
     Overrides the `Object.prototype.toString()` method. 
 
 
+Examples
+
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
