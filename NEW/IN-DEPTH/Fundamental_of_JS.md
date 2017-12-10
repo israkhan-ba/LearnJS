@@ -5831,7 +5831,8 @@ Besides the generic `Error` constructor, there are seven other core error constr
 Properties
 
 `Error.prototype`
-    Allows the addition of properties to `Error` instances. 
+    
+        Allows the addition of properties to `Error` instances. 
 
 
 
