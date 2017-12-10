@@ -5869,7 +5869,7 @@ As with all constructor functions, you can use the prototype of the constructor 
 Methods
 
 Error.prototype.toSource()
-    Returns a string containing the source of the specified Error object. 
+    Returns a string containing the source of the specified Error object; you can use this value to create a new object. 
 
 
 ## Classes
