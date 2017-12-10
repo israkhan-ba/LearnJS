@@ -5873,6 +5873,7 @@ Error.prototype.toSource()
     
 Error.prototype.toString()
     Returns a string representing the specified object. 
+    Overrides the Object.prototype.toString() method. 
 
 
 ## Classes
