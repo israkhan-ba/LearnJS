@@ -5859,7 +5859,8 @@ Standard properties
         Error message.
     
 **`Error.prototype.name`**
-    Error name. 
+    
+        Error name. 
 
 
 ## Classes
