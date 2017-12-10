@@ -5879,6 +5879,7 @@ As with all constructor functions, you can use the prototype of the constructor 
 
 
 Examples
+Throwing a generic error
 
 
 
