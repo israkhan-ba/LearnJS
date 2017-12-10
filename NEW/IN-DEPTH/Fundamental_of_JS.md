@@ -5836,7 +5836,7 @@ Besides the generic `Error` constructor, there are seven other core error constr
 
 
 
-Methods
+**Methods**
 
 The global `Error` object contains no methods of its own, however, it does inherit some methods through the prototype chain.
 
