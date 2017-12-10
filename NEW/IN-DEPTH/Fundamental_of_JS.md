@@ -5855,7 +5855,8 @@ Standard properties
         Specifies the function that created an instance's prototype.
     
 **`Error.prototype.message`**
-    Error message.
+    
+        Error message.
     
 **`Error.prototype.name`**
     Error name. 
