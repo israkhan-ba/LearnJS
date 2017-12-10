@@ -5881,6 +5881,8 @@ As with all constructor functions, you can use the prototype of the constructor 
 Examples
 Throwing a generic error
 
+Usually you create an Error object with the intention of raising it using the throw keyword. 
+
 
 
 ## Classes
