@@ -5863,7 +5863,10 @@ As with all constructor functions, you can use the prototype of the constructor 
     
 **`Error.prototype.name`**
     
-        Error name. 
+        Error name.
+        
+        
+Methods
 
 
 ## Classes
