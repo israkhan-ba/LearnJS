@@ -5837,7 +5837,7 @@ Error.prototype
 
 Methods
 
-The global Error object contains no methods of its own, however, it does inherit some methods through the prototype chain.
+The global `Error` object contains no methods of its own, however, it does inherit some methods through the prototype chain.
 
 
 
