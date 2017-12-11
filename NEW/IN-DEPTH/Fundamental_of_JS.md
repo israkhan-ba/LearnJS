@@ -5912,7 +5912,9 @@ You can choose to handle only specific error types by testing the error type wit
 >```
 
 
-Custom Error Types 
+Custom Error Types
+
+You might want to define your own error types deriving from Error to be able to throw new MyError().  
 
 
 
