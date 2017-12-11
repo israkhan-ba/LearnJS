@@ -5962,7 +5962,8 @@ CustomError.prototype = Object.create(Error.prototype, {
   constructor: {
     value: Error,
     enumerable: false,
-    writable: true
+    writable: true,
+    configurable: true
   }
 });
 
