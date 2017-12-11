@@ -5974,6 +5974,11 @@ if (Object.setPrototypeOf){
 }
 
 
+try {
+} catch(e){
+}
+
+
 
 ## Classes
 
