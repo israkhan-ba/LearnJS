@@ -5967,7 +5967,7 @@ CustomError.prototype = Object.create(Error.prototype, {
   }
 });
 
-if (){
+if (Object.setPrototypeOf){
 }
 
 
