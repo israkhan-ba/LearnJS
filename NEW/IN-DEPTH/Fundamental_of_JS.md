@@ -5906,6 +5906,7 @@ try {
   } else if (e instanceof RangeError) {
     console.log(e.name + ': ' + e.message);
   }
+  // ... etc
 }
 
 
