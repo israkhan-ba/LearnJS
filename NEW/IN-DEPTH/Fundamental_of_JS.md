@@ -5920,7 +5920,11 @@ See "What's a good way to extend Error in JavaScript?" on StackOverflow for an i
 
 ES6 Custom Error Class
 
+class CustomError extends Error {
+  constructor(foo = 'bar', ...params) {
 
+  }
+}
 
 
 ## Classes
