@@ -5941,6 +5941,7 @@ try {
 } catch(e){
   console.log(e.foo); //baz
   console.log(e.message); //bazMessage
+  console.log(e.stack); //stacktrace
 }
 
 
