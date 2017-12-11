@@ -5950,6 +5950,7 @@ ES5 Custom Error Object
 
 function CustomError(foo, message, fileName, lineNumber) {
   var instance = new Error(message, fileName, lineNumber);
+  instance.foo = foo;
 }
 
 
