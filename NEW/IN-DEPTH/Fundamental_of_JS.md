@@ -5952,6 +5952,8 @@ function CustomError(foo, message, fileName, lineNumber) {
   var instance = new Error(message, fileName, lineNumber);
   instance.foo = foo;
   Object.setPrototypeOf(instance, Object.getPrototypeOf(this));
+  if (Error.captureStackTrace) {
+  }
 }
 
 
