@@ -5914,7 +5914,7 @@ You can choose to handle only specific error types by testing the error type wit
 
 **Custom Error Types**
 
-You might want to define your own error types deriving from Error to be able to throw new MyError() and use instanceof MyError to check the kind of error in the exception handler.  
+You might want to define your own error types deriving from `Error` to be able to throw new MyError() and use instanceof MyError to check the kind of error in the exception handler.  
 This results in cleaner and more consistent error handling code.  
 See "What's a good way to extend Error in JavaScript?" on StackOverflow for an in-depth discussion.
 
