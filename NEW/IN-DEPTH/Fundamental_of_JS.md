@@ -5894,6 +5894,22 @@ You can handle the error using the `try...catch` construct:
 >```
 
 
+Handling a specific error
+
+You can choose to handle only specific error types by testing the error type with the error's constructor property or, if you're writing for modern JavaScript engines, instanceof keyword:
+
+try {
+  foo.bar();
+} catch (e) {
+  if (e instanceof EvalError) {
+    console.log(e.name + ': ' + e.message);
+  } else if (e instanceof RangeError) {
+    console.log(e.name + ': ' + e.message);
+  }
+  // ... etc
+}
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
