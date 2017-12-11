@@ -5896,6 +5896,8 @@ You can handle the error using the `try...catch` construct:
 
 Handling a specific error
 
+You can choose to handle only specific error
+
 
 
 ## Classes
