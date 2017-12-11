@@ -5975,6 +5975,7 @@ if (Object.setPrototypeOf){
 
 
 try {
+  throw new CustomError('baz', 'bazMessage');
 } catch(e){
 }
 
