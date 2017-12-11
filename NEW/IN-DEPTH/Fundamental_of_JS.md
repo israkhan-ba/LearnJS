@@ -5914,7 +5914,7 @@ You can choose to handle only specific error types by testing the error type wit
 
 Custom Error Types
 
-You might want to define your own error types deriving from Error to be able to throw new MyError().  
+You might want to define your own error types deriving from Error to be able to throw new MyError() and use instanceof MyError to check the kind of error in the exception handler.  
 
 
 
