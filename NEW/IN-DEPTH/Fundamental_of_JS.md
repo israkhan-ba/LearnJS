@@ -5901,6 +5901,9 @@ You can choose to handle only specific error types by testing the error type wit
 try {
   foo.bar();
 } catch (e) {
+  if (e instanceof EvalError) {
+
+  }
 }
 
 
