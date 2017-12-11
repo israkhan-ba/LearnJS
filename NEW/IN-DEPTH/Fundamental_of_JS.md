@@ -5948,6 +5948,9 @@ See "What's a good way to extend Error in JavaScript?" on StackOverflow for an i
 
 ES5 Custom Error Object
 
+function CustomError(foo, message, fileName, lineNumber) {
+}
+
 
 
 ## Classes
