@@ -5931,6 +5931,7 @@ class CustomError extends Error {
     }
 
     // Custom debugging information
+    this.foo = foo;
   }
 }
 
