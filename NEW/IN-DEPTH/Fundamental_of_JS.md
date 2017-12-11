@@ -5978,6 +5978,7 @@ try {
   throw new CustomError('baz', 'bazMessage');
 } catch(e){
   console.log(e.foo); //baz
+  console.log(e.message) ;
 }
 
 
