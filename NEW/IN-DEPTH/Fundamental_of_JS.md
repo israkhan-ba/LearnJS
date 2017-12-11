@@ -5939,6 +5939,7 @@ class CustomError extends Error {
 try {
   throw new CustomError('baz', 'bazMessage');
 } catch(e){
+  console.log(e.foo); //baz
 }
 
 
