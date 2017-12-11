@@ -5898,6 +5898,9 @@ Handling a specific error
 
 You can choose to handle only specific error types by testing the error type with the error's constructor property or, if you're writing for modern JavaScript engines, instanceof keyword:
 
+try {
+
+}
 
 
 ## Classes
