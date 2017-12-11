@@ -5953,6 +5953,7 @@ function CustomError(foo, message, fileName, lineNumber) {
   instance.foo = foo;
   Object.setPrototypeOf(instance, Object.getPrototypeOf(this));
   if (Error.captureStackTrace) {
+    Error.captureStackTrace(instance, CustomError);
   }
 }
 
