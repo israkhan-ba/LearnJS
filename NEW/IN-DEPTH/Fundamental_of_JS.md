@@ -5970,6 +5970,7 @@ CustomError.prototype = Object.create(Error.prototype, {
 if (Object.setPrototypeOf){
   Object.setPrototypeOf(CustomError, Error);
 } else {
+  CustomError.__proto__ = Error;
 }
 
 
