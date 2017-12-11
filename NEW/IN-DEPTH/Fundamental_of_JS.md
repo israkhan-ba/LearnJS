@@ -5955,6 +5955,7 @@ function CustomError(foo, message, fileName, lineNumber) {
   if (Error.captureStackTrace) {
     Error.captureStackTrace(instance, CustomError);
   }
+  return instance;
 }
 
 
