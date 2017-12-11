@@ -5932,6 +5932,7 @@ class CustomError extends Error {
 
     // Custom debugging information
     this.foo = foo;
+    this.date = new Date();
   }
 }
 
