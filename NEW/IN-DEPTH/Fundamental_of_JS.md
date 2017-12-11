@@ -5946,41 +5946,42 @@ See "What's a good way to extend Error in JavaScript?" on StackOverflow for an i
 > }
 >```
 
-ES5 Custom Error Object
+**ES5 Custom Error Object**
 
-function CustomError(foo, message, fileName, lineNumber) {
-  var instance = new Error(message, fileName, lineNumber);
-  instance.foo = foo;
-  Object.setPrototypeOf(instance, Object.getPrototypeOf(this));
-  if (Error.captureStackTrace) {
-    Error.captureStackTrace(instance, CustomError);
-  }
-  return instance;
-}
-
-CustomError.prototype = Object.create(Error.prototype, {
-  constructor: {
-    value: Error,
-    enumerable: false,
-    writable: true,
-    configurable: true
-  }
-});
-
-if (Object.setPrototypeOf){
-  Object.setPrototypeOf(CustomError, Error);
-} else {
-  CustomError.__proto__ = Error;
-}
-
-
-try {
-  throw new CustomError('baz', 'bazMessage');
-} catch(e){
-  console.log(e.foo); //baz
-  console.log(e.message) ;//bazMessage
-}
-
+>```
+> function CustomError(foo, message, fileName, lineNumber) {
+>   var instance = new Error(message, fileName, lineNumber);
+>   instance.foo = foo;
+>   Object.setPrototypeOf(instance, Object.getPrototypeOf(this));
+>   if (Error.captureStackTrace) {
+>     Error.captureStackTrace(instance, CustomError);
+>   }
+>   return instance;
+> }
+> 
+> CustomError.prototype = Object.create(Error.prototype, {
+>   constructor: {
+>     value: Error,
+>     enumerable: false,
+>     writable: true,
+>     configurable: true
+>   }
+> });
+> 
+> if (Object.setPrototypeOf){
+>   Object.setPrototypeOf(CustomError, Error);
+> } else {
+>   CustomError.__proto__ = Error;
+> }
+> 
+> 
+> try {
+>   throw new CustomError('baz', 'bazMessage');
+> } catch(e){
+>   console.log(e.foo); //baz
+>   console.log(e.message) ;//bazMessage
+> }
+>```
 
 
 ## Classes
