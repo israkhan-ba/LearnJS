@@ -5936,6 +5936,9 @@ class CustomError extends Error {
   }
 }
 
+try {
+}
+
 
 ## Classes
 
