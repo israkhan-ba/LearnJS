@@ -5912,6 +5912,10 @@ You can choose to handle only specific error types by testing the error type wit
 >```
 
 
+Custom Error Types 
+
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
