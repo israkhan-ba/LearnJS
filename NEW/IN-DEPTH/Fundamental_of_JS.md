@@ -5938,6 +5938,7 @@ class CustomError extends Error {
 
 try {
   throw new CustomError('baz', 'bazMessage');
+} catch(e){
 }
 
 
