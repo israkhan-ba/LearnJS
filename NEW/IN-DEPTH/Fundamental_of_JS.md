@@ -5959,6 +5959,8 @@ function CustomError(foo, message, fileName, lineNumber) {
 }
 
 CustomError.prototype = Object.create(Error.prototype, {
+  constructor: {
+  }
 });
 
 
