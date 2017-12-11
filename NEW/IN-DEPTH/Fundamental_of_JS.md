@@ -5885,11 +5885,13 @@ As with all constructor functions, you can use the prototype of the constructor 
 Usually you create an `Error` object with the intention of raising it using the `throw` keyword.  
 You can handle the error using the `try...catch` construct:
 
-try {
-  throw new Error('Whoops!');
-} catch (e) {
-  console.log(e.name + ': ' + e.message);
-}
+>```
+> try {
+>   throw new Error('Whoops!');
+> } catch (e) {
+>   console.log(e.name + ': ' + e.message);
+> }
+>```
 
 
 ## Classes
