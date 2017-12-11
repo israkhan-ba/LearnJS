@@ -5929,6 +5929,8 @@ class CustomError extends Error {
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, CustomError);
     }
+
+    // Custom debugging information
   }
 }
 
