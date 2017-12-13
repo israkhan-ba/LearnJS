@@ -5984,6 +5984,10 @@ See "What's a good way to extend Error in JavaScript?" on StackOverflow for an i
 >```
 
 
+### Boolean
+
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
