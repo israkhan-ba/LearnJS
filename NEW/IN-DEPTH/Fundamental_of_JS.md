@@ -6014,6 +6014,7 @@ If you specify any object, including a Boolean object whose value is false, as t
 var myFalse = new Boolean(false);   // initial value of false
 var g = new Boolean(myFalse);       // initial value of true
 var myString = new String('Hello'); // string object
+var s = new Boolean(myString);      // initial value of true
 
 
 ## Classes
