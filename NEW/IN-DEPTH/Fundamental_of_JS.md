@@ -5986,9 +5986,9 @@ See "What's a good way to extend Error in JavaScript?" on StackOverflow for an i
 
 ### Boolean
 
-The value passed as the first parameter is converted to a boolean value, if necessary. If the value is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false. If the DOM object document.all is passed as a parameter, the new boolean object also has an initial value of false. All other values, including any object or the string "false", create an object with an initial value of true.
+The value passed as the first parameter is converted to a boolean value, if necessary. If the value is omitted or is `0`, `-0`, `null`, `false`, `NaN`, `undefined`, or the empty string (`""`), the object has an initial value of `false`. If the DOM object `document.all` is passed as a parameter, the new boolean object also has an initial value of `false`. All other values, including any object or the string `"false"`, create an object with an initial value of `true`.
 
-Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object.
+Do not confuse the primitive `Boolean` values `true` and `false` with the true and false values of the `Boolean` object.
 
 Any object of which the value is not undefined or null, including a Boolean object whose value is false, evaluates to true when passed to a conditional statement. For example, the condition in the following if statement evaluates to true:
 
