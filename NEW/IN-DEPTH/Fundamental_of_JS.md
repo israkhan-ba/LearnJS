@@ -6016,6 +6016,8 @@ var g = new Boolean(myFalse);       // initial value of true
 var myString = new String('Hello'); // string object
 var s = new Boolean(myString);      // initial value of true
 
+Do not use a Boolean object in place of a Boolean primitive.
+
 
 ## Classes
 
