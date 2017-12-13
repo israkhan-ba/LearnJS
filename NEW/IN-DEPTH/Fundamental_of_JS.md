@@ -5999,6 +5999,8 @@ if (x) {
 
 This behavior does not apply to Boolean primitives. For example, the condition in the following if statement evaluates to false:
 
+var x = false;
+
 
 
 ## Classes
