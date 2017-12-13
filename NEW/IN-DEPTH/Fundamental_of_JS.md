@@ -5986,7 +5986,7 @@ See "What's a good way to extend Error in JavaScript?" on StackOverflow for an i
 
 ### Boolean
 
-The value passed as the first parameter is converted to a boolean value, if necessary.
+The value passed as the first parameter is converted to a boolean value, if necessary. If the value is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false.
 
 
 
