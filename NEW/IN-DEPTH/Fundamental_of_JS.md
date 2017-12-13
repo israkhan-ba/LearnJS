@@ -6004,6 +6004,7 @@ if (x) {
   // this code is not executed
 }
 
+Do not use a Boolean object to convert a non-boolean value to a boolean value.
 
 
 ## Classes
