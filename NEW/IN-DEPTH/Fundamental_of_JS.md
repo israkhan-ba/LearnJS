@@ -6009,6 +6009,8 @@ Do not use a Boolean object to convert a non-boolean value to a boolean value. I
 var x = Boolean(expression);     // preferred
 var x = new Boolean(expression); // don't use
 
+If you specify any object, the new Boolean object has a value of true.
+
 
 ## Classes
 
