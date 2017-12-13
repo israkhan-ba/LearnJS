@@ -5997,7 +5997,7 @@ if (x) {
   // this code is executed
 }
 
-This behavior does not apply to Boolean primitives.
+This behavior does not apply to Boolean primitives. For example, the condition in the following if statement evaluates to false:
 
 
 
