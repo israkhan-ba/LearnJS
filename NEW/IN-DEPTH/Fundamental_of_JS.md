@@ -6001,7 +6001,7 @@ This behavior does not apply to Boolean primitives. For example, the condition i
 
 var x = false;
 if (x) {
-
+  // this code is not executed
 }
 
 
