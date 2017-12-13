@@ -5992,6 +5992,8 @@ Do not confuse the primitive Boolean values true and false with the true and fal
 
 Any object of which the value is not undefined or null, including a Boolean object whose value is false, evaluates to true when passed to a conditional statement. For example, the condition in the following if statement evaluates to true:
 
+var x = new Boolean(false);
+
 
 
 ## Classes
