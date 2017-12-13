@@ -5990,6 +5990,8 @@ The value passed as the first parameter is converted to a boolean value, if nece
 
 Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object.
 
+Any object of which the value is not undefined or null, evaluates to true when passed to a conditional statement.
+
 
 
 ## Classes
