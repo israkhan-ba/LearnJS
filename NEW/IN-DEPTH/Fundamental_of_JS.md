@@ -5994,7 +5994,7 @@ Any object of which the value is not undefined or null, including a Boolean obje
 
 var x = new Boolean(false);
 if (x) {
-
+  // this code is executed
 }
 
 
