@@ -5997,6 +5997,8 @@ if (x) {
   // this code is executed
 }
 
+This behavior does not apply to Boolean primitives.
+
 
 
 ## Classes
