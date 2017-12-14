@@ -6031,6 +6031,8 @@ new Boolean([value])
 
 Parameters
 
+value 
+
 
 ## Classes
 
