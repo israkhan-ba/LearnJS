@@ -6008,7 +6008,7 @@ This behavior does not apply to `Boolean` primitives. For example, the condition
 > }
 >```
 
-Do not use a `Boolean` object to convert a non-boolean value to a boolean value. Instead, use Boolean as a function to perform this task:
+Do not use a `Boolean` object to convert a non-boolean value to a boolean value. Instead, use `Boolean` as a function to perform this task:
 
 var x = Boolean(expression);     // preferred
 var x = new Boolean(expression); // don't use
