@@ -6041,6 +6041,7 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 Properties
 
 Boolean.length
+    Length property whose value is 1.
     
 
 ## Classes
