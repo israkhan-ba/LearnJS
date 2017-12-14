@@ -5990,7 +5990,7 @@ The value passed as the first parameter is converted to a boolean value, if nece
 
 Do not confuse the primitive `Boolean` values `true` and `false` with the true and false values of the `Boolean` object.
 
-Any object of which the value is not `undefined` or `null`, including a `Boolean` object whose value is `false`, evaluates to `true` when passed to a conditional statement. For example, the condition in the following if statement evaluates to true:
+Any object of which the value is not `undefined` or `null`, including a `Boolean` object whose value is `false`, evaluates to `true` when passed to a conditional statement. For example, the condition in the following `if` statement evaluates to true:
 
 var x = new Boolean(false);
 if (x) {
