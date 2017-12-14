@@ -6031,7 +6031,8 @@ new Boolean([value])
 
 Parameters
 
-value 
+value
+    Optional. The initial value of the Boolean object. 
 
 
 ## Classes
