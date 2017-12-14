@@ -6038,7 +6038,7 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
         Optional. The initial value of the Boolean object. 
 
 
-Properties
+**Properties**
 
 Boolean.length
     Length property whose value is 1.
