@@ -6044,6 +6044,7 @@ Boolean.length
     Length property whose value is 1.
 
 Boolean.prototype
+    Represents the prototype for the Boolean constructor. 
     
 
 ## Classes
