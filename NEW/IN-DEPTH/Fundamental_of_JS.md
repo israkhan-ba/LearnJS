@@ -6027,6 +6027,8 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 
 Syntax
 
+new Boolean([value])
+
 
 ## Classes
 
