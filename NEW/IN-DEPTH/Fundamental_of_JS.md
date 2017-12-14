@@ -6025,14 +6025,17 @@ If you specify any object, including a `Boolean` object whose value is `false`, 
 Do not use a `Boolean` object in place of a `Boolean` primitive.
 
 
-Syntax
+**Syntax**
 
-new Boolean([value])
+>```
+> new Boolean([value])
+>```
 
-Parameters
+**Parameters**
 
-value
-    Optional. The initial value of the Boolean object. 
+**`value`**
+
+        Optional. The initial value of the Boolean object. 
 
 
 ## Classes
