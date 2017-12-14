@@ -6038,6 +6038,15 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
         Optional. The initial value of the Boolean object. 
 
 
+**Properties**
+
+`Boolean.length`
+    Length property whose value is 1.
+
+`Boolean.prototype`
+    Represents the prototype for the Boolean constructor. 
+    
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
