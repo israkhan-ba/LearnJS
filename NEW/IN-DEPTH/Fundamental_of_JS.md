@@ -6001,10 +6001,12 @@ Any object of which the value is not `undefined` or `null`, including a `Boolean
 
 This behavior does not apply to `Boolean` primitives. For example, the condition in the following `if` statement evaluates to `false`:
 
-var x = false;
-if (x) {
-  // this code is not executed
-}
+>```
+> var x = false;
+> if (x) {
+>   // this code is not executed
+> }
+>```
 
 Do not use a Boolean object to convert a non-boolean value to a boolean value. Instead, use Boolean as a function to perform this task:
 
