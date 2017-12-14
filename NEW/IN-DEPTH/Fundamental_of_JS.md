@@ -6033,7 +6033,7 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 
 **Parameters**
 
-value
+`value`
     Optional. The initial value of the Boolean object. 
 
 
