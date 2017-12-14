@@ -6042,6 +6042,8 @@ Properties
 
 Boolean.length
     Length property whose value is 1.
+
+Boolean.prototype
     
 
 ## Classes
