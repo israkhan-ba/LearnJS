@@ -5999,7 +5999,7 @@ Any object of which the value is not `undefined` or `null`, including a `Boolean
 > }
 >```
 
-This behavior does not apply to `Boolean` primitives. For example, the condition in the following `if` statement evaluates to false:
+This behavior does not apply to `Boolean` primitives. For example, the condition in the following `if` statement evaluates to `false`:
 
 var x = false;
 if (x) {
