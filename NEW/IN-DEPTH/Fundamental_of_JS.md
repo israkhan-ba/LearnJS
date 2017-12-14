@@ -6022,7 +6022,7 @@ If you specify any object, including a `Boolean` object whose value is `false`, 
 > var s = new Boolean(myString);      // initial value of true
 >```
 
-Do not use a Boolean object in place of a Boolean primitive.
+Do not use a `Boolean` object in place of a Boolean primitive.
 
 
 ## Classes
