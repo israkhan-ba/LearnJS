@@ -6015,10 +6015,12 @@ var x = new Boolean(expression); // don't use
 
 If you specify any object, including a `Boolean` object whose value is `false`, as the initial value of a `Boolean` object, the new `Boolean` object has a value of `true`.
 
-var myFalse = new Boolean(false);   // initial value of false
-var g = new Boolean(myFalse);       // initial value of true
-var myString = new String('Hello'); // string object
-var s = new Boolean(myString);      // initial value of true
+>```
+> var myFalse = new Boolean(false);   // initial value of false
+> var g = new Boolean(myFalse);       // initial value of true
+> var myString = new String('Hello'); // string object
+> var s = new Boolean(myString);      // initial value of true
+>```
 
 Do not use a Boolean object in place of a Boolean primitive.
 
