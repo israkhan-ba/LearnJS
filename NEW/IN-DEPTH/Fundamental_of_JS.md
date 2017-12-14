@@ -6039,6 +6039,8 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 
 
 Properties
+
+Boolean.length
     
 
 ## Classes
