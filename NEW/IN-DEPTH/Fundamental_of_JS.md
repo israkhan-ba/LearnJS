@@ -6025,6 +6025,16 @@ If you specify any object, including a `Boolean` object whose value is `false`, 
 Do not use a `Boolean` object in place of a `Boolean` primitive.
 
 
+Syntax
+
+new Boolean([value])
+
+Parameters
+
+value
+    Optional. The initial value of the Boolean object. 
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
