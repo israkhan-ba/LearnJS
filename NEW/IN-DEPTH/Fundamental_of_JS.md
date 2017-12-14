@@ -6029,6 +6029,8 @@ Syntax
 
 new Boolean([value])
 
+Parameters
+
 
 ## Classes
 
