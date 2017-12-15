@@ -6063,6 +6063,7 @@ As with all constructors, the prototype object dictates instances' inherited pro
 Properties
 
 Boolean.prototype.constructor
+    Returns the function that created an instance's prototype.
     
 
 ## Classes
