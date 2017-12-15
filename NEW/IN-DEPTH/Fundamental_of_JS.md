@@ -6063,7 +6063,8 @@ As with all constructors, the prototype object dictates instances' inherited pro
 **Properties**
 
 **`Boolean.prototype.constructor`**
-    Returns the function that created an instance's prototype. This is the Boolean function by default. 
+
+Returns the function that created an instance's prototype. This is the `Boolean` function by default. 
     
 
 ## Classes
