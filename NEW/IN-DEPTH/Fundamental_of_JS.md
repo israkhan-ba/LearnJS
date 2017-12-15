@@ -6056,7 +6056,7 @@ While the global `Boolean` object contains no methods of its own, it does inheri
 
 Boolean instances
 
-All Boolean instances inherit from Boolean.prototype.
+All Boolean instances inherit from Boolean.prototype. As with all constructors, the prototype object dictates instances' inherited properties and methods.
 
 
 ## Classes
