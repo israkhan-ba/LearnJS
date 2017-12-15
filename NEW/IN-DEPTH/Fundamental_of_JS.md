@@ -6044,7 +6044,7 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 
         Length property whose value is 1.
 
-`Boolean.prototype`
+**`Boolean.prototype`**
     Represents the prototype for the Boolean constructor. 
     
 
