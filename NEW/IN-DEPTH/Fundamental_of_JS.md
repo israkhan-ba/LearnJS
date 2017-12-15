@@ -6060,6 +6060,8 @@ All `Boolean` instances inherit from `Boolean.prototype`.
 As with all constructors, the prototype object dictates instances' inherited properties and methods.
 
 
+Properties
+    
 
 ## Classes
 
