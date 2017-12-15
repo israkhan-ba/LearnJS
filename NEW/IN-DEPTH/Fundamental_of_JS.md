@@ -6051,6 +6051,8 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 
 Methods
 
+While the global Boolean object contains no methods of its own.
+
 
 ## Classes
 
