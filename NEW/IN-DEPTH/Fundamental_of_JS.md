@@ -6060,7 +6060,7 @@ All `Boolean` instances inherit from `Boolean.prototype`.
 As with all constructors, the prototype object dictates instances' inherited properties and methods.
 
 
-Properties
+**Properties**
 
 Boolean.prototype.constructor
     Returns the function that created an instance's prototype. This is the Boolean function by default. 
