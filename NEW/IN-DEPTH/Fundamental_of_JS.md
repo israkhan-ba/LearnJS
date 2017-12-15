@@ -6054,6 +6054,9 @@ Do not use a `Boolean` object in place of a `Boolean` primitive.
 While the global `Boolean` object contains no methods of its own, it does inherit some methods through the prototype chain:
 
 
+Boolean instances
+
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
