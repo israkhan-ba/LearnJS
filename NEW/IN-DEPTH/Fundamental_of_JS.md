@@ -6077,7 +6077,7 @@ Boolean.prototype.toString()
     Returns a string of either "true" or "false" depending upon the value of the object. Overrides the Object.prototype.toString() method.
     
 Boolean.prototype.valueOf()
-    Returns the primitive value of the Boolean object.
+    Returns the primitive value of the Boolean object. Overrides the Object.prototype.valueOf() method.
 
 
 ## Classes
