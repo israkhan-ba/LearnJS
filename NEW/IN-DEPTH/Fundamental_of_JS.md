@@ -6089,6 +6089,7 @@ Examples
 Creating Boolean objects with an initial value of false
 
 var bNoParam = Boolean();
+var bZero = Boolean(0);
 
 
 ## Classes
