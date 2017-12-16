@@ -6072,7 +6072,7 @@ Returns the function that created an instance's prototype.  This is the `Boolean
 **`Boolean.prototype.toSource()`**
 
  Returns a string containing the source of the `Boolean` object.  
-    Overrides the `Object.prototype.toSource()` method.
+ Overrides the `Object.prototype.toSource()` method.
         
 **`Boolean.prototype.toString()`**
     
