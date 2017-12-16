@@ -6073,7 +6073,7 @@ Returns the function that created an instance's prototype.  This is the `Boolean
     Returns a string containing the source of the Boolean object.
     Overrides the Object.prototype.toSource() method.
         
-Boolean.prototype.toString()
+`Boolean.prototype.toString()`
     Returns a string of either "true" or "false" depending upon the value of the object. Overrides the Object.prototype.toString() method.
     
 Boolean.prototype.valueOf()
