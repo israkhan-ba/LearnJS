@@ -6095,6 +6095,8 @@ var bEmptyString = Boolean('');
 var bfalse = Boolean(false);
 
 
+Creating Boolean objects with an initial value of true
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
