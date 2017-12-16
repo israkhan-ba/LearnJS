@@ -6068,6 +6068,8 @@ Returns the function that created an instance's prototype.  This is the `Boolean
     
     
 Methods
+
+Boolean.prototype.toSource()
     
 
 
