@@ -6101,6 +6101,7 @@ var btrue = Boolean(true);
 var btrueString = Boolean('true');
 var bfalseString = Boolean('false');
 var bSuLin = Boolean('Su Lin');
+var bArrayProto = Boolean([]);
 
 ## Classes
 
