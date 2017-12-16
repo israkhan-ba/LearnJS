@@ -6098,6 +6098,7 @@ var bfalse = Boolean(false);
 Creating Boolean objects with an initial value of true
 
 var btrue = Boolean(true);
+var btrueString = Boolean('true');
 
 ## Classes
 
