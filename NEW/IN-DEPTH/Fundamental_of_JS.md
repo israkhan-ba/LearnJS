@@ -6092,6 +6092,7 @@ var bNoParam = Boolean();
 var bZero = Boolean(0);
 var bNull = Boolean(null);
 var bEmptyString = Boolean('');
+var bfalse = Boolean(false);
 
 
 ## Classes
