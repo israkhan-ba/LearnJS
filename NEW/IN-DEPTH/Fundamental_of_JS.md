@@ -6067,17 +6067,22 @@ As with all constructors, the prototype object dictates instances' inherited pro
 Returns the function that created an instance's prototype.  This is the `Boolean` function by default. 
     
     
-Methods
+**Methods**
 
-Boolean.prototype.toSource()
-    Returns a string containing the source of the Boolean object.
-    Overrides the Object.prototype.toSource() method.
+**`Boolean.prototype.toSource()`**
+
+ Returns a string containing the source of the `Boolean` object.  
+ Overrides the `Object.prototype.toSource()` method.
         
-Boolean.prototype.toString()
-    Returns a string of either "true" or "false" depending upon the value of the object. Overrides the Object.prototype.toString() method.
+**`Boolean.prototype.toString()`**
     
-Boolean.prototype.valueOf()
-    Returns the primitive value of the Boolean object. Overrides the Object.prototype.valueOf() method.
+ Returns a string of either `"true"` or `"false"` depending upon the value of the object.  
+ Overrides the `Object.prototype.toString()` method.
+    
+**`Boolean.prototype.valueOf()`**
+    
+ Returns the primitive value of the `Boolean` object.  
+ Overrides the `Object.prototype.valueOf()` method.
 
 
 ## Classes
