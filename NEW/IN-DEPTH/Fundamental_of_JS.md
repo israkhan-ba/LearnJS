@@ -6074,6 +6074,7 @@ Boolean.prototype.toSource()
     Overrides the Object.prototype.toSource() method.
         
 Boolean.prototype.toString()
+    Returns a string of either "true" or "false" depending upon the value of the object.
 
 
 ## Classes
