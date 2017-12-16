@@ -6071,7 +6071,7 @@ Methods
 
 Boolean.prototype.toSource()
     Returns a string containing the source of the Boolean object.
-    
+    Overrides the Object.prototype.toSource() method.
 
 
 ## Classes
