@@ -6083,6 +6083,9 @@ Returns the function that created an instance's prototype.  This is the `Boolean
     
  Returns the primitive value of the `Boolean` object.  
  Overrides the `Object.prototype.valueOf()` method.
+ 
+ 
+Examples
 
 
 ## Classes
