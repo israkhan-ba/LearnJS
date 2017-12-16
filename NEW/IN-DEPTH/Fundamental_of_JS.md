@@ -6076,7 +6076,7 @@ Returns the function that created an instance's prototype.  This is the `Boolean
 **`Boolean.prototype.toString()`**
     Returns a string of either "true" or "false" depending upon the value of the object. Overrides the Object.prototype.toString() method.
     
-`Boolean.prototype.valueOf()`
+**`Boolean.prototype.valueOf()`**
     Returns the primitive value of the Boolean object. Overrides the Object.prototype.valueOf() method.
 
 
