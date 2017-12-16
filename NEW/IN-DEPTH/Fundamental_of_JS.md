@@ -6080,7 +6080,7 @@ Returns the function that created an instance's prototype.  This is the `Boolean
     
 **`Boolean.prototype.valueOf()`**
     
-    Returns the primitive value of the Boolean object. Overrides the Object.prototype.valueOf() method.
+ Returns the primitive value of the Boolean object. Overrides the Object.prototype.valueOf() method.
 
 
 ## Classes
