@@ -6066,6 +6066,10 @@ As with all constructors, the prototype object dictates instances' inherited pro
 
 Returns the function that created an instance's prototype.  This is the `Boolean` function by default. 
     
+    
+Methods
+    
+
 
 ## Classes
 
