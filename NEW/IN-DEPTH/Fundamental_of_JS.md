@@ -6085,7 +6085,8 @@ Returns the function that created an instance's prototype.  This is the `Boolean
  Overrides the `Object.prototype.valueOf()` method.
  
  
-Examples
+**Examples**
+
 Creating Boolean objects with an initial value of false
 
 var bNoParam = Boolean();
