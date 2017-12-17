@@ -6128,7 +6128,8 @@ Symbol([description])
 
 Parameters
 
-description Optional 
+description Optional
+    Optional, string. 
     
 
 ## Classes
