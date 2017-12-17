@@ -6100,12 +6100,14 @@ Creating `Boolean` objects with an initial value of `false`
 
 Creating `Boolean` objects with an initial value of `true`
 
-var btrue = Boolean(true);
-var btrueString = Boolean('true');
-var bfalseString = Boolean('false');
-var bSuLin = Boolean('Su Lin');
-var bArrayProto = Boolean([]);
-var bObjProto = Boolean({});
+>```
+> var btrue = Boolean(true);
+> var btrueString = Boolean('true');
+> var bfalseString = Boolean('false');
+> var bSuLin = Boolean('Su Lin');
+> var bArrayProto = Boolean([]);
+> var bObjProto = Boolean({});
+>```
 
 
 ## Classes
