@@ -6121,7 +6121,7 @@ Some further explanation about purpose and usage can be found in the glossary en
 The data type __symbol__ is a primitive data type.
 
 
-Syntax
+**Syntax**
 
 
 Symbol([description])
