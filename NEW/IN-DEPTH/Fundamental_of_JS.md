@@ -6098,7 +6098,7 @@ Creating `Boolean` objects with an initial value of `false`
 >```
 
 
-Creating Boolean objects with an initial value of true
+Creating `Boolean` objects with an initial value of true
 
 var btrue = Boolean(true);
 var btrueString = Boolean('true');
