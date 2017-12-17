@@ -6122,6 +6122,9 @@ The data type __symbol__ is a primitive data type.
 
 
 Syntax
+
+
+Symbol([description])
     
 
 ## Classes
