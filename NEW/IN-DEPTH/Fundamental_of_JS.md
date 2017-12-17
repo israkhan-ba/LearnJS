@@ -6112,7 +6112,7 @@ Creating `Boolean` objects with an initial value of `true`
 
 ### Symbol
 
-The Symbol() function returns a value of type symbol.
+The Symbol() function returns a value of type symbol, has static properties that expose several members of built-in objects.
 
 
 
