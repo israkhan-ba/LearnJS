@@ -6112,6 +6112,9 @@ Creating `Boolean` objects with an initial value of `true`
 
 ### Symbol
 
+The Symbol() function returns a value of type symbol.
+
+
 
 ## Classes
 
