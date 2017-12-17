@@ -6085,24 +6085,29 @@ Returns the function that created an instance's prototype.  This is the `Boolean
  Overrides the `Object.prototype.valueOf()` method.
  
  
-Examples
-Creating Boolean objects with an initial value of false
+**Examples**
 
-var bNoParam = Boolean();
-var bZero = Boolean(0);
-var bNull = Boolean(null);
-var bEmptyString = Boolean('');
-var bfalse = Boolean(false);
+Creating `Boolean` objects with an initial value of `false`
+
+>```
+> var bNoParam = Boolean();
+> var bZero = Boolean(0);
+> var bNull = Boolean(null);
+> var bEmptyString = Boolean('');
+> var bfalse = Boolean(false);
+>```
 
 
-Creating Boolean objects with an initial value of true
+Creating `Boolean` objects with an initial value of `true`
 
-var btrue = Boolean(true);
-var btrueString = Boolean('true');
-var bfalseString = Boolean('false');
-var bSuLin = Boolean('Su Lin');
-var bArrayProto = Boolean([]);
-var bObjProto = Boolean({});
+>```
+> var btrue = Boolean(true);
+> var btrueString = Boolean('true');
+> var bfalseString = Boolean('false');
+> var bSuLin = Boolean('Su Lin');
+> var bArrayProto = Boolean([]);
+> var bObjProto = Boolean({});
+>```
 
 
 ## Classes
