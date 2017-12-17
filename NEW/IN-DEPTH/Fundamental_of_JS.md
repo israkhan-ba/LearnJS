@@ -6127,7 +6127,7 @@ The data type __symbol__ is a primitive data type.
 
 **Parameters**
 
-description Optional
+**`description`** _Optional_
     Optional, string. A description of the symbol which can be used for debugging but not to access the symbol itself. 
     
 
