@@ -6089,11 +6089,13 @@ Returns the function that created an instance's prototype.  This is the `Boolean
 
 Creating `Boolean` objects with an initial value of `false`
 
-var bNoParam = Boolean();
-var bZero = Boolean(0);
-var bNull = Boolean(null);
-var bEmptyString = Boolean('');
-var bfalse = Boolean(false);
+>```
+> var bNoParam = Boolean();
+> var bZero = Boolean(0);
+> var bNull = Boolean(null);
+> var bEmptyString = Boolean('');
+> var bfalse = Boolean(false);
+>```
 
 
 Creating Boolean objects with an initial value of true
