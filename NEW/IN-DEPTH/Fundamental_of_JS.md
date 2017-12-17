@@ -6129,7 +6129,7 @@ Symbol([description])
 Parameters
 
 description Optional
-    Optional, string. 
+    Optional, string. A description of the symbol which can be used for debugging but not to access the symbol itself. 
     
 
 ## Classes
