@@ -6116,7 +6116,7 @@ The `Symbol()` function returns a value of type __symbol__, has static propertie
 
 Every symbol value returned from `Symbol()` is unique.  A symbol value may be used as an identifier for object properties; this is the data type's only purpose.  Some further explanation about purpose and usage can be found in the glossary entry for Symbol.
 
-The data type symbol is a primitive data type.
+The data type __symbol__ is a primitive data type.
 
 
 
