@@ -6121,6 +6121,17 @@ Some further explanation about purpose and usage can be found in the glossary en
 The data type __symbol__ is a primitive data type.
 
 
+**Syntax**
+
+>`Symbol([`_description_`])`
+
+**Parameters**
+
+**`description`** _Optional_
+    
+ Optional, string.  
+ A description of the symbol which can be used for debugging but not to access the symbol itself. 
+    
 
 ## Classes
 
