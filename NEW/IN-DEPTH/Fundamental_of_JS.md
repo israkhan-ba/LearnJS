@@ -6125,6 +6125,8 @@ Syntax
 
 
 Symbol([description])
+
+Parameters
     
 
 ## Classes
