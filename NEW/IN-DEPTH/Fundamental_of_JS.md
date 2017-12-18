@@ -6144,10 +6144,12 @@ This prevents authors from creating an explicit `Symbol` wrapper object instead 
 
 If you really want to create a `Symbol` wrapper object, you can use the `Object()` function:
 
-var sym = Symbol('foo');
-typeof sym;     // "symbol" 
-var symObj = Object(sym);
-typeof symObj;  // "object"
+>```
+> var sym = Symbol('foo');
+> typeof sym;     // "symbol" 
+> var symObj = Object(sym);
+> typeof symObj;  // "object"
+>```
 
 
 Shared symbols in the global symbol registry
