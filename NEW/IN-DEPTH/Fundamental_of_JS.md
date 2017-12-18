@@ -6133,6 +6133,8 @@ Symbol('foo') === Symbol('foo'); // false
 
 The following syntax with the new operator will throw a TypeError:
 
+var sym = new Symbol(); // TypeError
+
 
 **Syntax**
 
