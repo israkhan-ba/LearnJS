@@ -6121,6 +6121,30 @@ Some further explanation about purpose and usage can be found in the glossary en
 The data type __symbol__ is a primitive data type.
 
 
+To create a new primitive symbol, you write Symbol() with an optional string as its description:
+
+var sym1 = Symbol();
+var sym2 = Symbol('foo');
+var sym3 = Symbol('foo');
+
+The above code creates three new symbols. Note that Symbol("foo") does not coerce the string "foo" into a symbol. It creates a new symbol each time:
+
+Symbol('foo') === Symbol('foo'); // false
+
+The following syntax with the new operator will throw a TypeError:
+
+var sym = new Symbol(); // TypeError
+
+This prevents authors from creating an explicit Symbol wrapper object instead of a new symbol value and might be surprising as creating explicit wrapper objects around primitive data types is generally possible (for example, new Boolean, new String and new Number).
+
+If you really want to create a Symbol wrapper object, you can use the Object() function:
+
+var sym = Symbol('foo');
+typeof sym;     // "symbol" 
+var symObj = Object(sym);
+typeof symObj;  // "object"
+
+
 **Syntax**
 
 >`Symbol([`_description_`])`
@@ -6132,6 +6156,7 @@ The data type __symbol__ is a primitive data type.
  Optional, string.  
  A description of the symbol which can be used for debugging but not to access the symbol itself. 
     
+
 
 ## Classes
 
