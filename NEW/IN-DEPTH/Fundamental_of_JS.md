@@ -6139,6 +6139,8 @@ This prevents authors from creating an explicit Symbol wrapper object instead of
 
 If you really want to create a Symbol wrapper object, you can use the Object() function:
 
+var sym = Symbol('foo');
+
 
 **Syntax**
 
