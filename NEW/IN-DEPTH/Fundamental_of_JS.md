@@ -6129,7 +6129,8 @@ To create a new primitive symbol, you write `Symbol()` with an optional string a
 >```
 
 The above code creates three new symbols.  
-Note that `Symbol("foo")` does not coerce the string "foo" into a symbol. It creates a new symbol each time:
+Note that `Symbol("foo")` does not coerce the string "foo" into a symbol.  
+It creates a new symbol each time:
 
 >```
 > Symbol('foo') === Symbol('foo'); // false
