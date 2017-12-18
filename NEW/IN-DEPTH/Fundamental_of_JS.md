@@ -6162,6 +6162,9 @@ To create symbols available across files and even across realms (each of which h
 
 **Finding symbol properties on objects**
 
+The method `Object.getOwnPropertySymbols()` returns an array of symbols and lets you find symbol properties on a given object.  
+Note that every object is initialized with no own symbol properties, so that this array will be empty unless you've set symbol properties on the object.
+
 
 **Syntax**
 
