@@ -6131,6 +6131,8 @@ The above code creates three new symbols. Note that Symbol("foo") does not coerc
 
 Symbol('foo') === Symbol('foo'); // false
 
+The following syntax with the new operator will throw a TypeError:
+
 
 **Syntax**
 
