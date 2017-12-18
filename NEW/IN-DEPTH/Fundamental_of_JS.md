@@ -6146,6 +6146,8 @@ typeof symObj;  // "object"
 
 Shared symbols in the global symbol registry
 
+The above syntax using the Symbol() function will not create a global symbol that is available in your whole codebase.
+
 
 
 **Syntax**
