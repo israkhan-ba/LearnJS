@@ -6122,9 +6122,11 @@ The data type __symbol__ is a primitive data type.
 
 To create a new primitive symbol, you write `Symbol()` with an optional string as its description:
 
-var sym1 = Symbol();
-var sym2 = Symbol('foo');
-var sym3 = Symbol('foo');
+>```
+> var sym1 = Symbol();
+> var sym2 = Symbol('foo');
+> var sym3 = Symbol('foo');
+>```
 
 The above code creates three new symbols. Note that Symbol("foo") does not coerce the string "foo" into a symbol. It creates a new symbol each time:
 
