@@ -6121,6 +6121,9 @@ Some further explanation about purpose and usage can be found in the glossary en
 The data type __symbol__ is a primitive data type.
 
 
+To create a new primitive symbol, you write Symbol() with an optional string as its description:
+
+
 **Syntax**
 
 >`Symbol([`_description_`])`
@@ -6132,6 +6135,7 @@ The data type __symbol__ is a primitive data type.
  Optional, string.  
  A description of the symbol which can be used for debugging but not to access the symbol itself. 
     
+
 
 ## Classes
 
