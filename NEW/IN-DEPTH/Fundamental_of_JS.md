@@ -6120,7 +6120,6 @@ Some further explanation about purpose and usage can be found in the glossary en
 
 The data type __symbol__ is a primitive data type.
 
-
 To create a new primitive symbol, you write Symbol() with an optional string as its description:
 
 var sym1 = Symbol();
@@ -6143,6 +6142,12 @@ var sym = Symbol('foo');
 typeof sym;     // "symbol" 
 var symObj = Object(sym);
 typeof symObj;  // "object"
+
+
+Shared symbols in the global symbol registry
+
+The above syntax using the Symbol() function will not create a global symbol that is available in your whole codebase. To create symbols available across files and even across realms (each of which has its own global scope), use the methods Symbol.for() and Symbol.keyFor() to set and retrieve symbols from the global symbol registry.
+
 
 
 **Syntax**
