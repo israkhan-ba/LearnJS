@@ -6135,6 +6135,8 @@ The following syntax with the new operator will throw a TypeError:
 
 var sym = new Symbol(); // TypeError
 
+This prevents authors from creating an explicit Symbol wrapper object instead of a new symbol value and might be surprising as creating explicit wrapper objects around primitive data types is generally possible.
+
 
 **Syntax**
 
