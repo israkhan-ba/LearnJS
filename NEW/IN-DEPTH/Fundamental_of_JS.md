@@ -6134,7 +6134,7 @@ The above code creates three new symbols. Note that `Symbol("foo")` does not coe
 > Symbol('foo') === Symbol('foo'); // false
 >```
 
-The following syntax with the `new` operator will throw a TypeError:
+The following syntax with the `new` operator will throw a `TypeError`:
 
 var sym = new Symbol(); // TypeError
 
