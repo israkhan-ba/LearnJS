@@ -6125,6 +6125,7 @@ To create a new primitive symbol, you write Symbol() with an optional string as 
 
 var sym1 = Symbol();
 var sym2 = Symbol('foo');
+var sym3 = Symbol('foo');
 
 
 **Syntax**
