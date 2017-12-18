@@ -6160,6 +6160,11 @@ The above syntax using the `Symbol()` function will not create a global symbol t
 To create symbols available across files and even across realms (each of which has its own global scope), use the methods `Symbol.for()` and `Symbol.keyFor()` to set and retrieve symbols from the global symbol registry.
 
 
+**Finding symbol properties on objects**
+
+The method `Object.getOwnPropertySymbols()` returns an array of symbols and lets you find symbol properties on a given object.  
+Note that every object is initialized with no own symbol properties, so that this array will be empty unless you've set symbol properties on the object.
+
 
 **Syntax**
 
