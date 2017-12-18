@@ -6124,6 +6124,7 @@ The data type __symbol__ is a primitive data type.
 To create a new primitive symbol, you write Symbol() with an optional string as its description:
 
 var sym1 = Symbol();
+var sym2 = Symbol('foo');
 
 
 **Syntax**
