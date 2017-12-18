@@ -6141,6 +6141,7 @@ If you really want to create a Symbol wrapper object, you can use the Object() f
 
 var sym = Symbol('foo');
 typeof sym;     // "symbol" 
+var symObj = Object(sym);
 
 
 **Syntax**
