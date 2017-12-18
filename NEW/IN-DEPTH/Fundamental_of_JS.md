@@ -6120,33 +6120,44 @@ Some further explanation about purpose and usage can be found in the glossary en
 
 The data type __symbol__ is a primitive data type.
 
-To create a new primitive symbol, you write Symbol() with an optional string as its description:
+To create a new primitive symbol, you write `Symbol()` with an optional string as its description:
 
-var sym1 = Symbol();
-var sym2 = Symbol('foo');
-var sym3 = Symbol('foo');
+>```
+> var sym1 = Symbol();
+> var sym2 = Symbol('foo');
+> var sym3 = Symbol('foo');
+>```
 
-The above code creates three new symbols. Note that Symbol("foo") does not coerce the string "foo" into a symbol. It creates a new symbol each time:
+The above code creates three new symbols.  
+Note that `Symbol("foo")` does not coerce the string "foo" into a symbol.  
+It creates a new symbol each time:
 
-Symbol('foo') === Symbol('foo'); // false
+>```
+> Symbol('foo') === Symbol('foo'); // false
+>```
 
-The following syntax with the new operator will throw a TypeError:
+The following syntax with the `new` operator will throw a `TypeError`:
 
-var sym = new Symbol(); // TypeError
+>```
+> var sym = new Symbol(); // TypeError
+>```
 
-This prevents authors from creating an explicit Symbol wrapper object instead of a new symbol value and might be surprising as creating explicit wrapper objects around primitive data types is generally possible (for example, new Boolean, new String and new Number).
+This prevents authors from creating an explicit `Symbol` wrapper object instead of a new symbol value and might be surprising as creating explicit wrapper objects around primitive data types is generally possible (for example, `new Boolean`, `new String` and `new Number`).
 
-If you really want to create a Symbol wrapper object, you can use the Object() function:
+If you really want to create a `Symbol` wrapper object, you can use the `Object()` function:
 
-var sym = Symbol('foo');
-typeof sym;     // "symbol" 
-var symObj = Object(sym);
-typeof symObj;  // "object"
+>```
+> var sym = Symbol('foo');
+> typeof sym;     // "symbol" 
+> var symObj = Object(sym);
+> typeof symObj;  // "object"
+>```
 
 
-Shared symbols in the global symbol registry
+**Shared symbols in the global symbol registry**
 
-The above syntax using the Symbol() function will not create a global symbol that is available in your whole codebase. To create symbols available across files and even across realms (each of which has its own global scope), use the methods Symbol.for() and Symbol.keyFor() to set and retrieve symbols from the global symbol registry.
+The above syntax using the `Symbol()` function will not create a global symbol that is available in your whole codebase.  
+To create symbols available across files and even across realms (each of which has its own global scope), use the methods `Symbol.for()` and `Symbol.keyFor()` to set and retrieve symbols from the global symbol registry.
 
 
 
