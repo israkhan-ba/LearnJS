@@ -6182,7 +6182,7 @@ Note that every object is initialized with no own symbol properties, so that thi
 
 **Properties**
 
-`Symbol.length`
+**`Symbol.length`**
     
  Length property whose value is 0.
     
