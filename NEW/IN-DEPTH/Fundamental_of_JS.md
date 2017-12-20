@@ -6197,7 +6197,7 @@ In addition to your own symbols, JavaScript has some built-in symbols which repr
 Iteration symbols
 
 Symbol.iterator
-    A method returning the default iterator for an object.
+    A method returning the default iterator for an object. Used by for...of.
     
 
 ## Classes
