@@ -6185,7 +6185,7 @@ Note that every object is initialized with no own symbol properties, so that thi
 `Symbol.length`
     Length property whose value is 0.
     
-Symbol.prototype
+`Symbol.prototype`
     Represents the prototype for the Symbol constructor. 
     
 
