@@ -6201,7 +6201,22 @@ Symbol.iterator
     
 Symbol.asyncIterator
     A method that returns the default AsyncIterator for an object. Used by for await of. 
+
+Regular expression symbols
+
+Symbol.match
+    A method that matches against a string, also used to determine if an object may be used as a regular expression. Used by String.prototype.match().
     
+Symbol.replace
+    A method that replaces matched substrings of a string. Used by String.prototype.replace().
+    
+Symbol.search
+    A method that returns the index within a string that matches the regular expression. Used by String.prototype.search().
+    
+Symbol.split
+    A method that splits a string at the indices that match a regular expression. Used by String.prototype.split(). 
+
+
 
 ## Classes
 
