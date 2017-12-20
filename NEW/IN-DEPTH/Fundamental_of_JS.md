@@ -6190,6 +6190,8 @@ Note that every object is initialized with no own symbol properties, so that thi
     
  Represents the prototype for the `Symbol` constructor. 
     
+Well-known symbols
+
 
 ## Classes
 
