@@ -6208,7 +6208,7 @@ Symbol.match
     A method that matches against a string, also used to determine if an object may be used as a regular expression. Used by String.prototype.match().
     
 Symbol.replace
-    A method that replaces matched substrings of a string.
+    A method that replaces matched substrings of a string. Used by String.prototype.replace().
 
 
 
