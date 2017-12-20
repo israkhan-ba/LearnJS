@@ -6195,6 +6195,8 @@ Well-known symbols
 In addition to your own symbols, JavaScript has some built-in symbols which represent internal language behaviors which were not exposed to developers in ECMAScript 5 and before. These symbols can be accessed using the following properties:
 
 Iteration symbols
+
+Symbol.iterator
     
 
 ## Classes
