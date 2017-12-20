@@ -6192,6 +6192,8 @@ Note that every object is initialized with no own symbol properties, so that thi
     
 Well-known symbols
 
+In addition to your own symbols, JavaScript has some built-in symbols.
+
 
 ## Classes
 
