@@ -6180,7 +6180,7 @@ Note that every object is initialized with no own symbol properties, so that thi
     
 
 
-Properties
+**Properties**
 
 Symbol.length
     Length property whose value is 0.
