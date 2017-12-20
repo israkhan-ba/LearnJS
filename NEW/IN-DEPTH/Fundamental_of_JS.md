@@ -6190,7 +6190,7 @@ Note that every object is initialized with no own symbol properties, so that thi
     
  Represents the prototype for the `Symbol` constructor. 
     
-Well-known symbols
+**Well-known symbols**
 
 In addition to your own symbols, JavaScript has some built-in symbols which represent internal language behaviors which were not exposed to developers in ECMAScript 5 and before. These symbols can be accessed using the following properties:
 
