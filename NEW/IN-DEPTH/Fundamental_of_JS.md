@@ -6200,7 +6200,7 @@ Symbol.iterator
     A method returning the default iterator for an object. Used by for...of.
     
 Symbol.asyncIterator
-    A method that returns the default AsyncIterator for an object.
+    A method that returns the default AsyncIterator for an object. Used by for await of. 
     
 
 ## Classes
