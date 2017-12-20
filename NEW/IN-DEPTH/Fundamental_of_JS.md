@@ -6181,6 +6181,8 @@ Note that every object is initialized with no own symbol properties, so that thi
 
 
 Properties
+
+Symbol.length
     
 
 ## Classes
