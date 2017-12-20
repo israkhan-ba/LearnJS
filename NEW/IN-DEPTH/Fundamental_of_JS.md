@@ -6201,7 +6201,10 @@ Symbol.iterator
     
 Symbol.asyncIterator
     A method that returns the default AsyncIterator for an object. Used by for await of. 
-    
+
+Regular expression symbols
+
+
 
 ## Classes
 
