@@ -6205,7 +6205,7 @@ Symbol.asyncIterator
 Regular expression symbols
 
 Symbol.match
-    A method that matches against a string, also used to determine if an object may be used as a regular expression.
+    A method that matches against a string, also used to determine if an object may be used as a regular expression. Used by String.prototype.match().
 
 
 
