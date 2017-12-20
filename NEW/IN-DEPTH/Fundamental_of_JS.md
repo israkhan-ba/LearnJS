@@ -6204,6 +6204,8 @@ Symbol.asyncIterator
 
 Regular expression symbols
 
+Symbol.match
+
 
 
 ## Classes
