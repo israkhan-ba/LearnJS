@@ -6180,13 +6180,15 @@ Note that every object is initialized with no own symbol properties, so that thi
     
 
 
-Properties
+**Properties**
 
-Symbol.length
-    Length property whose value is 0.
+**`Symbol.length`**
     
-Symbol.prototype
-    Represents the prototype for the Symbol constructor. 
+ Length property whose value is 0.
+    
+**`Symbol.prototype`**
+    
+ Represents the prototype for the `Symbol` constructor. 
     
 
 ## Classes
