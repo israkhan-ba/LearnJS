@@ -6211,6 +6211,7 @@ Symbol.replace
     A method that replaces matched substrings of a string. Used by String.prototype.replace().
     
 Symbol.search
+    A method that returns the index within a string that matches the regular expression.
 
 
 
