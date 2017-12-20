@@ -6199,6 +6199,8 @@ Iteration symbols
 Symbol.iterator
     A method returning the default iterator for an object. Used by for...of.
     
+Symbol.asyncIterator
+    
 
 ## Classes
 
