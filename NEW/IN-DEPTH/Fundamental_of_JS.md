@@ -6186,6 +6186,7 @@ Symbol.length
     Length property whose value is 0.
     
 Symbol.prototype
+    Represents the prototype for the Symbol constructor. 
     
 
 ## Classes
