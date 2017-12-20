@@ -6209,6 +6209,8 @@ Symbol.match
     
 Symbol.replace
     A method that replaces matched substrings of a string. Used by String.prototype.replace().
+    
+Symbol.search
 
 
 
