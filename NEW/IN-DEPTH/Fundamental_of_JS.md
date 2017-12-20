@@ -6166,6 +6166,7 @@ The method `Object.getOwnPropertySymbols()` returns an array of symbols and lets
 Note that every object is initialized with no own symbol properties, so that this array will be empty unless you've set symbol properties on the object.
 
 
+
 **Syntax**
 
 >`Symbol([`_description_`])`
@@ -6178,6 +6179,9 @@ Note that every object is initialized with no own symbol properties, so that thi
  A description of the symbol which can be used for debugging but not to access the symbol itself. 
     
 
+
+Properties
+    
 
 ## Classes
 
