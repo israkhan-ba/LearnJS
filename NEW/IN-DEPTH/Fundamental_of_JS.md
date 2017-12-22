@@ -6227,7 +6227,7 @@ These symbols can be accessed using the following properties:
  A method that splits a string at the indices that match a regular expression.  
  Used by `String.prototype.split()`. 
 
-Other symbols
+**Other symbols**
 
 Symbol.hasInstance
     A method determining if a constructor object recognizes an object as its instance. Used by instanceof.
