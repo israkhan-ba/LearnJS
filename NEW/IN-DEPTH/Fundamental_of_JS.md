@@ -6192,29 +6192,40 @@ Note that every object is initialized with no own symbol properties, so that thi
     
 **Well-known symbols**
 
-In addition to your own symbols, JavaScript has some built-in symbols which represent internal language behaviors which were not exposed to developers in ECMAScript 5 and before. These symbols can be accessed using the following properties:
+In addition to your own symbols, JavaScript has some built-in symbols which represent internal language behaviors which were not exposed to developers in ECMAScript 5 and before.  
+These symbols can be accessed using the following properties:
 
-Iteration symbols
+**Iteration symbols**
 
-Symbol.iterator
-    A method returning the default iterator for an object. Used by for...of.
+**`Symbol.iterator`**
     
-Symbol.asyncIterator
-    A method that returns the default AsyncIterator for an object. Used by for await of. 
+ A method returning the default iterator for an object. Used by `for...of`.
+    
+**`Symbol.asyncIterator`**
 
-Regular expression symbols
+ A method that returns the default AsyncIterator for an object. Used by `for await of`. 
 
-Symbol.match
-    A method that matches against a string, also used to determine if an object may be used as a regular expression. Used by String.prototype.match().
+**Regular expression symbols**
+
+**`Symbol.match`**
     
-Symbol.replace
-    A method that replaces matched substrings of a string. Used by String.prototype.replace().
+ A method that matches against a string, also used to determine if an object may be used as a regular expression.  
+ Used by String.prototype.match().
     
-Symbol.search
-    A method that returns the index within a string that matches the regular expression. Used by String.prototype.search().
+**`Symbol.replace`**
+
+ A method that replaces matched substrings of a string. 
+ Used by `String.prototype.replace()`.
     
-Symbol.split
-    A method that splits a string at the indices that match a regular expression. Used by String.prototype.split(). 
+**`Symbol.search`**
+    
+ A method that returns the index within a string that matches the regular expression.  
+ Used by `String.prototype.search()`.
+    
+**`Symbol.split`**
+
+ A method that splits a string at the indices that match a regular expression.  
+ Used by `String.prototype.split()`. 
 
 
 
