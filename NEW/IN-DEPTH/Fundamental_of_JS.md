@@ -6207,7 +6207,7 @@ These symbols can be accessed using the following properties:
 
 **Regular expression symbols**
 
-`Symbol.match`
+**`Symbol.match`**
     A method that matches against a string, also used to determine if an object may be used as a regular expression. Used by String.prototype.match().
     
 `Symbol.replace`
