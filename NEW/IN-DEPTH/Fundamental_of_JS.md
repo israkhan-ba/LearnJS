@@ -6202,7 +6202,8 @@ These symbols can be accessed using the following properties:
  A method returning the default iterator for an object. Used by for...of.
     
 **`Symbol.asyncIterator`**
-    A method that returns the default AsyncIterator for an object. Used by for await of. 
+
+ A method that returns the default AsyncIterator for an object. Used by for await of. 
 
 Regular expression symbols
 
