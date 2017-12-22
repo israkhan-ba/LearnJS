@@ -6233,6 +6233,7 @@ Symbol.hasInstance
     A method determining if a constructor object recognizes an object as its instance. Used by instanceof.
     
 Symbol.isConcatSpreadable
+    A Boolean value indicating if an object should be flattened to its array elements.
 
 
 ## Classes
