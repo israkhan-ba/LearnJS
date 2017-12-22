@@ -6215,7 +6215,7 @@ These symbols can be accessed using the following properties:
 **`Symbol.replace`**
 
  A method that replaces matched substrings of a string. 
- Used by String.prototype.replace().
+ Used by `String.prototype.replace()`.
     
 **`Symbol.search`**
     
