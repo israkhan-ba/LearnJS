@@ -6240,6 +6240,8 @@ Symbol.unscopables
     
 Symbol.species
     A constructor function that is used to create derived objects.
+    
+Symbol.toPrimitive
 
 
 ## Classes
