@@ -6224,7 +6224,8 @@ These symbols can be accessed using the following properties:
     
 **`Symbol.split`**
 
- A method that splits a string at the indices that match a regular expression. Used by String.prototype.split(). 
+ A method that splits a string at the indices that match a regular expression.  
+ Used by String.prototype.split(). 
 
 
 
