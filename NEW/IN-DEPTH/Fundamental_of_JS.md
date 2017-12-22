@@ -6242,6 +6242,7 @@ Symbol.species
     A constructor function that is used to create derived objects.
     
 Symbol.toPrimitive
+    A method converting an object to a primitive value.
 
 
 ## Classes
