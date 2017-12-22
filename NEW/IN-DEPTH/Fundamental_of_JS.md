@@ -6223,7 +6223,8 @@ These symbols can be accessed using the following properties:
  Used by String.prototype.search().
     
 **`Symbol.split`**
-    A method that splits a string at the indices that match a regular expression. Used by String.prototype.split(). 
+
+ A method that splits a string at the indices that match a regular expression. Used by String.prototype.split(). 
 
 
 
