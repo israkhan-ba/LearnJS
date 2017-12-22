@@ -6239,6 +6239,7 @@ Symbol.unscopables
     An object value of whose own and inherited property names are excluded from the with environment bindings of the associated object.
     
 Symbol.species
+    A constructor function that is used to create derived objects.
 
 
 ## Classes
