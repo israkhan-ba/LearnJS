@@ -6229,6 +6229,8 @@ These symbols can be accessed using the following properties:
 
 Other symbols
 
+Symbol.hasInstance
+
 
 ## Classes
 
