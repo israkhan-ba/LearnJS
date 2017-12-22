@@ -6219,7 +6219,8 @@ These symbols can be accessed using the following properties:
     
 **`Symbol.search`**
     
- A method that returns the index within a string that matches the regular expression. Used by String.prototype.search().
+ A method that returns the index within a string that matches the regular expression.  
+ Used by String.prototype.search().
     
 **`Symbol.split`**
     A method that splits a string at the indices that match a regular expression. Used by String.prototype.split(). 
