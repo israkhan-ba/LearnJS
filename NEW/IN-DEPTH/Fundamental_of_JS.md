@@ -6243,6 +6243,8 @@ Symbol.species
     
 Symbol.toPrimitive
     A method converting an object to a primitive value.
+    
+Symbol.toStringTag
 
 
 ## Classes
