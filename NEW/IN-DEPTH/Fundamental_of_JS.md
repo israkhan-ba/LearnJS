@@ -6241,7 +6241,7 @@ These symbols can be accessed using the following properties:
 **`Symbol.species`**
     A constructor function that is used to create derived objects.
     
-`Symbol.toPrimitive`
+**`Symbol.toPrimitive`**
     A method converting an object to a primitive value.
     
 `Symbol.toStringTag`
