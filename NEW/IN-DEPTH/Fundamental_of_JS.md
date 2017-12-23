@@ -6273,6 +6273,8 @@ Symbol prototype
 
 All Symbols inherit from Symbol.prototype.
 Properties
+
+Symbol.prototype.constructor
     
 
 ## Classes
