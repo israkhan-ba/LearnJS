@@ -6270,6 +6270,9 @@ These symbols can be accessed using the following properties:
     
 
 Symbol prototype
+
+All Symbols inherit from Symbol.prototype.
+Properties
     
 
 ## Classes
