@@ -6232,7 +6232,7 @@ These symbols can be accessed using the following properties:
 **`Symbol.hasInstance`**
     A method determining if a constructor object recognizes an object as its instance. Used by instanceof.
     
-Symbol.isConcatSpreadable
+`Symbol.isConcatSpreadable`
     A Boolean value indicating if an object should be flattened to its array elements. Used by Array.prototype.concat().
     
 Symbol.unscopables
