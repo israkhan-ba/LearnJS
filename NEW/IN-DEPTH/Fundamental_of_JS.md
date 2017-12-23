@@ -6269,6 +6269,19 @@ These symbols can be accessed using the following properties:
  Retrieves a shared symbol key from the global symbol registry for the given symbol. 
     
 
+Symbol prototype
+
+All Symbols inherit from Symbol.prototype.
+Properties
+
+Symbol.prototype.constructor
+    Returns the function that created an instance's prototype. This is the Symbol function by default.
+
+Methods
+
+Symbol.prototype.toSource()
+    
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
