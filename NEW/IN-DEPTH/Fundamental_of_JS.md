@@ -6257,6 +6257,15 @@ These symbols can be accessed using the following properties:
  Used by `Object.prototype.toString()`. 
 
 
+Methods
+
+Symbol.for(key)
+    Searches for existing symbols with the given key and returns it if found. Otherwise a new symbol gets created in the global symbol registry with this key.
+    
+Symbol.keyFor(sym)
+    Retrieves a shared symbol key from the global symbol registry for the given symbol. 
+    
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
