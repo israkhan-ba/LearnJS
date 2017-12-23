@@ -6244,7 +6244,7 @@ These symbols can be accessed using the following properties:
 `Symbol.toPrimitive`
     A method converting an object to a primitive value.
     
-Symbol.toStringTag
+`Symbol.toStringTag`
     A string value used for the default description of an object. Used by Object.prototype.toString(). 
 
 
