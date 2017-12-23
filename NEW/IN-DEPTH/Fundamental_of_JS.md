@@ -6254,7 +6254,7 @@ These symbols can be accessed using the following properties:
 **`Symbol.toStringTag`**
 
  A string value used for the default description of an object.  
- Used by Object.prototype.toString(). 
+ Used by `Object.prototype.toString()`. 
 
 
 ## Classes
