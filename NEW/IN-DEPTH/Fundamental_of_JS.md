@@ -6275,7 +6275,7 @@ All Symbols inherit from Symbol.prototype.
 Properties
 
 Symbol.prototype.constructor
-    Returns the function that created an instance's prototype.
+    Returns the function that created an instance's prototype. This is the Symbol function by default.
     
 
 ## Classes
