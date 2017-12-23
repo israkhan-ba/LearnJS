@@ -6278,6 +6278,8 @@ Symbol.prototype.constructor
     Returns the function that created an instance's prototype. This is the Symbol function by default.
 
 Methods
+
+Symbol.prototype.toSource()
     
 
 ## Classes
