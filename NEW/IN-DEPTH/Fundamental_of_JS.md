@@ -6232,7 +6232,7 @@ These symbols can be accessed using the following properties:
 **`Symbol.hasInstance`**
  
  A method determining if a constructor object recognizes an object as its instance.  
- Used by instanceof.
+ Used by `instanceof`.
     
 **`Symbol.isConcatSpreadable`**
 
