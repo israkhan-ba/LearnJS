@@ -6244,7 +6244,8 @@ These symbols can be accessed using the following properties:
  An object value of whose own and inherited property names are excluded from the with environment bindings of the associated object.
     
 **`Symbol.species`**
-    A constructor function that is used to create derived objects.
+
+ A constructor function that is used to create derived objects.
     
 **`Symbol.toPrimitive`**
     A method converting an object to a primitive value.
