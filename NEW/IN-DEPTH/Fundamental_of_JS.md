@@ -6237,7 +6237,7 @@ These symbols can be accessed using the following properties:
 **`Symbol.isConcatSpreadable`**
 
  A Boolean value indicating if an object should be flattened to its array elements.  
- Used by Array.prototype.concat().
+ Used by `Array.prototype.concat()`.
     
 **`Symbol.unscopables`**
     An object value of whose own and inherited property names are excluded from the with environment bindings of the associated object.
