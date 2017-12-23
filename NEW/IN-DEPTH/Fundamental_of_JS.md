@@ -6260,6 +6260,7 @@ These symbols can be accessed using the following properties:
 Methods
 
 Symbol.for(key)
+    Searches for existing symbols with the given key and returns it if found.
     
     
 
