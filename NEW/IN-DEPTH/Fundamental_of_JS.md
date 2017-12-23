@@ -6258,6 +6258,8 @@ These symbols can be accessed using the following properties:
 
 
 Methods
+
+Symbol.for(key)
     
     
 
