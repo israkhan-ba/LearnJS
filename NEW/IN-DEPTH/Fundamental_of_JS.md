@@ -6230,22 +6230,31 @@ These symbols can be accessed using the following properties:
 **Other symbols**
 
 **`Symbol.hasInstance`**
-    A method determining if a constructor object recognizes an object as its instance. Used by instanceof.
+ 
+ A method determining if a constructor object recognizes an object as its instance.  
+ Used by `instanceof`.
     
-Symbol.isConcatSpreadable
-    A Boolean value indicating if an object should be flattened to its array elements. Used by Array.prototype.concat().
+**`Symbol.isConcatSpreadable`**
+
+ A Boolean value indicating if an object should be flattened to its array elements.  
+ Used by `Array.prototype.concat()`.
     
-Symbol.unscopables
-    An object value of whose own and inherited property names are excluded from the with environment bindings of the associated object.
+**`Symbol.unscopables`**
+
+ An object value of whose own and inherited property names are excluded from the `with` environment bindings of the associated object.
     
-Symbol.species
-    A constructor function that is used to create derived objects.
+**`Symbol.species`**
+
+ A constructor function that is used to create derived objects.
     
-Symbol.toPrimitive
-    A method converting an object to a primitive value.
+**`Symbol.toPrimitive`**
+
+ A method converting an object to a primitive value.
     
-Symbol.toStringTag
-    A string value used for the default description of an object. Used by Object.prototype.toString(). 
+**`Symbol.toStringTag`**
+
+ A string value used for the default description of an object.  
+ Used by `Object.prototype.toString()`. 
 
 
 ## Classes
