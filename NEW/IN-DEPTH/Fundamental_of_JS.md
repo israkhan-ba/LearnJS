@@ -6264,7 +6264,8 @@ These symbols can be accessed using the following properties:
  Searches for existing symbols with the given key and returns it if found. Otherwise a new symbol gets created in the global symbol registry with this key.
     
 **`Symbol.keyFor(sym)`**
-    Retrieves a shared symbol key from the global symbol registry for the given symbol. 
+
+ Retrieves a shared symbol key from the global symbol registry for the given symbol. 
     
 
 ## Classes
