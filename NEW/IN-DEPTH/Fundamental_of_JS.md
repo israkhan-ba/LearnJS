@@ -6269,6 +6269,9 @@ These symbols can be accessed using the following properties:
  Retrieves a shared symbol key from the global symbol registry for the given symbol. 
     
 
+Symbol prototype
+    
+
 ## Classes
 
  JavaScript classes introduced in ECMAScript 2015 are primarily syntactical sugar over JavaScript's existing prototype-based inheritance.
