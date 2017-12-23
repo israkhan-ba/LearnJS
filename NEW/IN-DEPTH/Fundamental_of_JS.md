@@ -6240,7 +6240,8 @@ These symbols can be accessed using the following properties:
  Used by `Array.prototype.concat()`.
     
 **`Symbol.unscopables`**
-    An object value of whose own and inherited property names are excluded from the with environment bindings of the associated object.
+
+ An object value of whose own and inherited property names are excluded from the with environment bindings of the associated object.
     
 **`Symbol.species`**
     A constructor function that is used to create derived objects.
