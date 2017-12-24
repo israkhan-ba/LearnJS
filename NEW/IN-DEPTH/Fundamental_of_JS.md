@@ -6291,7 +6291,7 @@ All Symbols inherit from `Symbol.prototype`.
 `Symbol.prototype.valueOf()`
     Returns the primitive value of the Symbol object. Overrides the Object.prototype.valueOf() method.
     
-Symbol.prototype[@@toPrimitive]
+`Symbol.prototype[@@toPrimitive]`
     Returns the primitive value of the Symbol object.
 
 
