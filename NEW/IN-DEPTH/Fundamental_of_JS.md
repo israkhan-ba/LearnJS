@@ -6269,13 +6269,15 @@ These symbols can be accessed using the following properties:
  Retrieves a shared symbol key from the global symbol registry for the given symbol. 
     
 
-Symbol prototype
+**`Symbol` prototype**
 
-All Symbols inherit from Symbol.prototype.
-Properties
+All Symbols inherit from `Symbol.prototype`.
 
-Symbol.prototype.constructor
-    Returns the function that created an instance's prototype. This is the Symbol function by default.
+**Properties**
+
+`Symbol.prototype.constructor`
+
+ Returns the function that created an instance's prototype. This is the Symbol function by default.
 
 
 Methods
