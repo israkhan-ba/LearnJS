@@ -6269,7 +6269,7 @@ These symbols can be accessed using the following properties:
  Retrieves a shared symbol key from the global symbol registry for the given symbol. 
     
 
-`Symbol` prototype
+**`Symbol` prototype**
 
 All Symbols inherit from Symbol.prototype.
 Properties
