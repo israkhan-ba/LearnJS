@@ -6285,7 +6285,7 @@ All Symbols inherit from `Symbol.prototype`.
 **`Symbol.prototype.toSource()`**
     Returns a string containing the source of the Symbol object. Overrides the Object.prototype.toSource() method.
     
-`Symbol.prototype.toString()`
+**`Symbol.prototype.toString()`**
     Returns a string containing the description of the Symbol. Overrides the Object.prototype.toString() method.
     
 `Symbol.prototype.valueOf()`
