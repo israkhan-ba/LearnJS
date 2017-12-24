@@ -6290,6 +6290,7 @@ Symbol.prototype.valueOf()
     Returns the primitive value of the Symbol object. Overrides the Object.prototype.valueOf() method.
     
 Symbol.prototype[@@toPrimitive]
+    Returns the primitive value of the Symbol object.
 
 
 
