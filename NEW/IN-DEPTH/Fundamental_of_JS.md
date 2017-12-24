@@ -6272,7 +6272,8 @@ These symbols can be accessed using the following properties:
 **`Symbol` prototype**
 
 All Symbols inherit from `Symbol.prototype`.
-Properties
+
+**Properties**
 
 Symbol.prototype.constructor
     Returns the function that created an instance's prototype. This is the Symbol function by default.
