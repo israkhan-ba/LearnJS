@@ -6284,6 +6284,7 @@ Symbol.prototype.toSource()
     Returns a string containing the source of the Symbol object. Overrides the Object.prototype.toSource() method.
     
 Symbol.prototype.toString()
+    Returns a string containing the description of the Symbol.
 
 
 
