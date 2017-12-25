@@ -6307,9 +6307,11 @@ Using the typeof operator with symbols
 
 The typeof operator can help you to identify symbols.
 
-typeof Symbol() === 'symbol'
-typeof Symbol('foo') === 'symbol'
-typeof Symbol.iterator === 'symbol'
+>```
+> typeof Symbol() === 'symbol'
+> typeof Symbol('foo') === 'symbol'
+> typeof Symbol.iterator === 'symbol'
+>```
 
 Symbol type conversions
 
@@ -6325,34 +6327,40 @@ Symbols and for...in iteration
 
 Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPropertyNames() will not return symbol object properties, however, you can use Object.getOwnPropertySymbols() to get these.
 
-var obj = {};
-
-obj[Symbol('a')] = 'a';
-obj[Symbol.for('b')] = 'b';
-obj['c'] = 'c';
-obj.d = 'd';
-
-for (var i in obj) {
-   console.log(i); // logs "c" and "d"
-}
+>```
+> var obj = {};
+> 
+> obj[Symbol('a')] = 'a';
+> obj[Symbol.for('b')] = 'b';
+> obj['c'] = 'c';
+> obj.d = 'd';
+> 
+> 
+> for (var i in obj) {
+>    console.log(i); // logs "c" and "d"
+> }
+>```
 
 Symbols and JSON.stringify()
 
 Symbol-keyed properties will be completely ignored when using JSON.stringify():
 
-JSON.stringify({[Symbol('foo')]: 'foo'});                 
-// '{}'
+>```
+> JSON.stringify({[Symbol('foo')]: 'foo'});                 
+> // '{}'
+>```
 
 For more details, see JSON.stringify().
 Symbol wrapper objects as property keys
 
 When a Symbol wrapper object is used as a property key, this object will be coerced to its wrapped symbol:
 
-var sym = Symbol('foo');
-var obj = {[sym]: 1};
-obj[sym];            // 1
-obj[Object(sym)];    // still 1
-
+>```
+> var sym = Symbol('foo');
+> var obj = {[sym]: 1};
+> obj[sym];            // 1
+> obj[Object(sym)];    // still 1
+>```
 
 
 ## Classes
