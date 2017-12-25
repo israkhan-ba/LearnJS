@@ -6309,6 +6309,7 @@ The typeof operator can help you to identify symbols.
 
 typeof Symbol() === 'symbol'
 typeof Symbol('foo') === 'symbol'
+typeof Symbol.iterator === 'symbol'
 
 
 
