@@ -6340,8 +6340,10 @@ Symbols and JSON.stringify()
 
 Symbol-keyed properties will be completely ignored when using JSON.stringify():
 
-JSON.stringify({[Symbol('foo')]: 'foo'});                 
-// '{}'
+>```
+> JSON.stringify({[Symbol('foo')]: 'foo'});                 
+> // '{}'
+>```
 
 For more details, see JSON.stringify().
 Symbol wrapper objects as property keys
