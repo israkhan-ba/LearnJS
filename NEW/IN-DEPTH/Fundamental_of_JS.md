@@ -6336,6 +6336,7 @@ for (var i in obj) {
    console.log(i); // logs "c" and "d"
 }
 
+Symbols and JSON.stringify()
 
 
 
