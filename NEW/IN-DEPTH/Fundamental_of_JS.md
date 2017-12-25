@@ -6303,6 +6303,7 @@ All Symbols inherit from `Symbol.prototype`.
 
 
 Examples
+Using the typeof operator with symbols
 
 
 
