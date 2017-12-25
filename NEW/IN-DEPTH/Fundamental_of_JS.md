@@ -6338,6 +6338,8 @@ for (var i in obj) {
 
 Symbols and JSON.stringify()
 
+Symbol-keyed properties will be completely ignored when using JSON.stringify():
+
 
 
 ## Classes
