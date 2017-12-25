@@ -6302,6 +6302,8 @@ All Symbols inherit from `Symbol.prototype`.
  Returns the primitive value of the `Symbol` object.
 
 
+Examples
+
 
 
 ## Classes
