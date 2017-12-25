@@ -6307,6 +6307,8 @@ Using the typeof operator with symbols
 
 The typeof operator can help you to identify symbols.
 
+typeof Symbol() === 'symbol'
+
 
 
 ## Classes
