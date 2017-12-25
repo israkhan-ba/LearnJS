@@ -6333,11 +6333,11 @@ Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPro
 > obj['c'] = 'c';
 > obj.d = 'd';
 > 
+> 
+> for (var i in obj) {
+>    console.log(i); // logs "c" and "d"
+> }
 >```
-
-for (var i in obj) {
-   console.log(i); // logs "c" and "d"
-}
 
 Symbols and JSON.stringify()
 
