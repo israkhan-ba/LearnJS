@@ -6311,6 +6311,9 @@ typeof Symbol() === 'symbol'
 typeof Symbol('foo') === 'symbol'
 typeof Symbol.iterator === 'symbol'
 
+Symbol type conversions
+
+
 
 
 ## Classes
