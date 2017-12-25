@@ -6332,6 +6332,9 @@ obj[Symbol.for('b')] = 'b';
 obj['c'] = 'c';
 obj.d = 'd';
 
+for (var i in obj) {
+}
+
 
 
 
