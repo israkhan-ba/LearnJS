@@ -6330,6 +6330,7 @@ var obj = {};
 obj[Symbol('a')] = 'a';
 obj[Symbol.for('b')] = 'b';
 obj['c'] = 'c';
+obj.d = 'd';
 
 
 
