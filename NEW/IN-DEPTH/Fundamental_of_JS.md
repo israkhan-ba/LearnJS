@@ -6323,6 +6323,8 @@ Some things to note when working with type conversion of symbols.
 
 Symbols and for...in iteration
 
+Symbols are not enumerable in for...in iterations.
+
 
 
 
