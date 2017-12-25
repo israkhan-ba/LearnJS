@@ -6307,9 +6307,11 @@ Using the typeof operator with symbols
 
 The typeof operator can help you to identify symbols.
 
-typeof Symbol() === 'symbol'
-typeof Symbol('foo') === 'symbol'
-typeof Symbol.iterator === 'symbol'
+>```
+> typeof Symbol() === 'symbol'
+> typeof Symbol('foo') === 'symbol'
+> typeof Symbol.iterator === 'symbol'
+>```
 
 Symbol type conversions
 
