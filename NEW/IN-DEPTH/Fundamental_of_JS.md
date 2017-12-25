@@ -6327,12 +6327,13 @@ Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPro
 
 >```
 > var obj = {};
+> 
+> obj[Symbol('a')] = 'a';
+> obj[Symbol.for('b')] = 'b';
+> obj['c'] = 'c';
+> obj.d = 'd';
+> 
 >```
-
-obj[Symbol('a')] = 'a';
-obj[Symbol.for('b')] = 'b';
-obj['c'] = 'c';
-obj.d = 'd';
 
 for (var i in obj) {
    console.log(i); // logs "c" and "d"
