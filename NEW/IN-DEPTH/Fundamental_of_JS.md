@@ -6333,6 +6333,7 @@ obj['c'] = 'c';
 obj.d = 'd';
 
 for (var i in obj) {
+   console.log(i); // logs "c" and "d"
 }
 
 
