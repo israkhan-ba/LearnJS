@@ -6346,6 +6346,8 @@ JSON.stringify({[Symbol('foo')]: 'foo'});
 For more details, see JSON.stringify().
 Symbol wrapper objects as property keys
 
+When a Symbol wrapper object is used as a property key, this object will be coerced to its wrapped symbol:
+
 
 
 ## Classes
