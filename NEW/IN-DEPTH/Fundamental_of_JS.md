@@ -6350,6 +6350,7 @@ When a Symbol wrapper object is used as a property key, this object will be coer
 
 var sym = Symbol('foo');
 var obj = {[sym]: 1};
+obj[sym];            // 1
 
 
 
