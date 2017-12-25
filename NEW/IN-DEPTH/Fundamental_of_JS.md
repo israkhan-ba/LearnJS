@@ -6323,7 +6323,7 @@ Some things to note when working with type conversion of symbols.
 
 Symbols and for...in iteration
 
-Symbols are not enumerable in for...in iterations.
+Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPropertyNames() will not return symbol object properties.
 
 
 
