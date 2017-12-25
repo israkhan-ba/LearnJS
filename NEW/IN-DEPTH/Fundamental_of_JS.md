@@ -6299,7 +6299,7 @@ All Symbols inherit from `Symbol.prototype`.
     
 **`Symbol.prototype[@@toPrimitive]`**
 
- Returns the primitive value of the Symbol object.
+ Returns the primitive value of the `Symbol` object.
 
 
 
