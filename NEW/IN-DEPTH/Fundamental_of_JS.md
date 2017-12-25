@@ -6313,6 +6313,8 @@ typeof Symbol.iterator === 'symbol'
 
 Symbol type conversions
 
+Some things to note when working with type conversion of symbols.
+
 
 
 
