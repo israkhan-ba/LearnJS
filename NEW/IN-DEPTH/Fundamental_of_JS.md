@@ -6277,28 +6277,29 @@ All Symbols inherit from `Symbol.prototype`.
 
 `Symbol.prototype.constructor`
 
- Returns the function that created an instance's prototype. This is the Symbol function by default.
+ Returns the function that created an instance's prototype.  
+ This is the `Symbol` function by default.
 
 
 **Methods**
 
 **`Symbol.prototype.toSource()`**
 
- Returns a string containing the source of the Symbol object.  
- Overrides the Object.prototype.toSource() method.
+ Returns a string containing the source of the `Symbol` object.  
+ Overrides the `Object.prototype.toSource()` method.
     
 **`Symbol.prototype.toString()`**
 
- Returns a string containing the description of the Symbol.  
+ Returns a string containing the description of the `Symbol`.  
  Overrides the `Object.prototype.toString()` method.
     
 **`Symbol.prototype.valueOf()`**
 
- Returns the primitive value of the Symbol object.   Overrides the `Object.prototype.valueOf()` method.
+ Returns the primitive value of the `Symbol` object.   Overrides the `Object.prototype.valueOf()` method.
     
 **`Symbol.prototype[@@toPrimitive]`**
 
- Returns the primitive value of the Symbol object.
+ Returns the primitive value of the `Symbol` object.
 
 
 
