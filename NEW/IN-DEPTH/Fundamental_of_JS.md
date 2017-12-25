@@ -6349,6 +6349,7 @@ Symbol wrapper objects as property keys
 When a Symbol wrapper object is used as a property key, this object will be coerced to its wrapped symbol:
 
 var sym = Symbol('foo');
+var obj = {[sym]: 1};
 
 
 
