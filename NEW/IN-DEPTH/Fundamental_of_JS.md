@@ -6321,6 +6321,8 @@ Some things to note when working with type conversion of symbols.
     Symbol("foo") + "bar" throws a TypeError (can't convert symbol to string). This prevents you from silently creating a new string property name from a symbol, for example.
     The "safer" String(sym) conversion works like a call to Symbol.prototype.toString() with symbols, but note that new String(sym) will throw.
 
+Symbols and for...in iteration
+
 
 
 
