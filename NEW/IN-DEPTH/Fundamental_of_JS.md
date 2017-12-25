@@ -6327,6 +6327,8 @@ Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPro
 
 var obj = {};
 
+obj[Symbol('a')] = 'a';
+
 
 
 
