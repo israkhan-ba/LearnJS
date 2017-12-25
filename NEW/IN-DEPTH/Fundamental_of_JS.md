@@ -6319,6 +6319,7 @@ Some things to note when working with type conversion of symbols.
     (e.g. +sym or sym | 0).
     When using loose equality, Object(sym) == sym returns true.
     Symbol("foo") + "bar" throws a TypeError (can't convert symbol to string). This prevents you from silently creating a new string property name from a symbol, for example.
+    The "safer" String(sym) conversion works like a call to Symbol.prototype.toString() with symbols.
 
 
 
