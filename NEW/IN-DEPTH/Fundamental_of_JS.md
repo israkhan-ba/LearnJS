@@ -6314,7 +6314,7 @@ The `typeof` operator can help you to identify symbols.
 > typeof Symbol.iterator === 'symbol'
 >```
 
-Symbol type conversions
+* **Symbol type conversions**
 
 Some things to note when working with type conversion of symbols.
 
