@@ -6345,7 +6345,7 @@ however, you can use `Object.getOwnPropertySymbols()` to get these.
 > }
 >```
 
-Symbols and JSON.stringify()
+* **Symbols and `JSON.stringify()`**
 
 Symbol-keyed properties will be completely ignored when using JSON.stringify():
 
