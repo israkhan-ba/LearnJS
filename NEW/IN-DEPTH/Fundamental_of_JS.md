@@ -6327,7 +6327,7 @@ All Symbols inherit from `Symbol.prototype`.
 
 * **Symbols and `for...in` iteration**
 
-Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPropertyNames() will not return symbol object properties, however, you can use Object.getOwnPropertySymbols() to get these.
+Symbols are not enumerable in `for...in` iterations. In addition, Object.getOwnPropertyNames() will not return symbol object properties, however, you can use Object.getOwnPropertySymbols() to get these.
 
 >```
 > var obj = {};
