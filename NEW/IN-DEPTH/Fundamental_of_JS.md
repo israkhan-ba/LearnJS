@@ -6322,11 +6322,14 @@ All Symbols inherit from `Symbol.prototype`.
     (e.g. `+sym` or `sym | 0`).  
     When using loose equality, `Object(sym) == sym` returns `true`.  
     `Symbol("foo") + "bar"` throws a `TypeError` (can't convert symbol to string). This prevents you from silently creating a new string property name from a symbol, for example.
-    The "safer" `String(sym)` conversion works like a call to `Symbol.prototype.toString()` with symbols, but note that new String(sym) will throw.
+    The "safer" `String(sym)` conversion works like a call to `Symbol.prototype.toString()` with symbols, but note that `new String(sym)` will throw.  
 
-Symbols and for...in iteration
 
-Symbols are not enumerable in for...in iterations. In addition, Object.getOwnPropertyNames() will not return symbol object properties, however, you can use Object.getOwnPropertySymbols() to get these.
+* **Symbols and `for...in` iteration**
+
+Symbols are not enumerable in `for...in` iterations.   
+In addition, `Object.getOwnPropertyNames()` will not return symbol object properties,  
+however, you can use `Object.getOwnPropertySymbols()` to get these.
 
 >```
 > var obj = {};
