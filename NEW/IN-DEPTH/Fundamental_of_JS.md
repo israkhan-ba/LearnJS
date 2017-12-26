@@ -6098,7 +6098,7 @@ Returns the function that created an instance's prototype.  This is the `Boolean
 >```
 
 
-Creating `Boolean` objects with an initial value of `true`
+* ** Creating `Boolean` objects with an initial value of `true` **
 
 >```
 > var btrue = Boolean(true);
