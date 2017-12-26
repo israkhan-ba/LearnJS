@@ -6302,7 +6302,8 @@ All Symbols inherit from `Symbol.prototype`.
  Returns the primitive value of the `Symbol` object.
 
 
-Examples
+**Examples**
+
 Using the typeof operator with symbols
 
 The typeof operator can help you to identify symbols.
