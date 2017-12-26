@@ -6345,16 +6345,17 @@ however, you can use `Object.getOwnPropertySymbols()` to get these.
 > }
 >```
 
-Symbols and JSON.stringify()
+* **Symbols and `JSON.stringify()`**
 
-Symbol-keyed properties will be completely ignored when using JSON.stringify():
+Symbol-keyed properties will be completely ignored when using `JSON.stringify()`:
 
 >```
 > JSON.stringify({[Symbol('foo')]: 'foo'});                 
 > // '{}'
 >```
 
-For more details, see JSON.stringify().
+For more details, see `JSON.stringify()`.
+
 Symbol wrapper objects as property keys
 
 When a Symbol wrapper object is used as a property key, this object will be coerced to its wrapped symbol:
