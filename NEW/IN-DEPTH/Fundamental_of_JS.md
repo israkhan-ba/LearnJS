@@ -6087,7 +6087,7 @@ Returns the function that created an instance's prototype.  This is the `Boolean
  
 **Examples**
 
-Creating `Boolean` objects with an initial value of `false`
+* ** Creating `Boolean` objects with an initial value of `false`
 
 >```
 > var bNoParam = Boolean();
