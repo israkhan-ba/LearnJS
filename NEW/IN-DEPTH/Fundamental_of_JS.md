@@ -6316,7 +6316,7 @@ All Symbols inherit from `Symbol.prototype`.
 
 * **Symbol type conversions**
 
-Some things to note when working with type conversion of symbols.
+    Some things to note when working with type conversion of symbols.
 
     When trying to convert a symbol to a number, a TypeError will be thrown
     (e.g. +sym or sym | 0).
