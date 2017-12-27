@@ -4345,6 +4345,7 @@ Number.NaN
     Special "not a number" value.
     
 Number.NEGATIVE_INFINITY
+    Special value representing negative infinity.
     
 
 ### Function
