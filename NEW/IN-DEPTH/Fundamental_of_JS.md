@@ -4344,6 +4344,8 @@ Number.MIN_VALUE
 Number.NaN
     Special "not a number" value.
     
+Number.NEGATIVE_INFINITY
+    
 
 ### Function
 
