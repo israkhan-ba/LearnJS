@@ -4335,6 +4335,8 @@ Number.MAX_SAFE_INTEGER
 Number.MAX_VALUE
     The largest positive representable number.
     
+Number.MIN_SAFE_INTEGER
+    
 
 ### Function
 
