@@ -4311,6 +4311,8 @@ Syntax
 new Number(value);
 
 Parameters
+
+value
     
     
 
