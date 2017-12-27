@@ -4309,6 +4309,8 @@ A `Number` object is created using the `Number()` constructor.
 Syntax
 
 new Number(value);
+
+Parameters
     
     
 
