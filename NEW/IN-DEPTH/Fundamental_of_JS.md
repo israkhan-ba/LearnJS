@@ -4319,7 +4319,7 @@ A `Number` object is created using the `Number()` constructor.
  The numeric value of the object being created. 
     
 
-Description
+**Description**
 
 The primary uses for the Number object are:
 
