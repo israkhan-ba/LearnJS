@@ -4312,7 +4312,7 @@ A `Number` object is created using the `Number()` constructor.
 > new Number(value);
 >```
 
-Parameters
+* **Parameters**
 
 value
     The numeric value of the object being created. 
