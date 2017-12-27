@@ -4341,6 +4341,8 @@ Number.MIN_SAFE_INTEGER
 Number.MIN_VALUE
     The smallest positive representable number - that is, the positive number closest to zero (without actually being zero).
     
+Number.NaN
+    
 
 ### Function
 
