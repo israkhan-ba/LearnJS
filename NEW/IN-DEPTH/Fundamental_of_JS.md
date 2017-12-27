@@ -4327,6 +4327,7 @@ The primary uses for the Number object are:
 Properties
 
 Number.EPSILON
+    The smallest interval between two representable numbers.
     
 
 ### Function
