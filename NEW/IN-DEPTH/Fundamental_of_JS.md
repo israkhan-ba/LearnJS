@@ -4318,6 +4318,8 @@ value
 
 Description
 
+The primary uses for the Number object are:
+
 
 
 ### Function
