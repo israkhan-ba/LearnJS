@@ -4302,6 +4302,7 @@ Starting with ECMAScript 2015, string literals can also be so-called Template li
 
 ### Number
 
+The Number JavaScript object is a wrapper object allowing you to work with numerical values.
 
 
 ### Function
