@@ -4321,7 +4321,7 @@ A `Number` object is created using the `Number()` constructor.
 
 **Description**
 
-The primary uses for the Number object are:
+The primary uses for the `Number` object are:
 
     If the argument cannot be converted into a number, it returns NaN.
     In a non-constructor context (i.e., without the new operator), Number can be used to perform a type conversion.
