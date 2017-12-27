@@ -4342,6 +4342,7 @@ Number.MIN_VALUE
     The smallest positive representable number - that is, the positive number closest to zero (without actually being zero).
     
 Number.NaN
+    Special "not a number" value.
     
 
 ### Function
