@@ -4313,6 +4313,7 @@ new Number(value);
 Parameters
 
 value
+    The numeric value of the object being created. 
     
     
 
