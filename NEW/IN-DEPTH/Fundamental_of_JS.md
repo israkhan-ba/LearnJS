@@ -4338,6 +4338,8 @@ Number.MAX_VALUE
 Number.MIN_SAFE_INTEGER
     The minimum safe integer in JavaScript (-(253 - 1)).
     
+Number.MIN_VALUE
+    
 
 ### Function
 
