@@ -4333,6 +4333,7 @@ Number.MAX_SAFE_INTEGER
     The maximum safe integer in JavaScript (253 - 1).
     
 Number.MAX_VALUE
+    The largest positive representable number.
     
 
 ### Function
