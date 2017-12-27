@@ -4351,6 +4351,7 @@ Number.POSITIVE_INFINITY
     Special value representing infinity; returned on overflow.
     
 Number.prototype
+    Allows the addition of properties to a Number object. 
     
 
 ### Function
