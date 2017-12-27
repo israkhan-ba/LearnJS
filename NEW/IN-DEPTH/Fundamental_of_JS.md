@@ -4306,6 +4306,16 @@ The **`Number`** JavaScript object is a wrapper object allowing you to work with
 A `Number` object is created using the `Number()` constructor.
 
 
+Syntax
+
+new Number(value);
+
+Parameters
+
+value
+    The numeric value of the object being created. 
+    
+    
 
 ### Function
 
