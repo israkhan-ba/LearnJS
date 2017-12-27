@@ -4329,6 +4329,8 @@ Properties
 Number.EPSILON
     The smallest interval between two representable numbers.
     
+Number.MAX_SAFE_INTEGER
+    
 
 ### Function
 
