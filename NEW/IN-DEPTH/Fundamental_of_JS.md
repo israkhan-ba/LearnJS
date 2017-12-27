@@ -4350,6 +4350,8 @@ Number.NEGATIVE_INFINITY
 Number.POSITIVE_INFINITY
     Special value representing infinity; returned on overflow.
     
+Number.prototype
+    
 
 ### Function
 
