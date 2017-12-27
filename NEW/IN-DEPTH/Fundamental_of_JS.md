@@ -4315,7 +4315,10 @@ Parameters
 value
     The numeric value of the object being created. 
     
-    
+
+Description
+
+
 
 ### Function
 
