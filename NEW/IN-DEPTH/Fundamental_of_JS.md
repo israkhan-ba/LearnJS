@@ -4314,7 +4314,7 @@ A `Number` object is created using the `Number()` constructor.
 
 * **Parameters**
 
-value
+`value`
     The numeric value of the object being created. 
     
 
