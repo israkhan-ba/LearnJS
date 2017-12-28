@@ -4355,7 +4355,7 @@ The primary uses for the `Number` object are:
     Special value representing infinity; returned on overflow.
     
 **`Number.prototype`**
-    Allows the addition of properties to a Number object. 
+    Allows the addition of properties to a `Number` object. 
     
 
 ### Function
