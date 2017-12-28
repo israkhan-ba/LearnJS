@@ -4328,7 +4328,7 @@ The primary uses for the `Number` object are:
 * In a non-constructor context (i.e., without the `new` operator), `Number` can be used to perform a type conversion.
 
 
-Properties
+**Properties**
 
 Number.EPSILON
     The smallest interval between two representable numbers.
