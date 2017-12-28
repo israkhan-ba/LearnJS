@@ -4348,7 +4348,7 @@ The primary uses for the `Number` object are:
 `Number.NaN`
     Special "not a number" value.
     
-Number.NEGATIVE_INFINITY
+`Number.NEGATIVE_INFINITY`
     Special value representing negative infinity; returned on overflow.
     
 Number.POSITIVE_INFINITY
