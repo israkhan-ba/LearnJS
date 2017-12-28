@@ -4330,7 +4330,7 @@ The primary uses for the `Number` object are:
 
 **Properties**
 
-Number.EPSILON
+`Number.EPSILON`
     The smallest interval between two representable numbers.
     
 Number.MAX_SAFE_INTEGER
