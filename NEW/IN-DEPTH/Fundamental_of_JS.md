@@ -4331,7 +4331,8 @@ The primary uses for the `Number` object are:
 **Properties**
 
 **`Number.EPSILON`**
-    The smallest interval between two representable numbers.
+
+ The smallest interval between two representable numbers.
     
 **`Number.MAX_SAFE_INTEGER`**
     The maximum safe integer in JavaScript (`2^53 - 1`).
