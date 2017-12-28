@@ -4345,7 +4345,7 @@ The primary uses for the `Number` object are:
 `Number.MIN_VALUE`
     The smallest positive representable number - that is, the positive number closest to zero (without actually being zero).
     
-Number.NaN
+`Number.NaN`
     Special "not a number" value.
     
 Number.NEGATIVE_INFINITY
