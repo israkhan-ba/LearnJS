@@ -4359,7 +4359,8 @@ The primary uses for the `Number` object are:
  Special value representing negative infinity; returned on overflow.
     
 **`Number.POSITIVE_INFINITY`**
-    Special value representing infinity; returned on overflow.
+
+ Special value representing infinity; returned on overflow.
     
 **`Number.prototype`**
     Allows the addition of properties to a `Number` object. 
