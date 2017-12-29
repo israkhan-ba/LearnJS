@@ -4379,6 +4379,8 @@ Number.isFinite()
 Number.isInteger()
     Determine whether the passed value is an integer.
     
+Number.isSafeInteger()
+    
     
 ### Function
 
