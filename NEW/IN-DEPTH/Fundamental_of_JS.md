@@ -4392,7 +4392,7 @@ The primary uses for the `Number` object are:
     
 **`Number.parseInt()`**
 
- The value is the same as parseInt() of the global object. 
+ The value is the same as `parseInt()` of the global object. 
     
     
 ### Function
