@@ -4365,28 +4365,34 @@ The primary uses for the `Number` object are:
     
 **`Number.prototype`**
 
- Allows the addition of properties to a `Number` object. 
+ Allows the addition of properties to a **`Number`** object. 
     
 
-Methods
+**Methods**
 
-Number.isNaN()
-    Determine whether the passed value is NaN.
-    
-Number.isFinite()
-    Determine whether the passed value is a finite number.
-    
-Number.isInteger()
-    Determine whether the passed value is an integer.
-    
-Number.isSafeInteger()
-    Determine whether the passed value is a safe integer (number between -(253 - 1) and 253 - 1).
+**`Number.isNaN()`**
 
-Number.parseFloat()
-    The value is the same as parseFloat() of the global object.
+ Determine whether the passed value is `NaN`.
     
-Number.parseInt()
-    The value is the same as parseInt() of the global object. 
+**`Number.isFinite()`**
+
+ Determine whether the passed value is a finite number.
+    
+**`Number.isInteger()`**
+
+ Determine whether the passed value is an integer.
+    
+**`Number.isSafeInteger()`**
+
+ Determine whether the passed value is a safe integer (number between `-(2^53 - 1)` and `2^53 - 1`).
+
+**`Number.parseFloat()`**
+
+ The value is the same as `parseFloat()` of the global object.
+    
+**`Number.parseInt()`**
+
+ The value is the same as `parseInt()` of the global object. 
     
     
 ### Function
