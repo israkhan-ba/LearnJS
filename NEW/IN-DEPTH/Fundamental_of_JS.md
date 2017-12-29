@@ -4375,7 +4375,8 @@ The primary uses for the `Number` object are:
  Determine whether the passed value is NaN.
     
 **`Number.isFinite()`**
-    Determine whether the passed value is a finite number.
+
+ Determine whether the passed value is a finite number.
     
 **`Number.isInteger()`**
     Determine whether the passed value is an integer.
