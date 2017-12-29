@@ -4377,6 +4377,7 @@ Number.isFinite()
     Determine whether the passed value is a finite number.
     
 Number.isInteger()
+    Determine whether the passed value is an integer.
     
     
 ### Function
