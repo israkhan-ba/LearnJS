@@ -4384,7 +4384,7 @@ The primary uses for the `Number` object are:
     
 **`Number.isSafeInteger()`**
 
- Determine whether the passed value is a safe integer (number between `-(2^53 - 1)` and 253 - 1).
+ Determine whether the passed value is a safe integer (number between `-(2^53 - 1)` and `2^53 - 1`).
 
 **`Number.parseFloat()`**
 
