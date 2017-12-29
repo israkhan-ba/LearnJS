@@ -4373,6 +4373,8 @@ Methods
 Number.isNaN()
     Determine whether the passed value is NaN.
     
+Number.isFinite()
+    
     
 ### Function
 
