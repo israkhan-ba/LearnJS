@@ -4369,6 +4369,8 @@ The primary uses for the `Number` object are:
     
 
 Methods
+
+Number.isNaN()
     
     
 ### Function
