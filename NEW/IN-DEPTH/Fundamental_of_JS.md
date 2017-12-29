@@ -4385,6 +4385,8 @@ Number.isSafeInteger()
 Number.parseFloat()
     The value is the same as parseFloat() of the global object.
     
+Number.parseInt()
+    
     
 ### Function
 
