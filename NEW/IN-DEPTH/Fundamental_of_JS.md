@@ -4339,7 +4339,8 @@ The primary uses for the `Number` object are:
  The maximum safe integer in JavaScript (`2^53 - 1`).
     
 **`Number.MAX_VALUE`**
-    The largest positive representable number.
+    
+ The largest positive representable number.
     
 **`Number.MIN_SAFE_INTEGER`**
     The minimum safe integer in JavaScript (`-(2^53 - 1)`).
