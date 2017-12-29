@@ -4370,7 +4370,7 @@ The primary uses for the `Number` object are:
 
 **Methods**
 
-Number.isNaN()
+`Number.isNaN()`
     Determine whether the passed value is NaN.
     
 Number.isFinite()
