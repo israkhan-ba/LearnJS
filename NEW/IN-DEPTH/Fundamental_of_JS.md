@@ -4380,6 +4380,7 @@ Number.isInteger()
     Determine whether the passed value is an integer.
     
 Number.isSafeInteger()
+    Determine whether the passed value is a safe integer (number between -(253 - 1) and 253 - 1).
     
     
 ### Function
