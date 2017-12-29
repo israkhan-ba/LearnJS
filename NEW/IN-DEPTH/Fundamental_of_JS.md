@@ -4347,7 +4347,8 @@ The primary uses for the `Number` object are:
  The minimum safe integer in JavaScript (`-(2^53 - 1)`).
     
 **`Number.MIN_VALUE`**
-    The smallest positive representable number - that is, the positive number closest to zero (without actually being zero).
+
+ The smallest positive representable number - that is, the positive number closest to zero (without actually being zero).
     
 **`Number.NaN`**
     Special "not a number" value.
