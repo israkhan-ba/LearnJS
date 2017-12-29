@@ -4386,6 +4386,7 @@ Number.parseFloat()
     The value is the same as parseFloat() of the global object.
     
 Number.parseInt()
+    The value is the same as parseInt() of the global object. 
     
     
 ### Function
