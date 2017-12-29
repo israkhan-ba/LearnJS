@@ -4376,6 +4376,8 @@ Number.isNaN()
 Number.isFinite()
     Determine whether the passed value is a finite number.
     
+Number.isInteger()
+    
     
 ### Function
 
