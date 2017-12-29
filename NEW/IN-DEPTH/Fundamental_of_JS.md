@@ -4376,7 +4376,7 @@ The primary uses for the `Number` object are:
 **`Number.isFinite()`**
     Determine whether the passed value is a finite number.
     
-`Number.isInteger()`
+**`Number.isInteger()`**
     Determine whether the passed value is an integer.
     
 `Number.isSafeInteger()`
