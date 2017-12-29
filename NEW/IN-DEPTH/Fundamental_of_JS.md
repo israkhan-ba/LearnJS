@@ -4365,7 +4365,7 @@ The primary uses for the `Number` object are:
     
 **`Number.prototype`**
 
- Allows the addition of properties to a `Number` object. 
+ Allows the addition of properties to a **`Number`** object. 
     
 
 **Methods**
