@@ -4351,7 +4351,8 @@ The primary uses for the `Number` object are:
  The smallest positive representable number - that is, the positive number closest to zero (without actually being zero).
     
 **`Number.NaN`**
-    Special "not a number" value.
+
+ Special "not a number" value.
     
 **`Number.NEGATIVE_INFINITY`**
     Special value representing negative infinity; returned on overflow.
