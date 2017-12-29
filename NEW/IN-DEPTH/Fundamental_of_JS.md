@@ -4387,7 +4387,8 @@ The primary uses for the `Number` object are:
  Determine whether the passed value is a safe integer (number between -(253 - 1) and 253 - 1).
 
 **`Number.parseFloat()`**
-    The value is the same as parseFloat() of the global object.
+
+ The value is the same as parseFloat() of the global object.
     
 **`Number.parseInt()`**
     The value is the same as parseInt() of the global object. 
