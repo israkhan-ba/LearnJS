@@ -4407,6 +4407,7 @@ Number.prototype.toExponential()
     Returns a string representing the number in exponential notation.
     
 Number.prototype.toFixed()
+    Returns a string representing the number in fixed-point notation.
     
     
 ### Function
