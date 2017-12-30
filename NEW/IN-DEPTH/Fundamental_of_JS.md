@@ -4415,6 +4415,8 @@ Number.prototype.toLocaleString()
 Number.prototype.toPrecision()
     Returns a string representing the number to a specified precision in fixed-point or exponential notation.
     
+Number.prototype.toSource()
+    
     
 ### Function
 
