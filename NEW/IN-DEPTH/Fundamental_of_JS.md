@@ -4407,7 +4407,8 @@ The prototype object of the `Number` constructor can be modified to affect all `
  Returns a string representing the number in exponential notation.
     
 **`Number.prototype.toFixed()`**
-    Returns a string representing the number in fixed-point notation.
+
+ Returns a string representing the number in fixed-point notation.
     
 **`Number.prototype.toLocaleString()`**
     Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method.
