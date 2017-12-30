@@ -4399,7 +4399,8 @@ The primary uses for the `Number` object are:
 
 All `Number` instances inherit from `Number.prototype`.  
 The prototype object of the `Number` constructor can be modified to affect all `Number` instances.
-Methods
+
+**Methods**
 
 Number.prototype.toExponential()
     Returns a string representing the number in exponential notation.
