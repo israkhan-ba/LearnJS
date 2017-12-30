@@ -4412,6 +4412,8 @@ Number.prototype.toFixed()
 Number.prototype.toLocaleString()
     Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method.
     
+Number.prototype.toPrecision()
+    
     
 ### Function
 
