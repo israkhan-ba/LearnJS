@@ -4408,7 +4408,7 @@ The prototype object of the `Number` constructor can be modified to affect all `
 `Number.prototype.toFixed()`
     Returns a string representing the number in fixed-point notation.
     
-Number.prototype.toLocaleString()
+`Number.prototype.toLocaleString()`
     Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method.
     
 Number.prototype.toPrecision()
