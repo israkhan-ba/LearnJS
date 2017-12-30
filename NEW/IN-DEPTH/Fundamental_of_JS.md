@@ -4396,6 +4396,8 @@ The primary uses for the `Number` object are:
 
 
 Number instances
+
+All Number instances inherit from Number.prototype.
     
     
 ### Function
