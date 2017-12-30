@@ -4410,7 +4410,7 @@ Number.prototype.toFixed()
     Returns a string representing the number in fixed-point notation.
     
 Number.prototype.toLocaleString()
-    Returns a string with a language sensitive representation of this number.
+    Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method.
     
     
 ### Function
