@@ -4395,7 +4395,7 @@ The primary uses for the `Number` object are:
  The value is the same as `parseInt()` of the global object. 
 
 
-Number instances
+**Number instances**
 
 All Number instances inherit from Number.prototype. The prototype object of the Number constructor can be modified to affect all Number instances.
 Methods
