@@ -4416,7 +4416,7 @@ Number.prototype.toPrecision()
     Returns a string representing the number to a specified precision in fixed-point or exponential notation.
     
 Number.prototype.toSource()
-    Returns an object literal representing the specified Number object; you can use this value to create a new object.
+    Returns an object literal representing the specified Number object; you can use this value to create a new object. Overrides the Object.prototype.toSource() method.
     
     
 ### Function
