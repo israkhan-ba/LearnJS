@@ -4413,6 +4413,7 @@ Number.prototype.toLocaleString()
     Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method.
     
 Number.prototype.toPrecision()
+    Returns a string representing the number to a specified precision in fixed-point or exponential notation.
     
     
 ### Function
