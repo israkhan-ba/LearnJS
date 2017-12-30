@@ -4402,7 +4402,7 @@ The prototype object of the `Number` constructor can be modified to affect all `
 
 **Methods**
 
-`Number.prototype.toExponential()`
+**`Number.prototype.toExponential()`**
     Returns a string representing the number in exponential notation.
     
 `Number.prototype.toFixed()`
