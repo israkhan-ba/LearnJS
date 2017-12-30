@@ -4397,7 +4397,9 @@ The primary uses for the `Number` object are:
 
 Number instances
 
-All Number instances inherit from Number.prototype.
+All Number instances inherit from Number.prototype. 
+
+The prototype object of the Number constructor can be modified to affect all Number instances.
     
     
 ### Function
