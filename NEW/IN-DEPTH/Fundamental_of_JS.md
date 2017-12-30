@@ -4409,6 +4409,8 @@ Number.prototype.toExponential()
 Number.prototype.toFixed()
     Returns a string representing the number in fixed-point notation.
     
+Number.prototype.toLocaleString()
+    
     
 ### Function
 
