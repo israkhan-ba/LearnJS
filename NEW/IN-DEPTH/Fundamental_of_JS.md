@@ -4467,6 +4467,7 @@ Number('123')     // 123
 Number('12.3')    // 12.3
 Number('')        // 0
 Number('0x11')    // 17
+Number('0b11')    // 3
 
 
     
