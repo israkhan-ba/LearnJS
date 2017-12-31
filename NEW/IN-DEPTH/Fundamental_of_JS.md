@@ -4445,6 +4445,8 @@ var infiniteNum = Number.POSITIVE_INFINITY;
 var negInfiniteNum = Number.NEGATIVE_INFINITY;
 var notANum = Number.NaN;
 
+Integer range for Number
+
 
     
 ### Function
