@@ -4457,13 +4457,17 @@ The following example shows the minimum and maximum integer values that can be r
 > var smallestInt = -9007199254740991;
 >```
 
-When parsing data that has been serialized to JSON, integer values falling out of this range can be expected to become corrupted when JSON parser coerces them to Number type. Using String instead is a possible workaround.
-Using Number to convert a Date object
+When parsing data that has been serialized to JSON, integer values falling out of this range can be expected to become corrupted when JSON parser coerces them to Number type.  
+Using `String` instead is a possible workaround.
 
-The following example converts the Date object to a numerical value using Number as a function:
+* **Using `Number` to convert a `Date` object**
 
-var d = new Date('December 17, 1995 03:24:00');
-console.log(Number(d));
+The following example converts the `Date` object to a numerical value using `Number` as a function:
+
+>```
+> var d = new Date('December 17, 1995 03:24:00');
+> console.log(Number(d));
+>```
 
 This logs "819199440000".
 Convert numeric strings to numbers
