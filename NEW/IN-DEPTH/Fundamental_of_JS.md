@@ -4452,6 +4452,8 @@ The following example shows the minimum and maximum integer values that can be r
 var biggestInt = 9007199254740991;
 var smallestInt = -9007199254740991;
 
+When parsing data that has been serialized to JSON, integer values falling out of this range can be expected to become corrupted when JSON parser coerces them to Number type.
+
 
     
 ### Function
