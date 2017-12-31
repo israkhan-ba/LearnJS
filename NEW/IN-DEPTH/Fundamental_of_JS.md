@@ -4466,6 +4466,7 @@ Convert numeric strings to numbers
 Number('123')     // 123
 Number('12.3')    // 12.3
 Number('')        // 0
+Number('0x11')    // 17
 
 
     
