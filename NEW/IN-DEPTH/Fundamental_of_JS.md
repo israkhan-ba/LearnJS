@@ -4473,16 +4473,19 @@ This logs "819199440000".
 
 * **Convert numeric strings to numbers**
 
-Number('123')     // 123
-Number('12.3')    // 12.3
-Number('')        // 0
-Number('0x11')    // 17
-Number('0b11')    // 3
-Number('0o11')    // 9
-Number('foo')     // NaN
-Number('100a')    // NaN
+>```
+> Number('123')     // 123
+> Number('12.3')    // 12.3
+> Number('')        // 0
+> Number('0x11')    // 17
+> Number('0b11')    // 3
+> Number('0o11')    // 9
+> Number('foo')     // NaN
+> Number('100a')    // NaN
+>```
 
-    
+---
+
 ### Function
 
  The __`Function` constructor__ creates a new `Function` object. 
