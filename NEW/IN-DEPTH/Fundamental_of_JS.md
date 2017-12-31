@@ -4447,7 +4447,7 @@ var notANum = Number.NaN;
 
 Integer range for Number
 
-The following example shows the minimum and maximum integer values that can be represented as Number object:
+The following example shows the minimum and maximum integer values that can be represented as Number object (for details, refer to ECMAScript standard, chapter 6.1.6 The Number Type):
 
 
     
