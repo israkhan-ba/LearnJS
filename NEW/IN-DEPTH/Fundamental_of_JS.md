@@ -4427,7 +4427,8 @@ The prototype object of the `Number` constructor can be modified to affect all `
  Returns a string representing the specified object in the specified radix (base). Overrides the Object.prototype.toString() method.
     
 **`Number.prototype.valueOf()`**
-    Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method.
+   
+ Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method.
     
     
 ### Function
