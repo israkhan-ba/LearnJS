@@ -4434,7 +4434,8 @@ The prototype object of the `Number` constructor can be modified to affect all `
  Returns the primitive value of the specified object.  Overrides the `Object.prototype.valueOf()` method.
 
 
-Examples
+**Examples**
+
 Using the Number object to assign values to numeric variables
 
 The following example uses the Number object's properties to assign values to several numeric variables:
@@ -4471,7 +4472,6 @@ Number('0b11')    // 3
 Number('0o11')    // 9
 Number('foo')     // NaN
 Number('100a')    // NaN
-
 
     
 ### Function
