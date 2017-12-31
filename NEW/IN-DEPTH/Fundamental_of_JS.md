@@ -4450,10 +4450,12 @@ The following example uses the `Number` object's properties to assign values to 
 
 * **Integer range for `Number`**
 
-The following example shows the minimum and maximum integer values that can be represented as Number object (for details, refer to ECMAScript standard, chapter 6.1.6 The Number Type):
+The following example shows the minimum and maximum integer values that can be represented as `Number` object  (for details, refer to ECMAScript standard, chapter 6.1.6 The Number Type):
 
-var biggestInt = 9007199254740991;
-var smallestInt = -9007199254740991;
+>```
+> var biggestInt = 9007199254740991;
+> var smallestInt = -9007199254740991;
+>```
 
 When parsing data that has been serialized to JSON, integer values falling out of this range can be expected to become corrupted when JSON parser coerces them to Number type. Using String instead is a possible workaround.
 Using Number to convert a Date object
