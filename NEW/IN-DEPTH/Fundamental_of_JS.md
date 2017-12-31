@@ -4437,6 +4437,8 @@ The prototype object of the `Number` constructor can be modified to affect all `
 Examples
 Using the Number object to assign values to numeric variables
 
+The following example uses the Number object's properties to assign values to several numeric variables:
+
 
     
 ### Function
