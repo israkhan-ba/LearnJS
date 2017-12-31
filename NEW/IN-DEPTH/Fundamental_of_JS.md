@@ -4440,6 +4440,7 @@ Using the Number object to assign values to numeric variables
 The following example uses the Number object's properties to assign values to several numeric variables:
 
 var biggestNum = Number.MAX_VALUE;
+var smallestNum = Number.MIN_VALUE;
 
 
     
