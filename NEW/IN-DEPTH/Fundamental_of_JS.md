@@ -4438,13 +4438,15 @@ The prototype object of the `Number` constructor can be modified to affect all `
 
 * **Using the `Number` object to assign values to numeric variables**
 
-The following example uses the Number object's properties to assign values to several numeric variables:
+The following example uses the `Number` object's properties to assign values to several numeric variables:
 
-var biggestNum = Number.MAX_VALUE;
-var smallestNum = Number.MIN_VALUE;
-var infiniteNum = Number.POSITIVE_INFINITY;
-var negInfiniteNum = Number.NEGATIVE_INFINITY;
-var notANum = Number.NaN;
+>```
+> var biggestNum = Number.MAX_VALUE;
+> var smallestNum = Number.MIN_VALUE;
+> var infiniteNum = Number.POSITIVE_INFINITY;
+> var negInfiniteNum = Number.NEGATIVE_INFINITY;
+> var notANum = Number.NaN;
+>```
 
 Integer range for Number
 
