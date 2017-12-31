@@ -4431,7 +4431,7 @@ The prototype object of the `Number` constructor can be modified to affect all `
     
 **`Number.prototype.valueOf()`**
    
- Returns the primitive value of the specified object.  Overrides the Object.prototype.valueOf() method.
+ Returns the primitive value of the specified object.  Overrides the `Object.prototype.valueOf()` method.
     
     
 ### Function
