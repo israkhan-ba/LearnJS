@@ -4447,6 +4447,8 @@ var notANum = Number.NaN;
 
 Integer range for Number
 
+The following example shows the minimum and maximum integer values that can be represented as Number object:
+
 
     
 ### Function
