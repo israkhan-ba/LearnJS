@@ -4432,7 +4432,47 @@ The prototype object of the `Number` constructor can be modified to affect all `
 **`Number.prototype.valueOf()`**
    
  Returns the primitive value of the specified object.  Overrides the `Object.prototype.valueOf()` method.
-    
+
+
+Examples
+Using the Number object to assign values to numeric variables
+
+The following example uses the Number object's properties to assign values to several numeric variables:
+
+var biggestNum = Number.MAX_VALUE;
+var smallestNum = Number.MIN_VALUE;
+var infiniteNum = Number.POSITIVE_INFINITY;
+var negInfiniteNum = Number.NEGATIVE_INFINITY;
+var notANum = Number.NaN;
+
+Integer range for Number
+
+The following example shows the minimum and maximum integer values that can be represented as Number object (for details, refer to ECMAScript standard, chapter 6.1.6 The Number Type):
+
+var biggestInt = 9007199254740991;
+var smallestInt = -9007199254740991;
+
+When parsing data that has been serialized to JSON, integer values falling out of this range can be expected to become corrupted when JSON parser coerces them to Number type. Using String instead is a possible workaround.
+Using Number to convert a Date object
+
+The following example converts the Date object to a numerical value using Number as a function:
+
+var d = new Date('December 17, 1995 03:24:00');
+console.log(Number(d));
+
+This logs "819199440000".
+Convert numeric strings to numbers
+
+Number('123')     // 123
+Number('12.3')    // 12.3
+Number('')        // 0
+Number('0x11')    // 17
+Number('0b11')    // 3
+Number('0o11')    // 9
+Number('foo')     // NaN
+Number('100a')    // NaN
+
+
     
 ### Function
 
