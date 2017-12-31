@@ -4463,6 +4463,8 @@ console.log(Number(d));
 This logs "819199440000".
 Convert numeric strings to numbers
 
+Number('123')     // 123
+
 
     
 ### Function
