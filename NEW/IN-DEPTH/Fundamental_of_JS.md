@@ -4450,6 +4450,7 @@ Integer range for Number
 The following example shows the minimum and maximum integer values that can be represented as Number object (for details, refer to ECMAScript standard, chapter 6.1.6 The Number Type):
 
 var biggestInt = 9007199254740991;
+var smallestInt = -9007199254740991;
 
 
     
