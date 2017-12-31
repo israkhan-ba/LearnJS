@@ -4464,6 +4464,7 @@ This logs "819199440000".
 Convert numeric strings to numbers
 
 Number('123')     // 123
+Number('12.3')    // 12.3
 
 
     
