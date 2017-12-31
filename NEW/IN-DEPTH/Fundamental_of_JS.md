@@ -4457,6 +4457,8 @@ Using Number to convert a Date object
 
 The following example converts the Date object to a numerical value using Number as a function:
 
+var d = new Date('December 17, 1995 03:24:00');
+
 
     
 ### Function
