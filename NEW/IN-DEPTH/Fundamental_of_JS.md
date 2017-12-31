@@ -4455,6 +4455,8 @@ var smallestInt = -9007199254740991;
 When parsing data that has been serialized to JSON, integer values falling out of this range can be expected to become corrupted when JSON parser coerces them to Number type. Using String instead is a possible workaround.
 Using Number to convert a Date object
 
+The following example converts the Date object to a numerical value using Number as a function:
+
 
     
 ### Function
