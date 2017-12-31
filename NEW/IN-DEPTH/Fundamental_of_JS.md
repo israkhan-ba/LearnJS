@@ -4441,6 +4441,7 @@ The following example uses the Number object's properties to assign values to se
 
 var biggestNum = Number.MAX_VALUE;
 var smallestNum = Number.MIN_VALUE;
+var infiniteNum = Number.POSITIVE_INFINITY;
 
 
     
