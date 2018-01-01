@@ -7178,6 +7178,7 @@ WebAssembly.Module()
     Creates a new WebAssembly Module object.
     
 WebAssembly.Instance()
+    Creates a new WebAssembly Instance object.
     
 
 ## Strict Mode
