@@ -7172,27 +7172,6 @@ WebAssembly.validate()
     Validates a given typed array of WebAssembly binary code, returning whether the bytes are valid WebAssembly code (true) or not (false). 
 
 
-## Strict Mode
-
-### ECMAScript 5's strict mode 
-
-ECMAScript 5's strict mode is a way to _`opt in`_ to a restricted variant of JavaScript. Strict mode isn't just a subset: it _intentionally_ has different semantics from normal code. 
-
-Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode.
-
-Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
-
-
-Strict mode makes several changes to normal JavaScript semantics.
- First, strict mode eliminates some JavaScript silent errors by changing them to throw errors.
-
- Second, strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
- 
- Third, strict mode prohibits some syntax likely to be defined in future versions of ECMAScript.
- 
-*Sometimes, you'll see the default, non-strict, mode referred to as "sloppy mode". This isn't an official term, but be aware of it, just in case.*
-
-
 **Examples**
 
 After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the `WebAssembly.instantiate()` function, importing a JavaScript function into the WebAssembly Module in the process. This promise resolves to an object (result) containing the compiled `Module` and `Instance` objects.  
@@ -7217,6 +7196,26 @@ We then call an Exported WebAssembly function that is exported by the `Instance`
 > );
 >```
 
+
+## Strict Mode
+
+### ECMAScript 5's strict mode 
+
+ECMAScript 5's strict mode is a way to _`opt in`_ to a restricted variant of JavaScript. Strict mode isn't just a subset: it _intentionally_ has different semantics from normal code. 
+
+Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode.
+
+Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+
+
+Strict mode makes several changes to normal JavaScript semantics.
+ First, strict mode eliminates some JavaScript silent errors by changing them to throw errors.
+
+ Second, strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
+ 
+ Third, strict mode prohibits some syntax likely to be defined in future versions of ECMAScript.
+ 
+*Sometimes, you'll see the default, non-strict, mode referred to as "sloppy mode". This isn't an official term, but be aware of it, just in case.*
 
 
 ### Invoking Strict Mode
