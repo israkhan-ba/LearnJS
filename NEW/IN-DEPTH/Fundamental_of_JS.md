@@ -7173,6 +7173,8 @@ WebAssembly.validate()
     
 
 Constructors
+
+WebAssembly.Module()
     
 
 ## Strict Mode
