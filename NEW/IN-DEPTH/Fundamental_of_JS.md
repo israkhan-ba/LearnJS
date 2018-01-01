@@ -7235,6 +7235,8 @@ We then call an Exported WebAssembly function that is exported by the `Instance`
 > );
 >```
 
+---
+
 
 ## Strict Mode
 
