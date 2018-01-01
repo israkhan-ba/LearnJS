@@ -7187,6 +7187,7 @@ WebAssembly.Table()
     Creates a new WebAssembly Table object.
     
 WebAssembly.CompileError()
+    Creates a new WebAssembly CompileError object.
     
 
 ## Strict Mode
