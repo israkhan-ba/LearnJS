@@ -7170,7 +7170,10 @@ WebAssembly.compileStreaming()
     
 WebAssembly.validate()
     Validates a given typed array of WebAssembly binary code, returning whether the bytes are valid WebAssembly code (true) or not (false). 
+    
 
+Constructors
+    
 
 ## Strict Mode
 
