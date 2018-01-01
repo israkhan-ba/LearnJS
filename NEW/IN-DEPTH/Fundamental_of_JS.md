@@ -7166,6 +7166,7 @@ WebAssembly.compile()
     Compiles a WebAssembly.Module from WebAssembly binary code, leaving instantiation as a separate step.
     
 WebAssembly.compileStreaming()
+    compiles a WebAssembly.Module directly from a streamed underlying source, leaving instantiation as a separate step.
 
 
 ## Strict Mode
