@@ -7205,6 +7205,10 @@ var importObject = {
   }
 };
 
+fetch('simple.wasm').then(response =>
+  response.arrayBuffer()
+);
+
 
 ### Invoking Strict Mode
 
