@@ -7164,6 +7164,8 @@ WebAssembly.instantiateStreaming()
     
 WebAssembly.compile()
     Compiles a WebAssembly.Module from WebAssembly binary code, leaving instantiation as a separate step.
+    
+WebAssembly.compileStreaming()
 
 
 ## Strict Mode
