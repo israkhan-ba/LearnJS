@@ -7143,33 +7143,97 @@ The following example demonstrates several things:
 
 ### WebAssembly
 
-The WebAssembly JavaScript object acts as the namespace for all WebAssembly-related functionality.
+The __`WebAssembly`__ JavaScript object acts as the namespace for all WebAssembly-related functionality.
 
-Unlike most other global objects, WebAssembly is not a constructor (it is not a function object). You can compare it to Math, which is also a namespace object for mathematical constants and functions, or to Intl which is the namespace object for internationalization constructors and other language sensitive functions.
+Unlike most other global objects, WebAssembly is not a constructor (it is not a function object).  
+You can compare it to `Math`, which is also a namespace object for mathematical constants and functions, or to `Intl` which is the namespace object for internationalization constructors and other language sensitive functions.
 
-The primary uses for the WebAssembly object are:
+The primary uses for the `WebAssembly` object are:
 
-- Loading WebAssembly code, using the WebAssembly.instantiate() function.
-- Creating new memory and table instances via the WebAssembly.Memory()/WebAssembly.Table() constructors.
-- Providing facilities to handle errors that occur in WebAssembly via the WebAssembly.CompileError()/WebAssembly.LinkError()/WebAssembly.RuntimeError() constructors.
+- Loading WebAssembly code, using the `WebAssembly.instantiate()` function.
+
+- Creating new memory and table instances via the `WebAssembly.Memory()`/`WebAssembly.Table()` constructors.
+
+- Providing facilities to handle errors that occur in WebAssembly via the `WebAssembly.CompileError()`/`WebAssembly.LinkError()`/`WebAssembly.RuntimeError()` constructors.
 
 
-Methods
+**Methods**
 
-WebAssembly.instantiate()
-    The primary API for compiling and instantiating WebAssembly code, returning both a Module and its first Instance.
+**`WebAssembly.instantiate()`**
+
+ The primary API for compiling and instantiating WebAssembly code, returning both a `Module` and its first `Instance`.
     
-WebAssembly.instantiateStreaming()
-    Compiles and instantiates a WebAssembly module directly from a streamed underlying source, returning both a Module and its first Instance.
+**`WebAssembly.instantiateStreaming()`**
+
+ Compiles and instantiates a WebAssembly module directly from a streamed underlying source, returning both a `Module` and its first `Instance`.
     
-WebAssembly.compile()
-    Compiles a WebAssembly.Module from WebAssembly binary code, leaving instantiation as a separate step.
+**`WebAssembly.compile()`**
+
+ Compiles a `WebAssembly.Module` from WebAssembly binary code, leaving instantiation as a separate step.
     
-WebAssembly.compileStreaming()
-    compiles a WebAssembly.Module directly from a streamed underlying source, leaving instantiation as a separate step.
+**`WebAssembly.compileStreaming()`**
+
+ compiles a `ebAssembly.Module` directly from a streamed underlying source, leaving instantiation as a separate step.
     
-WebAssembly.validate()
-    Validates a given typed array of WebAssembly binary code, returning whether the bytes are valid WebAssembly code (true) or not (false). 
+**`WebAssembly.validate()`**
+
+ Validates a given typed array of WebAssembly binary code, returning whether the bytes are valid WebAssembly code (`true`) or not (`false`). 
+
+
+**Constructors**
+
+**`WebAssembly.Module()`**
+
+ Creates a new WebAssembly `Module` object.
+    
+**`WebAssembly.Instance()`**
+
+ Creates a new WebAssembly `Instance` object.
+    
+**`WebAssembly.Memory()`**
+
+ Creates a new WebAssembly `Memory` object.
+    
+**`WebAssembly.Table()`**
+
+ Creates a new WebAssembly `Table` object.
+    
+**`WebAssembly.CompileError()`**
+
+ Creates a new WebAssembly `CompileError` object.
+    
+**`WebAssembly.LinkError()`**
+
+ Creates a new WebAssembly `LinkError` object.
+    
+**`WebAssembly.RuntimeError()`**
+    
+ Creates a new WebAssembly `RuntimeError` object. 
+
+
+**Examples**
+
+After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the `WebAssembly.instantiate()` function, importing a JavaScript function into the WebAssembly Module in the process. This promise resolves to an object (result) containing the compiled `Module` and `Instance` objects.  
+We then call an Exported WebAssembly function that is exported by the `Instance`.
+
+
+>``` 
+> var importObject = {
+>   imports: {
+>     imported_func: function(arg) {
+>       console.log(arg);
+>     }
+>   }
+> };
+> 
+> fetch('simple.wasm').then(response =>
+>   response.arrayBuffer()
+> ).then(bytes =>
+>   WebAssembly.instantiate(bytes, importObject)
+> ).then(result =>
+>   result.instance.exports.exported_func()
+> );
+>```
 
 
 ## Strict Mode
