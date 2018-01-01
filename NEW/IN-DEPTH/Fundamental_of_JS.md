@@ -7193,6 +7193,7 @@ WebAssembly.LinkError()
     Creates a new WebAssembly LinkError object.
     
 WebAssembly.RuntimeError()
+    Creates a new WebAssembly RuntimeError object. 
     
 
 ## Strict Mode
