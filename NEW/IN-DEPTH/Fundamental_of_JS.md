@@ -4484,7 +4484,6 @@ This logs "819199440000".
 > Number('100a')    // NaN
 >```
 
----
 
 ### Function
 
@@ -7140,6 +7139,10 @@ The following example demonstrates several things:
 > console.log(tp.triple());
 > // 'tp.triple is not a function'.
 >```
+
+
+### WebAssembly
+
 
 ## Strict Mode
 
