@@ -7195,6 +7195,8 @@ Strict mode makes several changes to normal JavaScript semantics.
 
 Examples
 
+After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the WebAssembly.instantiate() function, importing a JavaScript function into the WebAssembly Module in the process.
+
 
 
 ### Invoking Strict Mode
