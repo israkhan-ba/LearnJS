@@ -7157,6 +7157,7 @@ The primary uses for the WebAssembly object are:
 Methods
 
 WebAssembly.instantiate()
+    The primary API for compiling and instantiating WebAssembly code, returning both a Module and its first Instance.
 
 
 ## Strict Mode
