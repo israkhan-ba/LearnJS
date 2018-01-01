@@ -7195,7 +7195,7 @@ Strict mode makes several changes to normal JavaScript semantics.
 
 Examples
 
-After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the WebAssembly.instantiate() function, importing a JavaScript function into the WebAssembly Module in the process. This promise resolves to an object (result) containing the compiled Module and Instance objects.
+After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the WebAssembly.instantiate() function, importing a JavaScript function into the WebAssembly Module in the process. This promise resolves to an object (result) containing the compiled Module and Instance objects. We then call an Exported WebAssembly function that is exported by the Instance.
 
 
 
