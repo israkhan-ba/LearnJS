@@ -7190,6 +7190,7 @@ WebAssembly.CompileError()
     Creates a new WebAssembly CompileError object.
     
 WebAssembly.LinkError()
+    Creates a new WebAssembly LinkError object.
     
 
 ## Strict Mode
