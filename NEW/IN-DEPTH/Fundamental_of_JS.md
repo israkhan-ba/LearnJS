@@ -7175,6 +7175,7 @@ WebAssembly.validate()
 Constructors
 
 WebAssembly.Module()
+    Creates a new WebAssembly Module object.
     
 
 ## Strict Mode
