@@ -7151,6 +7151,7 @@ The primary uses for the WebAssembly object are:
 
 - Loading WebAssembly code, using the WebAssembly.instantiate() function.
 - Creating new memory and table instances via the WebAssembly.Memory()/WebAssembly.Table() constructors.
+- Providing facilities to handle errors that occur in WebAssembly via the WebAssembly.CompileError()/WebAssembly.LinkError()/WebAssembly.RuntimeError() constructors.
 
 
 
