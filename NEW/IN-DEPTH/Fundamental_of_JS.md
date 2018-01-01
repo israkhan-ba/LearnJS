@@ -7143,6 +7143,9 @@ The following example demonstrates several things:
 
 ### WebAssembly
 
+The WebAssembly JavaScript object acts as the namespace for all WebAssembly-related functionality.
+
+
 
 ## Strict Mode
 
