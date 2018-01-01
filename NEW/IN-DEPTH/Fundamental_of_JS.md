@@ -7154,6 +7154,23 @@ The primary uses for the WebAssembly object are:
 - Providing facilities to handle errors that occur in WebAssembly via the WebAssembly.CompileError()/WebAssembly.LinkError()/WebAssembly.RuntimeError() constructors.
 
 
+Methods
+
+WebAssembly.instantiate()
+    The primary API for compiling and instantiating WebAssembly code, returning both a Module and its first Instance.
+    
+WebAssembly.instantiateStreaming()
+    Compiles and instantiates a WebAssembly module directly from a streamed underlying source, returning both a Module and its first Instance.
+    
+WebAssembly.compile()
+    Compiles a WebAssembly.Module from WebAssembly binary code, leaving instantiation as a separate step.
+    
+WebAssembly.compileStreaming()
+    compiles a WebAssembly.Module directly from a streamed underlying source, leaving instantiation as a separate step.
+    
+WebAssembly.validate()
+    Validates a given typed array of WebAssembly binary code, returning whether the bytes are valid WebAssembly code (true) or not (false). 
+
 
 ## Strict Mode
 
