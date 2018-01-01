@@ -7154,6 +7154,8 @@ The primary uses for the WebAssembly object are:
 - Providing facilities to handle errors that occur in WebAssembly via the WebAssembly.CompileError()/WebAssembly.LinkError()/WebAssembly.RuntimeError() constructors.
 
 
+Methods
+
 
 ## Strict Mode
 
