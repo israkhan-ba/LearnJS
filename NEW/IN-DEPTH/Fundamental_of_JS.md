@@ -7156,6 +7156,8 @@ The primary uses for the WebAssembly object are:
 
 Methods
 
+WebAssembly.instantiate()
+
 
 ## Strict Mode
 
