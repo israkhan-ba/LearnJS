@@ -7150,6 +7150,7 @@ Unlike most other global objects, WebAssembly is not a constructor (it is not a 
 The primary uses for the WebAssembly object are:
 
 - Loading WebAssembly code, using the WebAssembly.instantiate() function.
+- Creating new memory and table instances via the WebAssembly.Memory()/WebAssembly.Table() constructors.
 
 
 
