@@ -7181,6 +7181,7 @@ WebAssembly.Instance()
     Creates a new WebAssembly Instance object.
     
 WebAssembly.Memory()
+    Creates a new WebAssembly Memory object.
     
 
 ## Strict Mode
