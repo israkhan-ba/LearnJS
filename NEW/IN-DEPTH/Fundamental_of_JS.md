@@ -7147,6 +7147,8 @@ The WebAssembly JavaScript object acts as the namespace for all WebAssembly-rela
 
 Unlike most other global objects, WebAssembly is not a constructor (it is not a function object). You can compare it to Math, which is also a namespace object for mathematical constants and functions, or to Intl which is the namespace object for internationalization constructors and other language sensitive functions.
 
+The primary uses for the WebAssembly object are:
+
 
 
 ## Strict Mode
