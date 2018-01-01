@@ -7177,6 +7177,8 @@ Constructors
 WebAssembly.Module()
     Creates a new WebAssembly Module object.
     
+WebAssembly.Instance()
+    
 
 ## Strict Mode
 
