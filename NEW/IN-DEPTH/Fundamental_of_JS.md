@@ -7186,6 +7186,8 @@ WebAssembly.Memory()
 WebAssembly.Table()
     Creates a new WebAssembly Table object.
     
+WebAssembly.CompileError()
+    
 
 ## Strict Mode
 
