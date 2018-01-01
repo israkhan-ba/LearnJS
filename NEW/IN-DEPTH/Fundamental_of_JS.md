@@ -7169,6 +7169,7 @@ WebAssembly.compileStreaming()
     compiles a WebAssembly.Module directly from a streamed underlying source, leaving instantiation as a separate step.
     
 WebAssembly.validate()
+    Validates a given typed array of WebAssembly binary code, returning whether the bytes are valid WebAssembly code (true) or not (false). 
 
 
 ## Strict Mode
