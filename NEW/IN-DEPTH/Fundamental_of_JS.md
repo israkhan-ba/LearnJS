@@ -7149,6 +7149,8 @@ Unlike most other global objects, WebAssembly is not a constructor (it is not a 
 
 The primary uses for the WebAssembly object are:
 
+- Loading WebAssembly code, using the WebAssembly.instantiate() function.
+
 
 
 ## Strict Mode
