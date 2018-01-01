@@ -7160,6 +7160,7 @@ WebAssembly.instantiate()
     The primary API for compiling and instantiating WebAssembly code, returning both a Module and its first Instance.
     
 WebAssembly.instantiateStreaming()
+    Compiles and instantiates a WebAssembly module directly from a streamed underlying source, returning both a Module and its first Instance.
 
 
 ## Strict Mode
