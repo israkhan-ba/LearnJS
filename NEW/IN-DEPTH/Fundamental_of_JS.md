@@ -7193,6 +7193,10 @@ Strict mode makes several changes to normal JavaScript semantics.
 *Sometimes, you'll see the default, non-strict, mode referred to as "sloppy mode". This isn't an official term, but be aware of it, just in case.*
 
 
+Examples
+
+
+
 ### Invoking Strict Mode
 
  Strict mode applies to _entire scripts_ or to _individual functions_.
