@@ -7193,23 +7193,30 @@ Strict mode makes several changes to normal JavaScript semantics.
 *Sometimes, you'll see the default, non-strict, mode referred to as "sloppy mode". This isn't an official term, but be aware of it, just in case.*
 
 
-Examples
+**Examples**
 
-After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the WebAssembly.instantiate() function, importing a JavaScript function into the WebAssembly Module in the process. This promise resolves to an object (result) containing the compiled Module and Instance objects. We then call an Exported WebAssembly function that is exported by the Instance.
+After fetching some WebAssembly bytecode using fetch, we compile and instantiate the module using the `WebAssembly.instantiate()` function, importing a JavaScript function into the WebAssembly Module in the process. This promise resolves to an object (result) containing the compiled `Module` and `Instance` objects.  
+We then call an Exported WebAssembly function that is exported by the `Instance`.
 
-var importObject = {
-  imports: {
-    imported_func: function(arg) {
-      console.log(arg);
-    }
-  }
-};
 
-fetch('simple.wasm').then(response =>
-  response.arrayBuffer()
-).then(bytes =>
-  WebAssembly.instantiate(bytes, importObject)
-);
+>``` 
+> var importObject = {
+>   imports: {
+>     imported_func: function(arg) {
+>       console.log(arg);
+>     }
+>   }
+> };
+> 
+> fetch('simple.wasm').then(response =>
+>   response.arrayBuffer()
+> ).then(bytes =>
+>   WebAssembly.instantiate(bytes, importObject)
+> ).then(result =>
+>   result.instance.exports.exported_func()
+> );
+>```
+
 
 
 ### Invoking Strict Mode
