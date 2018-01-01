@@ -7189,6 +7189,8 @@ WebAssembly.Table()
 WebAssembly.CompileError()
     Creates a new WebAssembly CompileError object.
     
+WebAssembly.LinkError()
+    
 
 ## Strict Mode
 
