@@ -7183,6 +7183,8 @@ WebAssembly.Instance()
 WebAssembly.Memory()
     Creates a new WebAssembly Memory object.
     
+WebAssembly.Table()
+    
 
 ## Strict Mode
 
