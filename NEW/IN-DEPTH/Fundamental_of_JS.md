@@ -7161,6 +7161,8 @@ WebAssembly.instantiate()
     
 WebAssembly.instantiateStreaming()
     Compiles and instantiates a WebAssembly module directly from a streamed underlying source, returning both a Module and its first Instance.
+    
+WebAssembly.compile()
 
 
 ## Strict Mode
