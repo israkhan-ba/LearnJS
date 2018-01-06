@@ -24,7 +24,8 @@ For short, an **expression** produces a value and a **statement** performs an ac
 
 **Statements** are using to **do something** or produce some behavior, and they will cause some side effects, so we can basically categorize statements by their kinds of side effect.
 
-Basically each statements are seperated by a semicolon ( **;** )
+Basically each statements are seperated by a semicolon ( **;** ) 
+In ECMAScript 2015 Language Specification and later, there are Automatic Semicolon Insertion (ASI).
 
 For examples
 - Declaration of variables and functions
