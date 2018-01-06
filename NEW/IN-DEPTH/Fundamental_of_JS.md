@@ -12,7 +12,7 @@ So its very intention is to make you less confuse.
 Syntax is a set of rules that defined how a program are constructed.  
 It is how to write a program that work in a programming language, if you write a wrong syntax your your codes will not work.
 
-Programming is **instructions** that listing well so a computer can be executed, and each program instructions are called generally called **statements**, So basically we can call any program is a set and sequence of statements working together
+Programming is **instructions** that listing well so a computer can be executed, and each program instructions are generally called **statements**, So basically we can call any program is a set and sequence of statements working together.
 
 And we have **expressions**, which is any valid set of literals, variables, operators and expressions that evaluates to a single value.
 
