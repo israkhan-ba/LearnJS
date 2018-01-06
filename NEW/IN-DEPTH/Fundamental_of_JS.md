@@ -27,7 +27,7 @@ For short, an **expression** produces a value and a **statement** performs an ac
 Basically each statements are seperated by a semicolon ( **;** ) 
 In ECMAScript 2015 Language Specification and later, there are Automatic Semicolon Insertion (ASI) which will help coding JS without semicolon at the end of each statement.
 
-For examples
+Examples
 - Declaration of variables and functions
 > *`var`* `x`;
 
