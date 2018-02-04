@@ -71,4 +71,3 @@ so I will make it the best I can at the time, Any comments or suggestions on any
 Thanks for coming. Enjoy learn JavaScript with me.
 
 
-
