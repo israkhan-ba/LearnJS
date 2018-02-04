@@ -69,3 +69,5 @@ This is my first solid learning on programming, and my real first GitHub reposit
 so I will make it the best I can at the time, Any comments or suggestions on anything here are gladly welcome.
 
 Thanks for coming. Enjoy learn JavaScript with me.
+
+
